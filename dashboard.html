@@ -40,7 +40,7 @@
       <p style="color:#6b7280;font-size:13px;margin:0 0 14px;">发给同伴，他们点开即可看最新看板</p>
       <div id="shareUrl" style="background:#f3f4f6;border-radius:8px;padding:10px 12px;font-size:13px;word-break:break-all;color:#1f2937;margin-bottom:16px;">加载中…</div>
       <div style="display:flex;gap:10px;justify-content:center;">
-        <button id="shareOpen" style="flex:1;background:#2563eb;color:#fff;border:none;border-radius:8px;padding:10px;font-size:15px;cursor:pointer;">打开新网页</button>
+        <a id="shareOpen" href="#" target="_blank" rel="noopener" style="flex:1;background:#2563eb;color:#fff;border:none;border-radius:8px;padding:10px;font-size:15px;cursor:pointer;text-decoration:none;display:inline-block;text-align:center;">打开新网页</a>
         <button id="shareCopy" style="flex:1;background:#e5e7eb;color:#1f2937;border:none;border-radius:8px;padding:10px;font-size:15px;cursor:pointer;">复制链接</button>
         <button id="shareClose" style="background:transparent;color:#6b7280;border:none;font-size:15px;cursor:pointer;">关闭</button>
       </div>
@@ -126,7 +126,7 @@
       document.getElementById('shareUrl').textContent = window.SHARE_URL;
       m.style.display = 'flex';
     }
-    document.getElementById('shareOpen').onclick = function(){ window.open(window.SHARE_URL, '_blank'); };
+    var link=document.getElementById('shareOpen'); link.href=window.SHARE_URL; link.target='_blank';
     document.getElementById('shareCopy').onclick = function(){
       try { navigator.clipboard.writeText(window.SHARE_URL); this.textContent='已复制!'; setTimeout(function(){document.getElementById('shareCopy').textContent='复制链接';},1500); } catch(e){ prompt('复制链接', window.SHARE_URL); }
     };
