@@ -3,3 +3,7 @@
 !.gitignore
 !dashboard.html
 !signal_data.js
+
+# 令牌文件绝不发布
+github_token.txt
+publish_token.txt
