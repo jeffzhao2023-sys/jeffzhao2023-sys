@@ -1,0 +1,5 @@
+# 只发布看板文件，其余全部忽略
+*
+!.gitignore
+!dashboard.html
+!signal_data.js
