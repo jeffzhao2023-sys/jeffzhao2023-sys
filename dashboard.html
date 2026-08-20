@@ -33,6 +33,19 @@
 </style>
 </head>
 <body>
+  <!-- 同伴访问链接弹窗 -->
+  <div id="shareModal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.45);z-index:999;align-items:center;justify-content:center;">
+    <div style="background:#fff;border-radius:12px;padding:24px;width:90%;max-width:420px;box-shadow:0 10px 30px rgba(0,0,0,.25);text-align:center;">
+      <h2 style="margin:0 0 6px;font-size:18px;">🔗 同伴访问链接</h2>
+      <p style="color:#6b7280;font-size:13px;margin:0 0 14px;">发给同伴，他们点开即可看最新看板</p>
+      <div id="shareUrl" style="background:#f3f4f6;border-radius:8px;padding:10px 12px;font-size:13px;word-break:break-all;color:#1f2937;margin-bottom:16px;">加载中…</div>
+      <div style="display:flex;gap:10px;justify-content:center;">
+        <button id="shareOpen" style="flex:1;background:#2563eb;color:#fff;border:none;border-radius:8px;padding:10px;font-size:15px;cursor:pointer;">打开新网页</button>
+        <button id="shareCopy" style="flex:1;background:#e5e7eb;color:#1f2937;border:none;border-radius:8px;padding:10px;font-size:15px;cursor:pointer;">复制链接</button>
+        <button id="shareClose" style="background:transparent;color:#6b7280;border:none;font-size:15px;cursor:pointer;">关闭</button>
+      </div>
+    </div>
+  </div>
   <h1>📊 低吸策略 · 每日看板</h1>
   <div class="sub" id="sub">加载中…</div>
 
@@ -48,6 +61,10 @@
     <div id="historyBody"></div>
   </div>
 
+  <script>
+    // 同伴访问链接（Gitee Pages 地址，可自行修改）
+    window.SHARE_URL = "https://zhaowenjie2026.gitee.io/lowbuy-dashboard/dashboard.html";
+  </script>
   <script src="signal_data.js" charset="utf-8"></script>
   <script>
     var D = window.SIGNAL_DATA || null;
@@ -102,6 +119,20 @@
       });
       hb.innerHTML = h;
     }
+
+    // 弹窗逻辑
+    function openShare(){
+      var m = document.getElementById('shareModal');
+      document.getElementById('shareUrl').textContent = window.SHARE_URL;
+      m.style.display = 'flex';
+    }
+    document.getElementById('shareOpen').onclick = function(){ window.open(window.SHARE_URL, '_blank'); };
+    document.getElementById('shareCopy').onclick = function(){
+      try { navigator.clipboard.writeText(window.SHARE_URL); this.textContent='已复制!'; setTimeout(function(){document.getElementById('shareCopy').textContent='复制链接';},1500); } catch(e){ prompt('复制链接', window.SHARE_URL); }
+    };
+    document.getElementById('shareClose').onclick = function(){ document.getElementById('shareModal').style.display='none'; };
+    // 页面加载后自动弹出
+    openShare();
     init();
   </script>
 </body>
