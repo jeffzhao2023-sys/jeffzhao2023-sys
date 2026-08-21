@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>阿尔法低吸策略 · 每日看板</title>
+<title>投资看板 · 阿尔法低吸 & 首次唯一最高板</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: "Microsoft YaHei", -apple-system, sans-serif; background: #f4f6f9; color: #1f2937; padding: 20px; }
@@ -16,6 +16,8 @@
   .b-recession { background: #ef4444; color: #fff; }
   .b-ok { background: #16a34a; color: #fff; }
   .b-empty { background: #9ca3af; color: #fff; }
+  .b-highest { background: #7c3aed; color: #fff; }
+  .b-none { background: #e5e7eb; color: #374151; }
   table { width: 100%; border-collapse: collapse; font-size: 14px; }
   th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #eee; }
   th { background: #f8fafc; color: #374151; font-weight: 600; }
@@ -28,30 +30,60 @@
   summary:hover { background: #eef2f7; }
   .count { color: #6b7280; font-weight: normal; margin-left: 8px; }
   .empty-tip { color: #6b7280; font-style: italic; }
-  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-  @media (max-width: 800px) { .grid2 { grid-template-columns: 1fr; } }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; }
+  @media (max-width: 900px) { .grid2 { grid-template-columns: 1fr; } }
+  .col h1 { font-size: 18px; margin-bottom: 4px; }
+  .col .sub { margin-bottom: 14px; }
+  .mono { font-variant-numeric: tabular-nums; }
 </style>
 </head>
 <body>
-  
-  <h1>📊 阿尔法低吸策略 · 每日看板</h1>
-  <div class="sub" id="sub">加载中…</div>
+  <h1>📈 投资看板</h1>
+  <div class="sub">左侧：阿尔法低吸策略（尾盘选股）　·　右侧：首次唯一最高板（盘中实时监控）</div>
 
-  <div id="todayCard" class="card" style="display:none">
-    <h2>今日买入候选 <span class="badge b-today">NEXT OPEN 买入</span></h2>
-    <div id="todayBuyBody"></div>
-    <h2 style="margin-top:14px">今日卖出提醒 <span class="badge b-recession">卖出</span></h2>
-    <div id="todaySellBody"></div>
-  </div>
+  <div class="grid2">
 
-  <div class="card">
-    <h2>历史选股记录</h2>
-    <div id="historyBody"></div>
+    <!-- ============ 左栏：阿尔法低吸 ============ -->
+    <div class="col">
+      <h1>📊 阿尔法低吸策略</h1>
+      <div class="sub" id="sub">加载中…</div>
+
+      <div id="todayCard" class="card" style="display:none">
+        <h2>今日买入候选 <span class="badge b-today">NEXT OPEN 买入</span></h2>
+        <div id="todayBuyBody"></div>
+        <h2 style="margin-top:14px">今日卖出提醒 <span class="badge b-recession">卖出</span></h2>
+        <div id="todaySellBody"></div>
+      </div>
+
+      <div class="card">
+        <h2>历史选股记录</h2>
+        <div id="historyBody"></div>
+      </div>
+    </div>
+
+    <!-- ============ 右栏：首次唯一最高板 ============ -->
+    <div class="col">
+      <h1>🚀 首次唯一最高板</h1>
+      <div class="sub" id="subHighest">加载中…</div>
+
+      <div class="card">
+        <h2>今日盘中信号 <span class="badge b-highest">实时</span></h2>
+        <div id="highestTodayBody"></div>
+      </div>
+
+      <div class="card">
+        <h2>历史信号</h2>
+        <div id="highestHistoryBody"></div>
+      </div>
+    </div>
+
   </div>
 
   <script src="signal_data.js" charset="utf-8"></script>
+  <script src="highest_data.js" charset="utf-8"></script>
   <script>
     var D = window.SIGNAL_DATA || null;
+    var H = window.HIGHEST_DATA || null;
     function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
     function emotionClass(e){ if(e.indexOf('退潮')>=0)return 'emotion-recession'; if(e.indexOf('混沌')>=0)return 'emotion-chaos'; return 'emotion-normal'; }
 
@@ -68,10 +100,10 @@
       return h+'</table>';
     }
 
-    function init(){
+    // ===== 阿尔法低吸 =====
+    function initLow(){
       if(!D || !D.days){ document.getElementById('sub').textContent='未找到数据：请先运行 run.bat 生成 signal_data.js'; return; }
       document.getElementById('sub').textContent='数据生成时间：'+D.generated;
-      // today
       var today = D.today;
       var tc = document.getElementById('todayCard');
       var td = null;
@@ -89,7 +121,6 @@
         document.getElementById('todayBuyBody').innerHTML = '<div class="empty-tip">请先在尾盘运行 run.bat</div>';
         document.getElementById('todaySellBody').innerHTML = '<div class="empty-tip">今日尚未运行</div>';
       }
-      // history
       var hb = document.getElementById('historyBody');
       if(D.days.length===0){ hb.innerHTML='<div class="empty-tip">暂无历史记录</div>'; return; }
       var h='';
@@ -104,7 +135,41 @@
       hb.innerHTML = h;
     }
 
-init();
+    // ===== 首次唯一最高板 =====
+    function renderHighestTable(rows){
+      if(!rows || rows.length===0) return '<div class="empty-tip">当日暂无信号</div>';
+      var h='<table><tr><th>股票代码</th><th>名称</th><th>高度</th><th>触发时间</th><th>换手</th><th>量比</th><th>振幅</th><th>封单(手)</th></tr>';
+      rows.forEach(function(r){
+        h+='<tr><td class="mono">'+esc(r.code)+'</td><td>'+esc(r.name)+'</td><td>'+esc(r.height)+'连板</td>'
+          +'<td class="mono">'+esc(r.time)+'</td><td class="mono">'+esc(r.hs)+'%</td><td class="mono">'+esc(r.lb)+'</td>'
+          +'<td class="mono">'+esc(r.zf)+'%</td><td class="mono">'+esc(r.fd)+'</td></tr>';
+      });
+      return h+'</table>';
+    }
+    function initHighest(){
+      if(!H || !H.days){ document.getElementById('subHighest').textContent='未找到数据：请运行 monitor_dash.py 生成 highest_data.js'; return; }
+      document.getElementById('subHighest').textContent='数据生成时间：'+H.generated;
+      var today = H.today;
+      var tb = document.getElementById('highestTodayBody');
+      var todayRows = H.days[today] || [];
+      var badge = (todayRows && todayRows.length>0) ? '<span class="badge b-highest">'+todayRows.length+' 个信号</span>'
+                                                     : '<span class="badge b-none">暂无信号</span>';
+      tb.innerHTML = '<div style="margin-bottom:8px">今日('+esc(today)+') ' + badge + '</div>' + renderHighestTable(todayRows);
+      var hb = document.getElementById('highestHistoryBody');
+      var keys = Object.keys(H.days).sort().reverse();
+      if(keys.length===0){ hb.innerHTML='<div class="empty-tip">暂无历史记录</div>'; return; }
+      var h='';
+      keys.forEach(function(k){
+        var rows = H.days[k];
+        var cnt = (rows && rows.length>0) ? rows.length+' 个信号' : '无';
+        var inner = renderHighestTable(rows);
+        h+='<details'+(k===today?' open':'')+'><summary>'+esc(k)+'<span class="count">'+cnt+'</span></summary>'+inner+'</details>';
+      });
+      hb.innerHTML = h;
+    }
+
+    initLow();
+    initHighest();
   </script>
 </body>
 </html>
