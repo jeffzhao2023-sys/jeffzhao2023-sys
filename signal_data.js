@@ -1,7 +1,27 @@
 window.SIGNAL_DATA = {
- "generated": "2026-08-21 08:48",
+ "generated": "2026-08-21 09:39",
  "today": "20260821",
  "days": [
+  {
+   "date": "20260821",
+   "candidates": [],
+   "sells": []
+  },
+  {
+   "date": "20260820",
+   "candidates": [],
+   "sells": []
+  },
+  {
+   "date": "20260819",
+   "candidates": [],
+   "sells": []
+  },
+  {
+   "date": "20260818",
+   "candidates": [],
+   "sells": []
+  },
   {
    "date": "20260817",
    "candidates": [
@@ -351,6 +371,16 @@ window.SIGNAL_DATA = {
    "sells": []
   },
   {
+   "date": "20260730",
+   "candidates": [],
+   "sells": []
+  },
+  {
+   "date": "20260729",
+   "candidates": [],
+   "sells": []
+  },
+  {
    "date": "20260728",
    "candidates": [
     {
@@ -495,6 +525,11 @@ window.SIGNAL_DATA = {
    "sells": []
   },
   {
+   "date": "20260720",
+   "candidates": [],
+   "sells": []
+  },
+  {
    "date": "20260717",
    "candidates": [
     {
@@ -588,6 +623,11 @@ window.SIGNAL_DATA = {
      "emotion": "退潮期"
     }
    ],
+   "sells": []
+  },
+  {
+   "date": "20260713",
+   "candidates": [],
    "sells": []
   },
   {
@@ -5814,6 +5854,61 @@ window.SIGNAL_DATA = {
      "emotion": ""
     }
    ],
+   "sells": []
+  },
+  {
+   "date": "20260120",
+   "candidates": [],
+   "sells": []
+  },
+  {
+   "date": "20260119",
+   "candidates": [],
+   "sells": []
+  },
+  {
+   "date": "20260116",
+   "candidates": [],
+   "sells": []
+  },
+  {
+   "date": "20260115",
+   "candidates": [],
+   "sells": []
+  },
+  {
+   "date": "20260114",
+   "candidates": [],
+   "sells": []
+  },
+  {
+   "date": "20260113",
+   "candidates": [],
+   "sells": []
+  },
+  {
+   "date": "20260112",
+   "candidates": [],
+   "sells": []
+  },
+  {
+   "date": "20260109",
+   "candidates": [],
+   "sells": []
+  },
+  {
+   "date": "20260108",
+   "candidates": [],
+   "sells": []
+  },
+  {
+   "date": "20260107",
+   "candidates": [],
+   "sells": []
+  },
+  {
+   "date": "20260106",
+   "candidates": [],
    "sells": []
   }
  ]
