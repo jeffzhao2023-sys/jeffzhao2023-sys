@@ -1,1 +1,1 @@
-window.HIGHEST_DATA = {"generated": "", "today": "", "days": {}};
+window.HIGHEST_DATA = {"generated": "2026-08-24 09:20:56", "today": "20260824", "days": {"20260824": [{"code": "sz002412", "name": "汉森制药", "height": 3, "time": "09:20:56", "hs": "0.00", "lb": "0.00", "zf": "0.00", "fd": 32053.0}]}};
