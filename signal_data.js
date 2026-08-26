@@ -1,7 +1,12 @@
 window.SIGNAL_DATA = {
- "generated": "2026-08-25 07:22",
- "today": "20260825",
+ "generated": "2026-08-26 09:25",
+ "today": "20260826",
  "days": [
+  {
+   "date": "20260826",
+   "candidates": [],
+   "sells": []
+  },
   {
    "date": "20260825",
    "candidates": [],
