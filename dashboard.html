@@ -179,12 +179,13 @@
     }
     function renderSellTable(list){
       if(!list || list.length===0) return '<div class="empty-tip">暂无卖出记录</div>';
-      var h='<table><tr><th>代码</th><th>名称</th><th>买入日</th><th>买入价</th><th>操作周期</th><th>卖出日</th><th>卖出价</th><th>原因</th><th>收益率</th></tr>';
+      var h='<table><tr><th>代码</th><th>名称</th><th>买入日</th><th>买入价</th><th>操作周期</th><th>卖出日</th><th>卖出时间</th><th>卖出价</th><th>原因</th><th>收益率</th></tr>';
       list.forEach(function(s){
         h+='<tr><td class="mono">'+esc(s.code)+'</td><td>'+esc(s.name)+'</td>'
           +'<td class="mono">'+esc(s.buyDate)+'</td><td class="mono">'+esc(s.buyPrice)+'</td>'
           +'<td class="mono">'+esc(s.period)+'天</td>'
-          +'<td class="mono">'+esc(s.sellDate)+'</td><td class="mono">'+esc(s.sellPrice)+'</td>'
+          +'<td class="mono">'+esc(s.sellDate)+'</td><td class="mono">'+esc(s.sellTime)+'</td>'
+          +'<td class="mono">'+esc(s.sellPrice)+'</td>'
           +'<td>'+esc(s.reason)+'</td><td class="mono">'+esc(s.pnl)+'%</td></tr>';
       });
       return h+'</table>';
