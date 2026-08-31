@@ -75,6 +75,11 @@
         <h2>历史信号</h2>
         <div id="highestHistoryBody"></div>
       </div>
+
+      <div class="card">
+        <h2>卖出时点 <span class="badge b-highest">持仓离场</span></h2>
+        <div id="highestSellBody"></div>
+      </div>
     </div>
 
     <!-- ============ 右栏：地量地价 ============ -->
@@ -163,6 +168,17 @@
       });
       return h+'</table>';
     }
+    function renderSellTable(list){
+      if(!list || list.length===0) return '<div class="empty-tip">暂无卖出记录</div>';
+      var h='<table><tr><th>代码</th><th>名称</th><th>买入日</th><th>买入价</th><th>卖出日</th><th>卖出价</th><th>原因</th><th>收益率</th></tr>';
+      list.forEach(function(s){
+        h+='<tr><td class="mono">'+esc(s.code)+'</td><td>'+esc(s.name)+'</td>'
+          +'<td class="mono">'+esc(s.buyDate)+'</td><td class="mono">'+esc(s.buyPrice)+'</td>'
+          +'<td class="mono">'+esc(s.sellDate)+'</td><td class="mono">'+esc(s.sellPrice)+'</td>'
+          +'<td>'+esc(s.reason)+'</td><td class="mono">'+esc(s.pnl)+'%</td></tr>';
+      });
+      return h+'</table>';
+    }
     function initHighest(){
       if(!H || !H.days){ document.getElementById('subHighest').textContent='未找到数据：请运行 monitor_dash.py 生成 highest_data.js'; return; }
       document.getElementById('subHighest').textContent='数据生成时间：'+H.generated;
@@ -183,6 +199,17 @@
         h+='<details'+(k===today?' open':'')+'><summary>'+esc(k)+'<span class="count">'+cnt+'</span></summary>'+inner+'</details>';
       });
       hb.innerHTML = h;
+      var sb = document.getElementById('highestSellBody');
+      var sellKeys = Object.keys(H.sells||{}).sort().reverse();
+      if(sellKeys.length===0){ sb.innerHTML='<div class="empty-tip">暂无卖出记录</div>'; }
+      else {
+        var sh='';
+        sellKeys.forEach(function(k){
+          var list = H.sells[k];
+          sh+='<details open><summary>'+esc(k)+'<span class="count">'+list.length+' 笔卖出</span></summary>'+renderSellTable(list)+'</details>';
+        });
+        sb.innerHTML = sh;
+      }
     }
 
     // ===== 地量地价 =====
