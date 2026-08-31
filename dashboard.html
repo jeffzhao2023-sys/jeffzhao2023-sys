@@ -237,15 +237,15 @@
       var bhtml='';
       if(buys.length===0){ bhtml='<div class="empty-tip">暂无疑似买入</div>'; }
       else {
-        bhtml='<table><tr><th>股票代码</th><th>名称</th><th>现价</th><th>涨幅</th><th>5日线</th><th>状态</th></tr>';
-        buys.forEach(function(r){ bhtml+='<tr><td class="mono">'+esc(r.code)+'</td><td>'+esc(r.name)+'</td><td class="mono">'+esc(r.price)+'</td><td class="mono">'+esc(r.pct)+'%</td><td class="mono">'+esc(r.ma5)+'</td><td>'+esc(r.status)+'</td></tr>'; });
+        bhtml='<table><tr><th>股票代码</th><th>名称</th><th>确认日期</th><th>现价</th><th>涨幅</th><th>状态</th></tr>';
+        buys.forEach(function(r){ bhtml+='<tr><td class="mono">'+esc(r.code)+'</td><td>'+esc(r.name)+'</td><td class="mono">'+esc(r.confirm_date)+'</td><td class="mono">'+esc(r.price)+'</td><td class="mono">'+esc(r.pct)+'%</td><td>'+esc(r.status)+'</td></tr>'; });
         bhtml+='</table>';
       }
       document.getElementById('dildjBuyBody').innerHTML = bhtml;
       var shtml = (sells.length===0) ? '<div class="empty-tip">当日无卖出提醒</div>' : '';
       if(sells.length>0){
-        shtml='<table><tr><th>股票代码</th><th>卖出原因</th><th>时间</th></tr>';
-        sells.forEach(function(s){ shtml+='<tr><td class="mono">'+esc(s.code)+'</td><td>'+esc(s.reason)+'</td><td class="mono">'+esc(s.time)+'</td></tr>'; });
+        shtml='<table><tr><th>股票代码</th><th>名称</th><th>卖出时间</th><th>卖出原因</th></tr>';
+        sells.forEach(function(s){ shtml+='<tr><td class="mono">'+esc(s.code)+'</td><td>'+esc(s.name||'—')+'</td><td class="mono">'+esc(s.time)+'</td><td>'+esc(s.reason)+'</td></tr>'; });
         shtml+='</table>';
       }
       document.getElementById('dildjSellBody').innerHTML = shtml;
