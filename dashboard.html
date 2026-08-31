@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
@@ -94,14 +94,15 @@
       <h1>📉 地量地价策略</h1>
       <div class="sub" id="subDildj">加载中…</div>
 
-      <div class="card">
-        <h2>今日疑似买入 <span class="badge b-highest">盘中</span></h2>
-        <div id="dildjBuyBody"></div>
-      </div>
-
-      <div class="card">
-        <h2>今日卖出提醒 <span class="badge b-recession">卖出</span></h2>
-        <div id="dildjSellBody"></div>
+      <div class="grid2c">
+        <div class="card">
+          <h2>今日疑似买入 <span class="badge b-highest">盘中</span></h2>
+          <div id="dildjBuyBody"></div>
+        </div>
+        <div class="card">
+          <h2>今日卖出提醒 <span class="badge b-recession">卖出</span></h2>
+          <div id="dildjSellBody"></div>
+        </div>
       </div>
     </div>
 
@@ -118,8 +119,9 @@
 
     function renderTable(rows){
       if(!rows || rows.length===0) return '<div class="empty-tip">无票</div>';
-      var h='<table><tr><th>股票代码</th><th>确认日期</th><th>收盘价</th><th>情绪</th></tr>';
-      rows.forEach(function(r){ h+='<tr><td>'+esc(r.code)+'</td><td>'+esc(r.date)+'</td><td>'+esc(r.close)+'</td><td class="'+emotionClass(r.emotion)+'">'+esc(r.emotion)+'</td></tr>'; });
+      var pn={'base':'放量突破','A':'止跌反转','B':'回调确认'};
+      var h='<table><tr><th>股票代码</th><th>方案</th><th>确认日期</th><th>收盘价</th><th>情绪</th></tr>';
+      rows.forEach(function(r){ h+='<tr><td>'+esc(r.code)+'</td><td>'+(pn[r.plan]||esc(r.plan||''))+'</td><td>'+esc(r.date)+'</td><td>'+esc(r.close)+'</td><td class="'+emotionClass(r.emotion)+'">'+esc(r.emotion)+'</td></tr>'; });
       return h+'</table>';
     }
     function renderSell(rows){
