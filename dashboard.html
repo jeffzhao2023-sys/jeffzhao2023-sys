@@ -32,6 +32,8 @@
   .empty-tip { color: #6b7280; font-style: italic; }
   .grid2 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; align-items: start; }
   @media (max-width: 900px) { .grid2 { grid-template-columns: 1fr; } }
+  .grid2c { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; }
+  @media (max-width: 1200px) { .grid2c { grid-template-columns: 1fr; } }
   .col h1 { font-size: 18px; margin-bottom: 4px; }
   .col .sub { margin-bottom: 14px; }
   .mono { font-variant-numeric: tabular-nums; }
@@ -66,19 +68,21 @@
       <h1>🚀 首次唯一最高板</h1>
       <div class="sub" id="subHighest">加载中…</div>
 
-      <div class="card">
-        <h2>今日盘中信号 <span class="badge b-highest">实时</span></h2>
-        <div id="highestTodayBody"></div>
+      <div class="grid2c">
+        <div class="card">
+          <h2>今日买入 <span class="badge b-highest">实时</span></h2>
+          <div id="highestTodayBody"></div>
+        </div>
+
+        <div class="card">
+          <h2>卖出时点 <span class="badge b-recession">持仓离场</span></h2>
+          <div id="highestSellBody"></div>
+        </div>
       </div>
 
       <div class="card">
         <h2>历史信号</h2>
         <div id="highestHistoryBody"></div>
-      </div>
-
-      <div class="card">
-        <h2>卖出时点 <span class="badge b-highest">持仓离场</span></h2>
-        <div id="highestSellBody"></div>
       </div>
     </div>
 
