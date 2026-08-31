@@ -229,6 +229,7 @@
       document.getElementById('subHighest').textContent='数据生成时间：'+H.generated;
       document.getElementById('highestAllBody').innerHTML = renderCombinedTable();
     }
+    var DD = window.DILDJ_DATA || null;
     function initDildj(){
       if(!DD){ document.getElementById('subDildj').textContent='未找到数据：请运行地量地价 monitor.py 生成 dildj_data.js'; return; }
       document.getElementById('subDildj').textContent='数据生成时间：'+DD.generated;
