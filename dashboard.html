@@ -121,9 +121,9 @@
         var pnlCls = (pnl==null||pnl===0) ? '' : (pnl>0 ? 'emotion-up' : 'emotion-down');
         var pnlTxt = (pnl==null||pnl==='') ? '—' : pnl+'%';
         var period = (x.period===''||x.period==null) ? '—' : x.period;
-        var statusCls = (status==='已卖出') ? '' : 'emotion-up';
+        var statusCls = (status==='持有中') ? 'emotion-up' : '';
         h+='<tr><td class="mono">'+esc(x.buyDate)+'</td><td class="mono">'+esc(x.code)+'</td>'
-          +'<td class="mono">'+esc(x.buyPrice)+'</td>'
+          +'<td class="mono">'+(status==='退潮期不买'?'—':(x.buyPrice==''?'—':esc(x.buyPrice)))+'</td>'
           +'<td class="'+emotionClass(x.emotion)+'">'+esc(x.emotion)+'</td>'
           +'<td class="'+statusCls+'">'+esc(status)+'</td>'
           +'<td class="mono">'+esc(sdate)+'</td><td class="mono">'+esc(sprice)+'</td>'
