@@ -1,5 +1,5 @@
 window.SIGNAL_DATA = {
- "generated": "2026-09-01 14:57",
+ "generated": "2026-09-01 15:08",
  "today": "20260901",
  "days": [
   {
@@ -57,6 +57,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002682",
+     "name": "龙洲股份",
      "plan": "",
      "date": "2026-08-17",
      "buyDate": "2026-08-18",
@@ -72,6 +73,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002437",
+     "name": "誉衡药业",
      "plan": "",
      "date": "2026-08-17",
      "buyDate": "2026-08-18",
@@ -87,6 +89,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002156",
+     "name": "通富微电",
      "plan": "",
      "date": "2026-08-17",
      "buyDate": "2026-08-18",
@@ -108,6 +111,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002322",
+     "name": "理工能科",
      "plan": "",
      "date": "2026-08-14",
      "buyDate": "2026-08-17",
@@ -123,6 +127,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603118",
+     "name": "共进股份",
      "plan": "",
      "date": "2026-08-14",
      "buyDate": "2026-08-17",
@@ -138,6 +143,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600186",
+     "name": "莲花控股",
      "plan": "",
      "date": "2026-08-14",
      "buyDate": "2026-08-17",
@@ -153,6 +159,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603083",
+     "name": "剑桥科技",
      "plan": "",
      "date": "2026-08-14",
      "buyDate": "2026-08-17",
@@ -168,6 +175,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600487",
+     "name": "亨通光电",
      "plan": "",
      "date": "2026-08-14",
      "buyDate": "2026-08-17",
@@ -189,6 +197,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002437",
+     "name": "誉衡药业",
      "plan": "",
      "date": "2026-08-13",
      "buyDate": "2026-08-14",
@@ -204,6 +213,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000938",
+     "name": "紫光股份",
      "plan": "",
      "date": "2026-08-13",
      "buyDate": "2026-08-14",
@@ -225,6 +235,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002437",
+     "name": "誉衡药业",
      "plan": "",
      "date": "2026-08-12",
      "buyDate": "2026-08-13",
@@ -240,6 +251,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002421",
+     "name": "达实智能",
      "plan": "",
      "date": "2026-08-12",
      "buyDate": "2026-08-13",
@@ -255,6 +267,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000593",
+     "name": "德龙汇能",
      "plan": "",
      "date": "2026-08-12",
      "buyDate": "2026-08-13",
@@ -270,6 +283,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603399",
+     "name": "永杉锂业",
      "plan": "",
      "date": "2026-08-12",
      "buyDate": "2026-08-13",
@@ -285,6 +299,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "601700",
+     "name": "风范股份",
      "plan": "",
      "date": "2026-08-12",
      "buyDate": "2026-08-13",
@@ -300,6 +315,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600105",
+     "name": "永鼎股份",
      "plan": "",
      "date": "2026-08-12",
      "buyDate": "2026-08-13",
@@ -315,6 +331,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002552",
+     "name": "宝鼎科技",
      "plan": "",
      "date": "2026-08-12",
      "buyDate": "2026-08-13",
@@ -330,6 +347,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002739",
+     "name": "儒意电影",
      "plan": "",
      "date": "2026-08-12",
      "buyDate": "2026-08-13",
@@ -351,6 +369,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600611",
+     "name": "大众交通",
      "plan": "",
      "date": "2026-08-11",
      "buyDate": "2026-08-12",
@@ -366,6 +385,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "300426",
+     "name": "华智数媒",
      "plan": "",
      "date": "2026-08-11",
      "buyDate": "2026-08-12",
@@ -381,6 +401,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002229",
+     "name": "鸿博股份",
      "plan": "",
      "date": "2026-08-11",
      "buyDate": "2026-08-12",
@@ -396,6 +417,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600667",
+     "name": "太极实业",
      "plan": "",
      "date": "2026-08-11",
      "buyDate": "2026-08-12",
@@ -411,6 +433,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000636",
+     "name": "风华高科",
      "plan": "",
      "date": "2026-08-11",
      "buyDate": "2026-08-12",
@@ -432,6 +455,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002900",
+     "name": "哈三联",
      "plan": "",
      "date": "2026-08-10",
      "buyDate": "2026-08-11",
@@ -447,6 +471,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002842",
+     "name": "翔鹭钨业",
      "plan": "",
      "date": "2026-08-10",
      "buyDate": "2026-08-11",
@@ -462,6 +487,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600186",
+     "name": "莲花控股",
      "plan": "",
      "date": "2026-08-10",
      "buyDate": "2026-08-11",
@@ -483,6 +509,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "603567",
+     "name": "珍宝岛",
      "plan": "",
      "date": "2026-08-07",
      "buyDate": "2026-08-10",
@@ -498,6 +525,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002900",
+     "name": "哈三联",
      "plan": "",
      "date": "2026-08-07",
      "buyDate": "2026-08-10",
@@ -513,6 +541,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002281",
+     "name": "光迅科技",
      "plan": "",
      "date": "2026-08-07",
      "buyDate": "2026-08-10",
@@ -528,6 +557,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000676",
+     "name": "智度股份",
      "plan": "",
      "date": "2026-08-07",
      "buyDate": "2026-08-10",
@@ -543,6 +573,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002141",
+     "name": "贤丰控股",
      "plan": "",
      "date": "2026-08-07",
      "buyDate": "2026-08-10",
@@ -558,6 +589,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600176",
+     "name": "中国巨石",
      "plan": "",
      "date": "2026-08-07",
      "buyDate": "2026-08-10",
@@ -573,6 +605,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603011",
+     "name": "合锻智能",
      "plan": "",
      "date": "2026-08-07",
      "buyDate": "2026-08-10",
@@ -594,6 +627,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "603228",
+     "name": "景旺电子",
      "plan": "",
      "date": "2026-08-06",
      "buyDate": "2026-08-07",
@@ -609,6 +643,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600584",
+     "name": "长电科技",
      "plan": "",
      "date": "2026-08-06",
      "buyDate": "2026-08-07",
@@ -630,6 +665,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "000981",
+     "name": "山子高科",
      "plan": "",
      "date": "2026-08-05",
      "buyDate": "2026-08-06",
@@ -645,6 +681,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600176",
+     "name": "中国巨石",
      "plan": "",
      "date": "2026-08-05",
      "buyDate": "2026-08-06",
@@ -660,6 +697,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000636",
+     "name": "风华高科",
      "plan": "",
      "date": "2026-08-05",
      "buyDate": "2026-08-06",
@@ -675,6 +713,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600667",
+     "name": "太极实业",
      "plan": "",
      "date": "2026-08-05",
      "buyDate": "2026-08-06",
@@ -696,6 +735,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "601700",
+     "name": "风范股份",
      "plan": "",
      "date": "2026-08-04",
      "buyDate": "2026-08-05",
@@ -711,6 +751,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002428",
+     "name": "云南锗业",
      "plan": "",
      "date": "2026-08-04",
      "buyDate": "2026-08-05",
@@ -726,6 +767,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002384",
+     "name": "东山精密",
      "plan": "",
      "date": "2026-08-04",
      "buyDate": "2026-08-05",
@@ -741,6 +783,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600105",
+     "name": "永鼎股份",
      "plan": "",
      "date": "2026-08-04",
      "buyDate": "2026-08-05",
@@ -762,6 +805,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002366",
+     "name": "融发核电",
      "plan": "",
      "date": "2026-08-03",
      "buyDate": "2026-08-04",
@@ -777,6 +821,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000533",
+     "name": "顺钠股份",
      "plan": "",
      "date": "2026-08-03",
      "buyDate": "2026-08-04",
@@ -798,6 +843,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002131",
+     "name": "利欧股份",
      "plan": "",
      "date": "2026-07-31",
      "buyDate": "2026-08-03",
@@ -829,6 +875,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "603118",
+     "name": "共进股份",
      "plan": "",
      "date": "2026-07-28",
      "buyDate": "2026-07-29",
@@ -850,6 +897,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002141",
+     "name": "贤丰控股",
      "plan": "",
      "date": "2026-07-27",
      "buyDate": "2026-07-28",
@@ -865,6 +913,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000676",
+     "name": "智度股份",
      "plan": "",
      "date": "2026-07-27",
      "buyDate": "2026-07-28",
@@ -886,6 +935,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "603580",
+     "name": "艾艾精工",
      "plan": "",
      "date": "2026-07-24",
      "buyDate": "2026-07-27",
@@ -901,6 +951,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002156",
+     "name": "通富微电",
      "plan": "",
      "date": "2026-07-24",
      "buyDate": "2026-07-27",
@@ -922,6 +973,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "603318",
+     "name": "水发燃气",
      "plan": "",
      "date": "2026-07-23",
      "buyDate": "2026-07-24",
@@ -937,6 +989,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603459",
+     "name": "红板科技",
      "plan": "",
      "date": "2026-07-23",
      "buyDate": "2026-07-24",
@@ -952,6 +1005,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002141",
+     "name": "贤丰控股",
      "plan": "",
      "date": "2026-07-23",
      "buyDate": "2026-07-24",
@@ -973,6 +1027,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002156",
+     "name": "通富微电",
      "plan": "",
      "date": "2026-07-22",
      "buyDate": "2026-07-23",
@@ -988,6 +1043,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000938",
+     "name": "紫光股份",
      "plan": "",
      "date": "2026-07-22",
      "buyDate": "2026-07-23",
@@ -1003,6 +1059,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603459",
+     "name": "红板科技",
      "plan": "",
      "date": "2026-07-22",
      "buyDate": "2026-07-23",
@@ -1018,6 +1075,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000034",
+     "name": "神州数码",
      "plan": "",
      "date": "2026-07-22",
      "buyDate": "2026-07-23",
@@ -1033,6 +1091,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603893",
+     "name": "瑞芯微",
      "plan": "",
      "date": "2026-07-22",
      "buyDate": "2026-07-23",
@@ -1048,6 +1107,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000063",
+     "name": "中兴通讯",
      "plan": "",
      "date": "2026-07-22",
      "buyDate": "2026-07-23",
@@ -1069,6 +1129,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002432",
+     "name": "九安医疗",
      "plan": "",
      "date": "2026-07-21",
      "buyDate": "2026-07-22",
@@ -1084,6 +1145,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603118",
+     "name": "共进股份",
      "plan": "",
      "date": "2026-07-21",
      "buyDate": "2026-07-22",
@@ -1099,6 +1161,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002156",
+     "name": "通富微电",
      "plan": "",
      "date": "2026-07-21",
      "buyDate": "2026-07-22",
@@ -1114,6 +1177,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600584",
+     "name": "长电科技",
      "plan": "",
      "date": "2026-07-21",
      "buyDate": "2026-07-22",
@@ -1140,6 +1204,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "603118",
+     "name": "共进股份",
      "plan": "",
      "date": "2026-07-17",
      "buyDate": "2026-07-20",
@@ -1155,6 +1220,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002396",
+     "name": "星网锐捷",
      "plan": "",
      "date": "2026-07-17",
      "buyDate": "2026-07-20",
@@ -1170,6 +1236,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600881",
+     "name": "亚泰集团",
      "plan": "",
      "date": "2026-07-17",
      "buyDate": "2026-07-20",
@@ -1191,6 +1258,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002980",
+     "name": "华盛昌",
      "plan": "",
      "date": "2026-07-16",
      "buyDate": "2026-07-17",
@@ -1206,6 +1274,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002881",
+     "name": "美格智能",
      "plan": "",
      "date": "2026-07-16",
      "buyDate": "2026-07-17",
@@ -1221,6 +1290,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000938",
+     "name": "紫光股份",
      "plan": "",
      "date": "2026-07-16",
      "buyDate": "2026-07-17",
@@ -1242,6 +1312,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "603538",
+     "name": "美诺华",
      "plan": "",
      "date": "2026-07-15",
      "buyDate": "2026-07-16",
@@ -1257,6 +1328,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001388",
+     "name": "信通电子",
      "plan": "",
      "date": "2026-07-15",
      "buyDate": "2026-07-16",
@@ -1272,6 +1344,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002317",
+     "name": "众生药业",
      "plan": "",
      "date": "2026-07-15",
      "buyDate": "2026-07-16",
@@ -1293,6 +1366,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "001389",
+     "name": "广合科技",
      "plan": "",
      "date": "2026-07-14",
      "buyDate": "2026-07-15",
@@ -1308,6 +1382,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002384",
+     "name": "东山精密",
      "plan": "",
      "date": "2026-07-14",
      "buyDate": "2026-07-15",
@@ -1323,6 +1398,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002463",
+     "name": "沪电股份",
      "plan": "",
      "date": "2026-07-14",
      "buyDate": "2026-07-15",
@@ -1349,6 +1425,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "000938",
+     "name": "紫光股份",
      "plan": "",
      "date": "2026-07-10",
      "buyDate": "2026-07-13",
@@ -1364,6 +1441,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603698",
+     "name": "航天工程",
      "plan": "",
      "date": "2026-07-10",
      "buyDate": "2026-07-13",
@@ -1385,6 +1463,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "000977",
+     "name": "浪潮信息",
      "plan": "",
      "date": "2026-07-09",
      "buyDate": "2026-07-10",
@@ -1400,6 +1479,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002185",
+     "name": "华天科技",
      "plan": "",
      "date": "2026-07-09",
      "buyDate": "2026-07-10",
@@ -1415,6 +1495,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000021",
+     "name": "深科技",
      "plan": "",
      "date": "2026-07-09",
      "buyDate": "2026-07-10",
@@ -1430,6 +1511,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600584",
+     "name": "长电科技",
      "plan": "",
      "date": "2026-07-09",
      "buyDate": "2026-07-10",
@@ -1445,6 +1527,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002156",
+     "name": "通富微电",
      "plan": "",
      "date": "2026-07-09",
      "buyDate": "2026-07-10",
@@ -1460,6 +1543,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603986",
+     "name": "兆易创新",
      "plan": "",
      "date": "2026-07-09",
      "buyDate": "2026-07-10",
@@ -1475,6 +1559,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002281",
+     "name": "光迅科技",
      "plan": "",
      "date": "2026-07-09",
      "buyDate": "2026-07-10",
@@ -1490,6 +1575,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002384",
+     "name": "东山精密",
      "plan": "",
      "date": "2026-07-09",
      "buyDate": "2026-07-10",
@@ -1511,6 +1597,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002396",
+     "name": "星网锐捷",
      "plan": "",
      "date": "2026-07-08",
      "buyDate": "2026-07-09",
@@ -1532,6 +1619,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "001229",
+     "name": "魅视科技",
      "plan": "",
      "date": "2026-07-07",
      "buyDate": "2026-07-08",
@@ -1547,6 +1635,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002137",
+     "name": "实益达",
      "plan": "",
      "date": "2026-07-07",
      "buyDate": "2026-07-08",
@@ -1562,6 +1651,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002129",
+     "name": "TCL中环",
      "plan": "",
      "date": "2026-07-07",
      "buyDate": "2026-07-08",
@@ -1577,6 +1667,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002185",
+     "name": "华天科技",
      "plan": "",
      "date": "2026-07-07",
      "buyDate": "2026-07-08",
@@ -1598,6 +1689,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "001287",
+     "name": "中电港",
      "plan": "",
      "date": "2026-07-06",
      "buyDate": "2026-07-07",
@@ -1613,6 +1705,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600172",
+     "name": "黄河旋风",
      "plan": "",
      "date": "2026-07-06",
      "buyDate": "2026-07-07",
@@ -1628,6 +1721,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603538",
+     "name": "美诺华",
      "plan": "",
      "date": "2026-07-06",
      "buyDate": "2026-07-07",
@@ -1643,6 +1737,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002860",
+     "name": "星帅尔",
      "plan": "",
      "date": "2026-07-06",
      "buyDate": "2026-07-07",
@@ -1658,6 +1753,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002965",
+     "name": "祥鑫科技",
      "plan": "",
      "date": "2026-07-06",
      "buyDate": "2026-07-07",
@@ -1673,6 +1769,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000938",
+     "name": "紫光股份",
      "plan": "",
      "date": "2026-07-06",
      "buyDate": "2026-07-07",
@@ -1694,6 +1791,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002072",
+     "name": "凯瑞德",
      "plan": "",
      "date": "2026-07-03",
      "buyDate": "2026-07-06",
@@ -1709,6 +1807,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002635",
+     "name": "安洁科技",
      "plan": "",
      "date": "2026-07-03",
      "buyDate": "2026-07-06",
@@ -1724,6 +1823,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002747",
+     "name": "埃斯顿",
      "plan": "",
      "date": "2026-07-03",
      "buyDate": "2026-07-06",
@@ -1739,6 +1839,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002916",
+     "name": "深南电路",
      "plan": "",
      "date": "2026-07-03",
      "buyDate": "2026-07-06",
@@ -1754,6 +1855,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002050",
+     "name": "三花智控",
      "plan": "",
      "date": "2026-07-03",
      "buyDate": "2026-07-06",
@@ -1775,6 +1877,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002559",
+     "name": "亚威股份",
      "plan": "",
      "date": "2026-07-02",
      "buyDate": "2026-07-03",
@@ -1790,6 +1893,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002261",
+     "name": "拓维信息",
      "plan": "",
      "date": "2026-07-02",
      "buyDate": "2026-07-03",
@@ -1805,6 +1909,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600172",
+     "name": "黄河旋风",
      "plan": "",
      "date": "2026-07-02",
      "buyDate": "2026-07-03",
@@ -1820,6 +1925,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600601",
+     "name": "方正科技",
      "plan": "",
      "date": "2026-07-02",
      "buyDate": "2026-07-03",
@@ -1835,6 +1941,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002580",
+     "name": "圣阳股份",
      "plan": "",
      "date": "2026-07-02",
      "buyDate": "2026-07-03",
@@ -1850,6 +1957,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603078",
+     "name": "江化微",
      "plan": "",
      "date": "2026-07-02",
      "buyDate": "2026-07-03",
@@ -1871,6 +1979,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "000733",
+     "name": "振华科技",
      "plan": "",
      "date": "2026-07-01",
      "buyDate": "2026-07-02",
@@ -1886,6 +1995,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600667",
+     "name": "太极实业",
      "plan": "",
      "date": "2026-07-01",
      "buyDate": "2026-07-02",
@@ -1901,6 +2011,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000823",
+     "name": "超声电子",
      "plan": "",
      "date": "2026-07-01",
      "buyDate": "2026-07-02",
@@ -1916,6 +2027,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "605020",
+     "name": "永和股份",
      "plan": "",
      "date": "2026-07-01",
      "buyDate": "2026-07-02",
@@ -1931,6 +2043,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002929",
+     "name": "润建股份",
      "plan": "",
      "date": "2026-07-01",
      "buyDate": "2026-07-02",
@@ -1946,6 +2059,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "601991",
+     "name": "大唐发电",
      "plan": "",
      "date": "2026-07-01",
      "buyDate": "2026-07-02",
@@ -1961,6 +2075,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002971",
+     "name": "和远气体",
      "plan": "",
      "date": "2026-07-01",
      "buyDate": "2026-07-02",
@@ -1976,6 +2091,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000925",
+     "name": "众合科技",
      "plan": "",
      "date": "2026-07-01",
      "buyDate": "2026-07-02",
@@ -1997,6 +2113,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002407",
+     "name": "多氟多",
      "plan": "",
      "date": "2026-06-30",
      "buyDate": "2026-07-01",
@@ -2012,6 +2129,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000100",
+     "name": "TCL科技",
      "plan": "",
      "date": "2026-06-30",
      "buyDate": "2026-07-01",
@@ -2027,6 +2145,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603005",
+     "name": "晶方科技",
      "plan": "",
      "date": "2026-06-30",
      "buyDate": "2026-07-01",
@@ -2042,6 +2161,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002008",
+     "name": "大族激光",
      "plan": "",
      "date": "2026-06-30",
      "buyDate": "2026-07-01",
@@ -2057,6 +2177,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000725",
+     "name": "京东方Ａ",
      "plan": "",
      "date": "2026-06-30",
      "buyDate": "2026-07-01",
@@ -2078,6 +2199,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "000988",
+     "name": "华工科技",
      "plan": "",
      "date": "2026-06-29",
      "buyDate": "2026-06-30",
@@ -2093,6 +2215,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002208",
+     "name": "合肥城建",
      "plan": "",
      "date": "2026-06-29",
      "buyDate": "2026-06-30",
@@ -2108,6 +2231,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000021",
+     "name": "深科技",
      "plan": "",
      "date": "2026-06-29",
      "buyDate": "2026-06-30",
@@ -2123,6 +2247,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000759",
+     "name": "中百集团",
      "plan": "",
      "date": "2026-06-29",
      "buyDate": "2026-06-30",
@@ -2138,6 +2263,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000551",
+     "name": "创元科技",
      "plan": "",
      "date": "2026-06-29",
      "buyDate": "2026-06-30",
@@ -2153,6 +2279,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002409",
+     "name": "雅克科技",
      "plan": "",
      "date": "2026-06-29",
      "buyDate": "2026-06-30",
@@ -2174,6 +2301,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600367",
+     "name": "红星发展",
      "plan": "",
      "date": "2026-06-26",
      "buyDate": "2026-06-29",
@@ -2189,6 +2317,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603002",
+     "name": "宏昌电子",
      "plan": "",
      "date": "2026-06-26",
      "buyDate": "2026-06-29",
@@ -2204,6 +2333,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002129",
+     "name": "TCL中环",
      "plan": "",
      "date": "2026-06-26",
      "buyDate": "2026-06-29",
@@ -2219,6 +2349,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "300088",
+     "name": "长信科技",
      "plan": "",
      "date": "2026-06-26",
      "buyDate": "2026-06-29",
@@ -2234,6 +2365,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603698",
+     "name": "航天工程",
      "plan": "",
      "date": "2026-06-26",
      "buyDate": "2026-06-29",
@@ -2255,6 +2387,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002068",
+     "name": "黑猫股份",
      "plan": "",
      "date": "2026-06-25",
      "buyDate": "2026-06-26",
@@ -2270,6 +2403,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000100",
+     "name": "TCL科技",
      "plan": "",
      "date": "2026-06-25",
      "buyDate": "2026-06-26",
@@ -2285,6 +2419,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001309",
+     "name": "德明利",
      "plan": "",
      "date": "2026-06-25",
      "buyDate": "2026-06-26",
@@ -2300,6 +2435,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603019",
+     "name": "中科曙光",
      "plan": "",
      "date": "2026-06-25",
      "buyDate": "2026-06-26",
@@ -2321,6 +2457,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600703",
+     "name": "三安光电",
      "plan": "",
      "date": "2026-06-24",
      "buyDate": "2026-06-25",
@@ -2336,6 +2473,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600584",
+     "name": "长电科技",
      "plan": "",
      "date": "2026-06-24",
      "buyDate": "2026-06-25",
@@ -2351,6 +2489,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "003043",
+     "name": "华亚智能",
      "plan": "",
      "date": "2026-06-24",
      "buyDate": "2026-06-25",
@@ -2366,6 +2505,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002428",
+     "name": "云南锗业",
      "plan": "",
      "date": "2026-06-24",
      "buyDate": "2026-06-25",
@@ -2381,6 +2521,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002580",
+     "name": "圣阳股份",
      "plan": "",
      "date": "2026-06-24",
      "buyDate": "2026-06-25",
@@ -2396,6 +2537,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603259",
+     "name": "药明康德",
      "plan": "",
      "date": "2026-06-24",
      "buyDate": "2026-06-25",
@@ -2411,6 +2553,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000021",
+     "name": "深科技",
      "plan": "",
      "date": "2026-06-24",
      "buyDate": "2026-06-25",
@@ -2426,6 +2569,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603045",
+     "name": "福达合金",
      "plan": "",
      "date": "2026-06-24",
      "buyDate": "2026-06-25",
@@ -2441,6 +2585,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002600",
+     "name": "领益智造",
      "plan": "",
      "date": "2026-06-24",
      "buyDate": "2026-06-25",
@@ -2462,6 +2607,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002141",
+     "name": "贤丰控股",
      "plan": "",
      "date": "2026-06-23",
      "buyDate": "2026-06-24",
@@ -2477,6 +2623,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002008",
+     "name": "大族激光",
      "plan": "",
      "date": "2026-06-23",
      "buyDate": "2026-06-24",
@@ -2492,6 +2639,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603335",
+     "name": "迪生力",
      "plan": "",
      "date": "2026-06-23",
      "buyDate": "2026-06-24",
@@ -2507,6 +2655,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002976",
+     "name": "瑞玛精密",
      "plan": "",
      "date": "2026-06-23",
      "buyDate": "2026-06-24",
@@ -2522,6 +2671,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002453",
+     "name": "华软科技",
      "plan": "",
      "date": "2026-06-23",
      "buyDate": "2026-06-24",
@@ -2543,6 +2693,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "000070",
+     "name": "特发信息",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
@@ -2558,6 +2709,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "300052",
+     "name": "中青宝",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
@@ -2573,6 +2725,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600367",
+     "name": "红星发展",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
@@ -2588,6 +2741,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000545",
+     "name": "金浦钛业",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
@@ -2603,6 +2757,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000012",
+     "name": "南玻Ａ",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
@@ -2618,6 +2773,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000759",
+     "name": "中百集团",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
@@ -2633,6 +2789,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "601179",
+     "name": "中国西电",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
@@ -2648,6 +2805,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002407",
+     "name": "多氟多",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
@@ -2663,6 +2821,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001359",
+     "name": "平安电工",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
@@ -2678,6 +2837,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000823",
+     "name": "超声电子",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
@@ -2693,6 +2853,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600549",
+     "name": "厦门钨业",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
@@ -2708,6 +2869,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002975",
+     "name": "博杰股份",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
@@ -2723,6 +2885,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600584",
+     "name": "长电科技",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
@@ -2738,6 +2901,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002409",
+     "name": "雅克科技",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
@@ -2759,6 +2923,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600172",
+     "name": "黄河旋风",
      "plan": "",
      "date": "2026-06-18",
      "buyDate": "2026-06-22",
@@ -2774,6 +2939,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002297",
+     "name": "博云新材",
      "plan": "",
      "date": "2026-06-18",
      "buyDate": "2026-06-22",
@@ -2789,6 +2955,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600392",
+     "name": "盛和资源",
      "plan": "",
      "date": "2026-06-18",
      "buyDate": "2026-06-22",
@@ -2804,6 +2971,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "300522",
+     "name": "世名科技",
      "plan": "",
      "date": "2026-06-18",
      "buyDate": "2026-06-22",
@@ -2819,6 +2987,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002747",
+     "name": "埃斯顿",
      "plan": "",
      "date": "2026-06-18",
      "buyDate": "2026-06-22",
@@ -2834,6 +3003,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600162",
+     "name": "香江控股",
      "plan": "",
      "date": "2026-06-18",
      "buyDate": "2026-06-22",
@@ -2849,6 +3019,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603011",
+     "name": "合锻智能",
      "plan": "",
      "date": "2026-06-18",
      "buyDate": "2026-06-22",
@@ -2864,6 +3035,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002281",
+     "name": "光迅科技",
      "plan": "",
      "date": "2026-06-18",
      "buyDate": "2026-06-22",
@@ -2879,6 +3051,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002436",
+     "name": "兴森科技",
      "plan": "",
      "date": "2026-06-18",
      "buyDate": "2026-06-22",
@@ -2894,6 +3067,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002971",
+     "name": "和远气体",
      "plan": "",
      "date": "2026-06-18",
      "buyDate": "2026-06-22",
@@ -2915,6 +3089,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "000823",
+     "name": "超声电子",
      "plan": "",
      "date": "2026-06-17",
      "buyDate": "2026-06-18",
@@ -2930,6 +3105,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000725",
+     "name": "京东方Ａ",
      "plan": "",
      "date": "2026-06-17",
      "buyDate": "2026-06-18",
@@ -2945,6 +3121,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002491",
+     "name": "通鼎互联",
      "plan": "",
      "date": "2026-06-17",
      "buyDate": "2026-06-18",
@@ -2960,6 +3137,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603175",
+     "name": "超颖电子",
      "plan": "",
      "date": "2026-06-17",
      "buyDate": "2026-06-18",
@@ -2975,6 +3153,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603458",
+     "name": "勘设股份",
      "plan": "",
      "date": "2026-06-17",
      "buyDate": "2026-06-18",
@@ -2996,6 +3175,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002735",
+     "name": "王子新材",
      "plan": "",
      "date": "2026-06-16",
      "buyDate": "2026-06-17",
@@ -3011,6 +3191,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600206",
+     "name": "有研新材",
      "plan": "",
      "date": "2026-06-16",
      "buyDate": "2026-06-17",
@@ -3026,6 +3207,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "605006",
+     "name": "山东玻纤",
      "plan": "",
      "date": "2026-06-16",
      "buyDate": "2026-06-17",
@@ -3041,6 +3223,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "601208",
+     "name": "东材科技",
      "plan": "",
      "date": "2026-06-16",
      "buyDate": "2026-06-17",
@@ -3056,6 +3239,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002491",
+     "name": "通鼎互联",
      "plan": "",
      "date": "2026-06-16",
      "buyDate": "2026-06-17",
@@ -3071,6 +3255,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002436",
+     "name": "兴森科技",
      "plan": "",
      "date": "2026-06-16",
      "buyDate": "2026-06-17",
@@ -3092,6 +3277,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600183",
+     "name": "生益科技",
      "plan": "",
      "date": "2026-06-15",
      "buyDate": "2026-06-16",
@@ -3107,6 +3293,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000636",
+     "name": "风华高科",
      "plan": "",
      "date": "2026-06-15",
      "buyDate": "2026-06-16",
@@ -3122,6 +3309,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603011",
+     "name": "合锻智能",
      "plan": "",
      "date": "2026-06-15",
      "buyDate": "2026-06-16",
@@ -3137,6 +3325,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002281",
+     "name": "光迅科技",
      "plan": "",
      "date": "2026-06-15",
      "buyDate": "2026-06-16",
@@ -3152,6 +3341,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603681",
+     "name": "永冠新材",
      "plan": "",
      "date": "2026-06-15",
      "buyDate": "2026-06-16",
@@ -3167,6 +3357,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002384",
+     "name": "东山精密",
      "plan": "",
      "date": "2026-06-15",
      "buyDate": "2026-06-16",
@@ -3182,6 +3373,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000070",
+     "name": "特发信息",
      "plan": "",
      "date": "2026-06-15",
      "buyDate": "2026-06-16",
@@ -3197,6 +3389,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002428",
+     "name": "云南锗业",
      "plan": "",
      "date": "2026-06-15",
      "buyDate": "2026-06-16",
@@ -3218,6 +3411,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "603738",
+     "name": "泰晶科技",
      "plan": "",
      "date": "2026-06-12",
      "buyDate": "2026-06-15",
@@ -3233,6 +3427,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001696",
+     "name": "宗申动力",
      "plan": "",
      "date": "2026-06-12",
      "buyDate": "2026-06-15",
@@ -3248,6 +3443,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600110",
+     "name": "诺德股份",
      "plan": "",
      "date": "2026-06-12",
      "buyDate": "2026-06-15",
@@ -3263,6 +3459,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603993",
+     "name": "洛阳钼业",
      "plan": "",
      "date": "2026-06-12",
      "buyDate": "2026-06-15",
@@ -3278,6 +3475,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600567",
+     "name": "山鹰国际",
      "plan": "",
      "date": "2026-06-12",
      "buyDate": "2026-06-15",
@@ -3293,6 +3491,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002741",
+     "name": "光华科技",
      "plan": "",
      "date": "2026-06-12",
      "buyDate": "2026-06-15",
@@ -3314,6 +3513,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "001696",
+     "name": "宗申动力",
      "plan": "",
      "date": "2026-06-11",
      "buyDate": "2026-06-12",
@@ -3329,6 +3529,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001257",
+     "name": "盛龙股份",
      "plan": "",
      "date": "2026-06-11",
      "buyDate": "2026-06-12",
@@ -3344,6 +3545,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002378",
+     "name": "章源钨业",
      "plan": "",
      "date": "2026-06-11",
      "buyDate": "2026-06-12",
@@ -3359,6 +3561,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002824",
+     "name": "和胜股份",
      "plan": "",
      "date": "2026-06-11",
      "buyDate": "2026-06-12",
@@ -3374,6 +3577,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600667",
+     "name": "太极实业",
      "plan": "",
      "date": "2026-06-11",
      "buyDate": "2026-06-12",
@@ -3389,6 +3593,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002428",
+     "name": "云南锗业",
      "plan": "",
      "date": "2026-06-11",
      "buyDate": "2026-06-12",
@@ -3404,6 +3609,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002407",
+     "name": "多氟多",
      "plan": "",
      "date": "2026-06-11",
      "buyDate": "2026-06-12",
@@ -3425,6 +3631,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002081",
+     "name": "金螳螂",
      "plan": "",
      "date": "2026-06-10",
      "buyDate": "2026-06-11",
@@ -3440,6 +3647,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002141",
+     "name": "贤丰控股",
      "plan": "",
      "date": "2026-06-10",
      "buyDate": "2026-06-11",
@@ -3455,6 +3663,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000970",
+     "name": "中科三环",
      "plan": "",
      "date": "2026-06-10",
      "buyDate": "2026-06-11",
@@ -3470,6 +3679,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603011",
+     "name": "合锻智能",
      "plan": "",
      "date": "2026-06-10",
      "buyDate": "2026-06-11",
@@ -3485,6 +3695,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002125",
+     "name": "湘潭电化",
      "plan": "",
      "date": "2026-06-10",
      "buyDate": "2026-06-11",
@@ -3506,6 +3717,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002585",
+     "name": "双星新材",
      "plan": "",
      "date": "2026-06-09",
      "buyDate": "2026-06-10",
@@ -3521,6 +3733,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000636",
+     "name": "风华高科",
      "plan": "",
      "date": "2026-06-09",
      "buyDate": "2026-06-10",
@@ -3536,6 +3749,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600183",
+     "name": "生益科技",
      "plan": "",
      "date": "2026-06-09",
      "buyDate": "2026-06-10",
@@ -3551,6 +3765,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600487",
+     "name": "亨通光电",
      "plan": "",
      "date": "2026-06-09",
      "buyDate": "2026-06-10",
@@ -3566,6 +3781,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001896",
+     "name": "豫能控股",
      "plan": "",
      "date": "2026-06-09",
      "buyDate": "2026-06-10",
@@ -3587,6 +3803,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "000759",
+     "name": "中百集团",
      "plan": "",
      "date": "2026-06-08",
      "buyDate": "2026-06-09",
@@ -3602,6 +3819,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000068",
+     "name": "华控赛格",
      "plan": "",
      "date": "2026-06-08",
      "buyDate": "2026-06-09",
@@ -3617,6 +3835,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002314",
+     "name": "南山控股",
      "plan": "",
      "date": "2026-06-08",
      "buyDate": "2026-06-09",
@@ -3632,6 +3851,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "300197",
+     "name": "节能铁汉",
      "plan": "",
      "date": "2026-06-08",
      "buyDate": "2026-06-09",
@@ -3647,6 +3867,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600522",
+     "name": "中天科技",
      "plan": "",
      "date": "2026-06-08",
      "buyDate": "2026-06-09",
@@ -3662,6 +3883,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002046",
+     "name": "国机精工",
      "plan": "",
      "date": "2026-06-08",
      "buyDate": "2026-06-09",
@@ -3677,6 +3899,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "003009",
+     "name": "中天火箭",
      "plan": "",
      "date": "2026-06-08",
      "buyDate": "2026-06-09",
@@ -3698,6 +3921,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002903",
+     "name": "宇环数控",
      "plan": "",
      "date": "2026-06-05",
      "buyDate": "2026-06-08",
@@ -3713,6 +3937,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603938",
+     "name": "三孚股份",
      "plan": "",
      "date": "2026-06-05",
      "buyDate": "2026-06-08",
@@ -3728,6 +3953,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603516",
+     "name": "淳中科技",
      "plan": "",
      "date": "2026-06-05",
      "buyDate": "2026-06-08",
@@ -3743,6 +3969,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600105",
+     "name": "永鼎股份",
      "plan": "",
      "date": "2026-06-05",
      "buyDate": "2026-06-08",
@@ -3758,6 +3985,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000725",
+     "name": "京东方Ａ",
      "plan": "",
      "date": "2026-06-05",
      "buyDate": "2026-06-08",
@@ -3779,6 +4007,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002806",
+     "name": "华锋股份",
      "plan": "",
      "date": "2026-06-04",
      "buyDate": "2026-06-05",
@@ -3794,6 +4023,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600667",
+     "name": "太极实业",
      "plan": "",
      "date": "2026-06-04",
      "buyDate": "2026-06-05",
@@ -3809,6 +4039,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000670",
+     "name": "盈方微",
      "plan": "",
      "date": "2026-06-04",
      "buyDate": "2026-06-05",
@@ -3824,6 +4055,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000725",
+     "name": "京东方Ａ",
      "plan": "",
      "date": "2026-06-04",
      "buyDate": "2026-06-05",
@@ -3839,6 +4071,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600726",
+     "name": "华电能源",
      "plan": "",
      "date": "2026-06-04",
      "buyDate": "2026-06-05",
@@ -3854,6 +4087,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001309",
+     "name": "德明利",
      "plan": "",
      "date": "2026-06-04",
      "buyDate": "2026-06-05",
@@ -3869,6 +4103,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002463",
+     "name": "沪电股份",
      "plan": "",
      "date": "2026-06-04",
      "buyDate": "2026-06-05",
@@ -3890,6 +4125,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002156",
+     "name": "通富微电",
      "plan": "",
      "date": "2026-06-03",
      "buyDate": "2026-06-04",
@@ -3905,6 +4141,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001896",
+     "name": "豫能控股",
      "plan": "",
      "date": "2026-06-03",
      "buyDate": "2026-06-04",
@@ -3920,6 +4157,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000100",
+     "name": "TCL科技",
      "plan": "",
      "date": "2026-06-03",
      "buyDate": "2026-06-04",
@@ -3935,6 +4173,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600172",
+     "name": "黄河旋风",
      "plan": "",
      "date": "2026-06-03",
      "buyDate": "2026-06-04",
@@ -3950,6 +4189,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603738",
+     "name": "泰晶科技",
      "plan": "",
      "date": "2026-06-03",
      "buyDate": "2026-06-04",
@@ -3965,6 +4205,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002735",
+     "name": "王子新材",
      "plan": "",
      "date": "2026-06-03",
      "buyDate": "2026-06-04",
@@ -3980,6 +4221,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000600",
+     "name": "建投能源",
      "plan": "",
      "date": "2026-06-03",
      "buyDate": "2026-06-04",
@@ -4001,6 +4243,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002404",
+     "name": "嘉欣丝绸",
      "plan": "",
      "date": "2026-06-02",
      "buyDate": "2026-06-03",
@@ -4016,6 +4259,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000055",
+     "name": "方大集团",
      "plan": "",
      "date": "2026-06-02",
      "buyDate": "2026-06-03",
@@ -4031,6 +4275,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002851",
+     "name": "麦格米特",
      "plan": "",
      "date": "2026-06-02",
      "buyDate": "2026-06-03",
@@ -4046,6 +4291,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002975",
+     "name": "博杰股份",
      "plan": "",
      "date": "2026-06-02",
      "buyDate": "2026-06-03",
@@ -4061,6 +4307,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600360",
+     "name": "华微电子",
      "plan": "",
      "date": "2026-06-02",
      "buyDate": "2026-06-03",
@@ -4076,6 +4323,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000601",
+     "name": "韶能股份",
      "plan": "",
      "date": "2026-06-02",
      "buyDate": "2026-06-03",
@@ -4091,6 +4339,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000636",
+     "name": "风华高科",
      "plan": "",
      "date": "2026-06-02",
      "buyDate": "2026-06-03",
@@ -4106,6 +4355,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600487",
+     "name": "亨通光电",
      "plan": "",
      "date": "2026-06-02",
      "buyDate": "2026-06-03",
@@ -4121,6 +4371,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603633",
+     "name": "徕木股份",
      "plan": "",
      "date": "2026-06-02",
      "buyDate": "2026-06-03",
@@ -4136,6 +4387,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000700",
+     "name": "模塑科技",
      "plan": "",
      "date": "2026-06-02",
      "buyDate": "2026-06-03",
@@ -4151,6 +4403,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002436",
+     "name": "兴森科技",
      "plan": "",
      "date": "2026-06-02",
      "buyDate": "2026-06-03",
@@ -4172,6 +4425,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600503",
+     "name": "华丽家族",
      "plan": "",
      "date": "2026-06-01",
      "buyDate": "2026-06-02",
@@ -4187,6 +4441,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002579",
+     "name": "中京电子",
      "plan": "",
      "date": "2026-06-01",
      "buyDate": "2026-06-02",
@@ -4202,6 +4457,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600667",
+     "name": "太极实业",
      "plan": "",
      "date": "2026-06-01",
      "buyDate": "2026-06-02",
@@ -4217,6 +4473,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002897",
+     "name": "意华股份",
      "plan": "",
      "date": "2026-06-01",
      "buyDate": "2026-06-02",
@@ -4232,6 +4489,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001896",
+     "name": "豫能控股",
      "plan": "",
      "date": "2026-06-01",
      "buyDate": "2026-06-02",
@@ -4253,6 +4511,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "000090",
+     "name": "天健集团",
      "plan": "",
      "date": "2026-05-29",
      "buyDate": "2026-06-01",
@@ -4268,6 +4527,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002995",
+     "name": "天地在线",
      "plan": "",
      "date": "2026-05-29",
      "buyDate": "2026-06-01",
@@ -4283,6 +4543,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002251",
+     "name": "步步高",
      "plan": "",
      "date": "2026-05-29",
      "buyDate": "2026-06-01",
@@ -4298,6 +4559,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000767",
+     "name": "晋控电力",
      "plan": "",
      "date": "2026-05-29",
      "buyDate": "2026-06-01",
@@ -4313,6 +4575,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600863",
+     "name": "华能蒙电",
      "plan": "",
      "date": "2026-05-29",
      "buyDate": "2026-06-01",
@@ -4328,6 +4591,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603618",
+     "name": "杭电股份",
      "plan": "",
      "date": "2026-05-29",
      "buyDate": "2026-06-01",
@@ -4343,6 +4607,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600487",
+     "name": "亨通光电",
      "plan": "",
      "date": "2026-05-29",
      "buyDate": "2026-06-01",
@@ -4364,6 +4629,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "000636",
+     "name": "风华高科",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
@@ -4379,6 +4645,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002669",
+     "name": "康达新材",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
@@ -4394,6 +4661,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603011",
+     "name": "合锻智能",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
@@ -4409,6 +4677,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002806",
+     "name": "华锋股份",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
@@ -4424,6 +4693,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603773",
+     "name": "沃格光电",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
@@ -4439,6 +4709,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002639",
+     "name": "雪人集团",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
@@ -4454,6 +4725,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600360",
+     "name": "华微电子",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
@@ -4469,6 +4741,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002428",
+     "name": "云南锗业",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
@@ -4484,6 +4757,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603267",
+     "name": "鸿远电子",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
@@ -4499,6 +4773,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600110",
+     "name": "诺德股份",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
@@ -4514,6 +4789,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600367",
+     "name": "红星发展",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
@@ -4529,6 +4805,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002491",
+     "name": "通鼎互联",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
@@ -4544,6 +4821,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002975",
+     "name": "博杰股份",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
@@ -4559,6 +4837,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000063",
+     "name": "中兴通讯",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
@@ -4574,6 +4853,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "605580",
+     "name": "恒盛能源",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
@@ -4595,6 +4875,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002185",
+     "name": "华天科技",
      "plan": "",
      "date": "2026-05-27",
      "buyDate": "2026-05-28",
@@ -4610,6 +4891,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002364",
+     "name": "中恒电气",
      "plan": "",
      "date": "2026-05-27",
      "buyDate": "2026-05-28",
@@ -4625,6 +4907,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600863",
+     "name": "华能蒙电",
      "plan": "",
      "date": "2026-05-27",
      "buyDate": "2026-05-28",
@@ -4640,6 +4923,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600207",
+     "name": "安彩高科",
      "plan": "",
      "date": "2026-05-27",
      "buyDate": "2026-05-28",
@@ -4655,6 +4939,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002881",
+     "name": "美格智能",
      "plan": "",
      "date": "2026-05-27",
      "buyDate": "2026-05-28",
@@ -4676,6 +4961,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "000700",
+     "name": "模塑科技",
      "plan": "",
      "date": "2026-05-26",
      "buyDate": "2026-05-27",
@@ -4691,6 +4977,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002245",
+     "name": "蔚蓝锂芯",
      "plan": "",
      "date": "2026-05-26",
      "buyDate": "2026-05-27",
@@ -4706,6 +4993,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "003036",
+     "name": "泰坦股份",
      "plan": "",
      "date": "2026-05-26",
      "buyDate": "2026-05-27",
@@ -4721,6 +5009,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000725",
+     "name": "京东方Ａ",
      "plan": "",
      "date": "2026-05-26",
      "buyDate": "2026-05-27",
@@ -4736,6 +5025,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000670",
+     "name": "盈方微",
      "plan": "",
      "date": "2026-05-26",
      "buyDate": "2026-05-27",
@@ -4757,6 +5047,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002185",
+     "name": "华天科技",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
@@ -4772,6 +5063,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600376",
+     "name": "首开股份",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
@@ -4787,6 +5079,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002421",
+     "name": "达实智能",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
@@ -4802,6 +5095,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603005",
+     "name": "晶方科技",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
@@ -4817,6 +5111,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002980",
+     "name": "华盛昌",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
@@ -4832,6 +5127,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "003036",
+     "name": "泰坦股份",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
@@ -4847,6 +5143,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002178",
+     "name": "延华智能",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
@@ -4862,6 +5159,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002409",
+     "name": "雅克科技",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
@@ -4877,6 +5175,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002156",
+     "name": "通富微电",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
@@ -4892,6 +5191,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000510",
+     "name": "新金路",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
@@ -4907,6 +5207,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603083",
+     "name": "剑桥科技",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
@@ -4922,6 +5223,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002897",
+     "name": "意华股份",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
@@ -4937,6 +5239,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000988",
+     "name": "华工科技",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
@@ -4952,6 +5255,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600584",
+     "name": "长电科技",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
@@ -4973,6 +5277,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600186",
+     "name": "莲花控股",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
@@ -4988,6 +5293,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "605006",
+     "name": "山东玻纤",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
@@ -5003,6 +5309,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600545",
+     "name": "卓郎智能",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
@@ -5018,6 +5325,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002463",
+     "name": "沪电股份",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
@@ -5033,6 +5341,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603936",
+     "name": "博敏电子",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
@@ -5048,6 +5357,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603738",
+     "name": "泰晶科技",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
@@ -5063,6 +5373,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002432",
+     "name": "九安医疗",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
@@ -5078,6 +5389,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600719",
+     "name": "大连热电",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
@@ -5093,6 +5405,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002885",
+     "name": "京泉华",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
@@ -5108,6 +5421,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000962",
+     "name": "东方钽业",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
@@ -5123,6 +5437,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000657",
+     "name": "中钨高新",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
@@ -5138,6 +5453,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002245",
+     "name": "蔚蓝锂芯",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
@@ -5153,6 +5469,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002741",
+     "name": "光华科技",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
@@ -5168,6 +5485,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000725",
+     "name": "京东方Ａ",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
@@ -5183,6 +5501,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001389",
+     "name": "广合科技",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
@@ -5204,6 +5523,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600076",
+     "name": "康欣新材",
      "plan": "",
      "date": "2026-05-21",
      "buyDate": "2026-05-22",
@@ -5219,6 +5539,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001258",
+     "name": "立新能源",
      "plan": "",
      "date": "2026-05-21",
      "buyDate": "2026-05-22",
@@ -5234,6 +5555,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603459",
+     "name": "红板科技",
      "plan": "",
      "date": "2026-05-21",
      "buyDate": "2026-05-22",
@@ -5249,6 +5571,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001896",
+     "name": "豫能控股",
      "plan": "",
      "date": "2026-05-21",
      "buyDate": "2026-05-22",
@@ -5264,6 +5587,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002371",
+     "name": "北方华创",
      "plan": "",
      "date": "2026-05-21",
      "buyDate": "2026-05-22",
@@ -5279,6 +5603,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603767",
+     "name": "中马传动",
      "plan": "",
      "date": "2026-05-21",
      "buyDate": "2026-05-22",
@@ -5294,6 +5619,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002297",
+     "name": "博云新材",
      "plan": "",
      "date": "2026-05-21",
      "buyDate": "2026-05-22",
@@ -5309,6 +5635,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002747",
+     "name": "埃斯顿",
      "plan": "",
      "date": "2026-05-21",
      "buyDate": "2026-05-22",
@@ -5324,6 +5651,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000700",
+     "name": "模塑科技",
      "plan": "",
      "date": "2026-05-21",
      "buyDate": "2026-05-22",
@@ -5339,6 +5667,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002432",
+     "name": "九安医疗",
      "plan": "",
      "date": "2026-05-21",
      "buyDate": "2026-05-22",
@@ -5360,6 +5689,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "000417",
+     "name": "合百集团",
      "plan": "",
      "date": "2026-05-20",
      "buyDate": "2026-05-21",
@@ -5375,6 +5705,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600584",
+     "name": "长电科技",
      "plan": "",
      "date": "2026-05-20",
      "buyDate": "2026-05-21",
@@ -5390,6 +5721,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002407",
+     "name": "多氟多",
      "plan": "",
      "date": "2026-05-20",
      "buyDate": "2026-05-21",
@@ -5405,6 +5737,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603986",
+     "name": "兆易创新",
      "plan": "",
      "date": "2026-05-20",
      "buyDate": "2026-05-21",
@@ -5426,6 +5759,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "000636",
+     "name": "风华高科",
      "plan": "",
      "date": "2026-05-19",
      "buyDate": "2026-05-20",
@@ -5441,6 +5775,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603466",
+     "name": "风语筑",
      "plan": "",
      "date": "2026-05-19",
      "buyDate": "2026-05-20",
@@ -5456,6 +5791,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002131",
+     "name": "利欧股份",
      "plan": "",
      "date": "2026-05-19",
      "buyDate": "2026-05-20",
@@ -5471,6 +5807,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002281",
+     "name": "光迅科技",
      "plan": "",
      "date": "2026-05-19",
      "buyDate": "2026-05-20",
@@ -5492,6 +5829,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "000021",
+     "name": "深科技",
      "plan": "",
      "date": "2026-05-18",
      "buyDate": "2026-05-19",
@@ -5507,6 +5845,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000988",
+     "name": "华工科技",
      "plan": "",
      "date": "2026-05-18",
      "buyDate": "2026-05-19",
@@ -5522,6 +5861,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002491",
+     "name": "通鼎互联",
      "plan": "",
      "date": "2026-05-18",
      "buyDate": "2026-05-19",
@@ -5537,6 +5877,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002149",
+     "name": "西部材料",
      "plan": "",
      "date": "2026-05-18",
      "buyDate": "2026-05-19",
@@ -5552,6 +5893,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002354",
+     "name": "天娱数科",
      "plan": "",
      "date": "2026-05-18",
      "buyDate": "2026-05-19",
@@ -5567,6 +5909,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002927",
+     "name": "泰永长征",
      "plan": "",
      "date": "2026-05-18",
      "buyDate": "2026-05-19",
@@ -5588,6 +5931,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002902",
+     "name": "铭普光磁",
      "plan": "",
      "date": "2026-05-15",
      "buyDate": "2026-05-18",
@@ -5603,6 +5947,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600152",
+     "name": "维科技术",
      "plan": "",
      "date": "2026-05-15",
      "buyDate": "2026-05-18",
@@ -5618,6 +5963,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600130",
+     "name": "波导股份",
      "plan": "",
      "date": "2026-05-15",
      "buyDate": "2026-05-18",
@@ -5633,6 +5979,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002929",
+     "name": "润建股份",
      "plan": "",
      "date": "2026-05-15",
      "buyDate": "2026-05-18",
@@ -5648,6 +5995,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002031",
+     "name": "巨轮智能",
      "plan": "",
      "date": "2026-05-15",
      "buyDate": "2026-05-18",
@@ -5663,6 +6011,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002371",
+     "name": "北方华创",
      "plan": "",
      "date": "2026-05-15",
      "buyDate": "2026-05-18",
@@ -5678,6 +6027,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "601991",
+     "name": "大唐发电",
      "plan": "",
      "date": "2026-05-15",
      "buyDate": "2026-05-18",
@@ -5693,6 +6043,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002421",
+     "name": "达实智能",
      "plan": "",
      "date": "2026-05-15",
      "buyDate": "2026-05-18",
@@ -5714,6 +6065,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600488",
+     "name": "津药药业",
      "plan": "",
      "date": "2026-05-14",
      "buyDate": "2026-05-15",
@@ -5729,6 +6081,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002165",
+     "name": "红宝丽",
      "plan": "",
      "date": "2026-05-14",
      "buyDate": "2026-05-15",
@@ -5744,6 +6097,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002245",
+     "name": "蔚蓝锂芯",
      "plan": "",
      "date": "2026-05-14",
      "buyDate": "2026-05-15",
@@ -5759,6 +6113,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002031",
+     "name": "巨轮智能",
      "plan": "",
      "date": "2026-05-14",
      "buyDate": "2026-05-15",
@@ -5774,6 +6129,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002617",
+     "name": "露笑科技",
      "plan": "",
      "date": "2026-05-14",
      "buyDate": "2026-05-15",
@@ -5789,6 +6145,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002980",
+     "name": "华盛昌",
      "plan": "",
      "date": "2026-05-14",
      "buyDate": "2026-05-15",
@@ -5810,6 +6167,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600379",
+     "name": "宝光股份",
      "plan": "",
      "date": "2026-05-13",
      "buyDate": "2026-05-14",
@@ -5825,6 +6183,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600726",
+     "name": "华电能源",
      "plan": "",
      "date": "2026-05-13",
      "buyDate": "2026-05-14",
@@ -5840,6 +6199,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000546",
+     "name": "金圆股份",
      "plan": "",
      "date": "2026-05-13",
      "buyDate": "2026-05-14",
@@ -5855,6 +6215,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "601016",
+     "name": "节能风电",
      "plan": "",
      "date": "2026-05-13",
      "buyDate": "2026-05-14",
@@ -5870,6 +6231,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002929",
+     "name": "润建股份",
      "plan": "",
      "date": "2026-05-13",
      "buyDate": "2026-05-14",
@@ -5885,6 +6247,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002297",
+     "name": "博云新材",
      "plan": "",
      "date": "2026-05-13",
      "buyDate": "2026-05-14",
@@ -5900,6 +6263,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000889",
+     "name": "中嘉博创",
      "plan": "",
      "date": "2026-05-13",
      "buyDate": "2026-05-14",
@@ -5915,6 +6279,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600172",
+     "name": "黄河旋风",
      "plan": "",
      "date": "2026-05-13",
      "buyDate": "2026-05-14",
@@ -5930,6 +6295,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001309",
+     "name": "德明利",
      "plan": "",
      "date": "2026-05-13",
      "buyDate": "2026-05-14",
@@ -5945,6 +6311,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000534",
+     "name": "万泽股份",
      "plan": "",
      "date": "2026-05-13",
      "buyDate": "2026-05-14",
@@ -5966,6 +6333,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600601",
+     "name": "方正科技",
      "plan": "",
      "date": "2026-05-12",
      "buyDate": "2026-05-13",
@@ -5981,6 +6349,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600719",
+     "name": "大连热电",
      "plan": "",
      "date": "2026-05-12",
      "buyDate": "2026-05-13",
@@ -5996,6 +6365,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000066",
+     "name": "中国长城",
      "plan": "",
      "date": "2026-05-12",
      "buyDate": "2026-05-13",
@@ -6011,6 +6381,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002939",
+     "name": "长城证券",
      "plan": "",
      "date": "2026-05-12",
      "buyDate": "2026-05-13",
@@ -6026,6 +6397,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001211",
+     "name": "双枪科技",
      "plan": "",
      "date": "2026-05-12",
      "buyDate": "2026-05-13",
@@ -6047,6 +6419,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600379",
+     "name": "宝光股份",
      "plan": "",
      "date": "2026-05-11",
      "buyDate": "2026-05-12",
@@ -6062,6 +6435,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000060",
+     "name": "中金岭南",
      "plan": "",
      "date": "2026-05-11",
      "buyDate": "2026-05-12",
@@ -6077,6 +6451,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600330",
+     "name": "天通股份",
      "plan": "",
      "date": "2026-05-11",
      "buyDate": "2026-05-12",
@@ -6092,6 +6467,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600584",
+     "name": "长电科技",
      "plan": "",
      "date": "2026-05-11",
      "buyDate": "2026-05-12",
@@ -6107,6 +6483,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002979",
+     "name": "雷赛智能",
      "plan": "",
      "date": "2026-05-11",
      "buyDate": "2026-05-12",
@@ -6128,6 +6505,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002866",
+     "name": "传艺科技",
      "plan": "",
      "date": "2026-05-08",
      "buyDate": "2026-05-11",
@@ -6143,6 +6521,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002428",
+     "name": "云南锗业",
      "plan": "",
      "date": "2026-05-08",
      "buyDate": "2026-05-11",
@@ -6158,6 +6537,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600152",
+     "name": "维科技术",
      "plan": "",
      "date": "2026-05-08",
      "buyDate": "2026-05-11",
@@ -6173,6 +6553,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600498",
+     "name": "烽火通信",
      "plan": "",
      "date": "2026-05-08",
      "buyDate": "2026-05-11",
@@ -6188,6 +6569,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000547",
+     "name": "航天发展",
      "plan": "",
      "date": "2026-05-08",
      "buyDate": "2026-05-11",
@@ -6203,6 +6585,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600345",
+     "name": "长江通信",
      "plan": "",
      "date": "2026-05-08",
      "buyDate": "2026-05-11",
@@ -6224,6 +6607,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "605006",
+     "name": "山东玻纤",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
@@ -6239,6 +6623,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002217",
+     "name": "ST合力泰",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
@@ -6254,6 +6639,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002350",
+     "name": "北京科锐",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
@@ -6269,6 +6655,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000066",
+     "name": "中国长城",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
@@ -6284,6 +6671,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "601208",
+     "name": "东材科技",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
@@ -6299,6 +6687,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002384",
+     "name": "东山精密",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
@@ -6314,6 +6703,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603803",
+     "name": "瑞斯康达",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
@@ -6329,6 +6719,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600522",
+     "name": "中天科技",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
@@ -6344,6 +6735,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002980",
+     "name": "华盛昌",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
@@ -6359,6 +6751,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000060",
+     "name": "中金岭南",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
@@ -6374,6 +6767,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002436",
+     "name": "兴森科技",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
@@ -6389,6 +6783,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002281",
+     "name": "光迅科技",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
@@ -6404,6 +6799,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002432",
+     "name": "九安医疗",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
@@ -6419,6 +6815,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600736",
+     "name": "苏州高新",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
@@ -6440,6 +6837,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "603316",
+     "name": "诚邦股份",
      "plan": "",
      "date": "2026-05-06",
      "buyDate": "2026-05-07",
@@ -6455,6 +6853,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600736",
+     "name": "苏州高新",
      "plan": "",
      "date": "2026-05-06",
      "buyDate": "2026-05-07",
@@ -6470,6 +6869,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001330",
+     "name": "博纳影业",
      "plan": "",
      "date": "2026-05-06",
      "buyDate": "2026-05-07",
@@ -6485,6 +6885,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600589",
+     "name": "大位科技",
      "plan": "",
      "date": "2026-05-06",
      "buyDate": "2026-05-07",
@@ -6500,6 +6901,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600487",
+     "name": "亨通光电",
      "plan": "",
      "date": "2026-05-06",
      "buyDate": "2026-05-07",
@@ -6515,6 +6917,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002052",
+     "name": "同洲电子",
      "plan": "",
      "date": "2026-05-06",
      "buyDate": "2026-05-07",
@@ -6530,6 +6933,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002104",
+     "name": "恒宝股份",
      "plan": "",
      "date": "2026-05-06",
      "buyDate": "2026-05-07",
@@ -6545,6 +6949,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600396",
+     "name": "华电辽能",
      "plan": "",
      "date": "2026-05-06",
      "buyDate": "2026-05-07",
@@ -6566,6 +6971,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "000980",
+     "name": "众泰汽车",
      "plan": "",
      "date": "2026-04-30",
      "buyDate": "2026-05-06",
@@ -6581,6 +6987,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000066",
+     "name": "中国长城",
      "plan": "",
      "date": "2026-04-30",
      "buyDate": "2026-05-06",
@@ -6596,6 +7003,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002192",
+     "name": "融捷股份",
      "plan": "",
      "date": "2026-04-30",
      "buyDate": "2026-05-06",
@@ -6611,6 +7019,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002149",
+     "name": "西部材料",
      "plan": "",
      "date": "2026-04-30",
      "buyDate": "2026-05-06",
@@ -6626,6 +7035,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600330",
+     "name": "天通股份",
      "plan": "",
      "date": "2026-04-30",
      "buyDate": "2026-05-06",
@@ -6641,6 +7051,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002989",
+     "name": "中天精装",
      "plan": "",
      "date": "2026-04-30",
      "buyDate": "2026-05-06",
@@ -6662,6 +7073,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "003026",
+     "name": "中晶科技",
      "plan": "",
      "date": "2026-04-29",
      "buyDate": "2026-04-30",
@@ -6677,6 +7089,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002081",
+     "name": "金螳螂",
      "plan": "",
      "date": "2026-04-29",
      "buyDate": "2026-04-30",
@@ -6692,6 +7105,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600186",
+     "name": "莲花控股",
      "plan": "",
      "date": "2026-04-29",
      "buyDate": "2026-04-30",
@@ -6707,6 +7121,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600111",
+     "name": "北方稀土",
      "plan": "",
      "date": "2026-04-29",
      "buyDate": "2026-04-30",
@@ -6722,6 +7137,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001896",
+     "name": "豫能控股",
      "plan": "",
      "date": "2026-04-29",
      "buyDate": "2026-04-30",
@@ -6737,6 +7153,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603083",
+     "name": "剑桥科技",
      "plan": "",
      "date": "2026-04-29",
      "buyDate": "2026-04-30",
@@ -6752,6 +7169,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603773",
+     "name": "沃格光电",
      "plan": "",
      "date": "2026-04-29",
      "buyDate": "2026-04-30",
@@ -6767,6 +7185,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603353",
+     "name": "和顺石油",
      "plan": "",
      "date": "2026-04-29",
      "buyDate": "2026-04-30",
@@ -6782,6 +7201,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002192",
+     "name": "融捷股份",
      "plan": "",
      "date": "2026-04-29",
      "buyDate": "2026-04-30",
@@ -6803,6 +7223,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "603259",
+     "name": "药明康德",
      "plan": "",
      "date": "2026-04-28",
      "buyDate": "2026-04-29",
@@ -6818,6 +7239,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002210",
+     "name": "飞马国际",
      "plan": "",
      "date": "2026-04-28",
      "buyDate": "2026-04-29",
@@ -6833,6 +7255,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002313",
+     "name": "日海智能",
      "plan": "",
      "date": "2026-04-28",
      "buyDate": "2026-04-29",
@@ -6848,6 +7271,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600770",
+     "name": "综艺股份",
      "plan": "",
      "date": "2026-04-28",
      "buyDate": "2026-04-29",
@@ -6863,6 +7287,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002377",
+     "name": "国创高新",
      "plan": "",
      "date": "2026-04-28",
      "buyDate": "2026-04-29",
@@ -6884,6 +7309,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600522",
+     "name": "中天科技",
      "plan": "",
      "date": "2026-04-27",
      "buyDate": "2026-04-28",
@@ -6899,6 +7325,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002560",
+     "name": "通达股份",
      "plan": "",
      "date": "2026-04-27",
      "buyDate": "2026-04-28",
@@ -6914,6 +7341,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002045",
+     "name": "国光电器",
      "plan": "",
      "date": "2026-04-27",
      "buyDate": "2026-04-28",
@@ -6935,6 +7363,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002980",
+     "name": "华盛昌",
      "plan": "",
      "date": "2026-04-24",
      "buyDate": "2026-04-27",
@@ -6950,6 +7379,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600152",
+     "name": "维科技术",
      "plan": "",
      "date": "2026-04-24",
      "buyDate": "2026-04-27",
@@ -6965,6 +7395,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603738",
+     "name": "泰晶科技",
      "plan": "",
      "date": "2026-04-24",
      "buyDate": "2026-04-27",
@@ -6980,6 +7411,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600227",
+     "name": "赤天化",
      "plan": "",
      "date": "2026-04-24",
      "buyDate": "2026-04-27",
@@ -6995,6 +7427,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002606",
+     "name": "大连电瓷",
      "plan": "",
      "date": "2026-04-24",
      "buyDate": "2026-04-27",
@@ -7010,6 +7443,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002407",
+     "name": "多氟多",
      "plan": "",
      "date": "2026-04-24",
      "buyDate": "2026-04-27",
@@ -7025,6 +7459,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002466",
+     "name": "天齐锂业",
      "plan": "",
      "date": "2026-04-24",
      "buyDate": "2026-04-27",
@@ -7046,6 +7481,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600186",
+     "name": "莲花控股",
      "plan": "",
      "date": "2026-04-23",
      "buyDate": "2026-04-24",
@@ -7061,6 +7497,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603912",
+     "name": "佳力图",
      "plan": "",
      "date": "2026-04-23",
      "buyDate": "2026-04-24",
@@ -7076,6 +7513,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000925",
+     "name": "众合科技",
      "plan": "",
      "date": "2026-04-23",
      "buyDate": "2026-04-24",
@@ -7091,6 +7529,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001267",
+     "name": "汇绿生态",
      "plan": "",
      "date": "2026-04-23",
      "buyDate": "2026-04-24",
@@ -7106,6 +7545,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600052",
+     "name": "东望时代",
      "plan": "",
      "date": "2026-04-23",
      "buyDate": "2026-04-24",
@@ -7121,6 +7561,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603220",
+     "name": "中贝通信",
      "plan": "",
      "date": "2026-04-23",
      "buyDate": "2026-04-24",
@@ -7142,6 +7583,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "603618",
+     "name": "杭电股份",
      "plan": "",
      "date": "2026-04-22",
      "buyDate": "2026-04-23",
@@ -7157,6 +7599,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603318",
+     "name": "水发燃气",
      "plan": "",
      "date": "2026-04-22",
      "buyDate": "2026-04-23",
@@ -7172,6 +7615,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600184",
+     "name": "光电股份",
      "plan": "",
      "date": "2026-04-22",
      "buyDate": "2026-04-23",
@@ -7187,6 +7631,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600330",
+     "name": "天通股份",
      "plan": "",
      "date": "2026-04-22",
      "buyDate": "2026-04-23",
@@ -7202,6 +7647,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002428",
+     "name": "云南锗业",
      "plan": "",
      "date": "2026-04-22",
      "buyDate": "2026-04-23",
@@ -7217,6 +7663,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002384",
+     "name": "东山精密",
      "plan": "",
      "date": "2026-04-22",
      "buyDate": "2026-04-23",
@@ -7232,6 +7679,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000938",
+     "name": "紫光股份",
      "plan": "",
      "date": "2026-04-22",
      "buyDate": "2026-04-23",
@@ -7247,6 +7695,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603906",
+     "name": "龙蟠科技",
      "plan": "",
      "date": "2026-04-22",
      "buyDate": "2026-04-23",
@@ -7262,6 +7711,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "300857",
+     "name": "协创数据",
      "plan": "",
      "date": "2026-04-22",
      "buyDate": "2026-04-23",
@@ -7283,6 +7733,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600396",
+     "name": "华电辽能",
      "plan": "",
      "date": "2026-04-21",
      "buyDate": "2026-04-22",
@@ -7304,6 +7755,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "603178",
+     "name": "圣龙股份",
      "plan": "",
      "date": "2026-04-20",
      "buyDate": "2026-04-21",
@@ -7319,6 +7771,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000977",
+     "name": "浪潮信息",
      "plan": "",
      "date": "2026-04-20",
      "buyDate": "2026-04-21",
@@ -7334,6 +7787,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002428",
+     "name": "云南锗业",
      "plan": "",
      "date": "2026-04-20",
      "buyDate": "2026-04-21",
@@ -7349,6 +7803,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001896",
+     "name": "豫能控股",
      "plan": "",
      "date": "2026-04-20",
      "buyDate": "2026-04-21",
@@ -7364,6 +7819,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002149",
+     "name": "西部材料",
      "plan": "",
      "date": "2026-04-20",
      "buyDate": "2026-04-21",
@@ -7379,6 +7835,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002885",
+     "name": "京泉华",
      "plan": "",
      "date": "2026-04-20",
      "buyDate": "2026-04-21",
@@ -7394,6 +7851,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000586",
+     "name": "汇源通信",
      "plan": "",
      "date": "2026-04-20",
      "buyDate": "2026-04-21",
@@ -7409,6 +7867,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600118",
+     "name": "中国卫星",
      "plan": "",
      "date": "2026-04-20",
      "buyDate": "2026-04-21",
@@ -7424,6 +7883,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002475",
+     "name": "立讯精密",
      "plan": "",
      "date": "2026-04-20",
      "buyDate": "2026-04-21",
@@ -7445,6 +7905,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "603083",
+     "name": "剑桥科技",
      "plan": "",
      "date": "2026-04-17",
      "buyDate": "2026-04-20",
@@ -7460,6 +7921,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603315",
+     "name": "福鞍股份",
      "plan": "",
      "date": "2026-04-17",
      "buyDate": "2026-04-20",
@@ -7475,6 +7937,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603629",
+     "name": "利通电子",
      "plan": "",
      "date": "2026-04-17",
      "buyDate": "2026-04-20",
@@ -7490,6 +7953,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002281",
+     "name": "光迅科技",
      "plan": "",
      "date": "2026-04-17",
      "buyDate": "2026-04-20",
@@ -7505,6 +7969,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603698",
+     "name": "航天工程",
      "plan": "",
      "date": "2026-04-17",
      "buyDate": "2026-04-20",
@@ -7520,6 +7985,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600173",
+     "name": "卧龙新能",
      "plan": "",
      "date": "2026-04-17",
      "buyDate": "2026-04-20",
@@ -7541,6 +8007,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002263",
+     "name": "大东南",
      "plan": "",
      "date": "2026-04-16",
      "buyDate": "2026-04-17",
@@ -7556,6 +8023,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000570",
+     "name": "苏常柴Ａ",
      "plan": "",
      "date": "2026-04-16",
      "buyDate": "2026-04-17",
@@ -7571,6 +8039,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002213",
+     "name": "大为股份",
      "plan": "",
      "date": "2026-04-16",
      "buyDate": "2026-04-17",
@@ -7586,6 +8055,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "601778",
+     "name": "晶科科技",
      "plan": "",
      "date": "2026-04-16",
      "buyDate": "2026-04-17",
@@ -7601,6 +8071,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000070",
+     "name": "特发信息",
      "plan": "",
      "date": "2026-04-16",
      "buyDate": "2026-04-17",
@@ -7616,6 +8087,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600875",
+     "name": "东方电气",
      "plan": "",
      "date": "2026-04-16",
      "buyDate": "2026-04-17",
@@ -7631,6 +8103,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600749",
+     "name": "西藏旅游",
      "plan": "",
      "date": "2026-04-16",
      "buyDate": "2026-04-17",
@@ -7646,6 +8119,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603933",
+     "name": "睿能科技",
      "plan": "",
      "date": "2026-04-16",
      "buyDate": "2026-04-17",
@@ -7661,6 +8135,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002929",
+     "name": "润建股份",
      "plan": "",
      "date": "2026-04-16",
      "buyDate": "2026-04-17",
@@ -7682,6 +8157,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002149",
+     "name": "西部材料",
      "plan": "",
      "date": "2026-04-15",
      "buyDate": "2026-04-16",
@@ -7697,6 +8173,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600664",
+     "name": "哈药股份",
      "plan": "",
      "date": "2026-04-15",
      "buyDate": "2026-04-16",
@@ -7712,6 +8189,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603083",
+     "name": "剑桥科技",
      "plan": "",
      "date": "2026-04-15",
      "buyDate": "2026-04-16",
@@ -7727,6 +8205,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001896",
+     "name": "豫能控股",
      "plan": "",
      "date": "2026-04-15",
      "buyDate": "2026-04-16",
@@ -7748,6 +8227,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002364",
+     "name": "中恒电气",
      "plan": "",
      "date": "2026-04-14",
      "buyDate": "2026-04-15",
@@ -7763,6 +8243,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002107",
+     "name": "沃华医药",
      "plan": "",
      "date": "2026-04-14",
      "buyDate": "2026-04-15",
@@ -7778,6 +8259,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603629",
+     "name": "利通电子",
      "plan": "",
      "date": "2026-04-14",
      "buyDate": "2026-04-15",
@@ -7793,6 +8275,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002463",
+     "name": "沪电股份",
      "plan": "",
      "date": "2026-04-14",
      "buyDate": "2026-04-15",
@@ -7808,6 +8291,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002124",
+     "name": "天邦食品",
      "plan": "",
      "date": "2026-04-14",
      "buyDate": "2026-04-15",
@@ -7823,6 +8307,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002428",
+     "name": "云南锗业",
      "plan": "",
      "date": "2026-04-14",
      "buyDate": "2026-04-15",
@@ -7838,6 +8323,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603890",
+     "name": "春秋电子",
      "plan": "",
      "date": "2026-04-14",
      "buyDate": "2026-04-15",
@@ -7853,6 +8339,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002083",
+     "name": "孚日股份",
      "plan": "",
      "date": "2026-04-14",
      "buyDate": "2026-04-15",
@@ -7874,6 +8361,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600654",
+     "name": "中安科",
      "plan": "",
      "date": "2026-04-13",
      "buyDate": "2026-04-14",
@@ -7889,6 +8377,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002980",
+     "name": "华盛昌",
      "plan": "",
      "date": "2026-04-13",
      "buyDate": "2026-04-14",
@@ -7904,6 +8393,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603256",
+     "name": "宏和科技",
      "plan": "",
      "date": "2026-04-13",
      "buyDate": "2026-04-14",
@@ -7919,6 +8409,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002929",
+     "name": "润建股份",
      "plan": "",
      "date": "2026-04-13",
      "buyDate": "2026-04-14",
@@ -7934,6 +8425,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002467",
+     "name": "二六三",
      "plan": "",
      "date": "2026-04-13",
      "buyDate": "2026-04-14",
@@ -7949,6 +8441,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600166",
+     "name": "福田汽车",
      "plan": "",
      "date": "2026-04-13",
      "buyDate": "2026-04-14",
@@ -7970,6 +8463,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002263",
+     "name": "大东南",
      "plan": "",
      "date": "2026-04-10",
      "buyDate": "2026-04-13",
@@ -7985,6 +8479,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002837",
+     "name": "英维克",
      "plan": "",
      "date": "2026-04-10",
      "buyDate": "2026-04-13",
@@ -8000,6 +8495,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001309",
+     "name": "德明利",
      "plan": "",
      "date": "2026-04-10",
      "buyDate": "2026-04-13",
@@ -8021,6 +8517,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600594",
+     "name": "益佰制药",
      "plan": "",
      "date": "2026-04-09",
      "buyDate": "2026-04-10",
@@ -8036,6 +8533,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002384",
+     "name": "东山精密",
      "plan": "",
      "date": "2026-04-09",
      "buyDate": "2026-04-10",
@@ -8051,6 +8549,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002342",
+     "name": "巨力索具",
      "plan": "",
      "date": "2026-04-09",
      "buyDate": "2026-04-10",
@@ -8066,6 +8565,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000078",
+     "name": "海王生物",
      "plan": "",
      "date": "2026-04-09",
      "buyDate": "2026-04-10",
@@ -8081,6 +8581,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600330",
+     "name": "天通股份",
      "plan": "",
      "date": "2026-04-09",
      "buyDate": "2026-04-10",
@@ -8096,6 +8597,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600345",
+     "name": "长江通信",
      "plan": "",
      "date": "2026-04-09",
      "buyDate": "2026-04-10",
@@ -8111,6 +8613,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603315",
+     "name": "福鞍股份",
      "plan": "",
      "date": "2026-04-09",
      "buyDate": "2026-04-10",
@@ -8126,6 +8629,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000070",
+     "name": "特发信息",
      "plan": "",
      "date": "2026-04-09",
      "buyDate": "2026-04-10",
@@ -8147,6 +8651,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600654",
+     "name": "中安科",
      "plan": "",
      "date": "2026-04-08",
      "buyDate": "2026-04-09",
@@ -8162,6 +8667,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002361",
+     "name": "神剑股份",
      "plan": "",
      "date": "2026-04-08",
      "buyDate": "2026-04-09",
@@ -8177,6 +8683,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002131",
+     "name": "利欧股份",
      "plan": "",
      "date": "2026-04-08",
      "buyDate": "2026-04-09",
@@ -8192,6 +8699,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603629",
+     "name": "利通电子",
      "plan": "",
      "date": "2026-04-08",
      "buyDate": "2026-04-09",
@@ -8207,6 +8715,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002463",
+     "name": "沪电股份",
      "plan": "",
      "date": "2026-04-08",
      "buyDate": "2026-04-09",
@@ -8222,6 +8731,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600105",
+     "name": "永鼎股份",
      "plan": "",
      "date": "2026-04-08",
      "buyDate": "2026-04-09",
@@ -8237,6 +8747,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600545",
+     "name": "卓郎智能",
      "plan": "",
      "date": "2026-04-08",
      "buyDate": "2026-04-09",
@@ -8252,6 +8763,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001267",
+     "name": "汇绿生态",
      "plan": "",
      "date": "2026-04-08",
      "buyDate": "2026-04-09",
@@ -8273,6 +8785,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002491",
+     "name": "通鼎互联",
      "plan": "",
      "date": "2026-04-07",
      "buyDate": "2026-04-08",
@@ -8288,6 +8801,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603042",
+     "name": "华脉科技",
      "plan": "",
      "date": "2026-04-07",
      "buyDate": "2026-04-08",
@@ -8303,6 +8817,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603629",
+     "name": "利通电子",
      "plan": "",
      "date": "2026-04-07",
      "buyDate": "2026-04-08",
@@ -8318,6 +8833,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002980",
+     "name": "华盛昌",
      "plan": "",
      "date": "2026-04-07",
      "buyDate": "2026-04-08",
@@ -8333,6 +8849,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002560",
+     "name": "通达股份",
      "plan": "",
      "date": "2026-04-07",
      "buyDate": "2026-04-08",
@@ -8348,6 +8865,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002310",
+     "name": "东方新能",
      "plan": "",
      "date": "2026-04-07",
      "buyDate": "2026-04-08",
@@ -8363,6 +8881,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000062",
+     "name": "深圳华强",
      "plan": "",
      "date": "2026-04-07",
      "buyDate": "2026-04-08",
@@ -8378,6 +8897,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "605162",
+     "name": "新中港",
      "plan": "",
      "date": "2026-04-07",
      "buyDate": "2026-04-08",
@@ -8393,6 +8913,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002470",
+     "name": "金正大",
      "plan": "",
      "date": "2026-04-07",
      "buyDate": "2026-04-08",
@@ -8408,6 +8929,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002015",
+     "name": "协鑫能科",
      "plan": "",
      "date": "2026-04-07",
      "buyDate": "2026-04-08",
@@ -8429,6 +8951,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002792",
+     "name": "通宇通讯",
      "plan": "",
      "date": "2026-04-03",
      "buyDate": "2026-04-07",
@@ -8444,6 +8967,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002980",
+     "name": "华盛昌",
      "plan": "",
      "date": "2026-04-03",
      "buyDate": "2026-04-07",
@@ -8459,6 +8983,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600487",
+     "name": "亨通光电",
      "plan": "",
      "date": "2026-04-03",
      "buyDate": "2026-04-07",
@@ -8474,6 +8999,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002678",
+     "name": "珠江钢琴",
      "plan": "",
      "date": "2026-04-03",
      "buyDate": "2026-04-07",
@@ -8489,6 +9015,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600602",
+     "name": "云赛智联",
      "plan": "",
      "date": "2026-04-03",
      "buyDate": "2026-04-07",
@@ -8504,6 +9031,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002428",
+     "name": "云南锗业",
      "plan": "",
      "date": "2026-04-03",
      "buyDate": "2026-04-07",
@@ -8525,6 +9053,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002309",
+     "name": "中利集团",
      "plan": "",
      "date": "2026-04-02",
      "buyDate": "2026-04-03",
@@ -8540,6 +9069,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002051",
+     "name": "中工国际",
      "plan": "",
      "date": "2026-04-02",
      "buyDate": "2026-04-03",
@@ -8555,6 +9085,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603122",
+     "name": "合富中国",
      "plan": "",
      "date": "2026-04-02",
      "buyDate": "2026-04-03",
@@ -8570,6 +9101,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002263",
+     "name": "大东南",
      "plan": "",
      "date": "2026-04-02",
      "buyDate": "2026-04-03",
@@ -8591,6 +9123,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600666",
+     "name": "奥瑞德",
      "plan": "",
      "date": "2026-04-01",
      "buyDate": "2026-04-02",
@@ -8606,6 +9139,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002580",
+     "name": "圣阳股份",
      "plan": "",
      "date": "2026-04-01",
      "buyDate": "2026-04-02",
@@ -8621,6 +9155,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002730",
+     "name": "电光科技",
      "plan": "",
      "date": "2026-04-01",
      "buyDate": "2026-04-02",
@@ -8636,6 +9171,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002083",
+     "name": "孚日股份",
      "plan": "",
      "date": "2026-04-01",
      "buyDate": "2026-04-02",
@@ -8651,6 +9187,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600105",
+     "name": "永鼎股份",
      "plan": "",
      "date": "2026-04-01",
      "buyDate": "2026-04-02",
@@ -8666,6 +9203,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002639",
+     "name": "雪人集团",
      "plan": "",
      "date": "2026-04-01",
      "buyDate": "2026-04-02",
@@ -8687,6 +9225,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002342",
+     "name": "巨力索具",
      "plan": "",
      "date": "2026-03-31",
      "buyDate": "2026-04-01",
@@ -8702,6 +9241,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002218",
+     "name": "拓日新能",
      "plan": "",
      "date": "2026-03-31",
      "buyDate": "2026-04-01",
@@ -8717,6 +9257,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000037",
+     "name": "深南电A",
      "plan": "",
      "date": "2026-03-31",
      "buyDate": "2026-04-01",
@@ -8732,6 +9273,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002730",
+     "name": "电光科技",
      "plan": "",
      "date": "2026-03-31",
      "buyDate": "2026-04-01",
@@ -8747,6 +9289,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002580",
+     "name": "圣阳股份",
      "plan": "",
      "date": "2026-03-31",
      "buyDate": "2026-04-01",
@@ -8768,6 +9311,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "003042",
+     "name": "中农联合",
      "plan": "",
      "date": "2026-03-30",
      "buyDate": "2026-03-31",
@@ -8783,6 +9327,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000592",
+     "name": "平潭发展",
      "plan": "",
      "date": "2026-03-30",
      "buyDate": "2026-03-31",
@@ -8798,6 +9343,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002361",
+     "name": "神剑股份",
      "plan": "",
      "date": "2026-03-30",
      "buyDate": "2026-03-31",
@@ -8813,6 +9359,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603017",
+     "name": "中衡设计",
      "plan": "",
      "date": "2026-03-30",
      "buyDate": "2026-03-31",
@@ -8828,6 +9375,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002222",
+     "name": "福晶科技",
      "plan": "",
      "date": "2026-03-30",
      "buyDate": "2026-03-31",
@@ -8843,6 +9391,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002309",
+     "name": "中利集团",
      "plan": "",
      "date": "2026-03-30",
      "buyDate": "2026-03-31",
@@ -8858,6 +9407,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600345",
+     "name": "长江通信",
      "plan": "",
      "date": "2026-03-30",
      "buyDate": "2026-03-31",
@@ -8879,6 +9429,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "000720",
+     "name": "新能泰山",
      "plan": "",
      "date": "2026-03-27",
      "buyDate": "2026-03-30",
@@ -8894,6 +9445,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002470",
+     "name": "金正大",
      "plan": "",
      "date": "2026-03-27",
      "buyDate": "2026-03-30",
@@ -8909,6 +9461,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "605388",
+     "name": "均瑶健康",
      "plan": "",
      "date": "2026-03-27",
      "buyDate": "2026-03-30",
@@ -8924,6 +9477,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002310",
+     "name": "东方新能",
      "plan": "",
      "date": "2026-03-27",
      "buyDate": "2026-03-30",
@@ -8939,6 +9493,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002445",
+     "name": "中南文化",
      "plan": "",
      "date": "2026-03-27",
      "buyDate": "2026-03-30",
@@ -8954,6 +9509,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002361",
+     "name": "神剑股份",
      "plan": "",
      "date": "2026-03-27",
      "buyDate": "2026-03-30",
@@ -8969,6 +9525,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002428",
+     "name": "云南锗业",
      "plan": "",
      "date": "2026-03-27",
      "buyDate": "2026-03-30",
@@ -8984,6 +9541,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603618",
+     "name": "杭电股份",
      "plan": "",
      "date": "2026-03-27",
      "buyDate": "2026-03-30",
@@ -8999,6 +9557,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002460",
+     "name": "赣锋锂业",
      "plan": "",
      "date": "2026-03-27",
      "buyDate": "2026-03-30",
@@ -9014,6 +9573,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002432",
+     "name": "九安医疗",
      "plan": "",
      "date": "2026-03-27",
      "buyDate": "2026-03-30",
@@ -9029,6 +9589,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600982",
+     "name": "宁波能源",
      "plan": "",
      "date": "2026-03-27",
      "buyDate": "2026-03-30",
@@ -9050,6 +9611,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "603026",
+     "name": "石大胜华",
      "plan": "",
      "date": "2026-03-26",
      "buyDate": "2026-03-27",
@@ -9065,6 +9627,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600310",
+     "name": "广西能源",
      "plan": "",
      "date": "2026-03-26",
      "buyDate": "2026-03-27",
@@ -9080,6 +9643,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000968",
+     "name": "蓝焰控股",
      "plan": "",
      "date": "2026-03-26",
      "buyDate": "2026-03-27",
@@ -9095,6 +9659,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "301306",
+     "name": "西测测试",
      "plan": "",
      "date": "2026-03-26",
      "buyDate": "2026-03-27",
@@ -9116,6 +9681,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "300383",
+     "name": "光环新网",
      "plan": "",
      "date": "2026-03-25",
      "buyDate": "2026-03-26",
@@ -9131,6 +9697,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "601133",
+     "name": "柏诚股份",
      "plan": "",
      "date": "2026-03-25",
      "buyDate": "2026-03-26",
@@ -9146,6 +9713,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002475",
+     "name": "立讯精密",
      "plan": "",
      "date": "2026-03-25",
      "buyDate": "2026-03-26",
@@ -9167,6 +9735,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600758",
+     "name": "辽宁能源",
      "plan": "",
      "date": "2026-03-24",
      "buyDate": "2026-03-25",
@@ -9182,6 +9751,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002218",
+     "name": "拓日新能",
      "plan": "",
      "date": "2026-03-24",
      "buyDate": "2026-03-25",
@@ -9197,6 +9767,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001258",
+     "name": "立新能源",
      "plan": "",
      "date": "2026-03-24",
      "buyDate": "2026-03-25",
@@ -9212,6 +9783,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002498",
+     "name": "汉缆股份",
      "plan": "",
      "date": "2026-03-24",
      "buyDate": "2026-03-25",
@@ -9227,6 +9799,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000815",
+     "name": "美利云",
      "plan": "",
      "date": "2026-03-24",
      "buyDate": "2026-03-25",
@@ -9242,6 +9815,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600666",
+     "name": "奥瑞德",
      "plan": "",
      "date": "2026-03-24",
      "buyDate": "2026-03-25",
@@ -9257,6 +9831,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002491",
+     "name": "通鼎互联",
      "plan": "",
      "date": "2026-03-24",
      "buyDate": "2026-03-25",
@@ -9272,6 +9847,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600821",
+     "name": "金开新能",
      "plan": "",
      "date": "2026-03-24",
      "buyDate": "2026-03-25",
@@ -9287,6 +9863,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600026",
+     "name": "中远海能",
      "plan": "",
      "date": "2026-03-24",
      "buyDate": "2026-03-25",
@@ -9302,6 +9879,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002083",
+     "name": "孚日股份",
      "plan": "",
      "date": "2026-03-24",
      "buyDate": "2026-03-25",
@@ -9323,6 +9901,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600376",
+     "name": "首开股份",
      "plan": "",
      "date": "2026-03-23",
      "buyDate": "2026-03-24",
@@ -9338,6 +9917,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002506",
+     "name": "协鑫集成",
      "plan": "",
      "date": "2026-03-23",
      "buyDate": "2026-03-24",
@@ -9353,6 +9933,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002112",
+     "name": "三变科技",
      "plan": "",
      "date": "2026-03-23",
      "buyDate": "2026-03-24",
@@ -9374,6 +9955,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002310",
+     "name": "东方新能",
      "plan": "",
      "date": "2026-03-20",
      "buyDate": "2026-03-23",
@@ -9389,6 +9971,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603538",
+     "name": "美诺华",
      "plan": "",
      "date": "2026-03-20",
      "buyDate": "2026-03-23",
@@ -9404,6 +9987,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600617",
+     "name": "国新能源",
      "plan": "",
      "date": "2026-03-20",
      "buyDate": "2026-03-23",
@@ -9419,6 +10003,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001283",
+     "name": "豪鹏科技",
      "plan": "",
      "date": "2026-03-20",
      "buyDate": "2026-03-23",
@@ -9440,6 +10025,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "601218",
+     "name": "吉鑫科技",
      "plan": "",
      "date": "2026-03-19",
      "buyDate": "2026-03-20",
@@ -9455,6 +10041,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603629",
+     "name": "利通电子",
      "plan": "",
      "date": "2026-03-19",
      "buyDate": "2026-03-20",
@@ -9470,6 +10057,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002432",
+     "name": "九安医疗",
      "plan": "",
      "date": "2026-03-19",
      "buyDate": "2026-03-20",
@@ -9485,6 +10073,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600996",
+     "name": "贵广网络",
      "plan": "",
      "date": "2026-03-19",
      "buyDate": "2026-03-20",
@@ -9500,6 +10089,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002310",
+     "name": "东方新能",
      "plan": "",
      "date": "2026-03-19",
      "buyDate": "2026-03-20",
@@ -9515,6 +10105,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600821",
+     "name": "金开新能",
      "plan": "",
      "date": "2026-03-19",
      "buyDate": "2026-03-20",
@@ -9530,6 +10121,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600726",
+     "name": "华电能源",
      "plan": "",
      "date": "2026-03-19",
      "buyDate": "2026-03-20",
@@ -9545,6 +10137,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000968",
+     "name": "蓝焰控股",
      "plan": "",
      "date": "2026-03-19",
      "buyDate": "2026-03-20",
@@ -9560,6 +10153,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000617",
+     "name": "中油资本",
      "plan": "",
      "date": "2026-03-19",
      "buyDate": "2026-03-20",
@@ -9581,6 +10175,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600821",
+     "name": "金开新能",
      "plan": "",
      "date": "2026-03-18",
      "buyDate": "2026-03-19",
@@ -9596,6 +10191,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002445",
+     "name": "中南文化",
      "plan": "",
      "date": "2026-03-18",
      "buyDate": "2026-03-19",
@@ -9611,6 +10207,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000815",
+     "name": "美利云",
      "plan": "",
      "date": "2026-03-18",
      "buyDate": "2026-03-19",
@@ -9626,6 +10223,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002565",
+     "name": "顺灏股份",
      "plan": "",
      "date": "2026-03-18",
      "buyDate": "2026-03-19",
@@ -9641,6 +10239,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002077",
+     "name": "大港股份",
      "plan": "",
      "date": "2026-03-18",
      "buyDate": "2026-03-19",
@@ -9656,6 +10255,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002432",
+     "name": "九安医疗",
      "plan": "",
      "date": "2026-03-18",
      "buyDate": "2026-03-19",
@@ -9671,6 +10271,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002202",
+     "name": "金风科技",
      "plan": "",
      "date": "2026-03-18",
      "buyDate": "2026-03-19",
@@ -9686,6 +10287,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600590",
+     "name": "泰豪科技",
      "plan": "",
      "date": "2026-03-18",
      "buyDate": "2026-03-19",
@@ -9707,6 +10309,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002506",
+     "name": "协鑫集成",
      "plan": "",
      "date": "2026-03-17",
      "buyDate": "2026-03-18",
@@ -9722,6 +10325,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "601016",
+     "name": "节能风电",
      "plan": "",
      "date": "2026-03-17",
      "buyDate": "2026-03-18",
@@ -9737,6 +10341,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002150",
+     "name": "正泰电源",
      "plan": "",
      "date": "2026-03-17",
      "buyDate": "2026-03-18",
@@ -9752,6 +10357,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002470",
+     "name": "金正大",
      "plan": "",
      "date": "2026-03-17",
      "buyDate": "2026-03-18",
@@ -9773,6 +10379,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "000545",
+     "name": "金浦钛业",
      "plan": "",
      "date": "2026-03-16",
      "buyDate": "2026-03-17",
@@ -9788,6 +10395,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002426",
+     "name": "胜利精密",
      "plan": "",
      "date": "2026-03-16",
      "buyDate": "2026-03-17",
@@ -9803,6 +10411,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603986",
+     "name": "兆易创新",
      "plan": "",
      "date": "2026-03-16",
      "buyDate": "2026-03-17",
@@ -9818,6 +10427,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001309",
+     "name": "德明利",
      "plan": "",
      "date": "2026-03-16",
      "buyDate": "2026-03-17",
@@ -9839,6 +10449,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "601669",
+     "name": "中国电建",
      "plan": "",
      "date": "2026-03-13",
      "buyDate": "2026-03-16",
@@ -9854,6 +10465,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002165",
+     "name": "红宝丽",
      "plan": "",
      "date": "2026-03-13",
      "buyDate": "2026-03-16",
@@ -9869,6 +10481,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002429",
+     "name": "兆驰股份",
      "plan": "",
      "date": "2026-03-13",
      "buyDate": "2026-03-16",
@@ -9884,6 +10497,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603803",
+     "name": "瑞斯康达",
      "plan": "",
      "date": "2026-03-13",
      "buyDate": "2026-03-16",
@@ -9899,6 +10513,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002213",
+     "name": "大为股份",
      "plan": "",
      "date": "2026-03-13",
      "buyDate": "2026-03-16",
@@ -9914,6 +10529,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603169",
+     "name": "兰石重装",
      "plan": "",
      "date": "2026-03-13",
      "buyDate": "2026-03-16",
@@ -9929,6 +10545,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002903",
+     "name": "宇环数控",
      "plan": "",
      "date": "2026-03-13",
      "buyDate": "2026-03-16",
@@ -9944,6 +10561,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "601611",
+     "name": "中国核建",
      "plan": "",
      "date": "2026-03-13",
      "buyDate": "2026-03-16",
@@ -9965,6 +10583,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600330",
+     "name": "天通股份",
      "plan": "",
      "date": "2026-03-12",
      "buyDate": "2026-03-13",
@@ -9980,6 +10599,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002281",
+     "name": "光迅科技",
      "plan": "",
      "date": "2026-03-12",
      "buyDate": "2026-03-13",
@@ -9995,6 +10615,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600703",
+     "name": "三安光电",
      "plan": "",
      "date": "2026-03-12",
      "buyDate": "2026-03-13",
@@ -10010,6 +10631,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002498",
+     "name": "汉缆股份",
      "plan": "",
      "date": "2026-03-12",
      "buyDate": "2026-03-13",
@@ -10025,6 +10647,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002015",
+     "name": "协鑫能科",
      "plan": "",
      "date": "2026-03-12",
      "buyDate": "2026-03-13",
@@ -10040,6 +10663,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600722",
+     "name": "金牛化工",
      "plan": "",
      "date": "2026-03-12",
      "buyDate": "2026-03-13",
@@ -10055,6 +10679,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600821",
+     "name": "金开新能",
      "plan": "",
      "date": "2026-03-12",
      "buyDate": "2026-03-13",
@@ -10076,6 +10701,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "601789",
+     "name": "宁波建工",
      "plan": "",
      "date": "2026-03-11",
      "buyDate": "2026-03-12",
@@ -10091,6 +10717,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "601868",
+     "name": "中国能建",
      "plan": "",
      "date": "2026-03-11",
      "buyDate": "2026-03-12",
@@ -10106,6 +10733,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002015",
+     "name": "协鑫能科",
      "plan": "",
      "date": "2026-03-11",
      "buyDate": "2026-03-12",
@@ -10121,6 +10749,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000833",
+     "name": "粤桂股份",
      "plan": "",
      "date": "2026-03-11",
      "buyDate": "2026-03-12",
@@ -10136,6 +10765,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "601016",
+     "name": "节能风电",
      "plan": "",
      "date": "2026-03-11",
      "buyDate": "2026-03-12",
@@ -10151,6 +10781,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002733",
+     "name": "雄韬股份",
      "plan": "",
      "date": "2026-03-11",
      "buyDate": "2026-03-12",
@@ -10166,6 +10797,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002432",
+     "name": "九安医疗",
      "plan": "",
      "date": "2026-03-11",
      "buyDate": "2026-03-12",
@@ -10181,6 +10813,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603778",
+     "name": "国晟科技",
      "plan": "",
      "date": "2026-03-11",
      "buyDate": "2026-03-12",
@@ -10196,6 +10829,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002654",
+     "name": "万润科技",
      "plan": "",
      "date": "2026-03-11",
      "buyDate": "2026-03-12",
@@ -10217,6 +10851,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "001267",
+     "name": "汇绿生态",
      "plan": "",
      "date": "2026-03-10",
      "buyDate": "2026-03-11",
@@ -10232,6 +10867,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "601868",
+     "name": "中国能建",
      "plan": "",
      "date": "2026-03-10",
      "buyDate": "2026-03-11",
@@ -10247,6 +10883,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600330",
+     "name": "天通股份",
      "plan": "",
      "date": "2026-03-10",
      "buyDate": "2026-03-11",
@@ -10262,6 +10899,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603601",
+     "name": "再升科技",
      "plan": "",
      "date": "2026-03-10",
      "buyDate": "2026-03-11",
@@ -10277,6 +10915,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002350",
+     "name": "北京科锐",
      "plan": "",
      "date": "2026-03-10",
      "buyDate": "2026-03-11",
@@ -10292,6 +10931,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002575",
+     "name": "群兴玩具",
      "plan": "",
      "date": "2026-03-10",
      "buyDate": "2026-03-11",
@@ -10307,6 +10947,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002384",
+     "name": "东山精密",
      "plan": "",
      "date": "2026-03-10",
      "buyDate": "2026-03-11",
@@ -10328,6 +10969,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002112",
+     "name": "三变科技",
      "plan": "",
      "date": "2026-03-09",
      "buyDate": "2026-03-10",
@@ -10343,6 +10985,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000815",
+     "name": "美利云",
      "plan": "",
      "date": "2026-03-09",
      "buyDate": "2026-03-10",
@@ -10358,6 +11001,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603138",
+     "name": "海量数据",
      "plan": "",
      "date": "2026-03-09",
      "buyDate": "2026-03-10",
@@ -10373,6 +11017,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002151",
+     "name": "北斗星通",
      "plan": "",
      "date": "2026-03-09",
      "buyDate": "2026-03-10",
@@ -10388,6 +11033,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "003035",
+     "name": "南网能源",
      "plan": "",
      "date": "2026-03-09",
      "buyDate": "2026-03-10",
@@ -10403,6 +11049,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000066",
+     "name": "中国长城",
      "plan": "",
      "date": "2026-03-09",
      "buyDate": "2026-03-10",
@@ -10424,6 +11071,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "000815",
+     "name": "美利云",
      "plan": "",
      "date": "2026-03-06",
      "buyDate": "2026-03-09",
@@ -10439,6 +11087,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002015",
+     "name": "协鑫能科",
      "plan": "",
      "date": "2026-03-06",
      "buyDate": "2026-03-09",
@@ -10454,6 +11103,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002843",
+     "name": "泰嘉股份",
      "plan": "",
      "date": "2026-03-06",
      "buyDate": "2026-03-09",
@@ -10469,6 +11119,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002165",
+     "name": "红宝丽",
      "plan": "",
      "date": "2026-03-06",
      "buyDate": "2026-03-09",
@@ -10484,6 +11135,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002506",
+     "name": "协鑫集成",
      "plan": "",
      "date": "2026-03-06",
      "buyDate": "2026-03-09",
@@ -10499,6 +11151,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600108",
+     "name": "亚盛集团",
      "plan": "",
      "date": "2026-03-06",
      "buyDate": "2026-03-09",
@@ -10514,6 +11167,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002378",
+     "name": "章源钨业",
      "plan": "",
      "date": "2026-03-06",
      "buyDate": "2026-03-09",
@@ -10529,6 +11183,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600722",
+     "name": "金牛化工",
      "plan": "",
      "date": "2026-03-06",
      "buyDate": "2026-03-09",
@@ -10544,6 +11199,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000833",
+     "name": "粤桂股份",
      "plan": "",
      "date": "2026-03-06",
      "buyDate": "2026-03-09",
@@ -10565,6 +11221,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600875",
+     "name": "东方电气",
      "plan": "",
      "date": "2026-03-05",
      "buyDate": "2026-03-06",
@@ -10580,6 +11237,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "601179",
+     "name": "中国西电",
      "plan": "",
      "date": "2026-03-05",
      "buyDate": "2026-03-06",
@@ -10595,6 +11253,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000988",
+     "name": "华工科技",
      "plan": "",
      "date": "2026-03-05",
      "buyDate": "2026-03-06",
@@ -10610,6 +11269,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002195",
+     "name": "岩山科技",
      "plan": "",
      "date": "2026-03-05",
      "buyDate": "2026-03-06",
@@ -10625,6 +11285,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002471",
+     "name": "中超控股",
      "plan": "",
      "date": "2026-03-05",
      "buyDate": "2026-03-06",
@@ -10646,6 +11307,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002378",
+     "name": "章源钨业",
      "plan": "",
      "date": "2026-03-04",
      "buyDate": "2026-03-05",
@@ -10661,6 +11323,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002389",
+     "name": "航天彩虹",
      "plan": "",
      "date": "2026-03-04",
      "buyDate": "2026-03-05",
@@ -10676,6 +11339,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000010",
+     "name": "*ST美丽",
      "plan": "",
      "date": "2026-03-04",
      "buyDate": "2026-03-05",
@@ -10691,6 +11355,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002272",
+     "name": "川润股份",
      "plan": "",
      "date": "2026-03-04",
      "buyDate": "2026-03-05",
@@ -10706,6 +11371,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002877",
+     "name": "智能自控",
      "plan": "",
      "date": "2026-03-04",
      "buyDate": "2026-03-05",
@@ -10727,6 +11393,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002506",
+     "name": "协鑫集成",
      "plan": "",
      "date": "2026-03-03",
      "buyDate": "2026-03-04",
@@ -10742,6 +11409,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002682",
+     "name": "龙洲股份",
      "plan": "",
      "date": "2026-03-03",
      "buyDate": "2026-03-04",
@@ -10757,6 +11425,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002929",
+     "name": "润建股份",
      "plan": "",
      "date": "2026-03-03",
      "buyDate": "2026-03-04",
@@ -10772,6 +11441,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600367",
+     "name": "红星发展",
      "plan": "",
      "date": "2026-03-03",
      "buyDate": "2026-03-04",
@@ -10793,6 +11463,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002149",
+     "name": "西部材料",
      "plan": "",
      "date": "2026-03-02",
      "buyDate": "2026-03-03",
@@ -10808,6 +11479,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002432",
+     "name": "九安医疗",
      "plan": "",
      "date": "2026-03-02",
      "buyDate": "2026-03-03",
@@ -10829,6 +11501,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "000545",
+     "name": "金浦钛业",
      "plan": "",
      "date": "2026-02-27",
      "buyDate": "2026-03-02",
@@ -10844,6 +11517,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002177",
+     "name": "御银股份",
      "plan": "",
      "date": "2026-02-27",
      "buyDate": "2026-03-02",
@@ -10859,6 +11533,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600744",
+     "name": "华银电力",
      "plan": "",
      "date": "2026-02-27",
      "buyDate": "2026-03-02",
@@ -10874,6 +11549,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600410",
+     "name": "华胜天成",
      "plan": "",
      "date": "2026-02-27",
      "buyDate": "2026-03-02",
@@ -10889,6 +11565,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600498",
+     "name": "烽火通信",
      "plan": "",
      "date": "2026-02-27",
      "buyDate": "2026-03-02",
@@ -10904,6 +11581,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600589",
+     "name": "大位科技",
      "plan": "",
      "date": "2026-02-27",
      "buyDate": "2026-03-02",
@@ -10919,6 +11597,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002015",
+     "name": "协鑫能科",
      "plan": "",
      "date": "2026-02-27",
      "buyDate": "2026-03-02",
@@ -10934,6 +11613,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "003035",
+     "name": "南网能源",
      "plan": "",
      "date": "2026-02-27",
      "buyDate": "2026-03-02",
@@ -10949,6 +11629,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002155",
+     "name": "湖南黄金",
      "plan": "",
      "date": "2026-02-27",
      "buyDate": "2026-03-02",
@@ -10970,6 +11651,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002843",
+     "name": "泰嘉股份",
      "plan": "",
      "date": "2026-02-26",
      "buyDate": "2026-02-27",
@@ -10985,6 +11667,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600487",
+     "name": "亨通光电",
      "plan": "",
      "date": "2026-02-26",
      "buyDate": "2026-02-27",
@@ -11000,6 +11683,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600172",
+     "name": "黄河旋风",
      "plan": "",
      "date": "2026-02-26",
      "buyDate": "2026-02-27",
@@ -11015,6 +11699,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002323",
+     "name": "*ST雅博",
      "plan": "",
      "date": "2026-02-26",
      "buyDate": "2026-02-27",
@@ -11030,6 +11715,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002272",
+     "name": "川润股份",
      "plan": "",
      "date": "2026-02-26",
      "buyDate": "2026-02-27",
@@ -11045,6 +11731,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600410",
+     "name": "华胜天成",
      "plan": "",
      "date": "2026-02-26",
      "buyDate": "2026-02-27",
@@ -11060,6 +11747,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002546",
+     "name": "新联电子",
      "plan": "",
      "date": "2026-02-26",
      "buyDate": "2026-02-27",
@@ -11075,6 +11763,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600343",
+     "name": "航天动力",
      "plan": "",
      "date": "2026-02-26",
      "buyDate": "2026-02-27",
@@ -11090,6 +11779,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "300442",
+     "name": "润泽科技",
      "plan": "",
      "date": "2026-02-26",
      "buyDate": "2026-02-27",
@@ -11111,6 +11801,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "000839",
+     "name": "国安股份",
      "plan": "",
      "date": "2026-02-25",
      "buyDate": "2026-02-26",
@@ -11126,6 +11817,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603601",
+     "name": "再升科技",
      "plan": "",
      "date": "2026-02-25",
      "buyDate": "2026-02-26",
@@ -11141,6 +11833,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002342",
+     "name": "巨力索具",
      "plan": "",
      "date": "2026-02-25",
      "buyDate": "2026-02-26",
@@ -11156,6 +11849,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002361",
+     "name": "神剑股份",
      "plan": "",
      "date": "2026-02-25",
      "buyDate": "2026-02-26",
@@ -11171,6 +11865,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600884",
+     "name": "杉杉股份",
      "plan": "",
      "date": "2026-02-25",
      "buyDate": "2026-02-26",
@@ -11186,6 +11881,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600111",
+     "name": "北方稀土",
      "plan": "",
      "date": "2026-02-25",
      "buyDate": "2026-02-26",
@@ -11201,6 +11897,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002240",
+     "name": "盛新锂能",
      "plan": "",
      "date": "2026-02-25",
      "buyDate": "2026-02-26",
@@ -11216,6 +11913,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "601208",
+     "name": "东材科技",
      "plan": "",
      "date": "2026-02-25",
      "buyDate": "2026-02-26",
@@ -11231,6 +11929,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000547",
+     "name": "航天发展",
      "plan": "",
      "date": "2026-02-25",
      "buyDate": "2026-02-26",
@@ -11246,6 +11945,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001396",
+     "name": "誉帆科技",
      "plan": "",
      "date": "2026-02-25",
      "buyDate": "2026-02-26",
@@ -11267,6 +11967,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600330",
+     "name": "天通股份",
      "plan": "",
      "date": "2026-02-24",
      "buyDate": "2026-02-25",
@@ -11282,6 +11983,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603601",
+     "name": "再升科技",
      "plan": "",
      "date": "2026-02-24",
      "buyDate": "2026-02-25",
@@ -11297,6 +11999,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600550",
+     "name": "保变电气",
      "plan": "",
      "date": "2026-02-24",
      "buyDate": "2026-02-25",
@@ -11312,6 +12015,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600172",
+     "name": "黄河旋风",
      "plan": "",
      "date": "2026-02-24",
      "buyDate": "2026-02-25",
@@ -11327,6 +12031,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002165",
+     "name": "红宝丽",
      "plan": "",
      "date": "2026-02-24",
      "buyDate": "2026-02-25",
@@ -11342,6 +12047,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603861",
+     "name": "白云电器",
      "plan": "",
      "date": "2026-02-24",
      "buyDate": "2026-02-25",
@@ -11363,6 +12069,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "000833",
+     "name": "粤桂股份",
      "plan": "",
      "date": "2026-02-13",
      "buyDate": "2026-02-24",
@@ -11378,6 +12085,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "003018",
+     "name": "金富科技",
      "plan": "",
      "date": "2026-02-13",
      "buyDate": "2026-02-24",
@@ -11393,6 +12101,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002510",
+     "name": "天汽模",
      "plan": "",
      "date": "2026-02-13",
      "buyDate": "2026-02-24",
@@ -11408,6 +12117,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002009",
+     "name": "天奇股份",
      "plan": "",
      "date": "2026-02-13",
      "buyDate": "2026-02-24",
@@ -11423,6 +12133,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000021",
+     "name": "深科技",
      "plan": "",
      "date": "2026-02-13",
      "buyDate": "2026-02-24",
@@ -11438,6 +12149,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002519",
+     "name": "银河电子",
      "plan": "",
      "date": "2026-02-13",
      "buyDate": "2026-02-24",
@@ -11459,6 +12171,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002272",
+     "name": "川润股份",
      "plan": "",
      "date": "2026-02-12",
      "buyDate": "2026-02-13",
@@ -11474,6 +12187,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "605006",
+     "name": "山东玻纤",
      "plan": "",
      "date": "2026-02-12",
      "buyDate": "2026-02-13",
@@ -11489,6 +12203,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000767",
+     "name": "晋控电力",
      "plan": "",
      "date": "2026-02-12",
      "buyDate": "2026-02-13",
@@ -11504,6 +12219,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002842",
+     "name": "翔鹭钨业",
      "plan": "",
      "date": "2026-02-12",
      "buyDate": "2026-02-13",
@@ -11519,6 +12235,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002498",
+     "name": "汉缆股份",
      "plan": "",
      "date": "2026-02-12",
      "buyDate": "2026-02-13",
@@ -11534,6 +12251,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002491",
+     "name": "通鼎互联",
      "plan": "",
      "date": "2026-02-12",
      "buyDate": "2026-02-13",
@@ -11549,6 +12267,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002131",
+     "name": "利欧股份",
      "plan": "",
      "date": "2026-02-12",
      "buyDate": "2026-02-13",
@@ -11564,6 +12283,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600545",
+     "name": "卓郎智能",
      "plan": "",
      "date": "2026-02-12",
      "buyDate": "2026-02-13",
@@ -11585,6 +12305,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002201",
+     "name": "九鼎新材",
      "plan": "",
      "date": "2026-02-11",
      "buyDate": "2026-02-12",
@@ -11600,6 +12321,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002378",
+     "name": "章源钨业",
      "plan": "",
      "date": "2026-02-11",
      "buyDate": "2026-02-12",
@@ -11615,6 +12337,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000525",
+     "name": "红太阳",
      "plan": "",
      "date": "2026-02-11",
      "buyDate": "2026-02-12",
@@ -11630,6 +12353,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600722",
+     "name": "金牛化工",
      "plan": "",
      "date": "2026-02-11",
      "buyDate": "2026-02-12",
@@ -11645,6 +12369,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603698",
+     "name": "航天工程",
      "plan": "",
      "date": "2026-02-11",
      "buyDate": "2026-02-12",
@@ -11660,6 +12385,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000657",
+     "name": "中钨高新",
      "plan": "",
      "date": "2026-02-11",
      "buyDate": "2026-02-12",
@@ -11675,6 +12401,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002340",
+     "name": "格林美",
      "plan": "",
      "date": "2026-02-11",
      "buyDate": "2026-02-12",
@@ -11696,6 +12423,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "000681",
+     "name": "视觉中国",
      "plan": "",
      "date": "2026-02-10",
      "buyDate": "2026-02-11",
@@ -11717,6 +12445,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002218",
+     "name": "拓日新能",
      "plan": "",
      "date": "2026-02-09",
      "buyDate": "2026-02-10",
@@ -11732,6 +12461,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002129",
+     "name": "TCL中环",
      "plan": "",
      "date": "2026-02-09",
      "buyDate": "2026-02-10",
@@ -11747,6 +12477,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600860",
+     "name": "京城股份",
      "plan": "",
      "date": "2026-02-09",
      "buyDate": "2026-02-10",
@@ -11762,6 +12493,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002054",
+     "name": "德美化工",
      "plan": "",
      "date": "2026-02-09",
      "buyDate": "2026-02-10",
@@ -11777,6 +12509,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600330",
+     "name": "天通股份",
      "plan": "",
      "date": "2026-02-09",
      "buyDate": "2026-02-10",
@@ -11792,6 +12525,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603598",
+     "name": "引力传媒",
      "plan": "",
      "date": "2026-02-09",
      "buyDate": "2026-02-10",
@@ -11807,6 +12541,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "601360",
+     "name": "三六零",
      "plan": "",
      "date": "2026-02-09",
      "buyDate": "2026-02-10",
@@ -11822,6 +12557,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "301232",
+     "name": "飞沃科技",
      "plan": "",
      "date": "2026-02-09",
      "buyDate": "2026-02-10",
@@ -11843,6 +12579,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "603618",
+     "name": "杭电股份",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
@@ -11858,6 +12595,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002342",
+     "name": "巨力索具",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
@@ -11873,6 +12611,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002054",
+     "name": "德美化工",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
@@ -11888,6 +12627,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002339",
+     "name": "积成电子",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
@@ -11903,6 +12643,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002455",
+     "name": "百川股份",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
@@ -11918,6 +12659,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000767",
+     "name": "晋控电力",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
@@ -11933,6 +12675,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002112",
+     "name": "三变科技",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
@@ -11948,6 +12691,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603667",
+     "name": "五洲新春",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
@@ -11963,6 +12707,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600498",
+     "name": "烽火通信",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
@@ -11978,6 +12723,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002759",
+     "name": "ST天际",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
@@ -11993,6 +12739,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002150",
+     "name": "正泰电源",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
@@ -12008,6 +12755,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002519",
+     "name": "银河电子",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
@@ -12029,6 +12777,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002291",
+     "name": "遥望科技",
      "plan": "",
      "date": "2026-02-05",
      "buyDate": "2026-02-06",
@@ -12044,6 +12793,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000592",
+     "name": "平潭发展",
      "plan": "",
      "date": "2026-02-05",
      "buyDate": "2026-02-06",
@@ -12059,6 +12809,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002264",
+     "name": "新华都",
      "plan": "",
      "date": "2026-02-05",
      "buyDate": "2026-02-06",
@@ -12074,6 +12825,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002985",
+     "name": "北摩高科",
      "plan": "",
      "date": "2026-02-05",
      "buyDate": "2026-02-06",
@@ -12089,6 +12841,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002361",
+     "name": "神剑股份",
      "plan": "",
      "date": "2026-02-05",
      "buyDate": "2026-02-06",
@@ -12110,6 +12863,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002278",
+     "name": "神开股份",
      "plan": "",
      "date": "2026-02-04",
      "buyDate": "2026-02-05",
@@ -12125,6 +12879,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002218",
+     "name": "拓日新能",
      "plan": "",
      "date": "2026-02-04",
      "buyDate": "2026-02-05",
@@ -12140,6 +12895,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600740",
+     "name": "山西焦化",
      "plan": "",
      "date": "2026-02-04",
      "buyDate": "2026-02-05",
@@ -12155,6 +12911,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002506",
+     "name": "协鑫集成",
      "plan": "",
      "date": "2026-02-04",
      "buyDate": "2026-02-05",
@@ -12170,6 +12927,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002129",
+     "name": "TCL中环",
      "plan": "",
      "date": "2026-02-04",
      "buyDate": "2026-02-05",
@@ -12185,6 +12943,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600759",
+     "name": "洲际油气",
      "plan": "",
      "date": "2026-02-04",
      "buyDate": "2026-02-05",
@@ -12206,6 +12965,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002491",
+     "name": "通鼎互联",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
@@ -12221,6 +12981,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "301486",
+     "name": "致尚科技",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
@@ -12236,6 +12997,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002943",
+     "name": "宇晶股份",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
@@ -12251,6 +13013,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600410",
+     "name": "华胜天成",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
@@ -12266,6 +13029,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002165",
+     "name": "红宝丽",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
@@ -12281,6 +13045,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002342",
+     "name": "巨力索具",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
@@ -12296,6 +13061,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002455",
+     "name": "百川股份",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
@@ -12311,6 +13077,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600986",
+     "name": "浙文互联",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
@@ -12326,6 +13093,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002792",
+     "name": "通宇通讯",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
@@ -12341,6 +13109,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603773",
+     "name": "沃格光电",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
@@ -12356,6 +13125,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603601",
+     "name": "再升科技",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
@@ -12371,6 +13141,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002012",
+     "name": "凯恩股份",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
@@ -12386,6 +13157,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000880",
+     "name": "潍柴重机",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
@@ -12401,6 +13173,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600869",
+     "name": "远东股份",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
@@ -12422,6 +13195,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002112",
+     "name": "三变科技",
      "plan": "",
      "date": "2026-02-02",
      "buyDate": "2026-02-03",
@@ -12437,6 +13211,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002491",
+     "name": "通鼎互联",
      "plan": "",
      "date": "2026-02-02",
      "buyDate": "2026-02-03",
@@ -12452,6 +13227,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600550",
+     "name": "保变电气",
      "plan": "",
      "date": "2026-02-02",
      "buyDate": "2026-02-03",
@@ -12467,6 +13243,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600172",
+     "name": "黄河旋风",
      "plan": "",
      "date": "2026-02-02",
      "buyDate": "2026-02-03",
@@ -12482,6 +13259,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "601179",
+     "name": "中国西电",
      "plan": "",
      "date": "2026-02-02",
      "buyDate": "2026-02-03",
@@ -12497,6 +13275,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002575",
+     "name": "群兴玩具",
      "plan": "",
      "date": "2026-02-02",
      "buyDate": "2026-02-03",
@@ -12512,6 +13291,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000700",
+     "name": "模塑科技",
      "plan": "",
      "date": "2026-02-02",
      "buyDate": "2026-02-03",
@@ -12533,6 +13313,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "601015",
+     "name": "陕西黑猫",
      "plan": "",
      "date": "2026-01-30",
      "buyDate": "2026-02-02",
@@ -12548,6 +13329,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600345",
+     "name": "长江通信",
      "plan": "",
      "date": "2026-01-30",
      "buyDate": "2026-02-02",
@@ -12563,6 +13345,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "301486",
+     "name": "致尚科技",
      "plan": "",
      "date": "2026-01-30",
      "buyDate": "2026-02-02",
@@ -12578,6 +13361,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603629",
+     "name": "利通电子",
      "plan": "",
      "date": "2026-01-30",
      "buyDate": "2026-02-02",
@@ -12599,6 +13383,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002400",
+     "name": "省广集团",
      "plan": "",
      "date": "2026-01-29",
      "buyDate": "2026-01-30",
@@ -12614,6 +13399,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002440",
+     "name": "闰土股份",
      "plan": "",
      "date": "2026-01-29",
      "buyDate": "2026-01-30",
@@ -12629,6 +13415,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000901",
+     "name": "航天科技",
      "plan": "",
      "date": "2026-01-29",
      "buyDate": "2026-01-30",
@@ -12644,6 +13431,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600678",
+     "name": "ST金顶",
      "plan": "",
      "date": "2026-01-29",
      "buyDate": "2026-01-30",
@@ -12659,6 +13447,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600986",
+     "name": "浙文互联",
      "plan": "",
      "date": "2026-01-29",
      "buyDate": "2026-01-30",
@@ -12680,6 +13469,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002119",
+     "name": "康强电子",
      "plan": "",
      "date": "2026-01-28",
      "buyDate": "2026-01-29",
@@ -12695,6 +13485,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002400",
+     "name": "省广集团",
      "plan": "",
      "date": "2026-01-28",
      "buyDate": "2026-01-29",
@@ -12710,6 +13501,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600871",
+     "name": "石化油服",
      "plan": "",
      "date": "2026-01-28",
      "buyDate": "2026-01-29",
@@ -12725,6 +13517,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "601390",
+     "name": "中国中铁",
      "plan": "",
      "date": "2026-01-28",
      "buyDate": "2026-01-29",
@@ -12740,6 +13533,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603601",
+     "name": "再升科技",
      "plan": "",
      "date": "2026-01-28",
      "buyDate": "2026-01-29",
@@ -12761,6 +13555,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002009",
+     "name": "天奇股份",
      "plan": "",
      "date": "2026-01-27",
      "buyDate": "2026-01-28",
@@ -12776,6 +13571,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002149",
+     "name": "西部材料",
      "plan": "",
      "date": "2026-01-27",
      "buyDate": "2026-01-28",
@@ -12791,6 +13587,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002471",
+     "name": "中超控股",
      "plan": "",
      "date": "2026-01-27",
      "buyDate": "2026-01-28",
@@ -12806,6 +13603,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000592",
+     "name": "平潭发展",
      "plan": "",
      "date": "2026-01-27",
      "buyDate": "2026-01-28",
@@ -12821,6 +13619,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002119",
+     "name": "康强电子",
      "plan": "",
      "date": "2026-01-27",
      "buyDate": "2026-01-28",
@@ -12836,6 +13635,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002796",
+     "name": "世嘉科技",
      "plan": "",
      "date": "2026-01-27",
      "buyDate": "2026-01-28",
@@ -12851,6 +13651,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603212",
+     "name": "赛伍技术",
      "plan": "",
      "date": "2026-01-27",
      "buyDate": "2026-01-28",
@@ -12866,6 +13667,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002150",
+     "name": "正泰电源",
      "plan": "",
      "date": "2026-01-27",
      "buyDate": "2026-01-28",
@@ -12881,6 +13683,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002185",
+     "name": "华天科技",
      "plan": "",
      "date": "2026-01-27",
      "buyDate": "2026-01-28",
@@ -12896,6 +13699,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002506",
+     "name": "协鑫集成",
      "plan": "",
      "date": "2026-01-27",
      "buyDate": "2026-01-28",
@@ -12917,6 +13721,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "600589",
+     "name": "大位科技",
      "plan": "",
      "date": "2026-01-26",
      "buyDate": "2026-01-27",
@@ -12932,6 +13737,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600078",
+     "name": "澄星股份",
      "plan": "",
      "date": "2026-01-26",
      "buyDate": "2026-01-27",
@@ -12947,6 +13753,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000506",
+     "name": "招金黄金",
      "plan": "",
      "date": "2026-01-26",
      "buyDate": "2026-01-27",
@@ -12962,6 +13769,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002165",
+     "name": "红宝丽",
      "plan": "",
      "date": "2026-01-26",
      "buyDate": "2026-01-27",
@@ -12977,6 +13785,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600759",
+     "name": "洲际油气",
      "plan": "",
      "date": "2026-01-26",
      "buyDate": "2026-01-27",
@@ -12992,6 +13801,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000657",
+     "name": "中钨高新",
      "plan": "",
      "date": "2026-01-26",
      "buyDate": "2026-01-27",
@@ -13007,6 +13817,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000078",
+     "name": "海王生物",
      "plan": "",
      "date": "2026-01-26",
      "buyDate": "2026-01-27",
@@ -13028,6 +13839,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002342",
+     "name": "巨力索具",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
@@ -13043,6 +13855,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002218",
+     "name": "拓日新能",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
@@ -13058,6 +13871,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600986",
+     "name": "浙文互联",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
@@ -13073,6 +13887,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002339",
+     "name": "积成电子",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
@@ -13088,6 +13903,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002112",
+     "name": "三变科技",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
@@ -13103,6 +13919,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002546",
+     "name": "新联电子",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
@@ -13118,6 +13935,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600498",
+     "name": "烽火通信",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
@@ -13133,6 +13951,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "001316",
+     "name": "润贝航科",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
@@ -13148,6 +13967,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002202",
+     "name": "金风科技",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
@@ -13163,6 +13983,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002792",
+     "name": "通宇通讯",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
@@ -13178,6 +13999,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000561",
+     "name": "烽火电子",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
@@ -13193,6 +14015,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600879",
+     "name": "航天电子",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
@@ -13208,6 +14031,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002115",
+     "name": "三维通信",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
@@ -13223,6 +14047,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "603773",
+     "name": "沃格光电",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
@@ -13238,6 +14063,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002810",
+     "name": "山东赫达",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
@@ -13253,6 +14079,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600118",
+     "name": "中国卫星",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
@@ -13274,6 +14101,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002201",
+     "name": "九鼎新材",
      "plan": "",
      "date": "2026-01-22",
      "buyDate": "2026-01-23",
@@ -13289,6 +14117,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002943",
+     "name": "宇晶股份",
      "plan": "",
      "date": "2026-01-22",
      "buyDate": "2026-01-23",
@@ -13310,6 +14139,7 @@ window.SIGNAL_DATA = {
    "candidates": [
     {
      "code": "002196",
+     "name": "方正电机",
      "plan": "",
      "date": "2026-01-21",
      "buyDate": "2026-01-22",
@@ -13325,6 +14155,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600649",
+     "name": "城投控股",
      "plan": "",
      "date": "2026-01-21",
      "buyDate": "2026-01-22",
@@ -13340,6 +14171,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002156",
+     "name": "通富微电",
      "plan": "",
      "date": "2026-01-21",
      "buyDate": "2026-01-22",
@@ -13355,6 +14187,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "600676",
+     "name": "久事动娱",
      "plan": "",
      "date": "2026-01-21",
      "buyDate": "2026-01-22",
@@ -13370,6 +14203,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "000506",
+     "name": "招金黄金",
      "plan": "",
      "date": "2026-01-21",
      "buyDate": "2026-01-22",
@@ -13385,6 +14219,7 @@ window.SIGNAL_DATA = {
     },
     {
      "code": "002342",
+     "name": "巨力索具",
      "plan": "",
      "date": "2026-01-21",
      "buyDate": "2026-01-22",
