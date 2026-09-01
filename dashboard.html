@@ -169,12 +169,13 @@
       if(!list || list.length===0) return '<div class="empty-tip">暂无卖出记录</div>';
       var h='<table><tr><th>代码</th><th>名称</th><th>买入日</th><th>买入价</th><th>操作周期</th><th>卖出日</th><th>卖出时间</th><th>卖出价</th><th>原因</th><th>收益率</th></tr>';
       list.forEach(function(s){
+        var pnlCls = (s.pnl==null||s.pnl===0) ? '' : (s.pnl>0 ? 'emotion-up' : 'emotion-down');
         h+='<tr><td class="mono">'+esc(s.code)+'</td><td>'+esc(s.name)+'</td>'
           +'<td class="mono">'+esc(s.buyDate)+'</td><td class="mono">'+esc(s.buyPrice)+'</td>'
           +'<td class="mono">'+esc(s.period)+'天</td>'
           +'<td class="mono">'+esc(s.sellDate)+'</td><td class="mono">'+esc(s.sellTime)+'</td>'
           +'<td class="mono">'+esc(s.sellPrice)+'</td>'
-          +'<td>'+esc(s.reason)+'</td><td class="mono">'+esc(s.pnl)+'%</td></tr>';
+          +'<td>'+esc(s.reason)+'</td><td class="mono '+pnlCls+'">'+esc(s.pnl)+'%</td></tr>';
       });
       return h+'</table>';
     }
@@ -211,12 +212,13 @@
       if(data.length===0) return '<div class="empty-tip">暂无记录</div>';
       var h='<table><tr><th>买入日</th><th>选票时间</th><th>代码</th><th>名称</th><th>高度</th><th>买入价</th><th>炸板</th><th>状态</th><th>卖出日</th><th>卖出时间</th><th>卖出价</th><th>原因</th><th>收益率</th><th>周期</th></tr>';
       data.forEach(function(x){
+        var pnlCls = (x.pnl==null||x.pnl===0) ? '' : (x.pnl>0 ? 'emotion-up' : 'emotion-down');
         h+='<tr><td class="mono">'+esc(x.date)+'</td><td class="mono">'+(x.time||"—")+'</td><td class="mono">'+esc(x.rec.code)+'</td><td>'+esc(x.rec.name)+'</td>'
           +'<td>'+esc(x.rec.height)+'</td><td class="mono">'+esc(x.buyPrice)+'</td>'
           +'<td>'+(x.zb||"—")+'</td>'
           +'<td>'+esc(x.status)+'</td><td class="mono">'+(x.sdate||"—")+'</td><td class="mono">'+(x.stime||"—")+'</td>'
           +'<td class="mono">'+(x.sprice||"—")+'</td><td>'+(x.reason||"—")+'</td>'
-          +'<td class="mono">'+(x.pnl!=null?x.pnl+'%':"—")+'</td><td class="mono">'+(x.period!=null?x.period+'天':"—")+'</td></tr>';
+          +'<td class="mono '+pnlCls+'">'+(x.pnl!=null?x.pnl+'%':"—")+'</td><td class="mono">'+(x.period!=null?x.period+'天':"—")+'</td></tr>';
       });
       return h+'</table>';
     }
