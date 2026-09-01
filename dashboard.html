@@ -24,6 +24,8 @@
   tr:last-child td { border-bottom: none; }
   .emotion-recession { color: #ef4444; font-weight: 600; }
   .emotion-normal { color: #16a34a; }
+  .emotion-up { color: #ef4444; font-weight: 600; }
+  .emotion-down { color: #16a34a; font-weight: 600; }
   .emotion-chaos { color: #d97706; }
   details { margin-bottom: 8px; }
   summary { cursor: pointer; font-size: 14px; font-weight: 600; padding: 8px 10px; background: #f8fafc; border-radius: 8px; }
@@ -235,7 +237,7 @@
         h='<table><tr><th>买入日</th><th>代码</th><th>名称</th><th>买入价</th><th>状态</th><th>卖出时间</th><th>卖出价</th><th>原因</th><th>收益率</th><th>周期</th></tr>';
         records.forEach(function(r){
           var pnl = (r.pnl===''||r.pnl==null) ? '—' : r.pnl+'%';
-          var pnlCls = (r.pnl!==''&&r.pnl!=null&&r.pnl<0) ? 'emotion-recession' : '';
+          var pnlCls = (r.pnl===''||r.pnl==null||r.pnl===0) ? '' : (r.pnl>0 ? 'emotion-up' : 'emotion-down');
           h+='<tr><td class="mono">'+esc(r.buy_date||'—')+'</td>'
             +'<td class="mono">'+esc(r.code)+'</td><td>'+esc(r.name||'—')+'</td>'
             +'<td class="mono">'+esc(r.buy_price||'—')+'</td><td>'+esc(r.status||'—')+'</td>'
