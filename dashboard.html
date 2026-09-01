@@ -212,17 +212,25 @@
     function initDildj(){
       if(!DD){ document.getElementById('subDildj').textContent='未找到数据：请运行地量地价 monitor.py 生成 dildj_data.js'; return; }
       document.getElementById('subDildj').textContent='数据生成时间：'+DD.generated;
-      var records = DD.records || [];
+      var records = (DD.records || []).slice();
+      records.sort(function(a,b){
+        var da = a.buy_date||a.confirm_date||a.t_date||'';
+        var db = b.buy_date||b.confirm_date||b.t_date||'';
+        return db.localeCompare(da);
+      });
       var h='';
       if(records.length===0){ h='<div class="empty-tip">暂无记录</div>'; }
       else {
-        h='<table><tr><th>买入日</th><th>代码</th><th>名称</th><th>买入价</th><th>状态</th><th>卖出时间</th><th>卖出价</th><th>原因</th><th>收益率</th><th>周期</th></tr>';
+        h='<table><tr><th>买入日</th><th>代码</th><th>名称</th><th>买入价</th><th>情绪</th><th>状态</th><th>卖出时间</th><th>卖出价</th><th>原因</th><th>收益率</th><th>周期</th></tr>';
         records.forEach(function(r){
           var pnl = (r.pnl===''||r.pnl==null) ? '—' : r.pnl+'%';
           var pnlCls = (r.pnl===''||r.pnl==null||r.pnl===0) ? '' : (r.pnl>0 ? 'emotion-up' : 'emotion-down');
+          var emotion = r.emotion||'';
+          var emotionCls = emotion ? emotionClass(emotion) : '';
           h+='<tr><td class="mono">'+esc(r.buy_date||'—')+'</td>'
             +'<td class="mono">'+esc(r.code)+'</td><td>'+esc(r.name||'—')+'</td>'
-            +'<td class="mono">'+esc(r.buy_price||'—')+'</td><td>'+esc(r.status||'—')+'</td>'
+            +'<td class="mono">'+esc(r.buy_price||'—')+'</td>'
+            +'<td class="'+emotionCls+'">'+esc(emotion||'—')+'</td><td>'+esc(r.status||'—')+'</td>'
             +'<td class="mono">'+esc(r.sell_time||'—')+'</td><td class="mono">'+esc(r.sell_price||'—')+'</td><td>'+esc(r.reason||'—')+'</td>'
             +'<td class="mono '+pnlCls+'">'+pnl+'</td><td class="mono">'+(r.period===''||r.period==null?'—':esc(r.period)+'天')+'</td></tr>';
         });
