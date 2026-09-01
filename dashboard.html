@@ -105,36 +105,25 @@
     }
     function renderLowCombined(){
       if(!D || !D.days){ return '<div class="empty-tip">暂无记录</div>'; }
-      // sells 按 code+buyDate 建索引
-      var sellsMap={};
-      D.days.forEach(function(day){
-        (day.sells||[]).forEach(function(s){
-          sellsMap[s.code+'_'+s.buyDate] = s;
-        });
-      });
-      var today = D.today;
       var rows = [];
       D.days.forEach(function(day){
-        (day.candidates||[]).forEach(function(c){
-          rows.push(c);
-        });
+        (day.candidates||[]).forEach(function(c){ rows.push(c); });
       });
       rows.sort(function(a,b){ return a.buyDate>b.buyDate?-1:(a.buyDate<b.buyDate?1:0); });
       if(rows.length===0) return '<div class="empty-tip">暂无记录</div>';
       var h='<table><tr><th>买入日</th><th>代码</th><th>买入价</th><th>情绪</th><th>状态</th><th>卖出日</th><th>卖出价</th><th>原因</th><th>收益率</th><th>周期</th></tr>';
       rows.forEach(function(x){
-        var sell = sellsMap[x.code+'_'+x.buyDate] || null;
-        var status = sell ? '已卖出' : '持有中';
-        var sdate = sell ? (sell.sellDate||'—') : '—';
-        var sprice = sell ? (sell.sellPrice||'—') : '—';
-        var reason = sell ? (sell.reason||'—') : '—';
-        var pnl = sell ? sell.pnl : null;
-        var pnlCls = (pnl==null||pnl===''||pnl===0) ? '' : (pnl>0 ? 'emotion-up' : 'emotion-down');
+        var status = x.state || '持有中';
+        var sdate = x.sellDate || '—';
+        var sprice = x.sellPrice || '—';
+        var reason = x.reason || '—';
+        var pnl = (x.pnl===''||x.pnl==null) ? null : x.pnl;
+        var pnlCls = (pnl==null||pnl===0) ? '' : (pnl>0 ? 'emotion-up' : 'emotion-down');
         var pnlTxt = (pnl==null||pnl==='') ? '—' : pnl+'%';
-        var period = sell ? daysBetween(x.buyDate, sell.sellDate) : daysBetween(x.buyDate, today);
+        var period = (x.period===''||x.period==null) ? '—' : x.period;
         var statusCls = (status==='已卖出') ? '' : 'emotion-up';
         h+='<tr><td class="mono">'+esc(x.buyDate)+'</td><td class="mono">'+esc(x.code)+'</td>'
-          +'<td class="mono">'+esc(x.close)+'</td>'
+          +'<td class="mono">'+esc(x.buyPrice)+'</td>'
           +'<td class="'+emotionClass(x.emotion)+'">'+esc(x.emotion)+'</td>'
           +'<td class="'+statusCls+'">'+esc(status)+'</td>'
           +'<td class="mono">'+esc(sdate)+'</td><td class="mono">'+esc(sprice)+'</td>'

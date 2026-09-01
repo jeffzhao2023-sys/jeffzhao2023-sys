@@ -1,5 +1,5 @@
 window.SIGNAL_DATA = {
- "generated": "2026-09-01 08:50",
+ "generated": "2026-09-01 09:00",
  "today": "20260901",
  "days": [
   {
@@ -60,24 +60,45 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-08-17",
      "buyDate": "2026-08-18",
+     "buyPrice": 4.77,
      "close": 5.1,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "持有中",
+     "sellDate": "",
+     "sellPrice": "",
+     "reason": "",
+     "pnl": "",
+     "period": 14
     },
     {
      "code": "002437",
      "plan": "",
      "date": "2026-08-17",
      "buyDate": "2026-08-18",
+     "buyPrice": 4.76,
      "close": 4.98,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-08-19",
+     "sellPrice": 4.379,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002156",
      "plan": "",
      "date": "2026-08-17",
      "buyDate": "2026-08-18",
+     "buyPrice": 70.66,
      "close": 69.26,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-08-19",
+     "sellPrice": 65.007,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     }
    ],
    "sells": []
@@ -90,40 +111,75 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-08-14",
      "buyDate": "2026-08-17",
+     "buyPrice": 12.99,
      "close": 13.05,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-08-19",
+     "sellPrice": 11.951,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "603118",
      "plan": "",
      "date": "2026-08-14",
      "buyDate": "2026-08-17",
+     "buyPrice": 19.32,
      "close": 17.56,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-08-19",
+     "sellPrice": 17.774,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "600186",
      "plan": "",
      "date": "2026-08-14",
      "buyDate": "2026-08-17",
+     "buyPrice": 13.13,
      "close": 12.02,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-08-19",
+     "sellPrice": 12.08,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "603083",
      "plan": "",
      "date": "2026-08-14",
      "buyDate": "2026-08-17",
+     "buyPrice": 190.21,
      "close": 185.9,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-08-19",
+     "sellPrice": 174.993,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "600487",
      "plan": "",
      "date": "2026-08-14",
      "buyDate": "2026-08-17",
+     "buyPrice": 65.06,
      "close": 62.98,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-08-19",
+     "sellPrice": 59.855,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     }
    ],
    "sells": []
@@ -136,16 +192,30 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-08-13",
      "buyDate": "2026-08-14",
+     "buyPrice": 4.53,
      "close": 4.25,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-08-14",
+     "sellPrice": 4.168,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "000938",
      "plan": "",
      "date": "2026-08-13",
      "buyDate": "2026-08-14",
+     "buyPrice": 39.95,
      "close": 39.6,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-08-19",
+     "sellPrice": 36.754,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     }
    ],
    "sells": []
@@ -158,64 +228,120 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-08-12",
      "buyDate": "2026-08-13",
+     "buyPrice": 4.25,
      "close": 3.86,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-13",
+     "sellPrice": 3.91,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002421",
      "plan": "",
      "date": "2026-08-12",
      "buyDate": "2026-08-13",
+     "buyPrice": 3.57,
      "close": 3.88,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-19",
+     "sellPrice": 3.284,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "000593",
      "plan": "",
      "date": "2026-08-12",
      "buyDate": "2026-08-13",
+     "buyPrice": 27.8,
      "close": 25.27,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-13",
+     "sellPrice": 25.576,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "603399",
      "plan": "",
      "date": "2026-08-12",
      "buyDate": "2026-08-13",
+     "buyPrice": 17.02,
      "close": 16.81,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-18",
+     "sellPrice": 15.658,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "601700",
      "plan": "",
      "date": "2026-08-12",
      "buyDate": "2026-08-13",
+     "buyPrice": 7.1,
      "close": 7.59,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-14",
+     "sellPrice": 6.532,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "600105",
      "plan": "",
      "date": "2026-08-12",
      "buyDate": "2026-08-13",
+     "buyPrice": 40.76,
      "close": 41.21,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-20",
+     "sellPrice": 37.499,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "002552",
      "plan": "",
      "date": "2026-08-12",
      "buyDate": "2026-08-13",
+     "buyPrice": 58.66,
      "close": 60.07,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-19",
+     "sellPrice": 53.967,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "002739",
      "plan": "",
      "date": "2026-08-12",
      "buyDate": "2026-08-13",
+     "buyPrice": 10.23,
      "close": 10.78,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-17",
+     "sellPrice": 9.412,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     }
    ],
    "sells": []
@@ -228,40 +354,75 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-08-11",
      "buyDate": "2026-08-12",
+     "buyPrice": 5.25,
      "close": 5.02,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-14",
+     "sellPrice": 4.83,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "300426",
      "plan": "",
      "date": "2026-08-11",
      "buyDate": "2026-08-12",
+     "buyPrice": 7.35,
      "close": 7.8,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-14",
+     "sellPrice": 6.762,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002229",
      "plan": "",
      "date": "2026-08-11",
      "buyDate": "2026-08-12",
+     "buyPrice": 12.91,
      "close": 11.74,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-19",
+     "sellPrice": 11.877,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "600667",
      "plan": "",
      "date": "2026-08-11",
      "buyDate": "2026-08-12",
+     "buyPrice": 22.71,
      "close": 21.2,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-19",
+     "sellPrice": 20.893,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "000636",
      "plan": "",
      "date": "2026-08-11",
      "buyDate": "2026-08-12",
+     "buyPrice": 66.51,
      "close": 65.85,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-14",
+     "sellPrice": 61.189,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     }
    ],
    "sells": []
@@ -274,24 +435,45 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-08-10",
      "buyDate": "2026-08-11",
+     "buyPrice": 14.58,
      "close": 14.83,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-17",
+     "sellPrice": 13.414,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "002842",
      "plan": "",
      "date": "2026-08-10",
      "buyDate": "2026-08-11",
+     "buyPrice": 40.24,
      "close": 42.22,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-20",
+     "sellPrice": 37.021,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 9
     },
     {
      "code": "600186",
      "plan": "",
      "date": "2026-08-10",
      "buyDate": "2026-08-11",
+     "buyPrice": 10.61,
      "close": 10.88,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-13",
+     "sellPrice": 11.215,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 5.7,
+     "period": 2
     }
    ],
    "sells": []
@@ -304,56 +486,105 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-08-07",
      "buyDate": "2026-08-10",
+     "buyPrice": 7.06,
      "close": 7.08,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-17",
+     "sellPrice": 6.495,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "002900",
      "plan": "",
      "date": "2026-08-07",
      "buyDate": "2026-08-10",
+     "buyPrice": 14.83,
      "close": 13.48,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-14",
+     "sellPrice": 13.644,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "002281",
      "plan": "",
      "date": "2026-08-07",
      "buyDate": "2026-08-10",
+     "buyPrice": 178.3,
      "close": 193.04,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-19",
+     "sellPrice": 186.19,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.42,
+     "period": 9
     },
     {
      "code": "000676",
      "plan": "",
      "date": "2026-08-07",
      "buyDate": "2026-08-10",
+     "buyPrice": 7.48,
      "close": 7.66,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-17",
+     "sellPrice": 6.882,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "002141",
      "plan": "",
      "date": "2026-08-07",
      "buyDate": "2026-08-10",
+     "buyPrice": 6.72,
      "close": 6.11,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-10",
+     "sellPrice": 6.182,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "600176",
      "plan": "",
      "date": "2026-08-07",
      "buyDate": "2026-08-10",
+     "buyPrice": 43.28,
      "close": 44.38,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-21",
+     "sellPrice": 39.818,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 11
     },
     {
      "code": "603011",
      "plan": "",
      "date": "2026-08-07",
      "buyDate": "2026-08-10",
+     "buyPrice": 23.95,
      "close": 22.68,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-19",
+     "sellPrice": 24.785,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.49,
+     "period": 9
     }
    ],
    "sells": []
@@ -366,16 +597,30 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-08-06",
      "buyDate": "2026-08-07",
+     "buyPrice": 94.95,
      "close": 86.32,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-13",
+     "sellPrice": 97.529,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.72,
+     "period": 6
     },
     {
      "code": "600584",
      "plan": "",
      "date": "2026-08-06",
      "buyDate": "2026-08-07",
+     "buyPrice": 77.75,
      "close": 75.87,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-19",
+     "sellPrice": 80.5,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.54,
+     "period": 12
     }
    ],
    "sells": []
@@ -388,32 +633,60 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-08-05",
      "buyDate": "2026-08-06",
+     "buyPrice": 3.01,
      "close": 3.17,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-14",
+     "sellPrice": 2.769,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 8
     },
     {
      "code": "600176",
      "plan": "",
      "date": "2026-08-05",
      "buyDate": "2026-08-06",
+     "buyPrice": 40.78,
      "close": 39.28,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-19",
+     "sellPrice": 43.341,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 6.28,
+     "period": 13
     },
     {
      "code": "000636",
      "plan": "",
      "date": "2026-08-05",
      "buyDate": "2026-08-06",
+     "buyPrice": 58.28,
      "close": 57.8,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-13",
+     "sellPrice": 62.44,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 7.14,
+     "period": 7
     },
     {
      "code": "600667",
      "plan": "",
      "date": "2026-08-05",
      "buyDate": "2026-08-06",
+     "buyPrice": 19.17,
      "close": 18.45,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-08-19",
+     "sellPrice": 22.89,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 19.4,
+     "period": 13
     }
    ],
    "sells": []
@@ -426,32 +699,60 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-08-04",
      "buyDate": "2026-08-05",
+     "buyPrice": 6.51,
      "close": 5.92,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-08-05",
+     "sellPrice": 5.989,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002428",
      "plan": "",
      "date": "2026-08-04",
      "buyDate": "2026-08-05",
+     "buyPrice": 82.71,
      "close": 75.19,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-08-20",
+     "sellPrice": 103.96,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 25.69,
+     "period": 15
     },
     {
      "code": "002384",
      "plan": "",
      "date": "2026-08-04",
      "buyDate": "2026-08-05",
+     "buyPrice": 188.83,
      "close": 179.09,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-08-05",
+     "sellPrice": 173.724,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "600105",
      "plan": "",
      "date": "2026-08-04",
      "buyDate": "2026-08-05",
+     "buyPrice": 36.55,
      "close": 34.29,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-08-05",
+     "sellPrice": 33.626,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     }
    ],
    "sells": []
@@ -464,16 +765,30 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-08-03",
      "buyDate": "2026-08-04",
+     "buyPrice": 6.44,
      "close": 6.31,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-08-18",
+     "sellPrice": 5.925,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 14
     },
     {
      "code": "000533",
      "plan": "",
      "date": "2026-08-03",
      "buyDate": "2026-08-04",
+     "buyPrice": 12.6,
      "close": 11.45,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-08-14",
+     "sellPrice": 11.592,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 10
     }
    ],
    "sells": []
@@ -486,8 +801,15 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-07-31",
      "buyDate": "2026-08-03",
+     "buyPrice": 5.13,
      "close": 4.66,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-08-13",
+     "sellPrice": 5.584,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 8.86,
+     "period": 10
     }
    ],
    "sells": []
@@ -510,8 +832,15 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-07-28",
      "buyDate": "2026-07-29",
+     "buyPrice": 16.64,
      "close": 17.31,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-30",
+     "sellPrice": 15.309,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     }
    ],
    "sells": []
@@ -524,16 +853,30 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-07-27",
      "buyDate": "2026-07-28",
+     "buyPrice": 5.73,
      "close": 5.73,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-07-30",
+     "sellPrice": 5.971,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.2,
+     "period": 2
     },
     {
      "code": "000676",
      "plan": "",
      "date": "2026-07-27",
      "buyDate": "2026-07-28",
+     "buyPrice": 7.45,
      "close": 7.12,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-07-30",
+     "sellPrice": 6.854,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     }
    ],
    "sells": []
@@ -546,16 +889,30 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-07-24",
      "buyDate": "2026-07-27",
+     "buyPrice": 47.83,
      "close": 46.22,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-27",
+     "sellPrice": 44.004,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002156",
      "plan": "",
      "date": "2026-07-24",
      "buyDate": "2026-07-27",
+     "buyPrice": 76.67,
      "close": 76.64,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-28",
+     "sellPrice": 70.536,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     }
    ],
    "sells": []
@@ -568,24 +925,45 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-07-23",
      "buyDate": "2026-07-24",
+     "buyPrice": 8.94,
      "close": 8.7,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-07-27",
+     "sellPrice": 8.225,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "603459",
      "plan": "",
      "date": "2026-07-23",
      "buyDate": "2026-07-24",
+     "buyPrice": 84.09,
      "close": 89.04,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-07-28",
+     "sellPrice": 90.5,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 7.62,
+     "period": 4
     },
     {
      "code": "002141",
      "plan": "",
      "date": "2026-07-23",
      "buyDate": "2026-07-24",
+     "buyPrice": 5.21,
      "close": 5.54,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-07-24",
+     "sellPrice": 5.308,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.89,
+     "period": 0
     }
    ],
    "sells": []
@@ -598,48 +976,90 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-07-22",
      "buyDate": "2026-07-23",
+     "buyPrice": 69.82,
      "close": 74.9,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-07-29",
+     "sellPrice": 64.234,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "000938",
      "plan": "",
      "date": "2026-07-22",
      "buyDate": "2026-07-23",
+     "buyPrice": 42.45,
      "close": 44.9,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-07-28",
+     "sellPrice": 39.054,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "603459",
      "plan": "",
      "date": "2026-07-22",
      "buyDate": "2026-07-23",
+     "buyPrice": 89.04,
      "close": 83.82,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-07-28",
+     "sellPrice": 90.5,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.64,
+     "period": 5
     },
     {
      "code": "000034",
      "plan": "",
      "date": "2026-07-22",
      "buyDate": "2026-07-23",
+     "buyPrice": 27.8,
      "close": 27.41,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-07-29",
+     "sellPrice": 25.576,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "603893",
      "plan": "",
      "date": "2026-07-22",
      "buyDate": "2026-07-23",
+     "buyPrice": 212.8,
      "close": 227.66,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-07-30",
+     "sellPrice": 195.776,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "000063",
      "plan": "",
      "date": "2026-07-22",
      "buyDate": "2026-07-23",
+     "buyPrice": 35.51,
      "close": 37.09,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-08-19",
+     "sellPrice": 33.67,
+     "reason": "TIME EXIT (20 days)",
+     "pnl": -5.18,
+     "period": 27
     }
    ],
    "sells": []
@@ -652,32 +1072,60 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-07-21",
      "buyDate": "2026-07-22",
+     "buyPrice": 81.64,
      "close": 79.75,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-07-23",
+     "sellPrice": 75.109,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "603118",
      "plan": "",
      "date": "2026-07-21",
      "buyDate": "2026-07-22",
+     "buyPrice": 16.42,
      "close": 14.93,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-07-27",
+     "sellPrice": 15.106,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "002156",
      "plan": "",
      "date": "2026-07-21",
      "buyDate": "2026-07-22",
+     "buyPrice": 74.9,
      "close": 69.3,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-07-24",
+     "sellPrice": 68.908,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "600584",
      "plan": "",
      "date": "2026-07-21",
      "buyDate": "2026-07-22",
+     "buyPrice": 85.78,
      "close": 84.69,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-07-24",
+     "sellPrice": 78.918,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     }
    ],
    "sells": []
@@ -695,24 +1143,45 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-07-17",
      "buyDate": "2026-07-20",
+     "buyPrice": 13.57,
      "close": 14.95,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-20",
+     "sellPrice": 15.134,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 11.53,
+     "period": 0
     },
     {
      "code": "002396",
      "plan": "",
      "date": "2026-07-17",
      "buyDate": "2026-07-20",
+     "buyPrice": 28.74,
      "close": 29.95,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-20",
+     "sellPrice": 29.155,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.44,
+     "period": 0
     },
     {
      "code": "600881",
      "plan": "",
      "date": "2026-07-17",
      "buyDate": "2026-07-20",
+     "buyPrice": 1.89,
      "close": 1.86,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-21",
+     "sellPrice": 1.739,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     }
    ],
    "sells": []
@@ -725,24 +1194,45 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-07-16",
      "buyDate": "2026-07-17",
+     "buyPrice": 96.63,
      "close": 107.37,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-17",
+     "sellPrice": 98.9,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.35,
+     "period": 0
     },
     {
      "code": "002881",
      "plan": "",
      "date": "2026-07-16",
      "buyDate": "2026-07-17",
+     "buyPrice": 40.58,
      "close": 38.95,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-27",
+     "sellPrice": 37.334,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 10
     },
     {
      "code": "000938",
      "plan": "",
      "date": "2026-07-16",
      "buyDate": "2026-07-17",
+     "buyPrice": 35.13,
      "close": 38.59,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-17",
+     "sellPrice": 35.852,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.06,
+     "period": 0
     }
    ],
    "sells": []
@@ -755,24 +1245,45 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-07-15",
      "buyDate": "2026-07-16",
+     "buyPrice": 38.35,
      "close": 39.0,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-16",
+     "sellPrice": 39.367,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.65,
+     "period": 0
     },
     {
      "code": "001388",
      "plan": "",
      "date": "2026-07-15",
      "buyDate": "2026-07-16",
+     "buyPrice": 22.49,
      "close": 23.77,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-21",
+     "sellPrice": 24.61,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 9.43,
+     "period": 5
     },
     {
      "code": "002317",
      "plan": "",
      "date": "2026-07-15",
      "buyDate": "2026-07-16",
+     "buyPrice": 29.96,
      "close": 33.29,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-16",
+     "sellPrice": 30.535,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.92,
+     "period": 0
     }
    ],
    "sells": []
@@ -785,24 +1296,45 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-07-14",
      "buyDate": "2026-07-15",
+     "buyPrice": 196.5,
      "close": 186.01,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-17",
+     "sellPrice": 180.78,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002384",
      "plan": "",
      "date": "2026-07-14",
      "buyDate": "2026-07-15",
+     "buyPrice": 262.49,
      "close": 260.37,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-20",
+     "sellPrice": 241.491,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "002463",
      "plan": "",
      "date": "2026-07-14",
      "buyDate": "2026-07-15",
+     "buyPrice": 137.23,
      "close": 137.13,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-17",
+     "sellPrice": 126.252,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     }
    ],
    "sells": []
@@ -820,16 +1352,30 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-07-10",
      "buyDate": "2026-07-13",
+     "buyPrice": 38.4,
      "close": 38.41,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-14",
+     "sellPrice": 35.328,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "603698",
      "plan": "",
      "date": "2026-07-10",
      "buyDate": "2026-07-13",
+     "buyPrice": 39.68,
      "close": 44.09,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-14",
+     "sellPrice": 36.506,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     }
    ],
    "sells": []
@@ -842,64 +1388,120 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-07-09",
      "buyDate": "2026-07-10",
+     "buyPrice": 89.52,
      "close": 85.99,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-14",
+     "sellPrice": 82.358,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "002185",
      "plan": "",
      "date": "2026-07-09",
      "buyDate": "2026-07-10",
+     "buyPrice": 25.31,
      "close": 23.73,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-15",
+     "sellPrice": 23.285,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "000021",
      "plan": "",
      "date": "2026-07-09",
      "buyDate": "2026-07-10",
+     "buyPrice": 57.91,
      "close": 56.24,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-13",
+     "sellPrice": 53.277,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "600584",
      "plan": "",
      "date": "2026-07-09",
      "buyDate": "2026-07-10",
+     "buyPrice": 101.11,
      "close": 103.52,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-10",
+     "sellPrice": 104.76,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.61,
+     "period": 0
     },
     {
      "code": "002156",
      "plan": "",
      "date": "2026-07-09",
      "buyDate": "2026-07-10",
+     "buyPrice": 70.95,
      "close": 72.17,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-16",
+     "sellPrice": 77.924,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 9.83,
+     "period": 6
     },
     {
      "code": "603986",
      "plan": "",
      "date": "2026-07-09",
      "buyDate": "2026-07-10",
+     "buyPrice": 612.0,
      "close": 663.49,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-10",
+     "sellPrice": 651.332,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 6.43,
+     "period": 0
     },
     {
      "code": "002281",
      "plan": "",
      "date": "2026-07-09",
      "buyDate": "2026-07-10",
+     "buyPrice": 233.45,
      "close": 238.49,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-10",
+     "sellPrice": 237.967,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.93,
+     "period": 0
     },
     {
      "code": "002384",
      "plan": "",
      "date": "2026-07-09",
      "buyDate": "2026-07-10",
+     "buyPrice": 242.3,
      "close": 261.32,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-10",
+     "sellPrice": 252.54,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.23,
+     "period": 0
     }
    ],
    "sells": []
@@ -912,8 +1514,15 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-07-08",
      "buyDate": "2026-07-09",
+     "buyPrice": 28.96,
      "close": 29.1,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-09",
+     "sellPrice": 26.643,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     }
    ],
    "sells": []
@@ -926,32 +1535,60 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-07-07",
      "buyDate": "2026-07-08",
+     "buyPrice": 42.7,
      "close": 38.82,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-14",
+     "sellPrice": 45.632,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 6.87,
+     "period": 6
     },
     {
      "code": "002137",
      "plan": "",
      "date": "2026-07-07",
      "buyDate": "2026-07-08",
+     "buyPrice": 11.72,
      "close": 11.43,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-14",
+     "sellPrice": 10.782,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "002129",
      "plan": "",
      "date": "2026-07-07",
      "buyDate": "2026-07-08",
+     "buyPrice": 10.69,
      "close": 11.02,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-14",
+     "sellPrice": 9.835,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "002185",
      "plan": "",
      "date": "2026-07-07",
      "buyDate": "2026-07-08",
+     "buyPrice": 21.57,
      "close": 21.93,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-13",
+     "sellPrice": 24.665,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 14.35,
+     "period": 5
     }
    ],
    "sells": []
@@ -964,48 +1601,90 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-07-06",
      "buyDate": "2026-07-07",
+     "buyPrice": 29.2,
      "close": 31.47,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-13",
+     "sellPrice": 29.964,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.62,
+     "period": 6
     },
     {
      "code": "600172",
      "plan": "",
      "date": "2026-07-06",
      "buyDate": "2026-07-07",
+     "buyPrice": 18.36,
      "close": 18.55,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-09",
+     "sellPrice": 16.891,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "603538",
      "plan": "",
      "date": "2026-07-06",
      "buyDate": "2026-07-07",
+     "buyPrice": 31.1,
      "close": 29.59,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-08",
+     "sellPrice": 28.612,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002860",
      "plan": "",
      "date": "2026-07-06",
      "buyDate": "2026-07-07",
+     "buyPrice": 16.6,
      "close": 17.56,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-17",
+     "sellPrice": 15.272,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 10
     },
     {
      "code": "002965",
      "plan": "",
      "date": "2026-07-06",
      "buyDate": "2026-07-07",
+     "buyPrice": 53.01,
      "close": 54.31,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-14",
+     "sellPrice": 48.769,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "000938",
      "plan": "",
      "date": "2026-07-06",
      "buyDate": "2026-07-07",
+     "buyPrice": 31.48,
      "close": 33.31,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-14",
+     "sellPrice": 37.058,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 17.72,
+     "period": 7
     }
    ],
    "sells": []
@@ -1018,40 +1697,75 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-07-03",
      "buyDate": "2026-07-06",
+     "buyPrice": 8.89,
      "close": 9.64,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-06",
+     "sellPrice": 9.752,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 9.7,
+     "period": 0
     },
     {
      "code": "002635",
      "plan": "",
      "date": "2026-07-03",
      "buyDate": "2026-07-06",
+     "buyPrice": 21.02,
      "close": 23.36,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-06",
+     "sellPrice": 21.289,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.28,
+     "period": 0
     },
     {
      "code": "002747",
      "plan": "",
      "date": "2026-07-03",
      "buyDate": "2026-07-06",
+     "buyPrice": 46.03,
      "close": 44.77,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-09",
+     "sellPrice": 42.348,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "002916",
      "plan": "",
      "date": "2026-07-03",
      "buyDate": "2026-07-06",
+     "buyPrice": 440.2,
      "close": 454.48,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-07",
+     "sellPrice": 404.984,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002050",
      "plan": "",
      "date": "2026-07-03",
      "buyDate": "2026-07-06",
+     "buyPrice": 45.87,
      "close": 48.71,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-08",
+     "sellPrice": 42.2,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     }
    ],
    "sells": []
@@ -1064,48 +1778,90 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-07-02",
      "buyDate": "2026-07-03",
+     "buyPrice": 14.24,
      "close": 15.38,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-06",
+     "sellPrice": 13.101,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "002261",
      "plan": "",
      "date": "2026-07-02",
      "buyDate": "2026-07-03",
+     "buyPrice": 29.18,
      "close": 29.89,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-14",
+     "sellPrice": 31.17,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 6.82,
+     "period": 11
     },
     {
      "code": "600172",
      "plan": "",
      "date": "2026-07-02",
      "buyDate": "2026-07-03",
+     "buyPrice": 16.86,
      "close": 18.03,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-08",
+     "sellPrice": 18.299,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 8.53,
+     "period": 5
     },
     {
      "code": "600601",
      "plan": "",
      "date": "2026-07-02",
      "buyDate": "2026-07-03",
+     "buyPrice": 15.12,
      "close": 14.92,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-08",
+     "sellPrice": 13.91,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "002580",
      "plan": "",
      "date": "2026-07-02",
      "buyDate": "2026-07-03",
+     "buyPrice": 20.53,
      "close": 22.18,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-07",
+     "sellPrice": 18.888,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "603078",
      "plan": "",
      "date": "2026-07-02",
      "buyDate": "2026-07-03",
+     "buyPrice": 56.26,
      "close": 56.9,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-03",
+     "sellPrice": 51.759,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     }
    ],
    "sells": []
@@ -1118,64 +1874,120 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-07-01",
      "buyDate": "2026-07-02",
+     "buyPrice": 57.12,
      "close": 62.3,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-06",
+     "sellPrice": 52.55,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "600667",
      "plan": "",
      "date": "2026-07-01",
      "buyDate": "2026-07-02",
+     "buyPrice": 28.89,
      "close": 32.1,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-07",
+     "sellPrice": 26.579,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "000823",
      "plan": "",
      "date": "2026-07-01",
      "buyDate": "2026-07-02",
+     "buyPrice": 23.4,
      "close": 26.0,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-06",
+     "sellPrice": 21.528,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "605020",
      "plan": "",
      "date": "2026-07-01",
      "buyDate": "2026-07-02",
+     "buyPrice": 48.39,
      "close": 43.99,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-02",
+     "sellPrice": 44.519,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002929",
      "plan": "",
      "date": "2026-07-01",
      "buyDate": "2026-07-02",
+     "buyPrice": 69.59,
      "close": 73.51,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-06",
+     "sellPrice": 64.023,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "601991",
      "plan": "",
      "date": "2026-07-01",
      "buyDate": "2026-07-02",
+     "buyPrice": 7.24,
      "close": 7.79,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-02",
+     "sellPrice": 7.461,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.06,
+     "period": 0
     },
     {
      "code": "002971",
      "plan": "",
      "date": "2026-07-01",
      "buyDate": "2026-07-02",
+     "buyPrice": 74.97,
      "close": 68.15,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-02",
+     "sellPrice": 68.972,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "000925",
      "plan": "",
      "date": "2026-07-01",
      "buyDate": "2026-07-02",
+     "buyPrice": 10.2,
      "close": 10.26,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-06",
+     "sellPrice": 9.384,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     }
    ],
    "sells": []
@@ -1188,40 +2000,75 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-06-30",
      "buyDate": "2026-07-01",
+     "buyPrice": 55.25,
      "close": 50.23,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-03",
+     "sellPrice": 50.83,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "000100",
      "plan": "",
      "date": "2026-06-30",
      "buyDate": "2026-07-01",
+     "buyPrice": 6.12,
      "close": 5.82,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-02",
+     "sellPrice": 5.63,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "603005",
      "plan": "",
      "date": "2026-06-30",
      "buyDate": "2026-07-01",
+     "buyPrice": 52.65,
      "close": 53.87,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-02",
+     "sellPrice": 48.438,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002008",
      "plan": "",
      "date": "2026-06-30",
      "buyDate": "2026-07-01",
+     "buyPrice": 137.98,
      "close": 150.11,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-02",
+     "sellPrice": 126.942,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "000725",
      "plan": "",
      "date": "2026-06-30",
      "buyDate": "2026-07-01",
+     "buyPrice": 8.77,
      "close": 8.68,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-02",
+     "sellPrice": 8.068,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     }
    ],
    "sells": []
@@ -1234,48 +2081,90 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-06-29",
      "buyDate": "2026-06-30",
+     "buyPrice": 184.61,
      "close": 177.03,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-02",
+     "sellPrice": 169.841,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002208",
      "plan": "",
      "date": "2026-06-29",
      "buyDate": "2026-06-30",
+     "buyPrice": 20.22,
      "close": 18.38,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-30",
+     "sellPrice": 18.602,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "000021",
      "plan": "",
      "date": "2026-06-29",
      "buyDate": "2026-06-30",
+     "buyPrice": 64.27,
      "close": 58.86,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-30",
+     "sellPrice": 59.128,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "000759",
      "plan": "",
      "date": "2026-06-29",
      "buyDate": "2026-06-30",
+     "buyPrice": 6.35,
      "close": 6.31,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-07",
+     "sellPrice": 5.842,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "000551",
      "plan": "",
      "date": "2026-06-29",
      "buyDate": "2026-06-30",
+     "buyPrice": 20.57,
      "close": 20.02,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-08",
+     "sellPrice": 18.924,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 8
     },
     {
      "code": "002409",
      "plan": "",
      "date": "2026-06-29",
      "buyDate": "2026-06-30",
+     "buyPrice": 224.5,
      "close": 207.46,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-03",
+     "sellPrice": 206.54,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     }
    ],
    "sells": []
@@ -1288,40 +2177,75 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-06-26",
      "buyDate": "2026-06-29",
+     "buyPrice": 57.21,
      "close": 58.28,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-02",
+     "sellPrice": 59.156,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.4,
+     "period": 3
     },
     {
      "code": "603002",
      "plan": "",
      "date": "2026-06-26",
      "buyDate": "2026-06-29",
+     "buyPrice": 24.32,
      "close": 26.23,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-29",
+     "sellPrice": 24.849,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.18,
+     "period": 0
     },
     {
      "code": "002129",
      "plan": "",
      "date": "2026-06-26",
      "buyDate": "2026-06-29",
+     "buyPrice": 11.73,
      "close": 11.19,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-03",
+     "sellPrice": 10.792,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "300088",
      "plan": "",
      "date": "2026-06-26",
      "buyDate": "2026-06-29",
+     "buyPrice": 11.1,
      "close": 11.67,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-29",
+     "sellPrice": 11.279,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.61,
+     "period": 0
     },
     {
      "code": "603698",
      "plan": "",
      "date": "2026-06-26",
      "buyDate": "2026-06-29",
+     "buyPrice": 39.87,
      "close": 43.55,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-29",
+     "sellPrice": 40.526,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.65,
+     "period": 0
     }
    ],
    "sells": []
@@ -1334,32 +2258,60 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-06-25",
      "buyDate": "2026-06-26",
+     "buyPrice": 14.6,
      "close": 14.83,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-06",
+     "sellPrice": 13.432,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 10
     },
     {
      "code": "000100",
      "plan": "",
      "date": "2026-06-25",
      "buyDate": "2026-06-26",
+     "buyPrice": 5.4,
      "close": 5.34,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-03",
+     "sellPrice": 5.759,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 6.65,
+     "period": 7
     },
     {
      "code": "001309",
      "plan": "",
      "date": "2026-06-25",
      "buyDate": "2026-06-26",
+     "buyPrice": 951.0,
      "close": 891.0,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-26",
+     "sellPrice": 874.92,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "603019",
      "plan": "",
      "date": "2026-06-25",
      "buyDate": "2026-06-26",
+     "buyPrice": 98.76,
      "close": 97.82,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-02",
+     "sellPrice": 100.832,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.1,
+     "period": 6
     }
    ],
    "sells": []
@@ -1372,72 +2324,135 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-06-24",
      "buyDate": "2026-06-25",
+     "buyPrice": 21.67,
      "close": 21.81,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-01",
+     "sellPrice": 19.936,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "600584",
      "plan": "",
      "date": "2026-06-24",
      "buyDate": "2026-06-25",
+     "buyPrice": 104.17,
      "close": 94.7,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-29",
+     "sellPrice": 95.836,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "003043",
      "plan": "",
      "date": "2026-06-24",
      "buyDate": "2026-06-25",
+     "buyPrice": 87.0,
      "close": 87.3,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-06",
+     "sellPrice": 99.424,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 14.28,
+     "period": 11
     },
     {
      "code": "002428",
      "plan": "",
      "date": "2026-06-24",
      "buyDate": "2026-06-25",
+     "buyPrice": 130.09,
      "close": 123.08,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-26",
+     "sellPrice": 119.683,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002580",
      "plan": "",
      "date": "2026-06-24",
      "buyDate": "2026-06-25",
+     "buyPrice": 25.28,
      "close": 25.51,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-26",
+     "sellPrice": 23.258,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "603259",
      "plan": "",
      "date": "2026-06-24",
      "buyDate": "2026-06-25",
+     "buyPrice": 117.22,
      "close": 115.4,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-07",
+     "sellPrice": 118.818,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.36,
+     "period": 12
     },
     {
      "code": "000021",
      "plan": "",
      "date": "2026-06-24",
      "buyDate": "2026-06-25",
+     "buyPrice": 53.2,
      "close": 50.27,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-02",
+     "sellPrice": 60.904,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 14.48,
+     "period": 7
     },
     {
      "code": "603045",
      "plan": "",
      "date": "2026-06-24",
      "buyDate": "2026-06-25",
+     "buyPrice": 85.95,
      "close": 93.12,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-25",
+     "sellPrice": 87.446,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.74,
+     "period": 0
     },
     {
      "code": "002600",
      "plan": "",
      "date": "2026-06-24",
      "buyDate": "2026-06-25",
+     "buyPrice": 17.88,
      "close": 17.66,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-26",
+     "sellPrice": 16.45,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     }
    ],
    "sells": []
@@ -1450,40 +2465,75 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-06-23",
      "buyDate": "2026-06-24",
+     "buyPrice": 4.76,
      "close": 4.95,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-29",
+     "sellPrice": 5.474,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 15.0,
+     "period": 5
     },
     {
      "code": "002008",
      "plan": "",
      "date": "2026-06-23",
      "buyDate": "2026-06-24",
+     "buyPrice": 152.23,
      "close": 145.11,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-24",
+     "sellPrice": 140.052,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "603335",
      "plan": "",
      "date": "2026-06-23",
      "buyDate": "2026-06-24",
+     "buyPrice": 8.27,
      "close": 9.02,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-29",
+     "sellPrice": 8.795,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 6.35,
+     "period": 5
     },
     {
      "code": "002976",
      "plan": "",
      "date": "2026-06-23",
      "buyDate": "2026-06-24",
+     "buyPrice": 26.2,
      "close": 24.54,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-24",
+     "sellPrice": 24.104,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002453",
      "plan": "",
      "date": "2026-06-23",
      "buyDate": "2026-06-24",
+     "buyPrice": 4.94,
      "close": 5.41,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-26",
+     "sellPrice": 4.545,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     }
    ],
    "sells": []
@@ -1496,112 +2546,210 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
+     "buyPrice": 25.08,
      "close": 22.8,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-26",
+     "sellPrice": 23.074,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "300052",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
+     "buyPrice": 13.11,
      "close": 13.49,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-03",
+     "sellPrice": 12.061,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 10
     },
     {
      "code": "600367",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
+     "buyPrice": 56.0,
      "close": 62.22,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-23",
+     "sellPrice": 61.079,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 9.07,
+     "period": 0
     },
     {
      "code": "000545",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
+     "buyPrice": 2.83,
      "close": 2.65,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-24",
+     "sellPrice": 2.604,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "000012",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
+     "buyPrice": 4.65,
      "close": 4.71,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-06",
+     "sellPrice": 4.977,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 7.04,
+     "period": 13
     },
     {
      "code": "000759",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
+     "buyPrice": 6.48,
      "close": 6.54,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-26",
+     "sellPrice": 5.962,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "601179",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
+     "buyPrice": 16.14,
      "close": 16.74,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-29",
+     "sellPrice": 14.849,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "002407",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
+     "buyPrice": 41.8,
      "close": 42.66,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-03",
+     "sellPrice": 52.9,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 26.56,
+     "period": 10
     },
     {
      "code": "001359",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
+     "buyPrice": 117.3,
      "close": 111.56,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-29",
+     "sellPrice": 123.317,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 5.13,
+     "period": 6
     },
     {
      "code": "000823",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
+     "buyPrice": 21.38,
      "close": 23.76,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-23",
+     "sellPrice": 23.0,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 7.58,
+     "period": 0
     },
     {
      "code": "600549",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
+     "buyPrice": 85.43,
      "close": 94.5,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-23",
+     "sellPrice": 89.102,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.3,
+     "period": 0
     },
     {
      "code": "002975",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
+     "buyPrice": 144.6,
      "close": 150.48,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-29",
+     "sellPrice": 133.032,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "600584",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
+     "buyPrice": 86.09,
      "close": 91.23,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-02",
+     "sellPrice": 102.221,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 18.74,
+     "period": 9
     },
     {
      "code": "002409",
      "plan": "",
      "date": "2026-06-22",
      "buyDate": "2026-06-23",
+     "buyPrice": 157.32,
      "close": 165.18,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-02",
+     "sellPrice": 226.725,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 44.12,
+     "period": 9
     }
    ],
    "sells": []
@@ -1614,80 +2762,150 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-06-18",
      "buyDate": "2026-06-22",
+     "buyPrice": 15.41,
      "close": 14.01,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-26",
+     "sellPrice": 17.305,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 12.3,
+     "period": 4
     },
     {
      "code": "002297",
      "plan": "",
      "date": "2026-06-18",
      "buyDate": "2026-06-22",
+     "buyPrice": 31.2,
      "close": 28.36,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-26",
+     "sellPrice": 33.028,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 5.86,
+     "period": 4
     },
     {
      "code": "600392",
      "plan": "",
      "date": "2026-06-18",
      "buyDate": "2026-06-22",
+     "buyPrice": 34.18,
      "close": 31.36,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-23",
+     "sellPrice": 31.446,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "300522",
      "plan": "",
      "date": "2026-06-18",
      "buyDate": "2026-06-22",
+     "buyPrice": 23.05,
      "close": 19.21,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-22",
+     "sellPrice": 21.206,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002747",
      "plan": "",
      "date": "2026-06-18",
      "buyDate": "2026-06-22",
+     "buyPrice": 37.19,
      "close": 36.5,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-29",
+     "sellPrice": 34.215,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "600162",
      "plan": "",
      "date": "2026-06-18",
      "buyDate": "2026-06-22",
+     "buyPrice": 3.94,
      "close": 3.58,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-22",
+     "sellPrice": 3.625,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "603011",
      "plan": "",
      "date": "2026-06-18",
      "buyDate": "2026-06-22",
+     "buyPrice": 37.14,
      "close": 39.55,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-22",
+     "sellPrice": 38.088,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.55,
+     "period": 0
     },
     {
      "code": "002281",
      "plan": "",
      "date": "2026-06-18",
      "buyDate": "2026-06-22",
+     "buyPrice": 276.08,
      "close": 266.2,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-26",
+     "sellPrice": 253.994,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "002436",
      "plan": "",
      "date": "2026-06-18",
      "buyDate": "2026-06-22",
+     "buyPrice": 53.3,
      "close": 52.06,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-23",
+     "sellPrice": 49.036,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002971",
      "plan": "",
      "date": "2026-06-18",
      "buyDate": "2026-06-22",
+     "buyPrice": 72.73,
      "close": 67.33,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-23",
+     "sellPrice": 66.912,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     }
    ],
    "sells": []
@@ -1700,40 +2918,75 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-06-17",
      "buyDate": "2026-06-18",
+     "buyPrice": 21.6,
      "close": 22.11,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-23",
+     "sellPrice": 23.0,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 6.48,
+     "period": 5
     },
     {
      "code": "000725",
      "plan": "",
      "date": "2026-06-17",
      "buyDate": "2026-06-18",
+     "buyPrice": 6.55,
      "close": 6.65,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-03",
+     "sellPrice": 8.74,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 33.44,
+     "period": 15
     },
     {
      "code": "002491",
      "plan": "",
      "date": "2026-06-17",
      "buyDate": "2026-06-18",
+     "buyPrice": 31.58,
      "close": 28.71,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-26",
+     "sellPrice": 36.533,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 15.68,
+     "period": 8
     },
     {
      "code": "603175",
      "plan": "",
      "date": "2026-06-17",
      "buyDate": "2026-06-18",
+     "buyPrice": 101.02,
      "close": 102.81,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-23",
+     "sellPrice": 92.938,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "603458",
      "plan": "",
      "date": "2026-06-17",
      "buyDate": "2026-06-18",
+     "buyPrice": 14.4,
      "close": 14.72,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-30",
+     "sellPrice": 15.226,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 5.74,
+     "period": 12
     }
    ],
    "sells": []
@@ -1746,48 +2999,90 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-06-16",
      "buyDate": "2026-06-17",
+     "buyPrice": 20.58,
      "close": 21.44,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-18",
+     "sellPrice": 18.934,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "600206",
      "plan": "",
      "date": "2026-06-16",
      "buyDate": "2026-06-17",
+     "buyPrice": 39.75,
      "close": 39.11,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-01",
+     "sellPrice": 63.811,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 60.53,
+     "period": 14
     },
     {
      "code": "605006",
      "plan": "",
      "date": "2026-06-16",
      "buyDate": "2026-06-17",
+     "buyPrice": 26.0,
      "close": 23.98,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-18",
+     "sellPrice": 23.92,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "601208",
      "plan": "",
      "date": "2026-06-16",
      "buyDate": "2026-06-17",
+     "buyPrice": 73.15,
      "close": 71.69,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-29",
+     "sellPrice": 67.298,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 12
     },
     {
      "code": "002491",
      "plan": "",
      "date": "2026-06-16",
      "buyDate": "2026-06-17",
+     "buyPrice": 28.71,
      "close": 26.1,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-17",
+     "sellPrice": 26.413,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002436",
      "plan": "",
      "date": "2026-06-16",
      "buyDate": "2026-06-17",
+     "buyPrice": 47.8,
      "close": 44.1,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-23",
+     "sellPrice": 50.6,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 5.86,
+     "period": 6
     }
    ],
    "sells": []
@@ -1800,64 +3095,120 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-06-15",
      "buyDate": "2026-06-16",
+     "buyPrice": 179.4,
      "close": 166.41,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-29",
+     "sellPrice": 165.048,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 13
     },
     {
      "code": "000636",
      "plan": "",
      "date": "2026-06-15",
      "buyDate": "2026-06-16",
+     "buyPrice": 70.51,
      "close": 64.93,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-30",
+     "sellPrice": 77.188,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 9.47,
+     "period": 14
     },
     {
      "code": "603011",
      "plan": "",
      "date": "2026-06-15",
      "buyDate": "2026-06-16",
+     "buyPrice": 34.6,
      "close": 34.22,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-22",
+     "sellPrice": 38.088,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 10.08,
+     "period": 6
     },
     {
      "code": "002281",
      "plan": "",
      "date": "2026-06-15",
      "buyDate": "2026-06-16",
+     "buyPrice": 230.01,
      "close": 225.47,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-26",
+     "sellPrice": 256.68,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 11.6,
+     "period": 10
     },
     {
      "code": "603681",
      "plan": "",
      "date": "2026-06-15",
      "buyDate": "2026-06-16",
+     "buyPrice": 26.83,
      "close": 27.29,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-18",
+     "sellPrice": 24.684,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002384",
      "plan": "",
      "date": "2026-06-15",
      "buyDate": "2026-06-16",
+     "buyPrice": 249.06,
      "close": 239.31,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-23",
+     "sellPrice": 255.392,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.54,
+     "period": 7
     },
     {
      "code": "000070",
      "plan": "",
      "date": "2026-06-15",
      "buyDate": "2026-06-16",
+     "buyPrice": 19.49,
      "close": 18.81,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-26",
+     "sellPrice": 23.966,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 22.97,
+     "period": 10
     },
     {
      "code": "002428",
      "plan": "",
      "date": "2026-06-15",
      "buyDate": "2026-06-16",
+     "buyPrice": 101.19,
      "close": 101.48,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-26",
+     "sellPrice": 122.24,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 20.8,
+     "period": 10
     }
    ],
    "sells": []
@@ -1870,48 +3221,90 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-06-12",
      "buyDate": "2026-06-15",
+     "buyPrice": 56.87,
      "close": 51.7,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-15",
+     "sellPrice": 52.32,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "001696",
      "plan": "",
      "date": "2026-06-12",
      "buyDate": "2026-06-15",
+     "buyPrice": 22.85,
      "close": 22.84,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-23",
+     "sellPrice": 23.644,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.47,
+     "period": 8
     },
     {
      "code": "600110",
      "plan": "",
      "date": "2026-06-12",
      "buyDate": "2026-06-15",
+     "buyPrice": 14.23,
      "close": 12.94,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-23",
+     "sellPrice": 16.946,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 19.09,
+     "period": 8
     },
     {
      "code": "603993",
      "plan": "",
      "date": "2026-06-12",
      "buyDate": "2026-06-15",
+     "buyPrice": 20.92,
      "close": 19.11,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-24",
+     "sellPrice": 19.246,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 9
     },
     {
      "code": "600567",
      "plan": "",
      "date": "2026-06-12",
      "buyDate": "2026-06-15",
+     "buyPrice": 1.41,
      "close": 1.44,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-13",
+     "sellPrice": 1.33,
+     "reason": "TIME EXIT (20 days)",
+     "pnl": -5.67,
+     "period": 28
     },
     {
      "code": "002741",
      "plan": "",
      "date": "2026-06-12",
      "buyDate": "2026-06-15",
+     "buyPrice": 32.59,
      "close": 29.63,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-23",
+     "sellPrice": 38.778,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 18.99,
+     "period": 8
     }
    ],
    "sells": []
@@ -1924,56 +3317,105 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-06-11",
      "buyDate": "2026-06-12",
+     "buyPrice": 22.84,
      "close": 20.76,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-23",
+     "sellPrice": 23.644,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.52,
+     "period": 11
     },
     {
      "code": "001257",
      "plan": "",
      "date": "2026-06-11",
      "buyDate": "2026-06-12",
+     "buyPrice": 27.59,
      "close": 25.07,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-17",
+     "sellPrice": 33.828,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 22.61,
+     "period": 5
     },
     {
      "code": "002378",
      "plan": "",
      "date": "2026-06-11",
      "buyDate": "2026-06-12",
+     "buyPrice": 34.52,
      "close": 33.51,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-17",
+     "sellPrice": 36.579,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 5.97,
+     "period": 5
     },
     {
      "code": "002824",
      "plan": "",
      "date": "2026-06-11",
      "buyDate": "2026-06-12",
+     "buyPrice": 28.85,
      "close": 28.86,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-24",
+     "sellPrice": 38.557,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 33.65,
+     "period": 12
     },
     {
      "code": "600667",
      "plan": "",
      "date": "2026-06-11",
      "buyDate": "2026-06-12",
+     "buyPrice": 16.36,
      "close": 17.45,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-12",
+     "sellPrice": 17.296,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 5.72,
+     "period": 0
     },
     {
      "code": "002428",
      "plan": "",
      "date": "2026-06-11",
      "buyDate": "2026-06-12",
+     "buyPrice": 92.25,
      "close": 88.23,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-17",
+     "sellPrice": 99.958,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 8.36,
+     "period": 5
     },
     {
      "code": "002407",
      "plan": "",
      "date": "2026-06-11",
      "buyDate": "2026-06-12",
+     "buyPrice": 39.67,
      "close": 38.19,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-26",
+     "sellPrice": 42.283,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 6.59,
+     "period": 14
     }
    ],
    "sells": []
@@ -1986,40 +3428,75 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-06-10",
      "buyDate": "2026-06-11",
+     "buyPrice": 5.35,
      "close": 5.94,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-11",
+     "sellPrice": 5.446,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.8,
+     "period": 0
     },
     {
      "code": "002141",
      "plan": "",
      "date": "2026-06-10",
      "buyDate": "2026-06-11",
+     "buyPrice": 3.4,
      "close": 3.6,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-22",
+     "sellPrice": 4.766,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 40.16,
+     "period": 11
     },
     {
      "code": "000970",
      "plan": "",
      "date": "2026-06-10",
      "buyDate": "2026-06-11",
+     "buyPrice": 14.03,
      "close": 14.5,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-07-06",
+     "sellPrice": 15.64,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 11.48,
+     "period": 25
     },
     {
      "code": "603011",
      "plan": "",
      "date": "2026-06-10",
      "buyDate": "2026-06-11",
+     "buyPrice": 33.6,
      "close": 31.9,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-11",
+     "sellPrice": 30.912,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002125",
      "plan": "",
      "date": "2026-06-10",
      "buyDate": "2026-06-11",
+     "buyPrice": 18.32,
      "close": 18.67,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-17",
+     "sellPrice": 19.191,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.76,
+     "period": 6
     }
    ],
    "sells": []
@@ -2032,40 +3509,75 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-06-09",
      "buyDate": "2026-06-10",
+     "buyPrice": 13.42,
      "close": 12.2,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-11",
+     "sellPrice": 12.346,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "000636",
      "plan": "",
      "date": "2026-06-09",
      "buyDate": "2026-06-10",
+     "buyPrice": 59.71,
      "close": 60.98,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-12",
+     "sellPrice": 61.088,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.31,
+     "period": 2
     },
     {
      "code": "600183",
      "plan": "",
      "date": "2026-06-09",
      "buyDate": "2026-06-10",
+     "buyPrice": 146.9,
      "close": 147.47,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-23",
+     "sellPrice": 176.53,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 20.17,
+     "period": 13
     },
     {
      "code": "600487",
      "plan": "",
      "date": "2026-06-09",
      "buyDate": "2026-06-10",
+     "buyPrice": 106.61,
      "close": 104.75,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-11",
+     "sellPrice": 98.081,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "001896",
      "plan": "",
      "date": "2026-06-09",
      "buyDate": "2026-06-10",
+     "buyPrice": 21.17,
      "close": 21.56,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-17",
+     "sellPrice": 21.896,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.43,
+     "period": 7
     }
    ],
    "sells": []
@@ -2078,56 +3590,105 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-06-08",
      "buyDate": "2026-06-09",
+     "buyPrice": 6.02,
      "close": 6.27,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-11",
+     "sellPrice": 5.538,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "000068",
      "plan": "",
      "date": "2026-06-08",
      "buyDate": "2026-06-09",
+     "buyPrice": 3.79,
      "close": 3.92,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-09",
+     "sellPrice": 3.882,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.44,
+     "period": 0
     },
     {
      "code": "002314",
      "plan": "",
      "date": "2026-06-08",
      "buyDate": "2026-06-09",
+     "buyPrice": 2.46,
      "close": 2.66,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-12",
+     "sellPrice": 2.263,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "300197",
      "plan": "",
      "date": "2026-06-08",
      "buyDate": "2026-06-09",
+     "buyPrice": 2.94,
      "close": 3.02,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-10",
+     "sellPrice": 2.705,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "600522",
      "plan": "",
      "date": "2026-06-08",
      "buyDate": "2026-06-09",
+     "buyPrice": 54.22,
      "close": 49.27,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-09",
+     "sellPrice": 49.882,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002046",
      "plan": "",
      "date": "2026-06-08",
      "buyDate": "2026-06-09",
+     "buyPrice": 64.83,
      "close": 60.17,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-09",
+     "sellPrice": 59.644,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "003009",
      "plan": "",
      "date": "2026-06-08",
      "buyDate": "2026-06-09",
+     "buyPrice": 59.13,
      "close": 60.94,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-11",
+     "sellPrice": 54.4,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     }
    ],
    "sells": []
@@ -2140,40 +3701,75 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-06-05",
      "buyDate": "2026-06-08",
+     "buyPrice": 48.16,
      "close": 47.91,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-11",
+     "sellPrice": 44.307,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "603938",
      "plan": "",
      "date": "2026-06-05",
      "buyDate": "2026-06-08",
+     "buyPrice": 52.17,
      "close": 52.8,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-08",
+     "sellPrice": 47.996,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "603516",
      "plan": "",
      "date": "2026-06-05",
      "buyDate": "2026-06-08",
+     "buyPrice": 129.23,
      "close": 134.92,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-10",
+     "sellPrice": 118.892,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "600105",
      "plan": "",
      "date": "2026-06-05",
      "buyDate": "2026-06-08",
+     "buyPrice": 52.99,
      "close": 55.41,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-26",
+     "sellPrice": 68.052,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 28.42,
+     "period": 18
     },
     {
      "code": "000725",
      "plan": "",
      "date": "2026-06-05",
      "buyDate": "2026-06-08",
+     "buyPrice": 6.23,
      "close": 6.37,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-11",
+     "sellPrice": 5.732,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     }
    ],
    "sells": []
@@ -2186,56 +3782,105 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-06-04",
      "buyDate": "2026-06-05",
+     "buyPrice": 19.78,
      "close": 20.68,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-09",
+     "sellPrice": 18.198,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "600667",
      "plan": "",
      "date": "2026-06-04",
      "buyDate": "2026-06-05",
+     "buyPrice": 16.09,
      "close": 16.3,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-08",
+     "sellPrice": 14.803,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "000670",
      "plan": "",
      "date": "2026-06-04",
      "buyDate": "2026-06-05",
+     "buyPrice": 9.42,
      "close": 9.67,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-11",
+     "sellPrice": 9.54,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.28,
+     "period": 6
     },
     {
      "code": "000725",
      "plan": "",
      "date": "2026-06-04",
      "buyDate": "2026-06-05",
+     "buyPrice": 6.37,
      "close": 6.09,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-11",
+     "sellPrice": 5.86,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "600726",
      "plan": "",
      "date": "2026-06-04",
      "buyDate": "2026-06-05",
+     "buyPrice": 9.35,
      "close": 10.39,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-05",
+     "sellPrice": 9.752,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.3,
+     "period": 0
     },
     {
      "code": "001309",
      "plan": "",
      "date": "2026-06-04",
      "buyDate": "2026-06-05",
+     "buyPrice": 630.5,
      "close": 680.85,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-08",
+     "sellPrice": 580.06,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "002463",
      "plan": "",
      "date": "2026-06-04",
      "buyDate": "2026-06-05",
+     "buyPrice": 133.22,
      "close": 140.82,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-15",
+     "sellPrice": 122.562,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 10
     }
    ],
    "sells": []
@@ -2248,56 +3893,105 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-06-03",
      "buyDate": "2026-06-04",
+     "buyPrice": 71.1,
      "close": 70.22,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-08",
+     "sellPrice": 65.412,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "001896",
      "plan": "",
      "date": "2026-06-03",
      "buyDate": "2026-06-04",
+     "buyPrice": 22.09,
      "close": 20.08,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-05",
+     "sellPrice": 20.323,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "000100",
      "plan": "",
      "date": "2026-06-03",
      "buyDate": "2026-06-04",
+     "buyPrice": 4.83,
      "close": 4.65,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-07-02",
+     "sellPrice": 5.92,
+     "reason": "TIME EXIT (20 days)",
+     "pnl": 22.57,
+     "period": 28
     },
     {
      "code": "600172",
      "plan": "",
      "date": "2026-06-03",
      "buyDate": "2026-06-04",
+     "buyPrice": 14.48,
      "close": 15.04,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-05",
+     "sellPrice": 13.322,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "603738",
      "plan": "",
      "date": "2026-06-03",
      "buyDate": "2026-06-04",
+     "buyPrice": 45.31,
      "close": 45.76,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-29",
+     "sellPrice": 63.802,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 40.81,
+     "period": 25
     },
     {
      "code": "002735",
      "plan": "",
      "date": "2026-06-03",
      "buyDate": "2026-06-04",
+     "buyPrice": 17.12,
      "close": 16.18,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-09",
+     "sellPrice": 18.041,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 5.38,
+     "period": 5
     },
     {
      "code": "000600",
      "plan": "",
      "date": "2026-06-03",
      "buyDate": "2026-06-04",
+     "buyPrice": 12.57,
      "close": 12.45,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-05",
+     "sellPrice": 11.564,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     }
    ],
    "sells": []
@@ -2310,88 +4004,165 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-06-02",
      "buyDate": "2026-06-03",
+     "buyPrice": 7.55,
      "close": 7.4,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-08",
+     "sellPrice": 6.946,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "000055",
      "plan": "",
      "date": "2026-06-02",
      "buyDate": "2026-06-03",
+     "buyPrice": 3.93,
      "close": 4.19,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-03",
+     "sellPrice": 4.085,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.94,
+     "period": 0
     },
     {
      "code": "002851",
      "plan": "",
      "date": "2026-06-02",
      "buyDate": "2026-06-03",
+     "buyPrice": 157.95,
      "close": 147.92,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-08",
+     "sellPrice": 145.314,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "002975",
      "plan": "",
      "date": "2026-06-02",
      "buyDate": "2026-06-03",
+     "buyPrice": 148.0,
      "close": 148.58,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-05",
+     "sellPrice": 136.16,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "600360",
      "plan": "",
      "date": "2026-06-02",
      "buyDate": "2026-06-03",
+     "buyPrice": 12.81,
      "close": 12.75,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-08",
+     "sellPrice": 11.785,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "000601",
      "plan": "",
      "date": "2026-06-02",
      "buyDate": "2026-06-03",
+     "buyPrice": 9.25,
      "close": 8.99,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-04",
+     "sellPrice": 8.51,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "000636",
      "plan": "",
      "date": "2026-06-02",
      "buyDate": "2026-06-03",
+     "buyPrice": 60.44,
      "close": 59.81,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-08",
+     "sellPrice": 55.605,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "600487",
      "plan": "",
      "date": "2026-06-02",
      "buyDate": "2026-06-03",
+     "buyPrice": 91.16,
      "close": 82.85,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-12",
+     "sellPrice": 100.942,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 10.73,
+     "period": 9
     },
     {
      "code": "603633",
      "plan": "",
      "date": "2026-06-02",
      "buyDate": "2026-06-03",
+     "buyPrice": 8.9,
      "close": 9.06,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-05",
+     "sellPrice": 8.188,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "000700",
      "plan": "",
      "date": "2026-06-02",
      "buyDate": "2026-06-03",
+     "buyPrice": 16.58,
      "close": 15.07,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-03",
+     "sellPrice": 15.254,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002436",
      "plan": "",
      "date": "2026-06-02",
      "buyDate": "2026-06-03",
+     "buyPrice": 39.82,
      "close": 42.22,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-08",
+     "sellPrice": 36.634,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     }
    ],
    "sells": []
@@ -2404,40 +4175,75 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-06-01",
      "buyDate": "2026-06-02",
+     "buyPrice": 2.85,
      "close": 2.92,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-09",
+     "sellPrice": 2.622,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "002579",
      "plan": "",
      "date": "2026-06-01",
      "buyDate": "2026-06-02",
+     "buyPrice": 20.76,
      "close": 18.87,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-02",
+     "sellPrice": 19.099,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "600667",
      "plan": "",
      "date": "2026-06-01",
      "buyDate": "2026-06-02",
+     "buyPrice": 14.88,
      "close": 13.52,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-02",
+     "sellPrice": 13.69,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002897",
      "plan": "",
      "date": "2026-06-01",
      "buyDate": "2026-06-02",
+     "buyPrice": 88.2,
      "close": 80.18,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-05",
+     "sellPrice": 91.512,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.76,
+     "period": 3
     },
     {
      "code": "001896",
      "plan": "",
      "date": "2026-06-01",
      "buyDate": "2026-06-02",
+     "buyPrice": 18.25,
      "close": 17.65,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-02",
+     "sellPrice": 16.79,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     }
    ],
    "sells": []
@@ -2450,56 +4256,105 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-05-29",
      "buyDate": "2026-06-01",
+     "buyPrice": 3.83,
      "close": 3.81,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-03",
+     "sellPrice": 3.524,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002995",
      "plan": "",
      "date": "2026-05-29",
      "buyDate": "2026-06-01",
+     "buyPrice": 25.11,
      "close": 22.83,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-01",
+     "sellPrice": 23.101,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002251",
      "plan": "",
      "date": "2026-05-29",
      "buyDate": "2026-06-01",
+     "buyPrice": 5.0,
      "close": 4.88,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-03",
+     "sellPrice": 4.6,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "000767",
      "plan": "",
      "date": "2026-05-29",
      "buyDate": "2026-06-01",
+     "buyPrice": 6.14,
      "close": 5.58,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-01",
+     "sellPrice": 5.649,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "600863",
      "plan": "",
      "date": "2026-05-29",
      "buyDate": "2026-06-01",
+     "buyPrice": 7.7,
      "close": 7.08,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-01",
+     "sellPrice": 7.084,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "603618",
      "plan": "",
      "date": "2026-05-29",
      "buyDate": "2026-06-01",
+     "buyPrice": 38.44,
      "close": 42.71,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-05",
+     "sellPrice": 42.725,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 11.15,
+     "period": 4
     },
     {
      "code": "600487",
      "plan": "",
      "date": "2026-05-29",
      "buyDate": "2026-06-01",
+     "buyPrice": 75.29,
      "close": 76.85,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-12",
+     "sellPrice": 100.942,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 34.07,
+     "period": 11
     }
    ],
    "sells": []
@@ -2512,120 +4367,225 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
+     "buyPrice": 52.93,
      "close": 48.54,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-08",
+     "sellPrice": 59.331,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 12.09,
+     "period": 10
     },
     {
      "code": "002669",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
+     "buyPrice": 15.72,
      "close": 17.47,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-29",
+     "sellPrice": 17.452,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 11.02,
+     "period": 0
     },
     {
      "code": "603011",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
+     "buyPrice": 24.92,
      "close": 22.65,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-08",
+     "sellPrice": 31.372,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 25.89,
+     "period": 10
     },
     {
      "code": "002806",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
+     "buyPrice": 18.49,
      "close": 16.81,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-29",
+     "sellPrice": 17.011,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "603773",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
+     "buyPrice": 104.08,
      "close": 109.99,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-29",
+     "sellPrice": 105.708,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.56,
+     "period": 0
     },
     {
      "code": "002639",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
+     "buyPrice": 17.18,
      "close": 16.54,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-02",
+     "sellPrice": 15.806,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "600360",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
+     "buyPrice": 11.98,
      "close": 12.26,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-08",
+     "sellPrice": 12.917,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 7.82,
+     "period": 10
     },
     {
      "code": "002428",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
+     "buyPrice": 91.17,
      "close": 89.84,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-01",
+     "sellPrice": 83.876,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "603267",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
+     "buyPrice": 69.26,
      "close": 70.06,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-05",
+     "sellPrice": 76.884,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 11.01,
+     "period": 7
     },
     {
      "code": "600110",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
+     "buyPrice": 12.66,
      "close": 11.51,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-29",
+     "sellPrice": 11.647,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "600367",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
+     "buyPrice": 32.09,
      "close": 33.21,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-11",
+     "sellPrice": 54.354,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 69.38,
+     "period": 13
     },
     {
      "code": "002491",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
+     "buyPrice": 23.93,
      "close": 23.12,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-29",
+     "sellPrice": 22.016,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002975",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
+     "buyPrice": 144.3,
      "close": 134.28,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-05",
+     "sellPrice": 132.756,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "000063",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
+     "buyPrice": 36.31,
      "close": 37.89,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-08",
+     "sellPrice": 37.619,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.6,
+     "period": 10
     },
     {
      "code": "605580",
      "plan": "",
      "date": "2026-05-28",
      "buyDate": "2026-05-29",
+     "buyPrice": 29.99,
      "close": 27.88,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-29",
+     "sellPrice": 27.591,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     }
    ],
    "sells": []
@@ -2638,40 +4598,75 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-05-27",
      "buyDate": "2026-05-28",
+     "buyPrice": 21.47,
      "close": 20.13,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-29",
+     "sellPrice": 19.752,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002364",
      "plan": "",
      "date": "2026-05-27",
      "buyDate": "2026-05-28",
+     "buyPrice": 59.05,
      "close": 56.67,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-01",
+     "sellPrice": 54.326,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "600863",
      "plan": "",
      "date": "2026-05-27",
      "buyDate": "2026-05-28",
+     "buyPrice": 6.42,
      "close": 6.49,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-28",
+     "sellPrice": 6.523,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.6,
+     "period": 0
     },
     {
      "code": "600207",
      "plan": "",
      "date": "2026-05-27",
      "buyDate": "2026-05-28",
+     "buyPrice": 8.08,
      "close": 7.7,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-28",
+     "sellPrice": 7.434,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002881",
      "plan": "",
      "date": "2026-05-27",
      "buyDate": "2026-05-28",
+     "buyPrice": 49.44,
      "close": 49.69,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-29",
+     "sellPrice": 45.485,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     }
    ],
    "sells": []
@@ -2684,40 +4679,75 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-05-26",
      "buyDate": "2026-05-27",
+     "buyPrice": 15.2,
      "close": 15.98,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-01",
+     "sellPrice": 13.984,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "002245",
      "plan": "",
      "date": "2026-05-26",
      "buyDate": "2026-05-27",
+     "buyPrice": 22.78,
      "close": 22.35,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-29",
+     "sellPrice": 20.958,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "003036",
      "plan": "",
      "date": "2026-05-26",
      "buyDate": "2026-05-27",
+     "buyPrice": 64.8,
      "close": 61.51,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-29",
+     "sellPrice": 72.146,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 11.34,
+     "period": 2
     },
     {
      "code": "000725",
      "plan": "",
      "date": "2026-05-26",
      "buyDate": "2026-05-27",
+     "buyPrice": 5.66,
      "close": 5.71,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-29",
+     "sellPrice": 5.207,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "000670",
      "plan": "",
      "date": "2026-05-26",
      "buyDate": "2026-05-27",
+     "buyPrice": 9.16,
      "close": 9.95,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-01",
+     "sellPrice": 8.427,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     }
    ],
    "sells": []
@@ -2730,112 +4760,210 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
+     "buyPrice": 18.65,
      "close": 16.95,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-29",
+     "sellPrice": 20.185,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 8.23,
+     "period": 3
     },
     {
      "code": "600376",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
+     "buyPrice": 5.02,
      "close": 4.77,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-28",
+     "sellPrice": 4.618,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002421",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
+     "buyPrice": 4.65,
      "close": 4.8,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-26",
+     "sellPrice": 4.747,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.09,
+     "period": 0
     },
     {
      "code": "603005",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
+     "buyPrice": 45.1,
      "close": 43.05,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-28",
+     "sellPrice": 41.492,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002980",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
+     "buyPrice": 115.5,
      "close": 128.02,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-26",
+     "sellPrice": 122.866,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 6.38,
+     "period": 0
     },
     {
      "code": "003036",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
+     "buyPrice": 61.51,
      "close": 55.91,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-29",
+     "sellPrice": 72.146,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 17.29,
+     "period": 3
     },
     {
      "code": "002178",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
+     "buyPrice": 6.16,
      "close": 6.22,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-29",
+     "sellPrice": 5.667,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "002409",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
+     "buyPrice": 122.9,
      "close": 127.84,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-28",
+     "sellPrice": 113.068,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002156",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
+     "buyPrice": 75.31,
      "close": 69.7,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-28",
+     "sellPrice": 69.285,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "000510",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
+     "buyPrice": 18.07,
      "close": 16.43,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-26",
+     "sellPrice": 16.624,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "603083",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
+     "buyPrice": 204.94,
      "close": 209.0,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-27",
+     "sellPrice": 188.545,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002897",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
+     "buyPrice": 80.8,
      "close": 78.83,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-05",
+     "sellPrice": 91.512,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 13.26,
+     "period": 10
     },
     {
      "code": "000988",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
+     "buyPrice": 170.07,
      "close": 171.69,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-28",
+     "sellPrice": 156.464,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "600584",
      "plan": "",
      "date": "2026-05-25",
      "buyDate": "2026-05-26",
+     "buyPrice": 88.09,
      "close": 80.07,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-28",
+     "sellPrice": 81.043,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     }
    ],
    "sells": []
@@ -2848,120 +4976,225 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
+     "buyPrice": 12.93,
      "close": 11.75,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-27",
+     "sellPrice": 11.896,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "605006",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
+     "buyPrice": 16.29,
      "close": 15.74,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-29",
+     "sellPrice": 18.676,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 14.65,
+     "period": 4
     },
     {
      "code": "600545",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
+     "buyPrice": 6.65,
      "close": 6.38,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-01",
+     "sellPrice": 7.7,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 15.8,
+     "period": 7
     },
     {
      "code": "002463",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
+     "buyPrice": 122.54,
      "close": 114.07,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-01",
+     "sellPrice": 127.76,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.26,
+     "period": 7
     },
     {
      "code": "603936",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
+     "buyPrice": 24.84,
      "close": 22.58,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-01",
+     "sellPrice": 22.853,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "603738",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
+     "buyPrice": 49.15,
      "close": 50.2,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-28",
+     "sellPrice": 45.218,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "002432",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
+     "buyPrice": 86.37,
      "close": 78.38,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-25",
+     "sellPrice": 79.46,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "600719",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
+     "buyPrice": 9.2,
      "close": 8.87,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-02",
+     "sellPrice": 9.54,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.7,
+     "period": 8
     },
     {
      "code": "002885",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
+     "buyPrice": 50.97,
      "close": 53.68,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-27",
+     "sellPrice": 46.892,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "000962",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
+     "buyPrice": 64.66,
      "close": 62.14,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-01",
+     "sellPrice": 59.487,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "000657",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
+     "buyPrice": 63.98,
      "close": 62.15,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-01",
+     "sellPrice": 65.072,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.71,
+     "period": 7
     },
     {
      "code": "002245",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
+     "buyPrice": 20.32,
      "close": 20.41,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-29",
+     "sellPrice": 21.353,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 5.08,
+     "period": 4
     },
     {
      "code": "002741",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
+     "buyPrice": 27.9,
      "close": 25.36,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-01",
+     "sellPrice": 28.667,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.75,
+     "period": 7
     },
     {
      "code": "000725",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
+     "buyPrice": 5.21,
      "close": 5.1,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-29",
+     "sellPrice": 5.548,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 6.48,
+     "period": 4
     },
     {
      "code": "001389",
      "plan": "",
      "date": "2026-05-22",
      "buyDate": "2026-05-25",
+     "buyPrice": 190.35,
      "close": 194.36,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-02",
+     "sellPrice": 175.122,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 8
     }
    ],
    "sells": []
@@ -2974,80 +5207,150 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-05-21",
      "buyDate": "2026-05-22",
+     "buyPrice": 3.96,
      "close": 4.09,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-27",
+     "sellPrice": 3.643,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "001258",
      "plan": "",
      "date": "2026-05-21",
      "buyDate": "2026-05-22",
+     "buyPrice": 10.37,
      "close": 10.3,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-05",
+     "sellPrice": 10.635,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.56,
+     "period": 14
     },
     {
      "code": "603459",
      "plan": "",
      "date": "2026-05-21",
      "buyDate": "2026-05-22",
+     "buyPrice": 105.61,
      "close": 96.01,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-22",
+     "sellPrice": 97.161,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "001896",
      "plan": "",
      "date": "2026-05-21",
      "buyDate": "2026-05-22",
+     "buyPrice": 15.76,
      "close": 16.37,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-05",
+     "sellPrice": 22.117,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 40.34,
+     "period": 14
     },
     {
      "code": "002371",
      "plan": "",
      "date": "2026-05-21",
      "buyDate": "2026-05-22",
+     "buyPrice": 668.24,
      "close": 662.23,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-01",
+     "sellPrice": 614.781,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 10
     },
     {
      "code": "603767",
      "plan": "",
      "date": "2026-05-21",
      "buyDate": "2026-05-22",
+     "buyPrice": 24.92,
      "close": 24.34,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-25",
+     "sellPrice": 22.926,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "002297",
      "plan": "",
      "date": "2026-05-21",
      "buyDate": "2026-05-22",
+     "buyPrice": 26.58,
      "close": 24.71,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-22",
+     "sellPrice": 24.454,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002747",
      "plan": "",
      "date": "2026-05-21",
      "buyDate": "2026-05-22",
+     "buyPrice": 29.07,
      "close": 28.7,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-06-03",
+     "sellPrice": 26.744,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 12
     },
     {
      "code": "000700",
      "plan": "",
      "date": "2026-05-21",
      "buyDate": "2026-05-22",
+     "buyPrice": 15.45,
      "close": 15.09,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-29",
+     "sellPrice": 14.214,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "002432",
      "plan": "",
      "date": "2026-05-21",
      "buyDate": "2026-05-22",
+     "buyPrice": 78.38,
      "close": 71.12,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-22",
+     "sellPrice": 72.11,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     }
    ],
    "sells": []
@@ -3060,32 +5363,60 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-05-20",
      "buyDate": "2026-05-21",
+     "buyPrice": 9.25,
      "close": 9.47,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-21",
+     "sellPrice": 9.586,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.64,
+     "period": 0
     },
     {
      "code": "600584",
      "plan": "",
      "date": "2026-05-20",
      "buyDate": "2026-05-21",
+     "buyPrice": 66.74,
      "close": 66.12,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-27",
+     "sellPrice": 87.216,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 30.68,
+     "period": 6
     },
     {
      "code": "002407",
      "plan": "",
      "date": "2026-05-20",
      "buyDate": "2026-05-21",
+     "buyPrice": 40.81,
      "close": 40.69,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-26",
+     "sellPrice": 37.545,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "603986",
      "plan": "",
      "date": "2026-05-20",
      "buyDate": "2026-05-21",
+     "buyPrice": 431.15,
      "close": 444.27,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-28",
+     "sellPrice": 508.594,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 17.96,
+     "period": 7
     }
    ],
    "sells": []
@@ -3098,32 +5429,60 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-05-19",
      "buyDate": "2026-05-20",
+     "buyPrice": 33.9,
      "close": 32.27,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-08",
+     "sellPrice": 59.331,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 75.02,
+     "period": 19
     },
     {
      "code": "603466",
      "plan": "",
      "date": "2026-05-19",
      "buyDate": "2026-05-20",
+     "buyPrice": 10.76,
      "close": 11.15,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-11",
+     "sellPrice": 11.638,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 8.16,
+     "period": 22
     },
     {
      "code": "002131",
      "plan": "",
      "date": "2026-05-19",
      "buyDate": "2026-05-20",
+     "buyPrice": 6.9,
      "close": 7.37,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-25",
+     "sellPrice": 6.348,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "002281",
      "plan": "",
      "date": "2026-05-19",
      "buyDate": "2026-05-20",
+     "buyPrice": 236.4,
      "close": 230.89,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-21",
+     "sellPrice": 217.488,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     }
    ],
    "sells": []
@@ -3136,48 +5495,90 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-05-18",
      "buyDate": "2026-05-19",
+     "buyPrice": 37.45,
      "close": 36.81,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-28",
+     "sellPrice": 43.065,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 14.99,
+     "period": 9
     },
     {
      "code": "000988",
      "plan": "",
      "date": "2026-05-18",
      "buyDate": "2026-05-19",
+     "buyPrice": 158.15,
      "close": 147.13,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-27",
+     "sellPrice": 161.506,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.12,
+     "period": 8
     },
     {
      "code": "002491",
      "plan": "",
      "date": "2026-05-18",
      "buyDate": "2026-05-19",
+     "buyPrice": 23.69,
      "close": 23.69,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-21",
+     "sellPrice": 21.795,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002149",
      "plan": "",
      "date": "2026-05-18",
      "buyDate": "2026-05-19",
+     "buyPrice": 68.14,
      "close": 73.8,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-19",
+     "sellPrice": 69.672,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.25,
+     "period": 0
     },
     {
      "code": "002354",
      "plan": "",
      "date": "2026-05-18",
      "buyDate": "2026-05-19",
+     "buyPrice": 7.13,
      "close": 7.08,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-03",
+     "sellPrice": 6.56,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 15
     },
     {
      "code": "002927",
      "plan": "",
      "date": "2026-05-18",
      "buyDate": "2026-05-19",
+     "buyPrice": 22.7,
      "close": 21.56,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-06-01",
+     "sellPrice": 23.57,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.83,
+     "period": 13
     }
    ],
    "sells": []
@@ -3190,64 +5591,120 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-05-15",
      "buyDate": "2026-05-18",
+     "buyPrice": 38.77,
      "close": 39.6,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-21",
+     "sellPrice": 35.668,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "600152",
      "plan": "",
      "date": "2026-05-15",
      "buyDate": "2026-05-18",
+     "buyPrice": 13.09,
      "close": 13.73,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-20",
+     "sellPrice": 12.043,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "600130",
      "plan": "",
      "date": "2026-05-15",
      "buyDate": "2026-05-18",
+     "buyPrice": 6.64,
      "close": 6.39,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-18",
+     "sellPrice": 6.109,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002929",
      "plan": "",
      "date": "2026-05-15",
      "buyDate": "2026-05-18",
+     "buyPrice": 95.93,
      "close": 92.93,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-20",
+     "sellPrice": 88.256,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002031",
      "plan": "",
      "date": "2026-05-15",
      "buyDate": "2026-05-18",
+     "buyPrice": 8.18,
      "close": 8.4,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-21",
+     "sellPrice": 7.526,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "002371",
      "plan": "",
      "date": "2026-05-15",
      "buyDate": "2026-05-18",
+     "buyPrice": 597.21,
      "close": 591.24,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-21",
+     "sellPrice": 663.173,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 11.05,
+     "period": 3
     },
     {
      "code": "601991",
      "plan": "",
      "date": "2026-05-15",
      "buyDate": "2026-05-18",
+     "buyPrice": 7.84,
      "close": 7.92,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-21",
+     "sellPrice": 7.213,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "002421",
      "plan": "",
      "date": "2026-05-15",
      "buyDate": "2026-05-18",
+     "buyPrice": 3.53,
      "close": 3.21,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-18",
+     "sellPrice": 3.248,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     }
    ],
    "sells": []
@@ -3260,48 +5717,90 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-05-14",
      "buyDate": "2026-05-15",
+     "buyPrice": 6.96,
      "close": 7.74,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-18",
+     "sellPrice": 6.403,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "002165",
      "plan": "",
      "date": "2026-05-14",
      "buyDate": "2026-05-15",
+     "buyPrice": 9.71,
      "close": 9.36,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-20",
+     "sellPrice": 8.933,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "002245",
      "plan": "",
      "date": "2026-05-14",
      "buyDate": "2026-05-15",
+     "buyPrice": 17.44,
      "close": 17.96,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-29",
+     "sellPrice": 21.353,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 22.44,
+     "period": 14
     },
     {
      "code": "002031",
      "plan": "",
      "date": "2026-05-14",
      "buyDate": "2026-05-15",
+     "buyPrice": 8.4,
      "close": 7.64,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-15",
+     "sellPrice": 7.728,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002617",
      "plan": "",
      "date": "2026-05-14",
      "buyDate": "2026-05-15",
+     "buyPrice": 9.36,
      "close": 9.7,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-29",
+     "sellPrice": 10.0,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 6.84,
+     "period": 14
     },
     {
      "code": "002980",
      "plan": "",
      "date": "2026-05-14",
      "buyDate": "2026-05-15",
+     "buyPrice": 96.27,
      "close": 94.67,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-26",
+     "sellPrice": 122.866,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 27.63,
+     "period": 11
     }
    ],
    "sells": []
@@ -3314,80 +5813,150 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-05-13",
      "buyDate": "2026-05-14",
+     "buyPrice": 18.91,
      "close": 18.88,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-18",
+     "sellPrice": 17.397,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "600726",
      "plan": "",
      "date": "2026-05-13",
      "buyDate": "2026-05-14",
+     "buyPrice": 8.0,
      "close": 8.47,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-14",
+     "sellPrice": 8.335,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.19,
+     "period": 0
     },
     {
      "code": "000546",
      "plan": "",
      "date": "2026-05-13",
      "buyDate": "2026-05-14",
+     "buyPrice": 7.05,
      "close": 7.58,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-19",
+     "sellPrice": 6.486,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "601016",
      "plan": "",
      "date": "2026-05-13",
      "buyDate": "2026-05-14",
+     "buyPrice": 5.1,
      "close": 5.63,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-14",
+     "sellPrice": 5.419,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 6.25,
+     "period": 0
     },
     {
      "code": "002929",
      "plan": "",
      "date": "2026-05-13",
      "buyDate": "2026-05-14",
+     "buyPrice": 86.84,
      "close": 87.72,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-14",
+     "sellPrice": 88.78,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.23,
+     "period": 0
     },
     {
      "code": "002297",
      "plan": "",
      "date": "2026-05-13",
      "buyDate": "2026-05-14",
+     "buyPrice": 24.91,
      "close": 26.15,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-20",
+     "sellPrice": 22.917,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "000889",
      "plan": "",
      "date": "2026-05-13",
      "buyDate": "2026-05-14",
+     "buyPrice": 5.32,
      "close": 5.57,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-18",
+     "sellPrice": 4.894,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "600172",
      "plan": "",
      "date": "2026-05-13",
      "buyDate": "2026-05-14",
+     "buyPrice": 11.83,
      "close": 11.84,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-18",
+     "sellPrice": 10.884,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "001309",
      "plan": "",
      "date": "2026-05-13",
      "buyDate": "2026-05-14",
+     "buyPrice": 721.65,
      "close": 679.8,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-21",
+     "sellPrice": 663.918,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "000534",
      "plan": "",
      "date": "2026-05-13",
      "buyDate": "2026-05-14",
+     "buyPrice": 38.66,
      "close": 40.66,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-22",
+     "sellPrice": 35.567,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 8
     }
    ],
    "sells": []
@@ -3400,40 +5969,75 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-05-12",
      "buyDate": "2026-05-13",
+     "buyPrice": 14.2,
      "close": 14.31,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-15",
+     "sellPrice": 13.064,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "600719",
      "plan": "",
      "date": "2026-05-12",
      "buyDate": "2026-05-13",
+     "buyPrice": 10.83,
      "close": 10.62,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-14",
+     "sellPrice": 9.964,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "000066",
      "plan": "",
      "date": "2026-05-12",
      "buyDate": "2026-05-13",
+     "buyPrice": 25.19,
      "close": 25.36,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-14",
+     "sellPrice": 23.175,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002939",
      "plan": "",
      "date": "2026-05-12",
      "buyDate": "2026-05-13",
+     "buyPrice": 9.71,
      "close": 9.58,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-19",
+     "sellPrice": 8.933,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "001211",
      "plan": "",
      "date": "2026-05-12",
      "buyDate": "2026-05-13",
+     "buyPrice": 37.95,
      "close": 38.56,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-14",
+     "sellPrice": 34.914,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     }
    ],
    "sells": []
@@ -3446,40 +6050,75 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-05-11",
      "buyDate": "2026-05-12",
+     "buyPrice": 17.16,
      "close": 18.4,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-12",
+     "sellPrice": 17.636,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.78,
+     "period": 0
     },
     {
      "code": "000060",
      "plan": "",
      "date": "2026-05-11",
      "buyDate": "2026-05-12",
+     "buyPrice": 7.71,
      "close": 8.45,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-18",
+     "sellPrice": 7.093,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "600330",
      "plan": "",
      "date": "2026-05-11",
      "buyDate": "2026-05-12",
+     "buyPrice": 32.66,
      "close": 32.08,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-15",
+     "sellPrice": 30.047,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "600584",
      "plan": "",
      "date": "2026-05-11",
      "buyDate": "2026-05-12",
+     "buyPrice": 55.14,
      "close": 55.73,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-27",
+     "sellPrice": 87.216,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 58.17,
+     "period": 15
     },
     {
      "code": "002979",
      "plan": "",
      "date": "2026-05-11",
      "buyDate": "2026-05-12",
+     "buyPrice": 53.36,
      "close": 53.66,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-22",
+     "sellPrice": 61.355,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 14.98,
+     "period": 10
     }
    ],
    "sells": []
@@ -3492,48 +6131,90 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-05-08",
      "buyDate": "2026-05-11",
+     "buyPrice": 27.65,
      "close": 29.34,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-12",
+     "sellPrice": 25.438,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002428",
      "plan": "",
      "date": "2026-05-08",
      "buyDate": "2026-05-11",
+     "buyPrice": 92.19,
      "close": 86.06,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-15",
+     "sellPrice": 96.747,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.94,
+     "period": 4
     },
     {
      "code": "600152",
      "plan": "",
      "date": "2026-05-08",
      "buyDate": "2026-05-11",
+     "buyPrice": 14.65,
      "close": 15.41,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-14",
+     "sellPrice": 13.478,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "600498",
      "plan": "",
      "date": "2026-05-08",
      "buyDate": "2026-05-11",
+     "buyPrice": 58.51,
      "close": 56.9,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-15",
+     "sellPrice": 53.829,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "000547",
      "plan": "",
      "date": "2026-05-08",
      "buyDate": "2026-05-11",
+     "buyPrice": 28.81,
      "close": 27.59,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-14",
+     "sellPrice": 26.505,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "600345",
      "plan": "",
      "date": "2026-05-08",
      "buyDate": "2026-05-11",
+     "buyPrice": 57.86,
      "close": 57.34,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-19",
+     "sellPrice": 53.231,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 8
     }
    ],
    "sells": []
@@ -3546,112 +6227,210 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
+     "buyPrice": 14.87,
      "close": 13.52,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-08",
+     "sellPrice": 13.68,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002217",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
+     "buyPrice": 3.43,
      "close": 3.5,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-15",
+     "sellPrice": 3.156,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "002350",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
+     "buyPrice": 16.67,
      "close": 15.92,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-26",
+     "sellPrice": 15.336,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 18
     },
     {
      "code": "000066",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
+     "buyPrice": 23.09,
      "close": 23.98,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-14",
+     "sellPrice": 23.681,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.56,
+     "period": 6
     },
     {
      "code": "601208",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
+     "buyPrice": 46.05,
      "close": 45.11,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-21",
+     "sellPrice": 48.41,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 5.13,
+     "period": 13
     },
     {
      "code": "002384",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
+     "buyPrice": 211.39,
      "close": 211.07,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-29",
+     "sellPrice": 215.28,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.84,
+     "period": 21
     },
     {
      "code": "603803",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
+     "buyPrice": 16.57,
      "close": 16.27,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-20",
+     "sellPrice": 15.244,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 12
     },
     {
      "code": "600522",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
+     "buyPrice": 40.64,
      "close": 38.12,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-15",
+     "sellPrice": 42.246,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.95,
+     "period": 7
     },
     {
      "code": "002980",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
+     "buyPrice": 84.14,
      "close": 83.4,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-26",
+     "sellPrice": 122.866,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 46.03,
+     "period": 18
     },
     {
      "code": "000060",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
+     "buyPrice": 7.9,
      "close": 8.03,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-12",
+     "sellPrice": 8.004,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.32,
+     "period": 4
     },
     {
      "code": "002436",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
+     "buyPrice": 31.98,
      "close": 32.39,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-21",
+     "sellPrice": 33.47,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.66,
+     "period": 13
     },
     {
      "code": "002281",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
+     "buyPrice": 180.72,
      "close": 164.29,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-08",
+     "sellPrice": 166.262,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002432",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
+     "buyPrice": 74.64,
      "close": 76.81,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-15",
+     "sellPrice": 76.369,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.32,
+     "period": 7
     },
     {
      "code": "600736",
      "plan": "",
      "date": "2026-05-07",
      "buyDate": "2026-05-08",
+     "buyPrice": 9.84,
      "close": 9.63,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-14",
+     "sellPrice": 9.053,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     }
    ],
    "sells": []
@@ -3664,64 +6443,120 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-05-06",
      "buyDate": "2026-05-07",
+     "buyPrice": 18.87,
      "close": 17.15,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-07",
+     "sellPrice": 17.36,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "600736",
      "plan": "",
      "date": "2026-05-06",
      "buyDate": "2026-05-07",
+     "buyPrice": 9.63,
      "close": 8.75,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-07",
+     "sellPrice": 8.86,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "001330",
      "plan": "",
      "date": "2026-05-06",
      "buyDate": "2026-05-07",
+     "buyPrice": 8.89,
      "close": 8.67,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-25",
+     "sellPrice": 9.32,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.83,
+     "period": 18
     },
     {
      "code": "600589",
      "plan": "",
      "date": "2026-05-06",
      "buyDate": "2026-05-07",
+     "buyPrice": 11.37,
      "close": 11.08,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-14",
+     "sellPrice": 13.414,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 17.97,
+     "period": 7
     },
     {
      "code": "600487",
      "plan": "",
      "date": "2026-05-06",
      "buyDate": "2026-05-07",
+     "buyPrice": 75.69,
      "close": 71.53,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-15",
+     "sellPrice": 69.635,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 8
     },
     {
      "code": "002052",
      "plan": "",
      "date": "2026-05-06",
      "buyDate": "2026-05-07",
+     "buyPrice": 11.23,
      "close": 11.1,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-26",
+     "sellPrice": 10.332,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 19
     },
     {
      "code": "002104",
      "plan": "",
      "date": "2026-05-06",
      "buyDate": "2026-05-07",
+     "buyPrice": 14.75,
      "close": 15.17,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-15",
+     "sellPrice": 13.57,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 8
     },
     {
      "code": "600396",
      "plan": "",
      "date": "2026-05-06",
      "buyDate": "2026-05-07",
+     "buyPrice": 12.0,
      "close": 10.91,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-07",
+     "sellPrice": 11.04,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     }
    ],
    "sells": []
@@ -3734,48 +6569,90 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-04-30",
      "buyDate": "2026-05-06",
+     "buyPrice": 2.52,
      "close": 2.52,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-18",
+     "sellPrice": 2.668,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 5.87,
+     "period": 12
     },
     {
      "code": "000066",
      "plan": "",
      "date": "2026-04-30",
      "buyDate": "2026-05-06",
+     "buyPrice": 21.8,
      "close": 19.82,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-14",
+     "sellPrice": 23.681,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 8.63,
+     "period": 8
     },
     {
      "code": "002192",
      "plan": "",
      "date": "2026-04-30",
      "buyDate": "2026-05-06",
+     "buyPrice": 110.96,
      "close": 109.0,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-08",
+     "sellPrice": 102.083,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002149",
      "plan": "",
      "date": "2026-04-30",
      "buyDate": "2026-05-06",
+     "buyPrice": 69.76,
      "close": 63.41,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-14",
+     "sellPrice": 72.468,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.88,
+     "period": 8
     },
     {
      "code": "600330",
      "plan": "",
      "date": "2026-04-30",
      "buyDate": "2026-05-06",
+     "buyPrice": 27.01,
      "close": 27.89,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-15",
+     "sellPrice": 32.706,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 21.09,
+     "period": 9
     },
     {
      "code": "002989",
      "plan": "",
      "date": "2026-04-30",
      "buyDate": "2026-05-06",
+     "buyPrice": 32.13,
      "close": 29.21,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-21",
+     "sellPrice": 32.816,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.14,
+     "period": 15
     }
    ],
    "sells": []
@@ -3788,72 +6665,135 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-04-29",
      "buyDate": "2026-04-30",
+     "buyPrice": 34.37,
      "close": 32.6,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-30",
+     "sellPrice": 31.62,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002081",
      "plan": "",
      "date": "2026-04-29",
      "buyDate": "2026-04-30",
+     "buyPrice": 5.77,
      "close": 5.23,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-30",
+     "sellPrice": 5.308,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "600186",
      "plan": "",
      "date": "2026-04-29",
      "buyDate": "2026-04-30",
+     "buyPrice": 10.72,
      "close": 10.82,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-11",
+     "sellPrice": 9.862,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 11
     },
     {
      "code": "600111",
      "plan": "",
      "date": "2026-04-29",
      "buyDate": "2026-04-30",
+     "buyPrice": 52.91,
      "close": 50.82,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-27",
+     "sellPrice": 48.677,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 27
     },
     {
      "code": "001896",
      "plan": "",
      "date": "2026-04-29",
      "buyDate": "2026-04-30",
+     "buyPrice": 15.24,
      "close": 16.93,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-14",
+     "sellPrice": 17.848,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 17.11,
+     "period": 14
     },
     {
      "code": "603083",
      "plan": "",
      "date": "2026-04-29",
      "buyDate": "2026-04-30",
+     "buyPrice": 174.69,
      "close": 170.43,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-12",
+     "sellPrice": 192.63,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 10.27,
+     "period": 12
     },
     {
      "code": "603773",
      "plan": "",
      "date": "2026-04-29",
      "buyDate": "2026-04-30",
+     "buyPrice": 69.35,
      "close": 69.74,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-15",
+     "sellPrice": 81.77,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 17.91,
+     "period": 15
     },
     {
      "code": "603353",
      "plan": "",
      "date": "2026-04-29",
      "buyDate": "2026-04-30",
+     "buyPrice": 42.99,
      "close": 43.72,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-14",
+     "sellPrice": 51.198,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 19.09,
+     "period": 14
     },
     {
      "code": "002192",
      "plan": "",
      "date": "2026-04-29",
      "buyDate": "2026-04-30",
+     "buyPrice": 109.0,
      "close": 99.07,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-08",
+     "sellPrice": 100.28,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 8
     }
    ],
    "sells": []
@@ -3866,40 +6806,75 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-04-28",
      "buyDate": "2026-04-29",
+     "buyPrice": 109.6,
      "close": 108.99,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-18",
+     "sellPrice": 100.832,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 19
     },
     {
      "code": "002210",
      "plan": "",
      "date": "2026-04-28",
      "buyDate": "2026-04-29",
+     "buyPrice": 3.31,
      "close": 3.01,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-30",
+     "sellPrice": 3.045,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002313",
      "plan": "",
      "date": "2026-04-28",
      "buyDate": "2026-04-29",
+     "buyPrice": 9.98,
      "close": 10.12,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-28",
+     "sellPrice": 9.182,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 29
     },
     {
      "code": "600770",
      "plan": "",
      "date": "2026-04-28",
      "buyDate": "2026-04-29",
+     "buyPrice": 7.89,
      "close": 7.66,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-29",
+     "sellPrice": 7.259,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002377",
      "plan": "",
      "date": "2026-04-28",
      "buyDate": "2026-04-29",
+     "buyPrice": 3.69,
      "close": 3.65,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-15",
+     "sellPrice": 3.395,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 16
     }
    ],
    "sells": []
@@ -3912,24 +6887,45 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-04-27",
      "buyDate": "2026-04-28",
+     "buyPrice": 34.74,
      "close": 35.52,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-15",
+     "sellPrice": 42.246,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 21.61,
+     "period": 17
     },
     {
      "code": "002560",
      "plan": "",
      "date": "2026-04-27",
      "buyDate": "2026-04-28",
+     "buyPrice": 10.73,
      "close": 11.14,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-14",
+     "sellPrice": 11.868,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 10.61,
+     "period": 16
     },
     {
      "code": "002045",
      "plan": "",
      "date": "2026-04-27",
      "buyDate": "2026-04-28",
+     "buyPrice": 11.3,
      "close": 11.75,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-25",
+     "sellPrice": 10.396,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 27
     }
    ],
    "sells": []
@@ -3942,56 +6938,105 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-04-24",
      "buyDate": "2026-04-27",
+     "buyPrice": 80.9,
      "close": 82.29,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-07",
+     "sellPrice": 74.428,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 10
     },
     {
      "code": "600152",
      "plan": "",
      "date": "2026-04-24",
      "buyDate": "2026-04-27",
+     "buyPrice": 14.26,
      "close": 12.96,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-27",
+     "sellPrice": 13.119,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "603738",
      "plan": "",
      "date": "2026-04-24",
      "buyDate": "2026-04-27",
+     "buyPrice": 38.89,
      "close": 39.77,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-27",
+     "sellPrice": 39.523,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.63,
+     "period": 0
     },
     {
      "code": "600227",
      "plan": "",
      "date": "2026-04-24",
      "buyDate": "2026-04-27",
+     "buyPrice": 3.68,
      "close": 3.96,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-07",
+     "sellPrice": 4.002,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 8.75,
+     "period": 10
     },
     {
      "code": "002606",
      "plan": "",
      "date": "2026-04-24",
      "buyDate": "2026-04-27",
+     "buyPrice": 14.78,
      "close": 13.99,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-14",
+     "sellPrice": 16.643,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 12.6,
+     "period": 17
     },
     {
      "code": "002407",
      "plan": "",
      "date": "2026-04-24",
      "buyDate": "2026-04-27",
+     "buyPrice": 34.33,
      "close": 32.85,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-08",
+     "sellPrice": 35.705,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.01,
+     "period": 11
     },
     {
      "code": "002466",
      "plan": "",
      "date": "2026-04-24",
      "buyDate": "2026-04-27",
+     "buyPrice": 73.65,
      "close": 73.7,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-12",
+     "sellPrice": 75.891,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.04,
+     "period": 15
     }
    ],
    "sells": []
@@ -4004,48 +7049,90 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-04-23",
      "buyDate": "2026-04-24",
+     "buyPrice": 9.14,
      "close": 9.45,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-05-08",
+     "sellPrice": 10.626,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 16.26,
+     "period": 14
     },
     {
      "code": "603912",
      "plan": "",
      "date": "2026-04-23",
      "buyDate": "2026-04-24",
+     "buyPrice": 10.92,
      "close": 11.46,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-04-29",
+     "sellPrice": 10.046,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "000925",
      "plan": "",
      "date": "2026-04-23",
      "buyDate": "2026-04-24",
+     "buyPrice": 9.19,
      "close": 8.35,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-04-29",
+     "sellPrice": 9.872,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 7.42,
+     "period": 5
     },
     {
      "code": "001267",
      "plan": "",
      "date": "2026-04-23",
      "buyDate": "2026-04-24",
+     "buyPrice": 50.24,
      "close": 50.86,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-05-15",
+     "sellPrice": 64.142,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 27.67,
+     "period": 21
     },
     {
      "code": "600052",
      "plan": "",
      "date": "2026-04-23",
      "buyDate": "2026-04-24",
+     "buyPrice": 4.3,
      "close": 4.58,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-04-24",
+     "sellPrice": 4.508,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.84,
+     "period": 0
     },
     {
      "code": "603220",
      "plan": "",
      "date": "2026-04-23",
      "buyDate": "2026-04-24",
+     "buyPrice": 31.77,
      "close": 34.16,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-04-28",
+     "sellPrice": 29.228,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     }
    ],
    "sells": []
@@ -4058,72 +7145,135 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-04-22",
      "buyDate": "2026-04-23",
+     "buyPrice": 31.41,
      "close": 28.55,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-23",
+     "sellPrice": 28.897,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "603318",
      "plan": "",
      "date": "2026-04-22",
      "buyDate": "2026-04-23",
+     "buyPrice": 10.35,
      "close": 9.41,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-07",
+     "sellPrice": 13.892,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 34.22,
+     "period": 14
     },
     {
      "code": "600184",
      "plan": "",
      "date": "2026-04-22",
      "buyDate": "2026-04-23",
+     "buyPrice": 25.14,
      "close": 25.82,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-27",
+     "sellPrice": 23.129,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "600330",
      "plan": "",
      "date": "2026-04-22",
      "buyDate": "2026-04-23",
+     "buyPrice": 25.6,
      "close": 25.87,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-29",
+     "sellPrice": 26.202,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.35,
+     "period": 6
     },
     {
      "code": "002428",
      "plan": "",
      "date": "2026-04-22",
      "buyDate": "2026-04-23",
+     "buyPrice": 76.87,
      "close": 75.23,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-28",
+     "sellPrice": 70.72,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "002384",
      "plan": "",
      "date": "2026-04-22",
      "buyDate": "2026-04-23",
+     "buyPrice": 186.66,
      "close": 186.34,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-15",
+     "sellPrice": 211.6,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 13.36,
+     "period": 22
     },
     {
      "code": "000938",
      "plan": "",
      "date": "2026-04-22",
      "buyDate": "2026-04-23",
+     "buyPrice": 31.14,
      "close": 29.86,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-21",
+     "sellPrice": 31.676,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.72,
+     "period": 28
     },
     {
      "code": "603906",
      "plan": "",
      "date": "2026-04-22",
      "buyDate": "2026-04-23",
+     "buyPrice": 30.45,
      "close": 28.62,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-23",
+     "sellPrice": 28.014,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "300857",
      "plan": "",
      "date": "2026-04-22",
      "buyDate": "2026-04-23",
+     "buyPrice": 257.11,
      "close": 260.76,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-12",
+     "sellPrice": 271.253,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 5.5,
+     "period": 19
     }
    ],
    "sells": []
@@ -4136,8 +7286,15 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-04-21",
      "buyDate": "2026-04-22",
+     "buyPrice": 8.94,
      "close": 8.13,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-22",
+     "sellPrice": 8.225,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     }
    ],
    "sells": []
@@ -4150,72 +7307,135 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-04-20",
      "buyDate": "2026-04-21",
+     "buyPrice": 21.08,
      "close": 19.16,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-21",
+     "sellPrice": 19.394,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "000977",
      "plan": "",
      "date": "2026-04-20",
      "buyDate": "2026-04-21",
+     "buyPrice": 71.33,
      "close": 73.08,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-12",
+     "sellPrice": 73.094,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.47,
+     "period": 21
     },
     {
      "code": "002428",
      "plan": "",
      "date": "2026-04-20",
      "buyDate": "2026-04-21",
+     "buyPrice": 68.39,
      "close": 68.19,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-27",
+     "sellPrice": 76.13,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 11.32,
+     "period": 6
     },
     {
      "code": "001896",
      "plan": "",
      "date": "2026-04-20",
      "buyDate": "2026-04-21",
+     "buyPrice": 17.1,
      "close": 18.79,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-21",
+     "sellPrice": 17.342,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.42,
+     "period": 0
     },
     {
      "code": "002149",
      "plan": "",
      "date": "2026-04-20",
      "buyDate": "2026-04-21",
+     "buyPrice": 61.23,
      "close": 60.18,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-28",
+     "sellPrice": 56.332,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "002885",
      "plan": "",
      "date": "2026-04-20",
      "buyDate": "2026-04-21",
+     "buyPrice": 29.42,
      "close": 29.27,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-27",
+     "sellPrice": 30.378,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.26,
+     "period": 6
     },
     {
      "code": "000586",
      "plan": "",
      "date": "2026-04-20",
      "buyDate": "2026-04-21",
+     "buyPrice": 20.45,
      "close": 21.34,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-24",
+     "sellPrice": 18.814,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "600118",
      "plan": "",
      "date": "2026-04-20",
      "buyDate": "2026-04-21",
+     "buyPrice": 100.19,
      "close": 94.51,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-22",
+     "sellPrice": 92.175,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002475",
      "plan": "",
      "date": "2026-04-20",
      "buyDate": "2026-04-21",
+     "buyPrice": 65.61,
      "close": 65.59,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-15",
+     "sellPrice": 75.109,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 14.48,
+     "period": 24
     }
    ],
    "sells": []
@@ -4228,48 +7448,90 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-04-17",
      "buyDate": "2026-04-20",
+     "buyPrice": 152.02,
      "close": 145.01,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-24",
+     "sellPrice": 162.454,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 6.86,
+     "period": 4
     },
     {
      "code": "603315",
      "plan": "",
      "date": "2026-04-17",
      "buyDate": "2026-04-20",
+     "buyPrice": 17.56,
      "close": 18.48,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-20",
+     "sellPrice": 17.848,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.64,
+     "period": 0
     },
     {
      "code": "603629",
      "plan": "",
      "date": "2026-04-17",
      "buyDate": "2026-04-20",
+     "buyPrice": 76.47,
      "close": 75.16,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-24",
+     "sellPrice": 78.08,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.11,
+     "period": 4
     },
     {
      "code": "002281",
      "plan": "",
      "date": "2026-04-17",
      "buyDate": "2026-04-20",
+     "buyPrice": 120.05,
      "close": 116.83,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-20",
+     "sellPrice": 236.4,
+     "reason": "TIME EXIT (20 days)",
+     "pnl": 96.92,
+     "period": 30
     },
     {
      "code": "603698",
      "plan": "",
      "date": "2026-04-17",
      "buyDate": "2026-04-20",
+     "buyPrice": 45.63,
      "close": 46.12,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-24",
+     "sellPrice": 41.98,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "600173",
      "plan": "",
      "date": "2026-04-17",
      "buyDate": "2026-04-20",
+     "buyPrice": 7.68,
      "close": 7.99,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-15",
+     "sellPrice": 7.066,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 25
     }
    ],
    "sells": []
@@ -4282,72 +7544,135 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-04-16",
      "buyDate": "2026-04-17",
+     "buyPrice": 4.98,
      "close": 5.17,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-23",
+     "sellPrice": 4.582,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "000570",
      "plan": "",
      "date": "2026-04-16",
      "buyDate": "2026-04-17",
+     "buyPrice": 6.59,
      "close": 6.72,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-19",
+     "sellPrice": 6.33,
+     "reason": "TIME EXIT (20 days)",
+     "pnl": -3.95,
+     "period": 32
     },
     {
      "code": "002213",
      "plan": "",
      "date": "2026-04-16",
      "buyDate": "2026-04-17",
+     "buyPrice": 37.73,
      "close": 38.34,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-23",
+     "sellPrice": 34.712,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "601778",
      "plan": "",
      "date": "2026-04-16",
      "buyDate": "2026-04-17",
+     "buyPrice": 6.88,
      "close": 6.63,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-21",
+     "sellPrice": 6.33,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "000070",
      "plan": "",
      "date": "2026-04-16",
      "buyDate": "2026-04-17",
+     "buyPrice": 20.33,
      "close": 20.77,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-24",
+     "sellPrice": 20.7,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.82,
+     "period": 7
     },
     {
      "code": "600875",
      "plan": "",
      "date": "2026-04-16",
      "buyDate": "2026-04-17",
+     "buyPrice": 41.19,
      "close": 41.51,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-30",
+     "sellPrice": 37.895,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 13
     },
     {
      "code": "600749",
      "plan": "",
      "date": "2026-04-16",
      "buyDate": "2026-04-17",
+     "buyPrice": 20.3,
      "close": 19.93,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-24",
+     "sellPrice": 18.676,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "603933",
      "plan": "",
      "date": "2026-04-16",
      "buyDate": "2026-04-17",
+     "buyPrice": 24.44,
      "close": 24.89,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-24",
+     "sellPrice": 22.485,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "002929",
      "plan": "",
      "date": "2026-04-16",
      "buyDate": "2026-04-17",
+     "buyPrice": 61.28,
      "close": 65.23,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-21",
+     "sellPrice": 56.378,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     }
    ],
    "sells": []
@@ -4360,32 +7685,60 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-04-15",
      "buyDate": "2026-04-16",
+     "buyPrice": 53.54,
      "close": 53.55,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-24",
+     "sellPrice": 61.465,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 14.8,
+     "period": 8
     },
     {
      "code": "600664",
      "plan": "",
      "date": "2026-04-15",
      "buyDate": "2026-04-16",
+     "buyPrice": 4.4,
      "close": 4.44,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-16",
+     "sellPrice": 4.49,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.04,
+     "period": 0
     },
     {
      "code": "603083",
      "plan": "",
      "date": "2026-04-15",
      "buyDate": "2026-04-16",
+     "buyPrice": 131.8,
      "close": 125.52,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-24",
+     "sellPrice": 162.454,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 23.26,
+     "period": 8
     },
     {
      "code": "001896",
      "plan": "",
      "date": "2026-04-15",
      "buyDate": "2026-04-16",
+     "buyPrice": 17.06,
      "close": 16.57,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-21",
+     "sellPrice": 17.342,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.65,
+     "period": 5
     }
    ],
    "sells": []
@@ -4398,64 +7751,120 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-04-14",
      "buyDate": "2026-04-15",
+     "buyPrice": 43.3,
      "close": 42.39,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-28",
+     "sellPrice": 39.836,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 13
     },
     {
      "code": "002107",
      "plan": "",
      "date": "2026-04-14",
      "buyDate": "2026-04-15",
+     "buyPrice": 7.83,
      "close": 7.71,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-30",
+     "sellPrice": 7.204,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 15
     },
     {
      "code": "603629",
      "plan": "",
      "date": "2026-04-14",
      "buyDate": "2026-04-15",
+     "buyPrice": 62.65,
      "close": 56.93,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-15",
+     "sellPrice": 57.638,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002463",
      "plan": "",
      "date": "2026-04-14",
      "buyDate": "2026-04-15",
+     "buyPrice": 92.28,
      "close": 97.04,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-15",
+     "sellPrice": 105.303,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 14.11,
+     "period": 30
     },
     {
      "code": "002124",
      "plan": "",
      "date": "2026-04-14",
      "buyDate": "2026-04-15",
+     "buyPrice": 3.14,
      "close": 2.85,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-16",
+     "sellPrice": 2.889,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002428",
      "plan": "",
      "date": "2026-04-14",
      "buyDate": "2026-04-15",
+     "buyPrice": 57.14,
      "close": 58.87,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-27",
+     "sellPrice": 76.13,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 33.23,
+     "period": 12
     },
     {
      "code": "603890",
      "plan": "",
      "date": "2026-04-14",
      "buyDate": "2026-04-15",
+     "buyPrice": 18.51,
      "close": 16.81,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-15",
+     "sellPrice": 17.029,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002083",
      "plan": "",
      "date": "2026-04-14",
      "buyDate": "2026-04-15",
+     "buyPrice": 12.79,
      "close": 14.24,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-17",
+     "sellPrice": 11.767,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     }
    ],
    "sells": []
@@ -4468,48 +7877,90 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-04-13",
      "buyDate": "2026-04-14",
+     "buyPrice": 4.52,
      "close": 4.49,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-21",
+     "sellPrice": 4.158,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "002980",
      "plan": "",
      "date": "2026-04-13",
      "buyDate": "2026-04-14",
+     "buyPrice": 64.14,
      "close": 58.31,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-16",
+     "sellPrice": 66.7,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.99,
+     "period": 2
     },
     {
      "code": "603256",
      "plan": "",
      "date": "2026-04-13",
      "buyDate": "2026-04-14",
+     "buyPrice": 97.93,
      "close": 89.23,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-05-14",
+     "sellPrice": 141.76,
+     "reason": "TIME EXIT (20 days)",
+     "pnl": 44.76,
+     "period": 30
     },
     {
      "code": "002929",
      "plan": "",
      "date": "2026-04-13",
      "buyDate": "2026-04-14",
+     "buyPrice": 59.76,
      "close": 56.92,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-21",
+     "sellPrice": 54.979,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "002467",
      "plan": "",
      "date": "2026-04-13",
      "buyDate": "2026-04-14",
+     "buyPrice": 7.73,
      "close": 7.87,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-23",
+     "sellPrice": 7.112,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 9
     },
     {
      "code": "600166",
      "plan": "",
      "date": "2026-04-13",
      "buyDate": "2026-04-14",
+     "buyPrice": 3.48,
      "close": 3.67,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-30",
+     "sellPrice": 3.551,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.05,
+     "period": 16
     }
    ],
    "sells": []
@@ -4522,24 +7973,45 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-04-10",
      "buyDate": "2026-04-13",
+     "buyPrice": 4.99,
      "close": 4.9,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-23",
+     "sellPrice": 4.591,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 10
     },
     {
      "code": "002837",
      "plan": "",
      "date": "2026-04-10",
      "buyDate": "2026-04-13",
+     "buyPrice": 78.99,
      "close": 76.06,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-21",
+     "sellPrice": 86.038,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 8.92,
+     "period": 8
     },
     {
      "code": "001309",
      "plan": "",
      "date": "2026-04-10",
      "buyDate": "2026-04-13",
+     "buyPrice": 481.49,
      "close": 447.24,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-23",
+     "sellPrice": 501.336,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.12,
+     "period": 10
     }
    ],
    "sells": []
@@ -4552,64 +8024,120 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-04-09",
      "buyDate": "2026-04-10",
+     "buyPrice": 4.81,
      "close": 5.06,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-13",
+     "sellPrice": 4.425,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "002384",
      "plan": "",
      "date": "2026-04-09",
      "buyDate": "2026-04-10",
+     "buyPrice": 143.55,
      "close": 131.9,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-12",
+     "sellPrice": 219.46,
+     "reason": "TIME EXIT (20 days)",
+     "pnl": 52.88,
+     "period": 32
     },
     {
      "code": "002342",
      "plan": "",
      "date": "2026-04-09",
      "buyDate": "2026-04-10",
+     "buyPrice": 15.49,
      "close": 15.58,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-23",
+     "sellPrice": 19.697,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 27.16,
+     "period": 13
     },
     {
      "code": "000078",
      "plan": "",
      "date": "2026-04-09",
      "buyDate": "2026-04-10",
+     "buyPrice": 3.77,
      "close": 3.84,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-23",
+     "sellPrice": 3.468,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 13
     },
     {
      "code": "600330",
      "plan": "",
      "date": "2026-04-09",
      "buyDate": "2026-04-10",
+     "buyPrice": 19.0,
      "close": 19.7,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-29",
+     "sellPrice": 26.202,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 37.9,
+     "period": 19
     },
     {
      "code": "600345",
      "plan": "",
      "date": "2026-04-09",
      "buyDate": "2026-04-10",
+     "buyPrice": 54.25,
      "close": 49.31,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-15",
+     "sellPrice": 49.91,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "603315",
      "plan": "",
      "date": "2026-04-09",
      "buyDate": "2026-04-10",
+     "buyPrice": 15.02,
      "close": 15.14,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-20",
+     "sellPrice": 17.848,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 18.83,
+     "period": 10
     },
     {
      "code": "000070",
      "plan": "",
      "date": "2026-04-09",
      "buyDate": "2026-04-10",
+     "buyPrice": 19.76,
      "close": 20.88,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-24",
+     "sellPrice": 20.7,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.76,
+     "period": 14
     }
    ],
    "sells": []
@@ -4622,64 +8150,120 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-04-08",
      "buyDate": "2026-04-09",
+     "buyPrice": 4.48,
      "close": 4.4,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-10",
+     "sellPrice": 4.122,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002361",
      "plan": "",
      "date": "2026-04-08",
      "buyDate": "2026-04-09",
+     "buyPrice": 16.41,
      "close": 16.78,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-17",
+     "sellPrice": 18.759,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 14.31,
+     "period": 8
     },
     {
      "code": "002131",
      "plan": "",
      "date": "2026-04-08",
      "buyDate": "2026-04-09",
+     "buyPrice": 7.97,
      "close": 7.92,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-24",
+     "sellPrice": 7.332,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 15
     },
     {
      "code": "603629",
      "plan": "",
      "date": "2026-04-08",
      "buyDate": "2026-04-09",
+     "buyPrice": 53.11,
      "close": 50.09,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-21",
+     "sellPrice": 72.128,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 35.81,
+     "period": 12
     },
     {
      "code": "002463",
      "plan": "",
      "date": "2026-04-08",
      "buyDate": "2026-04-09",
+     "buyPrice": 85.34,
      "close": 83.57,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-05-11",
+     "sellPrice": 108.68,
+     "reason": "TIME EXIT (20 days)",
+     "pnl": 27.35,
+     "period": 32
     },
     {
      "code": "600105",
      "plan": "",
      "date": "2026-04-08",
      "buyDate": "2026-04-09",
+     "buyPrice": 34.63,
      "close": 33.22,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-28",
+     "sellPrice": 46.911,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 35.46,
+     "period": 19
     },
     {
      "code": "600545",
      "plan": "",
      "date": "2026-04-08",
      "buyDate": "2026-04-09",
+     "buyPrice": 3.95,
      "close": 3.97,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-30",
+     "sellPrice": 5.06,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 28.1,
+     "period": 21
     },
     {
      "code": "001267",
      "plan": "",
      "date": "2026-04-08",
      "buyDate": "2026-04-09",
+     "buyPrice": 43.23,
      "close": 44.24,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-27",
+     "sellPrice": 49.303,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 14.05,
+     "period": 18
     }
    ],
    "sells": []
@@ -4692,80 +8276,150 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-04-07",
      "buyDate": "2026-04-08",
+     "buyPrice": 15.2,
      "close": 13.82,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-13",
+     "sellPrice": 13.984,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "603042",
      "plan": "",
      "date": "2026-04-07",
      "buyDate": "2026-04-08",
+     "buyPrice": 17.16,
      "close": 17.53,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-21",
+     "sellPrice": 15.787,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 13
     },
     {
      "code": "603629",
      "plan": "",
      "date": "2026-04-07",
      "buyDate": "2026-04-08",
+     "buyPrice": 50.09,
      "close": 45.52,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-13",
+     "sellPrice": 52.376,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.56,
+     "period": 5
     },
     {
      "code": "002980",
      "plan": "",
      "date": "2026-04-07",
      "buyDate": "2026-04-08",
+     "buyPrice": 52.86,
      "close": 50.7,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-16",
+     "sellPrice": 66.7,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 26.18,
+     "period": 8
     },
     {
      "code": "002560",
      "plan": "",
      "date": "2026-04-07",
      "buyDate": "2026-04-08",
+     "buyPrice": 9.62,
      "close": 9.4,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-21",
+     "sellPrice": 10.773,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 11.99,
+     "period": 13
     },
     {
      "code": "002310",
      "plan": "",
      "date": "2026-04-07",
      "buyDate": "2026-04-08",
+     "buyPrice": 3.18,
      "close": 3.11,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-17",
+     "sellPrice": 2.926,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 9
     },
     {
      "code": "000062",
      "plan": "",
      "date": "2026-04-07",
      "buyDate": "2026-04-08",
+     "buyPrice": 28.21,
      "close": 26.93,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-29",
+     "sellPrice": 35.972,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 27.52,
+     "period": 21
     },
     {
      "code": "605162",
      "plan": "",
      "date": "2026-04-07",
      "buyDate": "2026-04-08",
+     "buyPrice": 15.32,
      "close": 13.91,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-08",
+     "sellPrice": 14.094,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002470",
      "plan": "",
      "date": "2026-04-07",
      "buyDate": "2026-04-08",
+     "buyPrice": 2.98,
      "close": 3.0,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-16",
+     "sellPrice": 2.742,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 8
     },
     {
      "code": "002015",
      "plan": "",
      "date": "2026-04-07",
      "buyDate": "2026-04-08",
+     "buyPrice": 17.81,
      "close": 17.25,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-24",
+     "sellPrice": 19.78,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 11.06,
+     "period": 16
     }
    ],
    "sells": []
@@ -4778,48 +8432,90 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-04-03",
      "buyDate": "2026-04-07",
+     "buyPrice": 47.51,
      "close": 45.32,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-23",
+     "sellPrice": 50.582,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 6.47,
+     "period": 16
     },
     {
      "code": "002980",
      "plan": "",
      "date": "2026-04-03",
      "buyDate": "2026-04-07",
+     "buyPrice": 50.7,
      "close": 46.09,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-16",
+     "sellPrice": 66.7,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 31.56,
+     "period": 9
     },
     {
      "code": "600487",
      "plan": "",
      "date": "2026-04-03",
      "buyDate": "2026-04-07",
+     "buyPrice": 58.43,
      "close": 57.78,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-13",
+     "sellPrice": 53.756,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "002678",
      "plan": "",
      "date": "2026-04-03",
      "buyDate": "2026-04-07",
+     "buyPrice": 5.91,
      "close": 6.07,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-10",
+     "sellPrice": 5.437,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "600602",
      "plan": "",
      "date": "2026-04-03",
      "buyDate": "2026-04-07",
+     "buyPrice": 24.01,
      "close": 24.35,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-24",
+     "sellPrice": 22.089,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 17
     },
     {
      "code": "002428",
      "plan": "",
      "date": "2026-04-03",
      "buyDate": "2026-04-07",
+     "buyPrice": 52.75,
      "close": 51.7,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-27",
+     "sellPrice": 76.13,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 44.32,
+     "period": 20
     }
    ],
    "sells": []
@@ -4832,32 +8528,60 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-04-02",
      "buyDate": "2026-04-03",
+     "buyPrice": 5.03,
      "close": 4.98,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-09",
+     "sellPrice": 4.628,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "002051",
      "plan": "",
      "date": "2026-04-02",
      "buyDate": "2026-04-03",
+     "buyPrice": 9.42,
      "close": 9.8,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-09",
+     "sellPrice": 11.564,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 22.76,
+     "period": 6
     },
     {
      "code": "603122",
      "plan": "",
      "date": "2026-04-02",
      "buyDate": "2026-04-03",
+     "buyPrice": 20.14,
      "close": 18.69,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-03",
+     "sellPrice": 18.529,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002263",
      "plan": "",
      "date": "2026-04-02",
      "buyDate": "2026-04-03",
+     "buyPrice": 4.66,
      "close": 4.73,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-03",
+     "sellPrice": 4.766,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.27,
+     "period": 0
     }
    ],
    "sells": []
@@ -4870,48 +8594,90 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-04-01",
      "buyDate": "2026-04-02",
+     "buyPrice": 6.17,
      "close": 6.27,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-07",
+     "sellPrice": 5.676,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "002580",
      "plan": "",
      "date": "2026-04-01",
      "buyDate": "2026-04-02",
+     "buyPrice": 17.04,
      "close": 18.32,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-03",
+     "sellPrice": 15.677,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002730",
      "plan": "",
      "date": "2026-04-01",
      "buyDate": "2026-04-02",
+     "buyPrice": 29.39,
      "close": 29.05,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-02",
+     "sellPrice": 27.039,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002083",
      "plan": "",
      "date": "2026-04-01",
      "buyDate": "2026-04-02",
+     "buyPrice": 12.15,
      "close": 12.66,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-15",
+     "sellPrice": 13.101,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 7.83,
+     "period": 13
     },
     {
      "code": "600105",
      "plan": "",
      "date": "2026-04-01",
      "buyDate": "2026-04-02",
+     "buyPrice": 30.28,
      "close": 30.5,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-28",
+     "sellPrice": 46.911,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 54.92,
+     "period": 26
     },
     {
      "code": "002639",
      "plan": "",
      "date": "2026-04-01",
      "buyDate": "2026-04-02",
+     "buyPrice": 19.24,
      "close": 18.82,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-10",
+     "sellPrice": 19.844,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.14,
+     "period": 8
     }
    ],
    "sells": []
@@ -4924,40 +8690,75 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-03-31",
      "buyDate": "2026-04-01",
+     "buyPrice": 14.25,
      "close": 14.39,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-03",
+     "sellPrice": 13.11,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002218",
      "plan": "",
      "date": "2026-03-31",
      "buyDate": "2026-04-01",
+     "buyPrice": 6.53,
      "close": 6.93,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-03",
+     "sellPrice": 6.008,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "000037",
      "plan": "",
      "date": "2026-03-31",
      "buyDate": "2026-04-01",
+     "buyPrice": 11.82,
      "close": 12.99,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-02",
+     "sellPrice": 10.874,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002730",
      "plan": "",
      "date": "2026-03-31",
      "buyDate": "2026-04-01",
+     "buyPrice": 29.05,
      "close": 26.4,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-01",
+     "sellPrice": 26.726,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002580",
      "plan": "",
      "date": "2026-03-31",
      "buyDate": "2026-04-01",
+     "buyPrice": 18.32,
      "close": 17.57,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-02",
+     "sellPrice": 16.854,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     }
    ],
    "sells": []
@@ -4970,56 +8771,105 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-03-30",
      "buyDate": "2026-03-31",
+     "buyPrice": 18.61,
      "close": 19.77,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-03",
+     "sellPrice": 17.121,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "000592",
      "plan": "",
      "date": "2026-03-30",
      "buyDate": "2026-03-31",
+     "buyPrice": 12.78,
      "close": 11.62,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-03",
+     "sellPrice": 11.758,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "002361",
      "plan": "",
      "date": "2026-03-30",
      "buyDate": "2026-03-31",
+     "buyPrice": 16.5,
      "close": 15.0,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-03",
+     "sellPrice": 16.836,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.04,
+     "period": 3
     },
     {
      "code": "603017",
      "plan": "",
      "date": "2026-03-30",
      "buyDate": "2026-03-31",
+     "buyPrice": 16.17,
      "close": 15.61,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-02",
+     "sellPrice": 16.376,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.27,
+     "period": 2
     },
     {
      "code": "002222",
      "plan": "",
      "date": "2026-03-30",
      "buyDate": "2026-03-31",
+     "buyPrice": 67.92,
      "close": 71.84,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-23",
+     "sellPrice": 92.46,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 36.13,
+     "period": 23
     },
     {
      "code": "002309",
      "plan": "",
      "date": "2026-03-30",
      "buyDate": "2026-03-31",
+     "buyPrice": 4.94,
      "close": 4.76,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-03-31",
+     "sellPrice": 4.545,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "600345",
      "plan": "",
      "date": "2026-03-30",
      "buyDate": "2026-03-31",
+     "buyPrice": 43.02,
      "close": 43.12,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-04-14",
+     "sellPrice": 52.412,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 21.83,
+     "period": 14
     }
    ],
    "sells": []
@@ -5032,88 +8882,165 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-03-27",
      "buyDate": "2026-03-30",
+     "buyPrice": 4.96,
      "close": 5.51,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-30",
+     "sellPrice": 5.327,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 7.4,
+     "period": 0
     },
     {
      "code": "002470",
      "plan": "",
      "date": "2026-03-27",
      "buyDate": "2026-03-30",
+     "buyPrice": 3.22,
      "close": 3.09,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-01",
+     "sellPrice": 2.962,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "605388",
      "plan": "",
      "date": "2026-03-27",
      "buyDate": "2026-03-30",
+     "buyPrice": 6.87,
      "close": 7.05,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-21",
+     "sellPrice": 8.372,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 21.86,
+     "period": 22
     },
     {
      "code": "002310",
      "plan": "",
      "date": "2026-03-27",
      "buyDate": "2026-03-30",
+     "buyPrice": 3.8,
      "close": 3.84,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-31",
+     "sellPrice": 3.496,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002445",
      "plan": "",
      "date": "2026-03-27",
      "buyDate": "2026-03-30",
+     "buyPrice": 4.21,
      "close": 4.44,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-01",
+     "sellPrice": 3.873,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002361",
      "plan": "",
      "date": "2026-03-27",
      "buyDate": "2026-03-30",
+     "buyPrice": 15.0,
      "close": 13.64,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-30",
+     "sellPrice": 13.8,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002428",
      "plan": "",
      "date": "2026-03-27",
      "buyDate": "2026-03-30",
+     "buyPrice": 52.34,
      "close": 51.35,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-31",
+     "sellPrice": 48.153,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "603618",
      "plan": "",
      "date": "2026-03-27",
      "buyDate": "2026-03-30",
+     "buyPrice": 26.71,
      "close": 24.28,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-03",
+     "sellPrice": 27.692,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.68,
+     "period": 4
     },
     {
      "code": "002460",
      "plan": "",
      "date": "2026-03-27",
      "buyDate": "2026-03-30",
+     "buyPrice": 80.0,
      "close": 79.52,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-23",
+     "sellPrice": 81.264,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.58,
+     "period": 24
     },
     {
      "code": "002432",
      "plan": "",
      "date": "2026-03-27",
      "buyDate": "2026-03-30",
+     "buyPrice": 74.01,
      "close": 67.15,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-30",
+     "sellPrice": 68.089,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "600982",
      "plan": "",
      "date": "2026-03-27",
      "buyDate": "2026-03-30",
+     "buyPrice": 6.45,
      "close": 7.18,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-31",
+     "sellPrice": 5.934,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     }
    ],
    "sells": []
@@ -5126,32 +9053,60 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-03-26",
      "buyDate": "2026-03-27",
+     "buyPrice": 93.81,
      "close": 85.28,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-27",
+     "sellPrice": 86.305,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "600310",
      "plan": "",
      "date": "2026-03-26",
      "buyDate": "2026-03-27",
+     "buyPrice": 6.57,
      "close": 5.97,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-30",
+     "sellPrice": 6.652,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.24,
+     "period": 3
     },
     {
      "code": "000968",
      "plan": "",
      "date": "2026-03-26",
      "buyDate": "2026-03-27",
+     "buyPrice": 11.52,
      "close": 10.88,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-31",
+     "sellPrice": 10.598,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "301306",
      "plan": "",
      "date": "2026-03-26",
      "buyDate": "2026-03-27",
+     "buyPrice": 150.71,
      "close": 154.32,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-31",
+     "sellPrice": 161.92,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 7.44,
+     "period": 4
     }
    ],
    "sells": []
@@ -5164,24 +9119,45 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-03-25",
      "buyDate": "2026-03-26",
+     "buyPrice": 17.06,
      "close": 18.21,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-21",
+     "sellPrice": 17.609,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.22,
+     "period": 26
     },
     {
      "code": "601133",
      "plan": "",
      "date": "2026-03-25",
      "buyDate": "2026-03-26",
+     "buyPrice": 18.21,
      "close": 19.28,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-21",
+     "sellPrice": 24.076,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 32.22,
+     "period": 26
     },
     {
      "code": "002475",
      "plan": "",
      "date": "2026-03-25",
      "buyDate": "2026-03-26",
+     "buyPrice": 50.05,
      "close": 50.83,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-23",
+     "sellPrice": 67.63,
+     "reason": "TIME EXIT (20 days)",
+     "pnl": 35.12,
+     "period": 28
     }
    ],
    "sells": []
@@ -5194,80 +9170,150 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-03-24",
      "buyDate": "2026-03-25",
+     "buyPrice": 5.72,
      "close": 5.2,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-26",
+     "sellPrice": 5.262,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002218",
      "plan": "",
      "date": "2026-03-24",
      "buyDate": "2026-03-25",
+     "buyPrice": 7.3,
      "close": 7.25,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-27",
+     "sellPrice": 6.716,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "001258",
      "plan": "",
      "date": "2026-03-24",
      "buyDate": "2026-03-25",
+     "buyPrice": 11.76,
      "close": 11.3,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-25",
+     "sellPrice": 10.819,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002498",
      "plan": "",
      "date": "2026-03-24",
      "buyDate": "2026-03-25",
+     "buyPrice": 8.98,
      "close": 8.76,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-30",
+     "sellPrice": 8.262,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "000815",
      "plan": "",
      "date": "2026-03-24",
      "buyDate": "2026-03-25",
+     "buyPrice": 21.29,
      "close": 20.56,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-27",
+     "sellPrice": 19.587,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "600666",
      "plan": "",
      "date": "2026-03-24",
      "buyDate": "2026-03-25",
+     "buyPrice": 5.28,
      "close": 4.8,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-31",
+     "sellPrice": 5.952,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 12.73,
+     "period": 6
     },
     {
      "code": "002491",
      "plan": "",
      "date": "2026-03-24",
      "buyDate": "2026-03-25",
+     "buyPrice": 11.4,
      "close": 10.36,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-10",
+     "sellPrice": 15.327,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 34.45,
+     "period": 16
     },
     {
      "code": "600821",
      "plan": "",
      "date": "2026-03-24",
      "buyDate": "2026-03-25",
+     "buyPrice": 11.25,
      "close": 11.07,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-27",
+     "sellPrice": 10.35,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "600026",
      "plan": "",
      "date": "2026-03-24",
      "buyDate": "2026-03-25",
+     "buyPrice": 24.95,
      "close": 25.49,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-27",
+     "sellPrice": 22.954,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002083",
      "plan": "",
      "date": "2026-03-24",
      "buyDate": "2026-03-25",
+     "buyPrice": 10.87,
      "close": 10.67,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-03",
+     "sellPrice": 11.647,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 7.15,
+     "period": 9
     }
    ],
    "sells": []
@@ -5280,24 +9326,45 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-03-23",
      "buyDate": "2026-03-24",
+     "buyPrice": 5.76,
      "close": 5.87,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-26",
+     "sellPrice": 5.299,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002506",
      "plan": "",
      "date": "2026-03-23",
      "buyDate": "2026-03-24",
+     "buyPrice": 5.87,
      "close": 5.8,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-26",
+     "sellPrice": 5.4,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002112",
      "plan": "",
      "date": "2026-03-23",
      "buyDate": "2026-03-24",
+     "buyPrice": 23.67,
      "close": 23.91,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-27",
+     "sellPrice": 21.776,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     }
    ],
    "sells": []
@@ -5310,32 +9377,60 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-03-20",
      "buyDate": "2026-03-23",
+     "buyPrice": 3.83,
      "close": 3.48,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-24",
+     "sellPrice": 3.524,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "603538",
      "plan": "",
      "date": "2026-03-20",
      "buyDate": "2026-03-23",
+     "buyPrice": 19.0,
      "close": 19.78,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-23",
+     "sellPrice": 19.256,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.35,
+     "period": 0
     },
     {
      "code": "600617",
      "plan": "",
      "date": "2026-03-20",
      "buyDate": "2026-03-23",
+     "buyPrice": 4.11,
      "close": 3.99,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-30",
+     "sellPrice": 4.25,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.42,
+     "period": 7
     },
     {
      "code": "001283",
      "plan": "",
      "date": "2026-03-20",
      "buyDate": "2026-03-23",
+     "buyPrice": 52.41,
      "close": 51.51,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-07",
+     "sellPrice": 48.217,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 15
     }
    ],
    "sells": []
@@ -5348,72 +9443,135 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-03-19",
      "buyDate": "2026-03-20",
+     "buyPrice": 7.0,
      "close": 7.4,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-20",
+     "sellPrice": 7.323,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.62,
+     "period": 0
     },
     {
      "code": "603629",
      "plan": "",
      "date": "2026-03-19",
      "buyDate": "2026-03-20",
+     "buyPrice": 43.56,
      "close": 48.43,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-20",
+     "sellPrice": 47.058,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 8.03,
+     "period": 0
     },
     {
      "code": "002432",
      "plan": "",
      "date": "2026-03-19",
      "buyDate": "2026-03-20",
+     "buyPrice": 60.87,
      "close": 64.46,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-31",
+     "sellPrice": 73.986,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 21.55,
+     "period": 11
     },
     {
      "code": "600996",
      "plan": "",
      "date": "2026-03-19",
      "buyDate": "2026-03-20",
+     "buyPrice": 9.31,
      "close": 9.5,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-02",
+     "sellPrice": 10.212,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 9.69,
+     "period": 13
     },
     {
      "code": "002310",
      "plan": "",
      "date": "2026-03-19",
      "buyDate": "2026-03-20",
+     "buyPrice": 3.48,
      "close": 3.16,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-26",
+     "sellPrice": 3.754,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 7.86,
+     "period": 6
     },
     {
      "code": "600821",
      "plan": "",
      "date": "2026-03-19",
      "buyDate": "2026-03-20",
+     "buyPrice": 10.71,
      "close": 11.11,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-20",
+     "sellPrice": 11.224,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.8,
+     "period": 0
     },
     {
      "code": "600726",
      "plan": "",
      "date": "2026-03-19",
      "buyDate": "2026-03-20",
+     "buyPrice": 5.52,
      "close": 5.02,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-20",
+     "sellPrice": 5.078,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "000968",
      "plan": "",
      "date": "2026-03-19",
      "buyDate": "2026-03-20",
+     "buyPrice": 10.25,
      "close": 9.76,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-30",
+     "sellPrice": 11.16,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 8.87,
+     "period": 10
     },
     {
      "code": "000617",
      "plan": "",
      "date": "2026-03-19",
      "buyDate": "2026-03-20",
+     "buyPrice": 9.87,
      "close": 10.66,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-30",
+     "sellPrice": 10.166,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.0,
+     "period": 10
     }
    ],
    "sells": []
@@ -5426,64 +9584,120 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-03-18",
      "buyDate": "2026-03-19",
+     "buyPrice": 11.11,
      "close": 10.45,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-19",
+     "sellPrice": 10.221,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002445",
      "plan": "",
      "date": "2026-03-18",
      "buyDate": "2026-03-19",
+     "buyPrice": 4.1,
      "close": 4.07,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-23",
+     "sellPrice": 3.772,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "000815",
      "plan": "",
      "date": "2026-03-18",
      "buyDate": "2026-03-19",
+     "buyPrice": 19.32,
      "close": 17.56,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-26",
+     "sellPrice": 20.81,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 7.71,
+     "period": 7
     },
     {
      "code": "002565",
      "plan": "",
      "date": "2026-03-18",
      "buyDate": "2026-03-19",
+     "buyPrice": 17.16,
      "close": 16.21,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-20",
+     "sellPrice": 15.787,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002077",
      "plan": "",
      "date": "2026-03-18",
      "buyDate": "2026-03-19",
+     "buyPrice": 17.05,
      "close": 17.1,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-23",
+     "sellPrice": 15.686,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "002432",
      "plan": "",
      "date": "2026-03-18",
      "buyDate": "2026-03-19",
+     "buyPrice": 64.46,
      "close": 58.46,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-23",
+     "sellPrice": 59.303,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "002202",
      "plan": "",
      "date": "2026-03-18",
      "buyDate": "2026-03-19",
+     "buyPrice": 29.61,
      "close": 30.8,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-23",
+     "sellPrice": 27.241,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "600590",
      "plan": "",
      "date": "2026-03-18",
      "buyDate": "2026-03-19",
+     "buyPrice": 14.79,
      "close": 15.42,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-26",
+     "sellPrice": 13.607,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     }
    ],
    "sells": []
@@ -5496,32 +9710,60 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-03-17",
      "buyDate": "2026-03-18",
+     "buyPrice": 5.52,
      "close": 5.63,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-03-20",
+     "sellPrice": 5.078,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "601016",
      "plan": "",
      "date": "2026-03-17",
      "buyDate": "2026-03-18",
+     "buyPrice": 4.4,
      "close": 4.55,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-03-27",
+     "sellPrice": 5.272,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 19.81,
+     "period": 9
     },
     {
      "code": "002150",
      "plan": "",
      "date": "2026-03-17",
      "buyDate": "2026-03-18",
+     "buyPrice": 33.0,
      "close": 34.77,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-03-27",
+     "sellPrice": 36.257,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 9.87,
+     "period": 9
     },
     {
      "code": "002470",
      "plan": "",
      "date": "2026-03-17",
      "buyDate": "2026-03-18",
+     "buyPrice": 3.59,
      "close": 3.6,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-03-20",
+     "sellPrice": 3.303,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     }
    ],
    "sells": []
@@ -5534,32 +9776,60 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-03-16",
      "buyDate": "2026-03-17",
+     "buyPrice": 3.95,
      "close": 4.08,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-03-19",
+     "sellPrice": 3.634,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002426",
      "plan": "",
      "date": "2026-03-16",
      "buyDate": "2026-03-17",
+     "buyPrice": 4.5,
      "close": 4.47,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-03-19",
+     "sellPrice": 4.14,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "603986",
      "plan": "",
      "date": "2026-03-16",
      "buyDate": "2026-03-17",
+     "buyPrice": 295.25,
      "close": 305.41,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-03-23",
+     "sellPrice": 271.63,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "001309",
      "plan": "",
      "date": "2026-03-16",
      "buyDate": "2026-03-17",
+     "buyPrice": 353.6,
      "close": 351.66,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-03-23",
+     "sellPrice": 325.312,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     }
    ],
    "sells": []
@@ -5572,64 +9842,120 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-03-13",
      "buyDate": "2026-03-16",
+     "buyPrice": 6.36,
      "close": 7.08,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-16",
+     "sellPrice": 6.458,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.55,
+     "period": 0
     },
     {
      "code": "002165",
      "plan": "",
      "date": "2026-03-13",
      "buyDate": "2026-03-16",
+     "buyPrice": 12.06,
      "close": 12.73,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-16",
+     "sellPrice": 12.254,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.61,
+     "period": 0
     },
     {
      "code": "002429",
      "plan": "",
      "date": "2026-03-13",
      "buyDate": "2026-03-16",
+     "buyPrice": 11.24,
      "close": 11.85,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-17",
+     "sellPrice": 10.341,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "603803",
      "plan": "",
      "date": "2026-03-13",
      "buyDate": "2026-03-16",
+     "buyPrice": 12.97,
      "close": 13.75,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-17",
+     "sellPrice": 11.932,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002213",
      "plan": "",
      "date": "2026-03-13",
      "buyDate": "2026-03-16",
+     "buyPrice": 29.87,
      "close": 28.38,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-04-03",
+     "sellPrice": 27.48,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 18
     },
     {
      "code": "603169",
      "plan": "",
      "date": "2026-03-13",
      "buyDate": "2026-03-16",
+     "buyPrice": 12.29,
      "close": 12.8,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-17",
+     "sellPrice": 11.307,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002903",
      "plan": "",
      "date": "2026-03-13",
      "buyDate": "2026-03-16",
+     "buyPrice": 30.34,
      "close": 31.03,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-20",
+     "sellPrice": 27.913,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "601611",
      "plan": "",
      "date": "2026-03-13",
      "buyDate": "2026-03-16",
+     "buyPrice": 17.85,
      "close": 19.16,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-17",
+     "sellPrice": 16.422,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     }
    ],
    "sells": []
@@ -5642,56 +9968,105 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-03-12",
      "buyDate": "2026-03-13",
+     "buyPrice": 18.43,
      "close": 19.19,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-18",
+     "sellPrice": 16.956,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "002281",
      "plan": "",
      "date": "2026-03-12",
      "buyDate": "2026-03-13",
+     "buyPrice": 88.94,
      "close": 98.82,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-16",
+     "sellPrice": 81.825,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "600703",
      "plan": "",
      "date": "2026-03-12",
      "buyDate": "2026-03-13",
+     "buyPrice": 18.14,
      "close": 18.74,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-17",
+     "sellPrice": 16.689,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "002498",
      "plan": "",
      "date": "2026-03-12",
      "buyDate": "2026-03-13",
+     "buyPrice": 9.36,
      "close": 10.34,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-13",
+     "sellPrice": 10.037,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 7.24,
+     "period": 0
     },
     {
      "code": "002015",
      "plan": "",
      "date": "2026-03-12",
      "buyDate": "2026-03-13",
+     "buyPrice": 22.18,
      "close": 21.26,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-16",
+     "sellPrice": 20.406,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "600722",
      "plan": "",
      "date": "2026-03-12",
      "buyDate": "2026-03-13",
+     "buyPrice": 16.94,
      "close": 15.4,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-18",
+     "sellPrice": 18.418,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 8.73,
+     "period": 5
     },
     {
      "code": "600821",
      "plan": "",
      "date": "2026-03-12",
      "buyDate": "2026-03-13",
+     "buyPrice": 10.15,
      "close": 10.87,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-13",
+     "sellPrice": 10.286,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.34,
+     "period": 0
     }
    ],
    "sells": []
@@ -5704,72 +10079,135 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-03-11",
      "buyDate": "2026-03-12",
+     "buyPrice": 7.43,
      "close": 7.25,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-13",
+     "sellPrice": 6.836,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "601868",
      "plan": "",
      "date": "2026-03-11",
      "buyDate": "2026-03-12",
+     "buyPrice": 3.77,
      "close": 3.45,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-16",
+     "sellPrice": 3.468,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "002015",
      "plan": "",
      "date": "2026-03-11",
      "buyDate": "2026-03-12",
+     "buyPrice": 21.26,
      "close": 19.32,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-12",
+     "sellPrice": 19.559,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "000833",
      "plan": "",
      "date": "2026-03-11",
      "buyDate": "2026-03-12",
+     "buyPrice": 27.39,
      "close": 27.34,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-16",
+     "sellPrice": 27.72,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.2,
+     "period": 4
     },
     {
      "code": "601016",
      "plan": "",
      "date": "2026-03-11",
      "buyDate": "2026-03-12",
+     "buyPrice": 4.43,
      "close": 4.03,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-16",
+     "sellPrice": 4.076,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "002733",
      "plan": "",
      "date": "2026-03-11",
      "buyDate": "2026-03-12",
+     "buyPrice": 25.58,
      "close": 26.95,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-17",
+     "sellPrice": 27.499,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 7.5,
+     "period": 5
     },
     {
      "code": "002432",
      "plan": "",
      "date": "2026-03-11",
      "buyDate": "2026-03-12",
+     "buyPrice": 57.39,
      "close": 57.03,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-13",
+     "sellPrice": 52.799,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "603778",
      "plan": "",
      "date": "2026-03-11",
      "buyDate": "2026-03-12",
+     "buyPrice": 22.0,
      "close": 20.82,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-13",
+     "sellPrice": 20.24,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002654",
      "plan": "",
      "date": "2026-03-11",
      "buyDate": "2026-03-12",
+     "buyPrice": 15.89,
      "close": 16.04,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-23",
+     "sellPrice": 14.619,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 11
     }
    ],
    "sells": []
@@ -5782,56 +10220,105 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-03-10",
      "buyDate": "2026-03-11",
+     "buyPrice": 49.04,
      "close": 45.62,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-12",
+     "sellPrice": 45.117,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "601868",
      "plan": "",
      "date": "2026-03-10",
      "buyDate": "2026-03-11",
+     "buyPrice": 3.42,
      "close": 3.14,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-11",
+     "sellPrice": 3.146,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "600330",
      "plan": "",
      "date": "2026-03-10",
      "buyDate": "2026-03-11",
+     "buyPrice": 18.27,
      "close": 17.22,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-13",
+     "sellPrice": 18.529,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.42,
+     "period": 2
     },
     {
      "code": "603601",
      "plan": "",
      "date": "2026-03-10",
      "buyDate": "2026-03-11",
+     "buyPrice": 12.44,
      "close": 12.34,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-16",
+     "sellPrice": 11.445,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "002350",
      "plan": "",
      "date": "2026-03-10",
      "buyDate": "2026-03-11",
+     "buyPrice": 15.51,
      "close": 15.19,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-13",
+     "sellPrice": 14.269,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002575",
      "plan": "",
      "date": "2026-03-10",
      "buyDate": "2026-03-11",
+     "buyPrice": 8.51,
      "close": 8.82,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-11",
+     "sellPrice": 8.823,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.68,
+     "period": 0
     },
     {
      "code": "002384",
      "plan": "",
      "date": "2026-03-10",
      "buyDate": "2026-03-11",
+     "buyPrice": 104.8,
      "close": 108.06,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-17",
+     "sellPrice": 110.86,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 5.78,
+     "period": 6
     }
    ],
    "sells": []
@@ -5844,48 +10331,90 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-03-09",
      "buyDate": "2026-03-10",
+     "buyPrice": 26.9,
      "close": 27.62,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-16",
+     "sellPrice": 24.748,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "000815",
      "plan": "",
      "date": "2026-03-09",
      "buyDate": "2026-03-10",
+     "buyPrice": 17.9,
      "close": 17.94,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-10",
+     "sellPrice": 18.152,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.41,
+     "period": 0
     },
     {
      "code": "603138",
      "plan": "",
      "date": "2026-03-09",
      "buyDate": "2026-03-10",
+     "buyPrice": 24.1,
      "close": 23.29,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-12",
+     "sellPrice": 22.172,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002151",
      "plan": "",
      "date": "2026-03-09",
      "buyDate": "2026-03-10",
+     "buyPrice": 44.31,
      "close": 44.84,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-20",
+     "sellPrice": 40.765,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 10
     },
     {
      "code": "003035",
      "plan": "",
      "date": "2026-03-09",
      "buyDate": "2026-03-10",
+     "buyPrice": 9.63,
      "close": 9.56,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-13",
+     "sellPrice": 10.102,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.9,
+     "period": 3
     },
     {
      "code": "000066",
      "plan": "",
      "date": "2026-03-09",
      "buyDate": "2026-03-10",
+     "buyPrice": 17.01,
      "close": 17.26,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-20",
+     "sellPrice": 15.649,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 10
     }
    ],
    "sells": []
@@ -5898,72 +10427,135 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-03-06",
      "buyDate": "2026-03-09",
+     "buyPrice": 17.94,
      "close": 16.31,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-09",
+     "sellPrice": 16.505,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002015",
      "plan": "",
      "date": "2026-03-06",
      "buyDate": "2026-03-09",
+     "buyPrice": 17.08,
      "close": 15.52,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-17",
+     "sellPrice": 21.059,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 23.3,
+     "period": 8
     },
     {
      "code": "002843",
      "plan": "",
      "date": "2026-03-06",
      "buyDate": "2026-03-09",
+     "buyPrice": 26.66,
      "close": 27.93,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-13",
+     "sellPrice": 24.527,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "002165",
      "plan": "",
      "date": "2026-03-06",
      "buyDate": "2026-03-09",
+     "buyPrice": 11.81,
      "close": 12.18,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-16",
+     "sellPrice": 12.254,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.76,
+     "period": 7
     },
     {
      "code": "002506",
      "plan": "",
      "date": "2026-03-06",
      "buyDate": "2026-03-09",
+     "buyPrice": 5.78,
      "close": 5.56,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-13",
+     "sellPrice": 5.851,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.23,
+     "period": 4
     },
     {
      "code": "600108",
      "plan": "",
      "date": "2026-03-06",
      "buyDate": "2026-03-09",
+     "buyPrice": 5.43,
      "close": 5.52,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-13",
+     "sellPrice": 6.596,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 21.48,
+     "period": 4
     },
     {
      "code": "002378",
      "plan": "",
      "date": "2026-03-06",
      "buyDate": "2026-03-09",
+     "buyPrice": 44.79,
      "close": 44.58,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-12",
+     "sellPrice": 41.207,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "600722",
      "plan": "",
      "date": "2026-03-06",
      "buyDate": "2026-03-09",
+     "buyPrice": 13.23,
      "close": 13.53,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-09",
+     "sellPrice": 13.69,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.47,
+     "period": 0
     },
     {
      "code": "000833",
      "plan": "",
      "date": "2026-03-06",
      "buyDate": "2026-03-09",
+     "buyPrice": 26.48,
      "close": 26.14,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-16",
+     "sellPrice": 27.72,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.68,
+     "period": 7
     }
    ],
    "sells": []
@@ -5976,40 +10568,75 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-03-05",
      "buyDate": "2026-03-06",
+     "buyPrice": 43.69,
      "close": 41.68,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-11",
+     "sellPrice": 40.195,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "601179",
      "plan": "",
      "date": "2026-03-05",
      "buyDate": "2026-03-06",
+     "buyPrice": 19.25,
      "close": 18.06,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-13",
+     "sellPrice": 17.71,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "000988",
      "plan": "",
      "date": "2026-03-05",
      "buyDate": "2026-03-06",
+     "buyPrice": 114.53,
      "close": 106.36,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-12",
+     "sellPrice": 129.867,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 13.39,
+     "period": 6
     },
     {
      "code": "002195",
      "plan": "",
      "date": "2026-03-05",
      "buyDate": "2026-03-06",
+     "buyPrice": 10.76,
      "close": 10.69,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-13",
+     "sellPrice": 9.899,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "002471",
      "plan": "",
      "date": "2026-03-05",
      "buyDate": "2026-03-06",
+     "buyPrice": 9.13,
      "close": 9.04,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-17",
+     "sellPrice": 8.4,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 11
     }
    ],
    "sells": []
@@ -6022,40 +10649,75 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-03-04",
      "buyDate": "2026-03-05",
+     "buyPrice": 41.68,
      "close": 44.86,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-05",
+     "sellPrice": 42.21,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.27,
+     "period": 0
     },
     {
      "code": "002389",
      "plan": "",
      "date": "2026-03-04",
      "buyDate": "2026-03-05",
+     "buyPrice": 29.24,
      "close": 28.71,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-06",
+     "sellPrice": 26.901,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "000010",
      "plan": "",
      "date": "2026-03-04",
      "buyDate": "2026-03-05",
+     "buyPrice": 4.32,
      "close": 4.42,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-23",
+     "sellPrice": 4.545,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 5.2,
+     "period": 18
     },
     {
      "code": "002272",
      "plan": "",
      "date": "2026-03-04",
      "buyDate": "2026-03-05",
+     "buyPrice": 21.01,
      "close": 21.07,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-09",
+     "sellPrice": 19.329,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "002877",
      "plan": "",
      "date": "2026-03-04",
      "buyDate": "2026-03-05",
+     "buyPrice": 10.87,
      "close": 9.88,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-13",
+     "sellPrice": 10.0,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 8
     }
    ],
    "sells": []
@@ -6068,32 +10730,60 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-03-03",
      "buyDate": "2026-03-04",
+     "buyPrice": 5.15,
      "close": 5.16,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-13",
+     "sellPrice": 5.851,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 13.62,
+     "period": 9
     },
     {
      "code": "002682",
      "plan": "",
      "date": "2026-03-03",
      "buyDate": "2026-03-04",
+     "buyPrice": 7.08,
      "close": 7.67,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-06",
+     "sellPrice": 6.514,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002929",
      "plan": "",
      "date": "2026-03-03",
      "buyDate": "2026-03-04",
+     "buyPrice": 50.24,
      "close": 49.69,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-23",
+     "sellPrice": 46.221,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 19
     },
     {
      "code": "600367",
      "plan": "",
      "date": "2026-03-03",
      "buyDate": "2026-03-04",
+     "buyPrice": 24.98,
      "close": 25.9,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-05",
+     "sellPrice": 22.982,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     }
    ],
    "sells": []
@@ -6106,16 +10796,30 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-03-02",
      "buyDate": "2026-03-03",
+     "buyPrice": 49.47,
      "close": 54.98,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 50.508,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.1,
+     "period": 0
     },
     {
      "code": "002432",
      "plan": "",
      "date": "2026-03-02",
      "buyDate": "2026-03-03",
+     "buyPrice": 49.01,
      "close": 47.34,
-     "emotion": "退潮期"
+     "emotion": "退潮期",
+     "state": "已卖出",
+     "sellDate": "2026-03-13",
+     "sellPrice": 55.025,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 12.27,
+     "period": 10
     }
    ],
    "sells": []
@@ -6128,72 +10832,135 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-02-27",
      "buyDate": "2026-03-02",
+     "buyPrice": 3.48,
      "close": 3.52,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-17",
+     "sellPrice": 3.984,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 14.47,
+     "period": 15
     },
     {
      "code": "002177",
      "plan": "",
      "date": "2026-02-27",
      "buyDate": "2026-03-02",
+     "buyPrice": 9.28,
      "close": 9.69,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-09",
+     "sellPrice": 8.538,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "600744",
      "plan": "",
      "date": "2026-02-27",
      "buyDate": "2026-03-02",
+     "buyPrice": 7.98,
      "close": 7.94,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-13",
+     "sellPrice": 8.988,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 12.64,
+     "period": 11
     },
     {
      "code": "600410",
      "plan": "",
      "date": "2026-02-27",
      "buyDate": "2026-03-02",
+     "buyPrice": 29.97,
      "close": 28.93,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-02",
+     "sellPrice": 27.572,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "600498",
      "plan": "",
      "date": "2026-02-27",
      "buyDate": "2026-03-02",
+     "buyPrice": 56.61,
      "close": 51.45,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-09",
+     "sellPrice": 52.081,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "600589",
      "plan": "",
      "date": "2026-02-27",
      "buyDate": "2026-03-02",
+     "buyPrice": 12.22,
      "close": 13.04,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 11.242,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002015",
      "plan": "",
      "date": "2026-02-27",
      "buyDate": "2026-03-02",
+     "buyPrice": 13.61,
      "close": 14.06,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-17",
+     "sellPrice": 21.059,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 54.73,
+     "period": 15
     },
     {
      "code": "003035",
      "plan": "",
      "date": "2026-02-27",
      "buyDate": "2026-03-02",
+     "buyPrice": 8.31,
      "close": 8.2,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-13",
+     "sellPrice": 10.102,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 21.56,
+     "period": 11
     },
     {
      "code": "002155",
      "plan": "",
      "date": "2026-02-27",
      "buyDate": "2026-03-02",
+     "buyPrice": 41.17,
      "close": 37.4,
-     "emotion": "正常期"
+     "emotion": "正常期",
+     "state": "已卖出",
+     "sellDate": "2026-03-04",
+     "sellPrice": 37.876,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     }
    ],
    "sells": []
@@ -6206,72 +10973,135 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-02-26",
      "buyDate": "2026-02-27",
+     "buyPrice": 25.27,
      "close": 22.97,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-05",
+     "sellPrice": 28.134,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 11.33,
+     "period": 6
     },
     {
      "code": "600487",
      "plan": "",
      "date": "2026-02-26",
      "buyDate": "2026-02-27",
+     "buyPrice": 47.23,
      "close": 44.06,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-02-27",
+     "sellPrice": 43.452,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "600172",
      "plan": "",
      "date": "2026-02-26",
      "buyDate": "2026-02-27",
+     "buyPrice": 9.71,
      "close": 9.37,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-02-27",
+     "sellPrice": 8.933,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002323",
      "plan": "",
      "date": "2026-02-26",
      "buyDate": "2026-02-27",
+     "buyPrice": 2.42,
      "close": 2.48,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-02",
+     "sellPrice": 2.226,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "002272",
      "plan": "",
      "date": "2026-02-26",
      "buyDate": "2026-02-27",
+     "buyPrice": 19.47,
      "close": 19.21,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-06",
+     "sellPrice": 20.792,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 6.79,
+     "period": 7
     },
     {
      "code": "600410",
      "plan": "",
      "date": "2026-02-26",
      "buyDate": "2026-02-27",
+     "buyPrice": 28.93,
      "close": 27.26,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-13",
+     "sellPrice": 31.556,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 9.08,
+     "period": 14
     },
     {
      "code": "002546",
      "plan": "",
      "date": "2026-02-26",
      "buyDate": "2026-02-27",
+     "buyPrice": 10.79,
      "close": 10.36,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-11",
+     "sellPrice": 11.298,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.7,
+     "period": 12
     },
     {
      "code": "600343",
      "plan": "",
      "date": "2026-02-26",
      "buyDate": "2026-02-27",
+     "buyPrice": 37.5,
      "close": 36.14,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 34.5,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "300442",
      "plan": "",
      "date": "2026-02-26",
      "buyDate": "2026-02-27",
+     "buyPrice": 103.15,
      "close": 101.93,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 94.898,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     }
    ],
    "sells": []
@@ -6284,80 +11114,150 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-02-25",
      "buyDate": "2026-02-26",
+     "buyPrice": 3.58,
      "close": 3.77,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 3.294,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "603601",
      "plan": "",
      "date": "2026-02-25",
      "buyDate": "2026-02-26",
+     "buyPrice": 13.22,
      "close": 13.01,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 12.162,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "002342",
      "plan": "",
      "date": "2026-02-25",
      "buyDate": "2026-02-26",
+     "buyPrice": 15.65,
      "close": 16.09,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 14.398,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "002361",
      "plan": "",
      "date": "2026-02-25",
      "buyDate": "2026-02-26",
+     "buyPrice": 14.28,
      "close": 14.44,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 13.138,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "600884",
      "plan": "",
      "date": "2026-02-25",
      "buyDate": "2026-02-26",
+     "buyPrice": 15.0,
      "close": 15.13,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-09",
+     "sellPrice": 13.8,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 11
     },
     {
      "code": "600111",
      "plan": "",
      "date": "2026-02-25",
      "buyDate": "2026-02-26",
+     "buyPrice": 58.97,
      "close": 60.3,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-04",
+     "sellPrice": 54.252,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "002240",
      "plan": "",
      "date": "2026-02-25",
      "buyDate": "2026-02-26",
+     "buyPrice": 42.26,
      "close": 45.2,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-04",
+     "sellPrice": 38.879,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "601208",
      "plan": "",
      "date": "2026-02-25",
      "buyDate": "2026-02-26",
+     "buyPrice": 33.88,
      "close": 31.69,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-04",
+     "sellPrice": 31.17,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "000547",
      "plan": "",
      "date": "2026-02-25",
      "buyDate": "2026-02-26",
+     "buyPrice": 30.74,
      "close": 30.34,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-04",
+     "sellPrice": 28.281,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "001396",
      "plan": "",
      "date": "2026-02-25",
      "buyDate": "2026-02-26",
+     "buyPrice": 56.47,
      "close": 55.66,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 51.952,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     }
    ],
    "sells": []
@@ -6370,48 +11270,90 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-02-24",
      "buyDate": "2026-02-25",
+     "buyPrice": 17.42,
      "close": 18.28,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-09",
+     "sellPrice": 16.026,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 12
     },
     {
      "code": "603601",
      "plan": "",
      "date": "2026-02-24",
      "buyDate": "2026-02-25",
+     "buyPrice": 13.01,
      "close": 11.83,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-02-25",
+     "sellPrice": 11.969,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "600550",
      "plan": "",
      "date": "2026-02-24",
      "buyDate": "2026-02-25",
+     "buyPrice": 17.4,
      "close": 16.7,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-04",
+     "sellPrice": 16.008,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "600172",
      "plan": "",
      "date": "2026-02-24",
      "buyDate": "2026-02-25",
+     "buyPrice": 8.83,
      "close": 8.82,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 9.393,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 6.38,
+     "period": 6
     },
     {
      "code": "002165",
      "plan": "",
      "date": "2026-02-24",
      "buyDate": "2026-02-25",
+     "buyPrice": 12.75,
      "close": 12.49,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 11.73,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "603861",
      "plan": "",
      "date": "2026-02-24",
      "buyDate": "2026-02-25",
+     "buyPrice": 18.05,
      "close": 18.13,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-06",
+     "sellPrice": 20.746,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 14.94,
+     "period": 9
     }
    ],
    "sells": []
@@ -6424,48 +11366,90 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-02-13",
      "buyDate": "2026-02-24",
+     "buyPrice": 23.57,
      "close": 23.82,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-05",
+     "sellPrice": 24.058,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.07,
+     "period": 9
     },
     {
      "code": "003018",
      "plan": "",
      "date": "2026-02-13",
      "buyDate": "2026-02-24",
+     "buyPrice": 18.62,
      "close": 18.89,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-06",
+     "sellPrice": 22.88,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 22.88,
+     "period": 10
     },
     {
      "code": "002510",
      "plan": "",
      "date": "2026-02-13",
      "buyDate": "2026-02-24",
+     "buyPrice": 8.65,
      "close": 8.5,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-02",
+     "sellPrice": 7.958,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "002009",
      "plan": "",
      "date": "2026-02-13",
      "buyDate": "2026-02-24",
+     "buyPrice": 35.82,
      "close": 35.59,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-02-25",
+     "sellPrice": 32.954,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "000021",
      "plan": "",
      "date": "2026-02-13",
      "buyDate": "2026-02-24",
+     "buyPrice": 33.55,
      "close": 32.07,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 30.866,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "002519",
      "plan": "",
      "date": "2026-02-13",
      "buyDate": "2026-02-24",
+     "buyPrice": 10.02,
      "close": 9.71,
-     "emotion": "混沌期"
+     "emotion": "混沌期",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 9.218,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     }
    ],
    "sells": []
@@ -6478,64 +11462,120 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-02-12",
      "buyDate": "2026-02-13",
+     "buyPrice": 16.92,
      "close": 18.12,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 19.642,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 16.09,
+     "period": 18
     },
     {
      "code": "605006",
      "plan": "",
      "date": "2026-02-12",
      "buyDate": "2026-02-13",
+     "buyPrice": 9.44,
      "close": 10.2,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-02",
+     "sellPrice": 10.488,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 11.1,
+     "period": 17
     },
     {
      "code": "000767",
      "plan": "",
      "date": "2026-02-12",
      "buyDate": "2026-02-13",
+     "buyPrice": 3.38,
      "close": 3.62,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 3.542,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.79,
+     "period": 18
     },
     {
      "code": "002842",
      "plan": "",
      "date": "2026-02-12",
      "buyDate": "2026-02-13",
+     "buyPrice": 36.24,
      "close": 38.37,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 44.491,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 22.77,
+     "period": 18
     },
     {
      "code": "002498",
      "plan": "",
      "date": "2026-02-12",
      "buyDate": "2026-02-13",
+     "buyPrice": 6.73,
      "close": 6.11,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-02",
+     "sellPrice": 8.05,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 19.61,
+     "period": 17
     },
     {
      "code": "002491",
      "plan": "",
      "date": "2026-02-12",
      "buyDate": "2026-02-13",
+     "buyPrice": 9.26,
      "close": 10.29,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-13",
+     "sellPrice": 9.642,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.12,
+     "period": 0
     },
     {
      "code": "002131",
      "plan": "",
      "date": "2026-02-12",
      "buyDate": "2026-02-13",
+     "buyPrice": 8.93,
      "close": 9.05,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 8.216,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 18
     },
     {
      "code": "600545",
      "plan": "",
      "date": "2026-02-12",
      "buyDate": "2026-02-13",
+     "buyPrice": 2.95,
      "close": 3.28,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 3.34,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 13.21,
+     "period": 18
     }
    ],
    "sells": []
@@ -6548,56 +11588,105 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-02-11",
      "buyDate": "2026-02-12",
+     "buyPrice": 13.19,
      "close": 13.75,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 12.135,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 19
     },
     {
      "code": "002378",
      "plan": "",
      "date": "2026-02-11",
      "buyDate": "2026-02-12",
+     "buyPrice": 30.28,
      "close": 27.52,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 42.394,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 40.01,
+     "period": 19
     },
     {
      "code": "000525",
      "plan": "",
      "date": "2026-02-11",
      "buyDate": "2026-02-12",
+     "buyPrice": 6.24,
      "close": 6.76,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 6.44,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.21,
+     "period": 19
     },
     {
      "code": "600722",
      "plan": "",
      "date": "2026-02-11",
      "buyDate": "2026-02-12",
+     "buyPrice": 9.31,
      "close": 10.34,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-27",
+     "sellPrice": 9.623,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.36,
+     "period": 15
     },
     {
      "code": "603698",
      "plan": "",
      "date": "2026-02-11",
      "buyDate": "2026-02-12",
+     "buyPrice": 35.8,
      "close": 39.79,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-25",
+     "sellPrice": 32.936,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 13
     },
     {
      "code": "000657",
      "plan": "",
      "date": "2026-02-11",
      "buyDate": "2026-02-12",
+     "buyPrice": 55.1,
      "close": 52.14,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 65.568,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 19.0,
+     "period": 19
     },
     {
      "code": "002340",
      "plan": "",
      "date": "2026-02-11",
      "buyDate": "2026-02-12",
+     "buyPrice": 9.55,
      "close": 9.41,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-09",
+     "sellPrice": 8.786,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 25
     }
    ],
    "sells": []
@@ -6610,8 +11699,15 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-02-10",
      "buyDate": "2026-02-11",
+     "buyPrice": 29.27,
      "close": 30.49,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-24",
+     "sellPrice": 26.928,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 13
     }
    ],
    "sells": []
@@ -6624,64 +11720,120 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-02-09",
      "buyDate": "2026-02-10",
+     "buyPrice": 7.6,
      "close": 7.96,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-12",
+     "sellPrice": 6.992,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002129",
      "plan": "",
      "date": "2026-02-09",
      "buyDate": "2026-02-10",
+     "buyPrice": 11.3,
      "close": 11.68,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-13",
+     "sellPrice": 10.396,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "600860",
      "plan": "",
      "date": "2026-02-09",
      "buyDate": "2026-02-10",
+     "buyPrice": 13.65,
      "close": 13.77,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-12",
+     "sellPrice": 15.254,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 11.75,
+     "period": 30
     },
     {
      "code": "002054",
      "plan": "",
      "date": "2026-02-09",
      "buyDate": "2026-02-10",
+     "buyPrice": 10.59,
      "close": 10.99,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 11.058,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.42,
+     "period": 21
     },
     {
      "code": "600330",
      "plan": "",
      "date": "2026-02-09",
      "buyDate": "2026-02-10",
+     "buyPrice": 17.18,
      "close": 17.05,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-04",
+     "sellPrice": 17.48,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.75,
+     "period": 22
     },
     {
      "code": "603598",
      "plan": "",
      "date": "2026-02-09",
      "buyDate": "2026-02-10",
+     "buyPrice": 31.3,
      "close": 28.45,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-11",
+     "sellPrice": 28.796,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "601360",
      "plan": "",
      "date": "2026-02-09",
      "buyDate": "2026-02-10",
+     "buyPrice": 13.05,
      "close": 12.81,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-02",
+     "sellPrice": 12.006,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 20
     },
     {
      "code": "301232",
      "plan": "",
      "date": "2026-02-09",
      "buyDate": "2026-02-10",
+     "buyPrice": 150.98,
      "close": 165.18,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-11",
+     "sellPrice": 138.902,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     }
    ],
    "sells": []
@@ -6694,96 +11846,180 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
+     "buyPrice": 15.08,
      "close": 13.71,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-10",
+     "sellPrice": 13.874,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002342",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
+     "buyPrice": 19.97,
      "close": 20.37,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-10",
+     "sellPrice": 18.372,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002054",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
+     "buyPrice": 10.99,
      "close": 9.98,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-09",
+     "sellPrice": 10.111,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002339",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
+     "buyPrice": 12.93,
      "close": 12.74,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-13",
+     "sellPrice": 11.896,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "002455",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
+     "buyPrice": 12.25,
      "close": 11.14,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-13",
+     "sellPrice": 13.938,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 13.78,
+     "period": 4
     },
     {
      "code": "000767",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
+     "buyPrice": 3.33,
      "close": 3.42,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 3.542,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 6.37,
+     "period": 22
     },
     {
      "code": "002112",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
+     "buyPrice": 25.29,
      "close": 25.4,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 23.267,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 22
     },
     {
      "code": "603667",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
+     "buyPrice": 87.9,
      "close": 85.53,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-25",
+     "sellPrice": 80.868,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 16
     },
     {
      "code": "600498",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
+     "buyPrice": 42.74,
      "close": 41.15,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-06",
+     "sellPrice": 55.301,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 29.39,
+     "period": 25
     },
     {
      "code": "002759",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
+     "buyPrice": 41.28,
      "close": 40.29,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-13",
+     "sellPrice": 37.978,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "002150",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
+     "buyPrice": 26.67,
      "close": 25.63,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-25",
+     "sellPrice": 27.398,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.73,
+     "period": 16
     },
     {
      "code": "002519",
      "plan": "",
      "date": "2026-02-06",
      "buyDate": "2026-02-09",
+     "buyPrice": 9.43,
      "close": 9.52,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-27",
+     "sellPrice": 10.01,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 6.15,
+     "period": 18
     }
    ],
    "sells": []
@@ -6796,40 +12032,75 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-02-05",
      "buyDate": "2026-02-06",
+     "buyPrice": 8.59,
      "close": 9.04,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-12",
+     "sellPrice": 7.903,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "000592",
      "plan": "",
      "date": "2026-02-05",
      "buyDate": "2026-02-06",
+     "buyPrice": 11.62,
      "close": 11.83,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-12",
+     "sellPrice": 10.69,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "002264",
      "plan": "",
      "date": "2026-02-05",
      "buyDate": "2026-02-06",
+     "buyPrice": 11.9,
      "close": 12.48,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-12",
+     "sellPrice": 10.948,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "002985",
      "plan": "",
      "date": "2026-02-05",
      "buyDate": "2026-02-06",
+     "buyPrice": 44.09,
      "close": 46.84,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-26",
+     "sellPrice": 40.563,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 20
     },
     {
      "code": "002361",
      "plan": "",
      "date": "2026-02-05",
      "buyDate": "2026-02-06",
+     "buyPrice": 15.24,
      "close": 13.85,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-06",
+     "sellPrice": 14.021,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     }
    ],
    "sells": []
@@ -6842,48 +12113,90 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-02-04",
      "buyDate": "2026-02-05",
+     "buyPrice": 14.0,
      "close": 14.33,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-04",
+     "sellPrice": 15.125,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 8.03,
+     "period": 27
     },
     {
      "code": "002218",
      "plan": "",
      "date": "2026-02-04",
      "buyDate": "2026-02-05",
+     "buyPrice": 7.16,
      "close": 7.04,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-06",
+     "sellPrice": 6.587,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "600740",
      "plan": "",
      "date": "2026-02-04",
      "buyDate": "2026-02-05",
+     "buyPrice": 4.64,
      "close": 4.84,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-04",
+     "sellPrice": 5.005,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 7.86,
+     "period": 27
     },
     {
      "code": "002506",
      "plan": "",
      "date": "2026-02-04",
      "buyDate": "2026-02-05",
+     "buyPrice": 4.16,
      "close": 3.78,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-06",
+     "sellPrice": 3.827,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002129",
      "plan": "",
      "date": "2026-02-04",
      "buyDate": "2026-02-05",
+     "buyPrice": 10.74,
      "close": 10.57,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-12",
+     "sellPrice": 10.911,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.59,
+     "period": 7
     },
     {
      "code": "600759",
      "plan": "",
      "date": "2026-02-04",
      "buyDate": "2026-02-05",
+     "buyPrice": 5.0,
      "close": 4.91,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-06",
+     "sellPrice": 4.6,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     }
    ],
    "sells": []
@@ -6896,112 +12209,210 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
+     "buyPrice": 9.34,
      "close": 9.25,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-05",
+     "sellPrice": 8.593,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "301486",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
+     "buyPrice": 220.38,
      "close": 220.1,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-05",
+     "sellPrice": 202.75,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002943",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
+     "buyPrice": 65.66,
      "close": 62.5,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-05",
+     "sellPrice": 60.407,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "600410",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
+     "buyPrice": 21.86,
      "close": 21.86,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-24",
+     "sellPrice": 24.095,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 10.22,
+     "period": 20
     },
     {
      "code": "002165",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
+     "buyPrice": 14.09,
      "close": 13.67,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-05",
+     "sellPrice": 12.963,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002342",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
+     "buyPrice": 17.6,
      "close": 16.0,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-11",
+     "sellPrice": 19.697,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 11.92,
+     "period": 7
     },
     {
      "code": "002455",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
+     "buyPrice": 10.78,
      "close": 10.31,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-04",
+     "sellPrice": 9.918,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "600986",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
+     "buyPrice": 14.81,
      "close": 15.42,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-04",
+     "sellPrice": 15.162,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.37,
+     "period": 0
     },
     {
      "code": "002792",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
+     "buyPrice": 52.79,
      "close": 52.79,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-10",
+     "sellPrice": 48.567,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "603773",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
+     "buyPrice": 40.38,
      "close": 40.11,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-06",
+     "sellPrice": 37.15,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "603601",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
+     "buyPrice": 12.39,
      "close": 12.81,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-05",
+     "sellPrice": 11.399,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002012",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
+     "buyPrice": 6.8,
      "close": 6.89,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 7.038,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.5,
+     "period": 27
     },
     {
      "code": "000880",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
+     "buyPrice": 35.64,
      "close": 36.5,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-05",
+     "sellPrice": 32.789,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "600869",
      "plan": "",
      "date": "2026-02-03",
      "buyDate": "2026-02-04",
+     "buyPrice": 13.42,
      "close": 13.16,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-09",
+     "sellPrice": 12.346,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     }
    ],
    "sells": []
@@ -7014,56 +12425,105 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-02-02",
      "buyDate": "2026-02-03",
+     "buyPrice": 23.78,
      "close": 21.62,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-03",
+     "sellPrice": 21.878,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002491",
      "plan": "",
      "date": "2026-02-02",
      "buyDate": "2026-02-03",
+     "buyPrice": 9.25,
      "close": 8.64,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-03",
+     "sellPrice": 8.51,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "600550",
      "plan": "",
      "date": "2026-02-02",
      "buyDate": "2026-02-03",
+     "buyPrice": 16.37,
      "close": 15.57,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-05",
+     "sellPrice": 15.06,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "600172",
      "plan": "",
      "date": "2026-02-02",
      "buyDate": "2026-02-03",
+     "buyPrice": 7.59,
      "close": 7.21,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-03",
+     "sellPrice": 9.393,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 23.76,
+     "period": 28
     },
     {
      "code": "601179",
      "plan": "",
      "date": "2026-02-02",
      "buyDate": "2026-02-03",
+     "buyPrice": 15.71,
      "close": 15.55,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-05",
+     "sellPrice": 14.453,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002575",
      "plan": "",
      "date": "2026-02-02",
      "buyDate": "2026-02-03",
+     "buyPrice": 8.11,
      "close": 7.92,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-04",
+     "sellPrice": 7.461,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "000700",
      "plan": "",
      "date": "2026-02-02",
      "buyDate": "2026-02-03",
+     "buyPrice": 14.8,
      "close": 14.33,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-02",
+     "sellPrice": 13.616,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 27
     }
    ],
    "sells": []
@@ -7076,32 +12536,60 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-01-30",
      "buyDate": "2026-02-02",
+     "buyPrice": 4.12,
      "close": 4.58,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-10",
+     "sellPrice": 5.023,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 21.92,
+     "period": 8
     },
     {
      "code": "600345",
      "plan": "",
      "date": "2026-01-30",
      "buyDate": "2026-02-02",
+     "buyPrice": 37.09,
      "close": 35.82,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-13",
+     "sellPrice": 41.372,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 11.55,
+     "period": 11
     },
     {
      "code": "301486",
      "plan": "",
      "date": "2026-01-30",
      "buyDate": "2026-02-02",
+     "buyPrice": 190.47,
      "close": 198.37,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-05",
+     "sellPrice": 210.275,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 10.4,
+     "period": 3
     },
     {
      "code": "603629",
      "plan": "",
      "date": "2026-01-30",
      "buyDate": "2026-02-02",
+     "buyPrice": 29.16,
      "close": 26.49,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-04",
+     "sellPrice": 29.532,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.28,
+     "period": 2
     }
    ],
    "sells": []
@@ -7114,40 +12602,75 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-01-29",
      "buyDate": "2026-01-30",
+     "buyPrice": 12.12,
      "close": 12.46,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-06",
+     "sellPrice": 11.15,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "002440",
      "plan": "",
      "date": "2026-01-29",
      "buyDate": "2026-01-30",
+     "buyPrice": 12.39,
      "close": 11.63,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-30",
+     "sellPrice": 11.399,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "000901",
      "plan": "",
      "date": "2026-01-29",
      "buyDate": "2026-01-30",
+     "buyPrice": 28.21,
      "close": 28.08,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-13",
+     "sellPrice": 25.953,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 14
     },
     {
      "code": "600678",
      "plan": "",
      "date": "2026-01-29",
      "buyDate": "2026-01-30",
+     "buyPrice": 12.91,
      "close": 13.2,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-02",
+     "sellPrice": 11.877,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 31
     },
     {
      "code": "600986",
      "plan": "",
      "date": "2026-01-29",
      "buyDate": "2026-01-30",
+     "buyPrice": 13.11,
      "close": 13.78,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-04",
+     "sellPrice": 15.162,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 15.65,
+     "period": 5
     }
    ],
    "sells": []
@@ -7160,40 +12683,75 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-01-28",
      "buyDate": "2026-01-29",
+     "buyPrice": 25.57,
      "close": 27.19,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-05",
+     "sellPrice": 23.524,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "002400",
      "plan": "",
      "date": "2026-01-28",
      "buyDate": "2026-01-29",
+     "buyPrice": 12.46,
      "close": 11.78,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-29",
+     "sellPrice": 11.463,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "600871",
      "plan": "",
      "date": "2026-01-28",
      "buyDate": "2026-01-29",
+     "buyPrice": 3.23,
      "close": 2.94,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-29",
+     "sellPrice": 2.972,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "601390",
      "plan": "",
      "date": "2026-01-28",
      "buyDate": "2026-01-29",
+     "buyPrice": 5.8,
      "close": 5.71,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-02",
+     "sellPrice": 5.336,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "603601",
      "plan": "",
      "date": "2026-01-28",
      "buyDate": "2026-01-29",
+     "buyPrice": 11.89,
      "close": 11.76,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-05",
+     "sellPrice": 12.061,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.44,
+     "period": 7
     }
    ],
    "sells": []
@@ -7206,80 +12764,150 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-01-27",
      "buyDate": "2026-01-28",
+     "buyPrice": 26.46,
      "close": 28.67,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-05",
+     "sellPrice": 29.974,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 13.28,
+     "period": 8
     },
     {
      "code": "002149",
      "plan": "",
      "date": "2026-01-27",
      "buyDate": "2026-01-28",
+     "buyPrice": 49.18,
      "close": 46.15,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-28",
+     "sellPrice": 45.246,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002471",
      "plan": "",
      "date": "2026-01-27",
      "buyDate": "2026-01-28",
+     "buyPrice": 8.29,
      "close": 8.49,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-10",
+     "sellPrice": 10.0,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 20.63,
+     "period": 13
     },
     {
      "code": "000592",
      "plan": "",
      "date": "2026-01-27",
      "buyDate": "2026-01-28",
+     "buyPrice": 11.14,
      "close": 10.68,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-02",
+     "sellPrice": 10.249,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "002119",
      "plan": "",
      "date": "2026-01-27",
      "buyDate": "2026-01-28",
+     "buyPrice": 27.19,
      "close": 24.71,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-02",
+     "sellPrice": 25.015,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "002796",
      "plan": "",
      "date": "2026-01-27",
      "buyDate": "2026-01-28",
+     "buyPrice": 49.8,
      "close": 50.39,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-30",
+     "sellPrice": 45.816,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "603212",
      "plan": "",
      "date": "2026-01-27",
      "buyDate": "2026-01-28",
+     "buyPrice": 18.01,
      "close": 17.47,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-30",
+     "sellPrice": 16.569,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002150",
      "plan": "",
      "date": "2026-01-27",
      "buyDate": "2026-01-28",
+     "buyPrice": 26.19,
      "close": 25.78,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-30",
+     "sellPrice": 24.095,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     },
     {
      "code": "002185",
      "plan": "",
      "date": "2026-01-27",
      "buyDate": "2026-01-28",
+     "buyPrice": 15.18,
      "close": 14.64,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-05",
+     "sellPrice": 13.966,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 8
     },
     {
      "code": "002506",
      "plan": "",
      "date": "2026-01-27",
      "buyDate": "2026-01-28",
+     "buyPrice": 3.51,
      "close": 3.69,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-11",
+     "sellPrice": 5.281,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 50.45,
+     "period": 14
     }
    ],
    "sells": []
@@ -7292,56 +12920,105 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-01-26",
      "buyDate": "2026-01-27",
+     "buyPrice": 10.69,
      "close": 10.54,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-02",
+     "sellPrice": 9.835,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 6
     },
     {
      "code": "600078",
      "plan": "",
      "date": "2026-01-26",
      "buyDate": "2026-01-27",
+     "buyPrice": 13.51,
      "close": 13.41,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-30",
+     "sellPrice": 12.429,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "000506",
      "plan": "",
      "date": "2026-01-26",
      "buyDate": "2026-01-27",
+     "buyPrice": 23.57,
      "close": 21.43,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-27",
+     "sellPrice": 21.684,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002165",
      "plan": "",
      "date": "2026-01-26",
      "buyDate": "2026-01-27",
+     "buyPrice": 10.18,
      "close": 10.87,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-02",
+     "sellPrice": 12.76,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 25.35,
+     "period": 6
     },
     {
      "code": "600759",
      "plan": "",
      "date": "2026-01-26",
      "buyDate": "2026-01-27",
+     "buyPrice": 4.7,
      "close": 4.84,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-30",
+     "sellPrice": 5.741,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 22.14,
+     "period": 3
     },
     {
      "code": "000657",
      "plan": "",
      "date": "2026-01-26",
      "buyDate": "2026-01-27",
+     "buyPrice": 50.26,
      "close": 49.24,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-30",
+     "sellPrice": 46.239,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "000078",
      "plan": "",
      "date": "2026-01-26",
      "buyDate": "2026-01-27",
+     "buyPrice": 4.15,
      "close": 4.2,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-29",
+     "sellPrice": 3.818,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 2
     }
    ],
    "sells": []
@@ -7354,128 +13031,240 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
+     "buyPrice": 13.7,
      "close": 13.53,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-27",
+     "sellPrice": 12.604,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 1
     },
     {
      "code": "002218",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
+     "buyPrice": 6.01,
      "close": 5.46,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-29",
+     "sellPrice": 6.688,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 11.29,
+     "period": 3
     },
     {
      "code": "600986",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
+     "buyPrice": 13.26,
      "close": 12.05,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-26",
+     "sellPrice": 12.199,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002339",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
+     "buyPrice": 11.78,
      "close": 11.46,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-30",
+     "sellPrice": 10.838,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "002112",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
+     "buyPrice": 22.97,
      "close": 23.95,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-26",
+     "sellPrice": 23.616,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 2.81,
+     "period": 0
     },
     {
      "code": "002546",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
+     "buyPrice": 9.06,
      "close": 9.44,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-30",
+     "sellPrice": 8.335,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "600498",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
+     "buyPrice": 40.07,
      "close": 41.72,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-11",
+     "sellPrice": 41.704,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 4.08,
+     "period": 16
     },
     {
      "code": "001316",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
+     "buyPrice": 33.76,
      "close": 37.55,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-26",
+     "sellPrice": 34.868,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 3.28,
+     "period": 0
     },
     {
      "code": "002202",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
+     "buyPrice": 28.2,
      "close": 29.38,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-30",
+     "sellPrice": 25.944,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "002792",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
+     "buyPrice": 55.23,
      "close": 52.15,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-26",
+     "sellPrice": 50.812,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "000561",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
+     "buyPrice": 12.41,
      "close": 13.15,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-30",
+     "sellPrice": 11.417,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "600879",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
+     "buyPrice": 28.3,
      "close": 31.44,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-29",
+     "sellPrice": 26.036,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 3
     },
     {
      "code": "002115",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
+     "buyPrice": 14.3,
      "close": 15.39,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-30",
+     "sellPrice": 15.134,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 5.83,
+     "period": 4
     },
     {
      "code": "603773",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
+     "buyPrice": 38.3,
      "close": 42.55,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-26",
+     "sellPrice": 39.054,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 1.97,
+     "period": 0
     },
     {
      "code": "002810",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
+     "buyPrice": 17.41,
      "close": 18.39,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-03-02",
+     "sellPrice": 18.95,
+     "reason": "TIME EXIT (20 days)",
+     "pnl": 8.85,
+     "period": 35
     },
     {
      "code": "600118",
      "plan": "",
      "date": "2026-01-23",
      "buyDate": "2026-01-26",
+     "buyPrice": 98.0,
      "close": 108.89,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-02-03",
+     "sellPrice": 90.16,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 8
     }
    ],
    "sells": []
@@ -7488,16 +13277,30 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-01-22",
      "buyDate": "2026-01-23",
+     "buyPrice": 14.79,
      "close": 13.85,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-23",
+     "sellPrice": 13.607,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 0
     },
     {
      "code": "002943",
      "plan": "",
      "date": "2026-01-22",
      "buyDate": "2026-01-23",
+     "buyPrice": 51.1,
      "close": 46.45,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-30",
+     "sellPrice": 58.558,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 14.59,
+     "period": 7
     }
    ],
    "sells": []
@@ -7510,48 +13313,90 @@ window.SIGNAL_DATA = {
      "plan": "",
      "date": "2026-01-21",
      "buyDate": "2026-01-22",
+     "buyPrice": 18.0,
      "close": 18.68,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-29",
+     "sellPrice": 16.56,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 7
     },
     {
      "code": "600649",
      "plan": "",
      "date": "2026-01-21",
      "buyDate": "2026-01-22",
+     "buyPrice": 5.4,
      "close": 5.41,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-27",
+     "sellPrice": 4.968,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "002156",
      "plan": "",
      "date": "2026-01-21",
      "buyDate": "2026-01-22",
+     "buyPrice": 55.92,
      "close": 56.03,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-27",
+     "sellPrice": 51.446,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 5
     },
     {
      "code": "600676",
      "plan": "",
      "date": "2026-01-21",
      "buyDate": "2026-01-22",
+     "buyPrice": 8.96,
      "close": 9.83,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-26",
+     "sellPrice": 8.243,
+     "reason": "HARD STOP -8%",
+     "pnl": -8.0,
+     "period": 4
     },
     {
      "code": "000506",
      "plan": "",
      "date": "2026-01-21",
      "buyDate": "2026-01-22",
+     "buyPrice": 19.5,
      "close": 19.33,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-30",
+     "sellPrice": 26.238,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 34.56,
+     "period": 8
     },
     {
      "code": "002342",
      "plan": "",
      "date": "2026-01-21",
      "buyDate": "2026-01-22",
+     "buyPrice": 12.3,
      "close": 11.18,
-     "emotion": ""
+     "emotion": "",
+     "state": "已卖出",
+     "sellDate": "2026-01-27",
+     "sellPrice": 13.625,
+     "reason": "TRAIL STOP (close below high-8%)",
+     "pnl": 10.77,
+     "period": 5
     }
    ],
    "sells": []
