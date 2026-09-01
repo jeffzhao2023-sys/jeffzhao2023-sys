@@ -91,40 +91,55 @@
     function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
     function emotionClass(e){ if(e.indexOf('退潮')>=0)return 'emotion-recession'; if(e.indexOf('混沌')>=0)return 'emotion-chaos'; return 'emotion-normal'; }
 
+    function parseYMD(v){
+      if(!v) return null;
+      var s=String(v).replace(/-/g,'');
+      if(s.length!==8) return null;
+      var d=new Date(+s.slice(0,4), +s.slice(4,6)-1, +s.slice(6,8));
+      return (isNaN(d.getTime())) ? null : d;
+    }
+    function daysBetween(a,b){
+      var da=parseYMD(a), db=parseYMD(b);
+      if(!da||!db) return '—';
+      return Math.round((db-da)/86400000);
+    }
     function renderLowCombined(){
       if(!D || !D.days){ return '<div class="empty-tip">暂无记录</div>'; }
+      // sells 按 code+buyDate 建索引
+      var sellsMap={};
+      D.days.forEach(function(day){
+        (day.sells||[]).forEach(function(s){
+          sellsMap[s.code+'_'+s.buyDate] = s;
+        });
+      });
+      var today = D.today;
       var rows = [];
       D.days.forEach(function(day){
         (day.candidates||[]).forEach(function(c){
-          rows.push({date:day.date, code:c.code, plan:c.plan, buyPrice:c.close,
-                     emotion:c.emotion, kind:'cand'});
-        });
-        (day.sells||[]).forEach(function(s){
-          rows.push({date:day.date, code:s.code, plan:'', buyPrice:s.buyPrice,
-                     emotion:'', kind:'sell', sell:s});
+          rows.push(c);
         });
       });
-      rows.sort(function(a,b){ return a.date>b.date?-1:(a.date<b.date?1:0); });
+      rows.sort(function(a,b){ return a.buyDate>b.buyDate?-1:(a.buyDate<b.buyDate?1:0); });
       if(rows.length===0) return '<div class="empty-tip">暂无记录</div>';
-      var h='<table><tr><th>买入日</th><th>代码</th><th>买入价</th><th>情绪</th><th>状态</th><th>卖出日</th><th>卖出价</th><th>原因</th><th>收益率</th></tr>';
+      var h='<table><tr><th>买入日</th><th>代码</th><th>买入价</th><th>情绪</th><th>状态</th><th>卖出日</th><th>卖出价</th><th>原因</th><th>收益率</th><th>周期</th></tr>';
       rows.forEach(function(x){
-        var isSell = (x.kind==='sell');
-        var s = x.sell||{};
-
-        var emotionTxt = isSell ? '' : x.emotion;
-        var emotionCls = isSell ? '' : emotionClass(x.emotion);
-        var status = isSell ? '已卖出' : (x.emotion.indexOf('退潮')>=0 ? '退潮不买' : '可买');
-        var sdate = isSell ? (s.sellDate||'—') : '—';
-        var sprice = isSell ? (s.sellPrice||'—') : '—';
-        var reason = isSell ? (s.reason||'—') : '—';
-        var pnl = s.pnl;
+        var sell = sellsMap[x.code+'_'+x.buyDate] || null;
+        var status = sell ? '已卖出' : '持有中';
+        var sdate = sell ? (sell.sellDate||'—') : '—';
+        var sprice = sell ? (sell.sellPrice||'—') : '—';
+        var reason = sell ? (sell.reason||'—') : '—';
+        var pnl = sell ? sell.pnl : null;
         var pnlCls = (pnl==null||pnl===''||pnl===0) ? '' : (pnl>0 ? 'emotion-up' : 'emotion-down');
         var pnlTxt = (pnl==null||pnl==='') ? '—' : pnl+'%';
-        h+='<tr><td class="mono">'+esc(x.date)+'</td><td class="mono">'+esc(x.code)+'</td>'
-          +'<td class="mono">'+esc(x.buyPrice)+'</td>'
-          +'<td class="'+emotionCls+'">'+esc(emotionTxt)+'</td><td>'+esc(status)+'</td>'
+        var period = sell ? daysBetween(x.buyDate, sell.sellDate) : daysBetween(x.buyDate, today);
+        var statusCls = (status==='已卖出') ? '' : 'emotion-up';
+        h+='<tr><td class="mono">'+esc(x.buyDate)+'</td><td class="mono">'+esc(x.code)+'</td>'
+          +'<td class="mono">'+esc(x.close)+'</td>'
+          +'<td class="'+emotionClass(x.emotion)+'">'+esc(x.emotion)+'</td>'
+          +'<td class="'+statusCls+'">'+esc(status)+'</td>'
           +'<td class="mono">'+esc(sdate)+'</td><td class="mono">'+esc(sprice)+'</td>'
-          +'<td>'+esc(reason)+'</td><td class="mono '+pnlCls+'">'+pnlTxt+'</td></tr>';
+          +'<td>'+esc(reason)+'</td><td class="mono '+pnlCls+'">'+pnlTxt+'</td>'
+          +'<td class="mono">'+period+'</td></tr>';
       });
       return h+'</table>';
     }
