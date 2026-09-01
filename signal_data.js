@@ -1,5 +1,5 @@
 window.SIGNAL_DATA = {
- "generated": "2026-09-01 09:29",
+ "generated": "2026-09-01 09:38",
  "today": "20260901",
  "days": [
   {
@@ -66,7 +66,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-18",
      "sellPrice": 4.97,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.19,
      "period": 0
     },
@@ -81,7 +81,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-18",
      "sellPrice": 5.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 5.04,
      "period": 0
     },
@@ -96,7 +96,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-18",
      "sellPrice": 71.2,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.76,
      "period": 0
     }
@@ -117,7 +117,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-18",
      "sellPrice": 12.99,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.0,
      "period": 1
     },
@@ -132,7 +132,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-18",
      "sellPrice": 20.15,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.3,
      "period": 1
     },
@@ -147,7 +147,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-18",
      "sellPrice": 13.07,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.46,
      "period": 1
     },
@@ -162,7 +162,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-18",
      "sellPrice": 193.44,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.7,
      "period": 1
     },
@@ -177,7 +177,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-18",
      "sellPrice": 65.07,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.02,
      "period": 1
     }
@@ -198,7 +198,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-14",
      "sellPrice": 4.43,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.21,
      "period": 0
     },
@@ -213,7 +213,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-14",
      "sellPrice": 40.35,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.0,
      "period": 0
     }
@@ -234,7 +234,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 3.73,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -12.24,
      "period": 0
     },
@@ -249,7 +249,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 3.8,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.44,
      "period": 0
     },
@@ -264,7 +264,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 26.47,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -4.78,
      "period": 0
     },
@@ -279,7 +279,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 16.53,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.88,
      "period": 0
     },
@@ -294,7 +294,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 7.46,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 5.07,
      "period": 0
     },
@@ -309,7 +309,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 43.13,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 5.81,
      "period": 0
     },
@@ -324,7 +324,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 62.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 5.69,
      "period": 0
     },
@@ -339,7 +339,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 10.5,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.64,
      "period": 0
     }
@@ -360,7 +360,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 5.08,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.24,
      "period": 1
     },
@@ -375,7 +375,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 7.35,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.0,
      "period": 1
     },
@@ -390,7 +390,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 13.85,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 7.28,
      "period": 1
     },
@@ -405,7 +405,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 22.8,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.4,
      "period": 1
     },
@@ -420,7 +420,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 67.52,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.52,
      "period": 1
     }
@@ -441,7 +441,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 14.47,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.75,
      "period": 2
     },
@@ -456,7 +456,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 41.75,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.75,
      "period": 2
     },
@@ -471,7 +471,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 11.6,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 9.33,
      "period": 2
     }
@@ -492,7 +492,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 6.75,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -4.39,
      "period": 3
     },
@@ -507,7 +507,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 14.47,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.43,
      "period": 3
     },
@@ -522,7 +522,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 191.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 7.12,
      "period": 3
     },
@@ -537,7 +537,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 7.34,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.87,
      "period": 3
     },
@@ -552,7 +552,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-10",
      "sellPrice": 6.182,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -567,7 +567,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 43.99,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.64,
      "period": 3
     },
@@ -582,7 +582,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 25.5,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.47,
      "period": 3
     }
@@ -603,7 +603,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 102.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 7.42,
      "period": 6
     },
@@ -618,7 +618,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 79.3,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.99,
      "period": 6
     }
@@ -639,7 +639,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 2.93,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.66,
      "period": 7
     },
@@ -654,7 +654,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 43.99,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 7.87,
      "period": 7
     },
@@ -669,7 +669,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 67.52,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 15.85,
      "period": 7
     },
@@ -684,7 +684,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 22.8,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 18.94,
      "period": 7
     }
@@ -705,7 +705,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-05",
      "sellPrice": 5.989,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -720,7 +720,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 105.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 26.95,
      "period": 8
     },
@@ -735,7 +735,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-05",
      "sellPrice": 173.724,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -750,7 +750,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-05",
      "sellPrice": 33.626,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     }
@@ -771,7 +771,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 6.12,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -4.97,
      "period": 9
     },
@@ -786,7 +786,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 12.71,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.87,
      "period": 9
     }
@@ -807,7 +807,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-08-13",
      "sellPrice": 5.51,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 7.41,
      "period": 10
     }
@@ -838,7 +838,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-29",
      "sellPrice": 17.4,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.57,
      "period": 0
     }
@@ -859,7 +859,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-28",
      "sellPrice": 6.11,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.63,
      "period": 0
     },
@@ -874,7 +874,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-28",
      "sellPrice": 7.2,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.36,
      "period": 0
     }
@@ -895,7 +895,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-27",
      "sellPrice": 44.004,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -910,7 +910,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-28",
      "sellPrice": 72.07,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -6.0,
      "period": 1
     }
@@ -931,7 +931,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-24",
      "sellPrice": 8.88,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.67,
      "period": 0
     },
@@ -946,7 +946,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-24",
      "sellPrice": 86.05,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.33,
      "period": 0
     },
@@ -961,7 +961,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-24",
      "sellPrice": 5.2,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.19,
      "period": 0
     }
@@ -982,7 +982,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-24",
      "sellPrice": 68.03,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.56,
      "period": 1
     },
@@ -997,7 +997,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-24",
      "sellPrice": 41.01,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.39,
      "period": 1
     },
@@ -1012,7 +1012,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-24",
      "sellPrice": 86.05,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.36,
      "period": 1
     },
@@ -1027,7 +1027,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-24",
      "sellPrice": 27.25,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.98,
      "period": 1
     },
@@ -1042,7 +1042,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-24",
      "sellPrice": 206.32,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.05,
      "period": 1
     },
@@ -1057,7 +1057,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-24",
      "sellPrice": 34.6,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.56,
      "period": 1
     }
@@ -1078,7 +1078,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-23",
      "sellPrice": 75.109,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -1093,7 +1093,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-24",
      "sellPrice": 15.75,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -4.08,
      "period": 2
     },
@@ -1108,7 +1108,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-24",
      "sellPrice": 68.03,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -9.17,
      "period": 2
     },
@@ -1123,7 +1123,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-24",
      "sellPrice": 78.02,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -9.05,
      "period": 2
     }
@@ -1149,7 +1149,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-20",
      "sellPrice": 16.45,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 21.22,
      "period": 0
     },
@@ -1164,7 +1164,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-20",
      "sellPrice": 30.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.38,
      "period": 0
     },
@@ -1179,7 +1179,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-20",
      "sellPrice": 1.98,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.76,
      "period": 0
     }
@@ -1200,7 +1200,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-17",
      "sellPrice": 106.3,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 10.01,
      "period": 0
     },
@@ -1215,7 +1215,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-17",
      "sellPrice": 38.21,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -5.84,
      "period": 0
     },
@@ -1230,7 +1230,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-17",
      "sellPrice": 37.49,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.72,
      "period": 0
     }
@@ -1251,7 +1251,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-16",
      "sellPrice": 37.8,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.43,
      "period": 0
     },
@@ -1266,7 +1266,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-16",
      "sellPrice": 22.64,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.67,
      "period": 0
     },
@@ -1281,7 +1281,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-16",
      "sellPrice": 32.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.81,
      "period": 0
     }
@@ -1302,7 +1302,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-15",
      "sellPrice": 197.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.25,
      "period": 0
     },
@@ -1317,7 +1317,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-15",
      "sellPrice": 261.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.57,
      "period": 0
     },
@@ -1332,7 +1332,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-15",
      "sellPrice": 140.98,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.73,
      "period": 0
     }
@@ -1358,7 +1358,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-13",
      "sellPrice": 38.43,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.08,
      "period": 0
     },
@@ -1373,7 +1373,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-13",
      "sellPrice": 43.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 8.37,
      "period": 0
     }
@@ -1394,7 +1394,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-13",
      "sellPrice": 91.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.65,
      "period": 3
     },
@@ -1409,7 +1409,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-13",
      "sellPrice": 25.07,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.95,
      "period": 3
     },
@@ -1424,7 +1424,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-13",
      "sellPrice": 56.88,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.78,
      "period": 3
     },
@@ -1439,7 +1439,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-10",
      "sellPrice": 104.76,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 3.61,
      "period": 0
     },
@@ -1454,7 +1454,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-13",
      "sellPrice": 70.7,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.35,
      "period": 3
     },
@@ -1469,7 +1469,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-10",
      "sellPrice": 651.332,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 6.43,
      "period": 0
     },
@@ -1484,7 +1484,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-10",
      "sellPrice": 237.967,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 1.93,
      "period": 0
     },
@@ -1499,7 +1499,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-10",
      "sellPrice": 252.54,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 4.23,
      "period": 0
     }
@@ -1520,7 +1520,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-09",
      "sellPrice": 26.643,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     }
@@ -1541,7 +1541,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-08",
      "sellPrice": 42.7,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.0,
      "period": 0
     },
@@ -1556,7 +1556,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-08",
      "sellPrice": 11.65,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.6,
      "period": 0
     },
@@ -1571,7 +1571,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-08",
      "sellPrice": 11.28,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 5.52,
      "period": 0
     },
@@ -1586,7 +1586,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-08",
      "sellPrice": 22.97,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.49,
      "period": 0
     }
@@ -1607,7 +1607,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-07",
      "sellPrice": 31.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.16,
      "period": 0
     },
@@ -1622,7 +1622,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-07",
      "sellPrice": 17.99,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.02,
      "period": 0
     },
@@ -1637,7 +1637,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-07",
      "sellPrice": 30.39,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.28,
      "period": 0
     },
@@ -1652,7 +1652,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-07",
      "sellPrice": 17.25,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.92,
      "period": 0
     },
@@ -1667,7 +1667,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-07",
      "sellPrice": 53.51,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.94,
      "period": 0
     },
@@ -1682,7 +1682,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-07",
      "sellPrice": 31.66,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.57,
      "period": 0
     }
@@ -1703,7 +1703,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-06",
      "sellPrice": 10.6,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 19.24,
      "period": 0
     },
@@ -1718,7 +1718,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-06",
      "sellPrice": 23.14,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 10.09,
      "period": 0
     },
@@ -1733,7 +1733,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-06",
      "sellPrice": 45.11,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.0,
      "period": 0
     },
@@ -1748,7 +1748,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-06",
      "sellPrice": 450.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.23,
      "period": 0
     },
@@ -1763,7 +1763,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-06",
      "sellPrice": 47.46,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.47,
      "period": 0
     }
@@ -1784,7 +1784,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-06",
      "sellPrice": 14.32,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.56,
      "period": 3
     },
@@ -1799,7 +1799,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-06",
      "sellPrice": 29.18,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.0,
      "period": 3
     },
@@ -1814,7 +1814,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-06",
      "sellPrice": 17.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.83,
      "period": 3
     },
@@ -1829,7 +1829,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-06",
      "sellPrice": 15.35,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.52,
      "period": 3
     },
@@ -1844,7 +1844,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-06",
      "sellPrice": 20.81,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.36,
      "period": 3
     },
@@ -1859,7 +1859,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-03",
      "sellPrice": 51.759,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     }
@@ -1880,7 +1880,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-02",
      "sellPrice": 60.88,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.58,
      "period": 0
     },
@@ -1895,7 +1895,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-02",
      "sellPrice": 29.62,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.53,
      "period": 0
     },
@@ -1910,7 +1910,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-02",
      "sellPrice": 24.76,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 5.81,
      "period": 0
     },
@@ -1925,7 +1925,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-02",
      "sellPrice": 42.69,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -11.78,
      "period": 0
     },
@@ -1940,7 +1940,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-02",
      "sellPrice": 71.93,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.36,
      "period": 0
     },
@@ -1955,7 +1955,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-02",
      "sellPrice": 7.91,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 9.25,
      "period": 0
     },
@@ -1970,7 +1970,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-02",
      "sellPrice": 67.95,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -9.36,
      "period": 0
     },
@@ -1985,7 +1985,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-02",
      "sellPrice": 10.26,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.59,
      "period": 0
     }
@@ -2006,7 +2006,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-01",
      "sellPrice": 54.8,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.81,
      "period": 0
     },
@@ -2021,7 +2021,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-01",
      "sellPrice": 5.98,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.29,
      "period": 0
     },
@@ -2036,7 +2036,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-01",
      "sellPrice": 54.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.56,
      "period": 0
     },
@@ -2051,7 +2051,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-01",
      "sellPrice": 149.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 7.99,
      "period": 0
     },
@@ -2066,7 +2066,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-07-01",
      "sellPrice": 8.49,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.19,
      "period": 0
     }
@@ -2087,7 +2087,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-30",
      "sellPrice": 179.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.04,
      "period": 0
     },
@@ -2102,7 +2102,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-30",
      "sellPrice": 18.2,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -9.99,
      "period": 0
     },
@@ -2117,7 +2117,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-30",
      "sellPrice": 59.45,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -7.5,
      "period": 0
     },
@@ -2132,7 +2132,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-30",
      "sellPrice": 6.26,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.42,
      "period": 0
     },
@@ -2147,7 +2147,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-30",
      "sellPrice": 20.52,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.24,
      "period": 0
     },
@@ -2162,7 +2162,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-30",
      "sellPrice": 216.24,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.68,
      "period": 0
     }
@@ -2183,7 +2183,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-30",
      "sellPrice": 56.88,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.58,
      "period": 1
     },
@@ -2198,7 +2198,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-29",
      "sellPrice": 24.849,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 2.18,
      "period": 0
     },
@@ -2213,7 +2213,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-30",
      "sellPrice": 11.67,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.51,
      "period": 1
     },
@@ -2228,7 +2228,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-29",
      "sellPrice": 11.279,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 1.61,
      "period": 0
     },
@@ -2243,7 +2243,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-29",
      "sellPrice": 40.526,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 1.65,
      "period": 0
     }
@@ -2264,7 +2264,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-26",
      "sellPrice": 14.21,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.67,
      "period": 0
     },
@@ -2279,7 +2279,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-26",
      "sellPrice": 5.36,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.74,
      "period": 0
     },
@@ -2294,7 +2294,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-26",
      "sellPrice": 881.1,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -7.35,
      "period": 0
     },
@@ -2309,7 +2309,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-26",
      "sellPrice": 98.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.77,
      "period": 0
     }
@@ -2330,7 +2330,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-25",
      "sellPrice": 22.35,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.14,
      "period": 0
     },
@@ -2345,7 +2345,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-25",
      "sellPrice": 100.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -4.0,
      "period": 0
     },
@@ -2360,7 +2360,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-25",
      "sellPrice": 89.5,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.87,
      "period": 0
     },
@@ -2375,7 +2375,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-25",
      "sellPrice": 124.54,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -4.27,
      "period": 0
     },
@@ -2390,7 +2390,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-25",
      "sellPrice": 25.99,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.81,
      "period": 0
     },
@@ -2405,7 +2405,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-25",
      "sellPrice": 114.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.75,
      "period": 0
     },
@@ -2420,7 +2420,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-25",
      "sellPrice": 52.8,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.75,
      "period": 0
     },
@@ -2435,7 +2435,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-25",
      "sellPrice": 95.01,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 10.54,
      "period": 0
     },
@@ -2450,7 +2450,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-25",
      "sellPrice": 18.15,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.51,
      "period": 0
     }
@@ -2471,7 +2471,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-24",
      "sellPrice": 4.71,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.05,
      "period": 0
     },
@@ -2486,7 +2486,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-24",
      "sellPrice": 136.73,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -10.18,
      "period": 0
     },
@@ -2501,7 +2501,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-24",
      "sellPrice": 8.8,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.41,
      "period": 0
     },
@@ -2516,7 +2516,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-24",
      "sellPrice": 24.28,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -7.33,
      "period": 0
     },
@@ -2531,7 +2531,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-24",
      "sellPrice": 5.36,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 8.5,
      "period": 0
     }
@@ -2552,7 +2552,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 24.75,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.32,
      "period": 0
     },
@@ -2567,7 +2567,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 13.39,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.14,
      "period": 0
     },
@@ -2582,7 +2582,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 64.68,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 15.5,
      "period": 0
     },
@@ -2597,7 +2597,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 2.71,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -4.24,
      "period": 0
     },
@@ -2612,7 +2612,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 4.67,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.43,
      "period": 0
     },
@@ -2627,7 +2627,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 6.38,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.54,
      "period": 0
     },
@@ -2642,7 +2642,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 16.45,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.92,
      "period": 0
     },
@@ -2657,7 +2657,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 43.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.87,
      "period": 0
     },
@@ -2672,7 +2672,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 113.69,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.08,
      "period": 0
     },
@@ -2687,7 +2687,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 24.68,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 15.43,
      "period": 0
     },
@@ -2702,7 +2702,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 96.85,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 13.37,
      "period": 0
     },
@@ -2717,7 +2717,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 149.96,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.71,
      "period": 0
     },
@@ -2732,7 +2732,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 91.96,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.82,
      "period": 0
     },
@@ -2747,7 +2747,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 160.03,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.72,
      "period": 0
     }
@@ -2768,7 +2768,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 16.76,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 8.76,
      "period": 1
     },
@@ -2783,7 +2783,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 33.64,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 7.82,
      "period": 1
     },
@@ -2798,7 +2798,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 33.89,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.85,
      "period": 1
     },
@@ -2813,7 +2813,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-22",
      "sellPrice": 21.206,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -2828,7 +2828,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 36.45,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.99,
      "period": 1
     },
@@ -2843,7 +2843,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-22",
      "sellPrice": 3.625,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -2858,7 +2858,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-22",
      "sellPrice": 38.088,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 2.55,
      "period": 0
     },
@@ -2873,7 +2873,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 273.01,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.11,
      "period": 1
     },
@@ -2888,7 +2888,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 52.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.44,
      "period": 1
     },
@@ -2903,7 +2903,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 70.53,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.02,
      "period": 1
     }
@@ -2924,7 +2924,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 24.68,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 14.26,
      "period": 5
     },
@@ -2939,7 +2939,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 6.85,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.58,
      "period": 5
     },
@@ -2954,7 +2954,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 34.59,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 9.53,
      "period": 5
     },
@@ -2969,7 +2969,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 97.42,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.56,
      "period": 5
     },
@@ -2984,7 +2984,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 14.59,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.32,
      "period": 5
     }
@@ -3005,7 +3005,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-18",
      "sellPrice": 18.934,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -3020,7 +3020,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 48.97,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 23.19,
      "period": 6
     },
@@ -3035,7 +3035,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-18",
      "sellPrice": 23.92,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -3050,7 +3050,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 77.95,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.56,
      "period": 6
     },
@@ -3065,7 +3065,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-17",
      "sellPrice": 26.413,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -3080,7 +3080,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 52.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 8.79,
      "period": 6
     }
@@ -3101,7 +3101,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 179.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.22,
      "period": 7
     },
@@ -3116,7 +3116,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 71.31,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.13,
      "period": 7
     },
@@ -3131,7 +3131,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-22",
      "sellPrice": 38.088,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 10.08,
      "period": 6
     },
@@ -3146,7 +3146,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 273.01,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 18.69,
      "period": 7
     },
@@ -3161,7 +3161,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-18",
      "sellPrice": 24.684,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     },
@@ -3176,7 +3176,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 265.01,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.4,
      "period": 7
     },
@@ -3191,7 +3191,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 24.75,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 26.99,
      "period": 7
     },
@@ -3206,7 +3206,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 119.23,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 17.83,
      "period": 7
     }
@@ -3227,7 +3227,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-15",
      "sellPrice": 52.32,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -3242,7 +3242,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 24.87,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 8.84,
      "period": 8
     },
@@ -3257,7 +3257,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 16.5,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 15.95,
      "period": 8
     },
@@ -3272,7 +3272,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 21.6,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.25,
      "period": 8
     },
@@ -3287,7 +3287,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 1.35,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -4.26,
      "period": 8
     },
@@ -3302,7 +3302,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 40.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 22.74,
      "period": 8
     }
@@ -3323,7 +3323,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 24.87,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 8.89,
      "period": 11
     },
@@ -3338,7 +3338,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-17",
      "sellPrice": 33.828,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 22.61,
      "period": 5
     },
@@ -3353,7 +3353,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-17",
      "sellPrice": 36.579,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 5.97,
      "period": 5
     },
@@ -3368,7 +3368,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 41.91,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 45.27,
      "period": 11
     },
@@ -3383,7 +3383,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-12",
      "sellPrice": 17.296,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 5.72,
      "period": 0
     },
@@ -3398,7 +3398,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-17",
      "sellPrice": 99.958,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 8.36,
      "period": 5
     },
@@ -3413,7 +3413,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-23",
      "sellPrice": 43.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 8.39,
      "period": 11
     }
@@ -3434,7 +3434,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-11",
      "sellPrice": 5.92,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 10.65,
      "period": 0
     },
@@ -3449,7 +3449,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-11",
      "sellPrice": 3.37,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.88,
      "period": 0
     },
@@ -3464,7 +3464,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-11",
      "sellPrice": 14.24,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.5,
      "period": 0
     },
@@ -3479,7 +3479,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-11",
      "sellPrice": 31.21,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -7.11,
      "period": 0
     },
@@ -3494,7 +3494,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-11",
      "sellPrice": 18.57,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.36,
      "period": 0
     }
@@ -3515,7 +3515,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-10",
      "sellPrice": 12.91,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.8,
      "period": 0
     },
@@ -3530,7 +3530,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-10",
      "sellPrice": 62.81,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 5.19,
      "period": 0
     },
@@ -3545,7 +3545,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-10",
      "sellPrice": 147.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.07,
      "period": 0
     },
@@ -3560,7 +3560,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-10",
      "sellPrice": 105.73,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.83,
      "period": 0
     },
@@ -3575,7 +3575,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-10",
      "sellPrice": 21.01,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.76,
      "period": 0
     }
@@ -3596,7 +3596,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-10",
      "sellPrice": 6.16,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.33,
      "period": 1
     },
@@ -3611,7 +3611,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-09",
      "sellPrice": 3.882,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 2.44,
      "period": 0
     },
@@ -3626,7 +3626,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-10",
      "sellPrice": 2.37,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.66,
      "period": 1
     },
@@ -3641,7 +3641,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-10",
      "sellPrice": 2.85,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.06,
      "period": 1
     },
@@ -3656,7 +3656,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-09",
      "sellPrice": 49.882,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -3671,7 +3671,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-09",
      "sellPrice": 59.644,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -3686,7 +3686,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-10",
      "sellPrice": 57.25,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.18,
      "period": 1
     }
@@ -3707,7 +3707,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-08",
      "sellPrice": 47.44,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.5,
      "period": 0
     },
@@ -3722,7 +3722,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-08",
      "sellPrice": 50.68,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.86,
      "period": 0
     },
@@ -3737,7 +3737,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-08",
      "sellPrice": 134.92,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.4,
      "period": 0
     },
@@ -3752,7 +3752,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-08",
      "sellPrice": 51.98,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.91,
      "period": 0
     },
@@ -3767,7 +3767,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-08",
      "sellPrice": 6.42,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.05,
      "period": 0
     }
@@ -3788,7 +3788,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 20.74,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.85,
      "period": 0
     },
@@ -3803,7 +3803,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 16.24,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.93,
      "period": 0
     },
@@ -3818,7 +3818,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 9.63,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.23,
      "period": 0
     },
@@ -3833,7 +3833,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 6.05,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -5.02,
      "period": 0
     },
@@ -3848,7 +3848,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 10.18,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 8.88,
      "period": 0
     },
@@ -3863,7 +3863,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 655.55,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.97,
      "period": 0
     },
@@ -3878,7 +3878,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 137.1,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.91,
      "period": 0
     }
@@ -3899,7 +3899,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 70.8,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.42,
      "period": 1
     },
@@ -3914,7 +3914,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 23.01,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.16,
      "period": 1
     },
@@ -3929,7 +3929,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 4.8,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.62,
      "period": 1
     },
@@ -3944,7 +3944,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 14.27,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.45,
      "period": 1
     },
@@ -3959,7 +3959,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 44.56,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.66,
      "period": 1
     },
@@ -3974,7 +3974,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 16.69,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.51,
      "period": 1
     },
@@ -3989,7 +3989,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 12.31,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.07,
      "period": 1
     }
@@ -4010,7 +4010,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 7.48,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.93,
      "period": 2
     },
@@ -4025,7 +4025,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-03",
      "sellPrice": 4.085,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 3.94,
      "period": 0
     },
@@ -4040,7 +4040,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 154.98,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.88,
      "period": 2
     },
@@ -4055,7 +4055,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 140.01,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -5.4,
      "period": 2
     },
@@ -4070,7 +4070,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 13.37,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.37,
      "period": 2
     },
@@ -4085,7 +4085,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-04",
      "sellPrice": 8.51,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -4100,7 +4100,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 59.9,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.89,
      "period": 2
     },
@@ -4115,7 +4115,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 95.73,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 5.01,
      "period": 2
     },
@@ -4130,7 +4130,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 8.5,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -4.49,
      "period": 2
     },
@@ -4145,7 +4145,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-03",
      "sellPrice": 15.254,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -4160,7 +4160,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 39.5,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.8,
      "period": 2
     }
@@ -4181,7 +4181,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 2.81,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.4,
      "period": 3
     },
@@ -4196,7 +4196,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-02",
      "sellPrice": 19.099,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -4211,7 +4211,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-02",
      "sellPrice": 13.69,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -4226,7 +4226,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-05",
      "sellPrice": 93.01,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 5.45,
      "period": 3
     },
@@ -4241,7 +4241,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-02",
      "sellPrice": 16.79,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     }
@@ -4262,7 +4262,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-01",
      "sellPrice": 3.8,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.78,
      "period": 0
     },
@@ -4277,7 +4277,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-01",
      "sellPrice": 22.83,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -9.08,
      "period": 0
     },
@@ -4292,7 +4292,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-01",
      "sellPrice": 4.61,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -7.8,
      "period": 0
     },
@@ -4307,7 +4307,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-01",
      "sellPrice": 6.14,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.0,
      "period": 0
     },
@@ -4322,7 +4322,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-01",
      "sellPrice": 7.44,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.38,
      "period": 0
     },
@@ -4337,7 +4337,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-01",
      "sellPrice": 40.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.06,
      "period": 0
     },
@@ -4352,7 +4352,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-06-01",
      "sellPrice": 74.97,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.43,
      "period": 0
     }
@@ -4373,7 +4373,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-29",
      "sellPrice": 51.72,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.29,
      "period": 0
     },
@@ -4388,7 +4388,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-29",
      "sellPrice": 18.69,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 18.89,
      "period": 0
     },
@@ -4403,7 +4403,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-29",
      "sellPrice": 23.8,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -4.49,
      "period": 0
     },
@@ -4418,7 +4418,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-29",
      "sellPrice": 18.49,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.0,
      "period": 0
     },
@@ -4433,7 +4433,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-29",
      "sellPrice": 112.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 7.61,
      "period": 0
     },
@@ -4448,7 +4448,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-29",
      "sellPrice": 16.54,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.73,
      "period": 0
     },
@@ -4463,7 +4463,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-29",
      "sellPrice": 12.63,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 5.43,
      "period": 0
     },
@@ -4478,7 +4478,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-29",
      "sellPrice": 95.09,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.3,
      "period": 0
     },
@@ -4493,7 +4493,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-29",
      "sellPrice": 73.02,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 5.43,
      "period": 0
     },
@@ -4508,7 +4508,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-29",
      "sellPrice": 11.7,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -7.58,
      "period": 0
     },
@@ -4523,7 +4523,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-29",
      "sellPrice": 34.21,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.61,
      "period": 0
     },
@@ -4538,7 +4538,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-29",
      "sellPrice": 23.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.89,
      "period": 0
     },
@@ -4553,7 +4553,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-29",
      "sellPrice": 140.99,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.29,
      "period": 0
     },
@@ -4568,7 +4568,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-29",
      "sellPrice": 38.09,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.9,
      "period": 0
     },
@@ -4583,7 +4583,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-29",
      "sellPrice": 27.71,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -7.6,
      "period": 0
     }
@@ -4604,7 +4604,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-29",
      "sellPrice": 21.05,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.96,
      "period": 1
     },
@@ -4619,7 +4619,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-29",
      "sellPrice": 58.4,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.1,
      "period": 1
     },
@@ -4634,7 +4634,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-28",
      "sellPrice": 6.523,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 1.6,
      "period": 0
     },
@@ -4649,7 +4649,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-28",
      "sellPrice": 7.434,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -4664,7 +4664,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-29",
      "sellPrice": 48.9,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.09,
      "period": 1
     }
@@ -4685,7 +4685,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-27",
      "sellPrice": 15.6,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.63,
      "period": 0
     },
@@ -4700,7 +4700,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-27",
      "sellPrice": 22.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.42,
      "period": 0
     },
@@ -4715,7 +4715,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-27",
      "sellPrice": 60.05,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -7.33,
      "period": 0
     },
@@ -4730,7 +4730,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-27",
      "sellPrice": 5.74,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.41,
      "period": 0
     },
@@ -4745,7 +4745,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-27",
      "sellPrice": 9.72,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.11,
      "period": 0
     }
@@ -4766,7 +4766,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 18.65,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.0,
      "period": 0
     },
@@ -4781,7 +4781,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 4.98,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.8,
      "period": 0
     },
@@ -4796,7 +4796,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 4.91,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 5.59,
      "period": 0
     },
@@ -4811,7 +4811,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 46.06,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.13,
      "period": 0
     },
@@ -4826,7 +4826,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 133.55,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 15.63,
      "period": 0
     },
@@ -4841,7 +4841,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 57.91,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -5.85,
      "period": 0
     },
@@ -4856,7 +4856,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 6.1,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.97,
      "period": 0
     },
@@ -4871,7 +4871,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 125.23,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.9,
      "period": 0
     },
@@ -4886,7 +4886,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 72.94,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.15,
      "period": 0
     },
@@ -4901,7 +4901,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 16.55,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -8.41,
      "period": 0
     },
@@ -4916,7 +4916,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 213.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.93,
      "period": 0
     },
@@ -4931,7 +4931,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 83.58,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.44,
      "period": 0
     },
@@ -4946,7 +4946,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 171.69,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.95,
      "period": 0
     },
@@ -4961,7 +4961,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 82.9,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -5.89,
      "period": 0
     }
@@ -4982,7 +4982,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 12.99,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.46,
      "period": 1
     },
@@ -4997,7 +4997,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 15.88,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.52,
      "period": 1
     },
@@ -5012,7 +5012,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 6.57,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.2,
      "period": 1
     },
@@ -5027,7 +5027,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 122.9,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.29,
      "period": 1
     },
@@ -5042,7 +5042,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 25.2,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.45,
      "period": 1
     },
@@ -5057,7 +5057,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 49.16,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.02,
      "period": 1
     },
@@ -5072,7 +5072,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-25",
      "sellPrice": 79.46,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -5087,7 +5087,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 9.08,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.3,
      "period": 1
     },
@@ -5102,7 +5102,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 49.22,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.43,
      "period": 1
     },
@@ -5117,7 +5117,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 63.57,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.69,
      "period": 1
     },
@@ -5132,7 +5132,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 63.71,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.42,
      "period": 1
     },
@@ -5147,7 +5147,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 21.37,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 5.17,
      "period": 1
     },
@@ -5162,7 +5162,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 28.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.36,
      "period": 1
     },
@@ -5177,7 +5177,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 5.16,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.96,
      "period": 1
     },
@@ -5192,7 +5192,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 192.65,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.21,
      "period": 1
     }
@@ -5213,7 +5213,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 3.91,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.26,
      "period": 4
     },
@@ -5228,7 +5228,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 10.07,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.89,
      "period": 4
     },
@@ -5243,7 +5243,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-22",
      "sellPrice": 97.161,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -5258,7 +5258,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 16.51,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.76,
      "period": 4
     },
@@ -5273,7 +5273,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 689.24,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.14,
      "period": 4
     },
@@ -5288,7 +5288,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-25",
      "sellPrice": 22.926,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 3
     },
@@ -5303,7 +5303,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-22",
      "sellPrice": 24.454,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -5318,7 +5318,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 28.61,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.58,
      "period": 4
     },
@@ -5333,7 +5333,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-26",
      "sellPrice": 15.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.91,
      "period": 4
     },
@@ -5348,7 +5348,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-22",
      "sellPrice": 72.11,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     }
@@ -5369,7 +5369,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-21",
      "sellPrice": 10.42,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 12.65,
      "period": 0
     },
@@ -5384,7 +5384,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-21",
      "sellPrice": 66.78,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.06,
      "period": 0
     },
@@ -5399,7 +5399,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-21",
      "sellPrice": 41.69,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.16,
      "period": 0
     },
@@ -5414,7 +5414,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-21",
      "sellPrice": 444.27,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.04,
      "period": 0
     }
@@ -5435,7 +5435,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-20",
      "sellPrice": 33.4,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.47,
      "period": 0
     },
@@ -5450,7 +5450,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-20",
      "sellPrice": 10.98,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.04,
      "period": 0
     },
@@ -5465,7 +5465,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-20",
      "sellPrice": 7.24,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.93,
      "period": 0
     },
@@ -5480,7 +5480,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-20",
      "sellPrice": 229.01,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.13,
      "period": 0
     }
@@ -5501,7 +5501,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-20",
      "sellPrice": 38.16,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.9,
      "period": 1
     },
@@ -5516,7 +5516,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-20",
      "sellPrice": 158.16,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.01,
      "period": 1
     },
@@ -5531,7 +5531,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-20",
      "sellPrice": 23.46,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.97,
      "period": 1
     },
@@ -5546,7 +5546,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-19",
      "sellPrice": 69.672,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 2.25,
      "period": 0
     },
@@ -5561,7 +5561,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-20",
      "sellPrice": 7.1,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.42,
      "period": 1
     },
@@ -5576,7 +5576,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-20",
      "sellPrice": 22.57,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.57,
      "period": 1
     }
@@ -5597,7 +5597,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-20",
      "sellPrice": 37.9,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.24,
      "period": 2
     },
@@ -5612,7 +5612,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-20",
      "sellPrice": 12.4,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -5.27,
      "period": 2
     },
@@ -5627,7 +5627,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-18",
      "sellPrice": 6.109,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -5642,7 +5642,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-20",
      "sellPrice": 95.72,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.22,
      "period": 2
     },
@@ -5657,7 +5657,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-20",
      "sellPrice": 8.1,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.98,
      "period": 2
     },
@@ -5672,7 +5672,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-20",
      "sellPrice": 617.24,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.35,
      "period": 2
     },
@@ -5687,7 +5687,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-20",
      "sellPrice": 7.47,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -4.72,
      "period": 2
     },
@@ -5702,7 +5702,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-18",
      "sellPrice": 3.248,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     }
@@ -5723,7 +5723,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-15",
      "sellPrice": 7.14,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.59,
      "period": 0
     },
@@ -5738,7 +5738,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-15",
      "sellPrice": 9.39,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.3,
      "period": 0
     },
@@ -5753,7 +5753,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-15",
      "sellPrice": 18.22,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.47,
      "period": 0
     },
@@ -5768,7 +5768,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-15",
      "sellPrice": 7.33,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -12.74,
      "period": 0
     },
@@ -5783,7 +5783,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-15",
      "sellPrice": 10.18,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 8.76,
      "period": 0
     },
@@ -5798,7 +5798,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-15",
      "sellPrice": 96.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.28,
      "period": 0
     }
@@ -5819,7 +5819,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-14",
      "sellPrice": 19.47,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.96,
      "period": 0
     },
@@ -5834,7 +5834,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-14",
      "sellPrice": 8.86,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 10.75,
      "period": 0
     },
@@ -5849,7 +5849,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-14",
      "sellPrice": 7.5,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.38,
      "period": 0
     },
@@ -5864,7 +5864,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-14",
      "sellPrice": 5.89,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 15.49,
      "period": 0
     },
@@ -5879,7 +5879,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-14",
      "sellPrice": 96.5,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 11.12,
      "period": 0
     },
@@ -5894,7 +5894,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-14",
      "sellPrice": 26.15,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.98,
      "period": 0
     },
@@ -5909,7 +5909,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-14",
      "sellPrice": 5.8,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 9.02,
      "period": 0
     },
@@ -5924,7 +5924,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-14",
      "sellPrice": 11.98,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.27,
      "period": 0
     },
@@ -5939,7 +5939,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-14",
      "sellPrice": 699.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.14,
      "period": 0
     },
@@ -5954,7 +5954,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-14",
      "sellPrice": 40.38,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.45,
      "period": 0
     }
@@ -5975,7 +5975,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-14",
      "sellPrice": 14.21,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.07,
      "period": 1
     },
@@ -5990,7 +5990,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-14",
      "sellPrice": 10.33,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -4.62,
      "period": 1
     },
@@ -6005,7 +6005,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-14",
      "sellPrice": 25.38,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.75,
      "period": 1
     },
@@ -6020,7 +6020,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-14",
      "sellPrice": 9.68,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.31,
      "period": 1
     },
@@ -6035,7 +6035,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-14",
      "sellPrice": 37.43,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.37,
      "period": 1
     }
@@ -6056,7 +6056,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 18.28,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.53,
      "period": 0
     },
@@ -6071,7 +6071,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 8.15,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 5.71,
      "period": 0
     },
@@ -6086,7 +6086,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 33.97,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.01,
      "period": 0
     },
@@ -6101,7 +6101,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 56.66,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.76,
      "period": 0
     },
@@ -6116,7 +6116,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 53.75,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.73,
      "period": 0
     }
@@ -6137,7 +6137,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 26.68,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.51,
      "period": 1
     },
@@ -6152,7 +6152,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 91.27,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.0,
      "period": 1
     },
@@ -6167,7 +6167,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 14.71,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.41,
      "period": 1
     },
@@ -6182,7 +6182,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 58.51,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.0,
      "period": 1
     },
@@ -6197,7 +6197,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 28.83,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.07,
      "period": 1
     },
@@ -6212,7 +6212,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 58.43,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.99,
      "period": 1
     }
@@ -6233,7 +6233,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-08",
      "sellPrice": 13.68,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -6248,7 +6248,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 3.58,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.37,
      "period": 4
     },
@@ -6263,7 +6263,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 17.22,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.3,
      "period": 4
     },
@@ -6278,7 +6278,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 23.52,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.86,
      "period": 4
     },
@@ -6293,7 +6293,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 46.45,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.87,
      "period": 4
     },
@@ -6308,7 +6308,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 223.57,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 5.76,
      "period": 4
     },
@@ -6323,7 +6323,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 16.39,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.09,
      "period": 4
     },
@@ -6338,7 +6338,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 43.74,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 7.63,
      "period": 4
     },
@@ -6353,7 +6353,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 86.82,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.19,
      "period": 4
     },
@@ -6368,7 +6368,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 8.15,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.16,
      "period": 4
     },
@@ -6383,7 +6383,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 33.67,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 5.28,
      "period": 4
     },
@@ -6398,7 +6398,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-08",
      "sellPrice": 166.262,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -6413,7 +6413,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 71.2,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -4.61,
      "period": 4
     },
@@ -6428,7 +6428,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 9.58,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.64,
      "period": 4
     }
@@ -6449,7 +6449,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-07",
      "sellPrice": 17.36,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -6464,7 +6464,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-07",
      "sellPrice": 8.86,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -6479,7 +6479,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 9.02,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.46,
      "period": 5
     },
@@ -6494,7 +6494,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 12.91,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 13.54,
      "period": 5
     },
@@ -6509,7 +6509,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 75.23,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.61,
      "period": 5
     },
@@ -6524,7 +6524,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 11.77,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.81,
      "period": 5
     },
@@ -6539,7 +6539,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 14.76,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.07,
      "period": 5
     },
@@ -6554,7 +6554,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-07",
      "sellPrice": 11.04,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     }
@@ -6575,7 +6575,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 2.68,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.35,
      "period": 6
     },
@@ -6590,7 +6590,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 23.52,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 7.89,
      "period": 6
     },
@@ -6605,7 +6605,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-08",
      "sellPrice": 102.083,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     },
@@ -6620,7 +6620,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 75.36,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 8.03,
      "period": 6
     },
@@ -6635,7 +6635,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 33.97,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 25.77,
      "period": 6
     },
@@ -6650,7 +6650,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 32.25,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.37,
      "period": 6
     }
@@ -6671,7 +6671,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-30",
      "sellPrice": 31.62,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -6686,7 +6686,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-30",
      "sellPrice": 5.308,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -6701,7 +6701,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-11",
      "sellPrice": 9.862,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 11
     },
@@ -6716,7 +6716,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 57.77,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 9.19,
      "period": 12
     },
@@ -6731,7 +6731,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 16.81,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 10.3,
      "period": 12
     },
@@ -6746,7 +6746,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 202.75,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 16.06,
      "period": 12
     },
@@ -6761,7 +6761,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 82.18,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 18.5,
      "period": 12
     },
@@ -6776,7 +6776,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 52.18,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 21.38,
      "period": 12
     },
@@ -6791,7 +6791,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-08",
      "sellPrice": 100.28,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 8
     }
@@ -6812,7 +6812,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 106.42,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.9,
      "period": 13
     },
@@ -6827,7 +6827,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-30",
      "sellPrice": 3.045,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -6842,7 +6842,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 10.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.2,
      "period": 13
     },
@@ -6857,7 +6857,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-29",
      "sellPrice": 7.259,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -6872,7 +6872,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 3.63,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.63,
      "period": 13
     }
@@ -6893,7 +6893,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 43.74,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 25.91,
      "period": 14
     },
@@ -6908,7 +6908,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 10.58,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.4,
      "period": 14
     },
@@ -6923,7 +6923,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 11.55,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.21,
      "period": 14
     }
@@ -6944,7 +6944,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-07",
      "sellPrice": 74.428,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 10
     },
@@ -6959,7 +6959,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-27",
      "sellPrice": 13.119,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -6974,7 +6974,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-27",
      "sellPrice": 39.523,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 1.63,
      "period": 0
     },
@@ -6989,7 +6989,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-07",
      "sellPrice": 4.002,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 8.75,
      "period": 10
     },
@@ -7004,7 +7004,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 15.28,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.38,
      "period": 15
     },
@@ -7019,7 +7019,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-08",
      "sellPrice": 35.705,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 4.01,
      "period": 11
     },
@@ -7034,7 +7034,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-05-12",
      "sellPrice": 77.86,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 5.72,
      "period": 15
     }
@@ -7055,7 +7055,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-24",
      "sellPrice": 9.58,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.81,
      "period": 0
     },
@@ -7070,7 +7070,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-24",
      "sellPrice": 11.2,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.56,
      "period": 0
     },
@@ -7085,7 +7085,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-24",
      "sellPrice": 9.08,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.2,
      "period": 0
     },
@@ -7100,7 +7100,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-24",
      "sellPrice": 51.76,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.03,
      "period": 0
     },
@@ -7115,7 +7115,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-24",
      "sellPrice": 4.9,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 13.95,
      "period": 0
     },
@@ -7130,7 +7130,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-24",
      "sellPrice": 33.15,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.34,
      "period": 0
     }
@@ -7151,7 +7151,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-23",
      "sellPrice": 28.897,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -7166,7 +7166,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-24",
      "sellPrice": 11.39,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 10.05,
      "period": 1
     },
@@ -7181,7 +7181,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-24",
      "sellPrice": 24.96,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.72,
      "period": 1
     },
@@ -7196,7 +7196,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-24",
      "sellPrice": 25.31,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.13,
      "period": 1
     },
@@ -7211,7 +7211,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-24",
      "sellPrice": 76.06,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.05,
      "period": 1
     },
@@ -7226,7 +7226,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-24",
      "sellPrice": 193.5,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.66,
      "period": 1
     },
@@ -7241,7 +7241,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-24",
      "sellPrice": 30.82,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.03,
      "period": 1
     },
@@ -7256,7 +7256,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-23",
      "sellPrice": 28.014,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -7271,7 +7271,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-24",
      "sellPrice": 255.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.82,
      "period": 1
     }
@@ -7292,7 +7292,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-22",
      "sellPrice": 8.13,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -9.06,
      "period": 0
     }
@@ -7313,7 +7313,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 18.51,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -12.19,
      "period": 0
     },
@@ -7328,7 +7328,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 70.97,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.5,
      "period": 0
     },
@@ -7343,7 +7343,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 68.31,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.12,
      "period": 0
     },
@@ -7358,7 +7358,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 18.78,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 9.82,
      "period": 0
     },
@@ -7373,7 +7373,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 62.69,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.38,
      "period": 0
     },
@@ -7388,7 +7388,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 29.27,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.51,
      "period": 0
     },
@@ -7403,7 +7403,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 21.04,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.89,
      "period": 0
     },
@@ -7418,7 +7418,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 97.99,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.2,
      "period": 0
     },
@@ -7433,7 +7433,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 64.72,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.36,
      "period": 0
     }
@@ -7454,7 +7454,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 150.55,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.97,
      "period": 1
     },
@@ -7469,7 +7469,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-20",
      "sellPrice": 17.848,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 1.64,
      "period": 0
     },
@@ -7484,7 +7484,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 74.13,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.06,
      "period": 1
     },
@@ -7499,7 +7499,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 119.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.87,
      "period": 1
     },
@@ -7514,7 +7514,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 45.63,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.0,
      "period": 1
     },
@@ -7529,7 +7529,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 7.8,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.56,
      "period": 1
     }
@@ -7550,7 +7550,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 5.13,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.01,
      "period": 4
     },
@@ -7565,7 +7565,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 6.67,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.21,
      "period": 4
     },
@@ -7580,7 +7580,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 37.28,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.19,
      "period": 4
     },
@@ -7595,7 +7595,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 6.39,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -7.12,
      "period": 4
     },
@@ -7610,7 +7610,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 20.43,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.49,
      "period": 4
     },
@@ -7625,7 +7625,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 41.6,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.0,
      "period": 4
     },
@@ -7640,7 +7640,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 20.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.48,
      "period": 4
     },
@@ -7655,7 +7655,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 24.11,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.35,
      "period": 4
     },
@@ -7670,7 +7670,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 59.25,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.31,
      "period": 4
     }
@@ -7691,7 +7691,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 62.69,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 17.09,
      "period": 5
     },
@@ -7706,7 +7706,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-16",
      "sellPrice": 4.49,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 2.04,
      "period": 0
     },
@@ -7721,7 +7721,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 150.55,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 14.23,
      "period": 5
     },
@@ -7736,7 +7736,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 18.78,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 10.08,
      "period": 5
     }
@@ -7757,7 +7757,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 43.57,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.62,
      "period": 6
     },
@@ -7772,7 +7772,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 7.53,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.83,
      "period": 6
     },
@@ -7787,7 +7787,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-15",
      "sellPrice": 57.638,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -7802,7 +7802,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 96.01,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.04,
      "period": 6
     },
@@ -7817,7 +7817,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-16",
      "sellPrice": 2.889,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -7832,7 +7832,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 68.31,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 19.55,
      "period": 6
     },
@@ -7847,7 +7847,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-15",
      "sellPrice": 17.029,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -7862,7 +7862,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-17",
      "sellPrice": 11.767,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     }
@@ -7883,7 +7883,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 4.27,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -5.53,
      "period": 7
     },
@@ -7898,7 +7898,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-16",
      "sellPrice": 66.7,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 3.99,
      "period": 2
     },
@@ -7913,7 +7913,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 104.93,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 7.15,
      "period": 7
     },
@@ -7928,7 +7928,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 59.25,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.85,
      "period": 7
     },
@@ -7943,7 +7943,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 7.56,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.2,
      "period": 7
     },
@@ -7958,7 +7958,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-21",
      "sellPrice": 3.4,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.3,
      "period": 7
     }
@@ -7979,7 +7979,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 4.8,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.81,
      "period": 0
     },
@@ -7994,7 +7994,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 76.07,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.7,
      "period": 0
     },
@@ -8009,7 +8009,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 450.15,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -6.51,
      "period": 0
     }
@@ -8030,7 +8030,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 4.73,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.66,
      "period": 3
     },
@@ -8045,7 +8045,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 143.61,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.04,
      "period": 3
     },
@@ -8060,7 +8060,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 15.55,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.39,
      "period": 3
     },
@@ -8075,7 +8075,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 3.69,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.12,
      "period": 3
     },
@@ -8090,7 +8090,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 18.86,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.74,
      "period": 3
     },
@@ -8105,7 +8105,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 54.89,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.18,
      "period": 3
     },
@@ -8120,7 +8120,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 14.86,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.07,
      "period": 3
     },
@@ -8135,7 +8135,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 19.11,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.29,
      "period": 3
     }
@@ -8156,7 +8156,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-10",
      "sellPrice": 4.122,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -8171,7 +8171,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 16.48,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.43,
      "period": 4
     },
@@ -8186,7 +8186,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 7.88,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.13,
      "period": 4
     },
@@ -8201,7 +8201,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 52.66,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.85,
      "period": 4
     },
@@ -8216,7 +8216,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 86.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.77,
      "period": 4
     },
@@ -8231,7 +8231,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 37.86,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 9.33,
      "period": 4
     },
@@ -8246,7 +8246,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 3.98,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.76,
      "period": 4
     },
@@ -8261,7 +8261,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 43.72,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.13,
      "period": 4
     }
@@ -8282,7 +8282,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 14.18,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -6.71,
      "period": 5
     },
@@ -8297,7 +8297,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 16.5,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.85,
      "period": 5
     },
@@ -8312,7 +8312,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 52.66,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 5.13,
      "period": 5
     },
@@ -8327,7 +8327,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 53.03,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.32,
      "period": 5
     },
@@ -8342,7 +8342,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 9.42,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.08,
      "period": 5
     },
@@ -8357,7 +8357,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 3.1,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.52,
      "period": 5
     },
@@ -8372,7 +8372,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 28.24,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.11,
      "period": 5
     },
@@ -8387,7 +8387,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-08",
      "sellPrice": 14.094,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -8402,7 +8402,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 3.01,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.01,
      "period": 5
     },
@@ -8417,7 +8417,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 17.01,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -4.49,
      "period": 5
     }
@@ -8438,7 +8438,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 45.04,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -5.2,
      "period": 6
     },
@@ -8453,7 +8453,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 53.03,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.6,
      "period": 6
     },
@@ -8468,7 +8468,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 54.73,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -6.33,
      "period": 6
     },
@@ -8483,7 +8483,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-10",
      "sellPrice": 5.437,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 3
     },
@@ -8498,7 +8498,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 23.87,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.58,
      "period": 6
     },
@@ -8513,7 +8513,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 57.1,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 8.25,
      "period": 6
     }
@@ -8534,7 +8534,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-09",
      "sellPrice": 4.628,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 6
     },
@@ -8549,7 +8549,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-09",
      "sellPrice": 11.564,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 22.76,
      "period": 6
     },
@@ -8564,7 +8564,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-03",
      "sellPrice": 18.529,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -8579,7 +8579,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-03",
      "sellPrice": 4.766,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 2.27,
      "period": 0
     }
@@ -8600,7 +8600,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-07",
      "sellPrice": 5.676,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 5
     },
@@ -8615,7 +8615,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-03",
      "sellPrice": 15.677,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -8630,7 +8630,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-02",
      "sellPrice": 27.039,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -8645,7 +8645,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 12.52,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.05,
      "period": 11
     },
@@ -8660,7 +8660,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-13",
      "sellPrice": 37.86,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 25.03,
      "period": 11
     },
@@ -8675,7 +8675,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-10",
      "sellPrice": 19.844,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 3.14,
      "period": 8
     }
@@ -8696,7 +8696,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-03",
      "sellPrice": 13.11,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     },
@@ -8711,7 +8711,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-03",
      "sellPrice": 6.008,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     },
@@ -8726,7 +8726,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-02",
      "sellPrice": 10.874,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -8741,7 +8741,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-01",
      "sellPrice": 26.726,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -8756,7 +8756,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-04-02",
      "sellPrice": 16.854,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     }
@@ -8777,7 +8777,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-31",
      "sellPrice": 19.92,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 7.04,
      "period": 0
     },
@@ -8792,7 +8792,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-31",
      "sellPrice": 12.06,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -5.63,
      "period": 0
     },
@@ -8807,7 +8807,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-31",
      "sellPrice": 16.15,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.12,
      "period": 0
     },
@@ -8822,7 +8822,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-31",
      "sellPrice": 16.05,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.74,
      "period": 0
     },
@@ -8837,7 +8837,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-31",
      "sellPrice": 70.62,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.98,
      "period": 0
     },
@@ -8852,7 +8852,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-31",
      "sellPrice": 4.8,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.83,
      "period": 0
     },
@@ -8867,7 +8867,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-31",
      "sellPrice": 42.79,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.53,
      "period": 0
     }
@@ -8888,7 +8888,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 5.5,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 10.89,
      "period": 0
     },
@@ -8903,7 +8903,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 3.19,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.93,
      "period": 0
     },
@@ -8918,7 +8918,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 6.96,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.31,
      "period": 0
     },
@@ -8933,7 +8933,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 4.09,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 7.63,
      "period": 0
     },
@@ -8948,7 +8948,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 4.34,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.09,
      "period": 0
     },
@@ -8963,7 +8963,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 13.37,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -10.87,
      "period": 0
     },
@@ -8978,7 +8978,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 51.35,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.89,
      "period": 0
     },
@@ -8993,7 +8993,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 24.98,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -6.48,
      "period": 0
     },
@@ -9008,7 +9008,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 80.85,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.06,
      "period": 0
     },
@@ -9023,7 +9023,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 66.46,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -10.2,
      "period": 0
     },
@@ -9038,7 +9038,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 6.93,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 7.44,
      "period": 0
     }
@@ -9059,7 +9059,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-27",
      "sellPrice": 86.305,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -9074,7 +9074,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 6.96,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 5.94,
      "period": 3
     },
@@ -9089,7 +9089,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 11.86,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.95,
      "period": 3
     },
@@ -9104,7 +9104,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 146.41,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.85,
      "period": 3
     }
@@ -9125,7 +9125,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 17.02,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.23,
      "period": 4
     },
@@ -9140,7 +9140,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 17.9,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.7,
      "period": 4
     },
@@ -9155,7 +9155,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 49.66,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.78,
      "period": 4
     }
@@ -9176,7 +9176,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-26",
      "sellPrice": 5.262,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -9191,7 +9191,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-27",
      "sellPrice": 6.716,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     },
@@ -9206,7 +9206,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-25",
      "sellPrice": 10.819,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -9221,7 +9221,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 8.52,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -5.12,
      "period": 5
     },
@@ -9236,7 +9236,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-27",
      "sellPrice": 19.587,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     },
@@ -9251,7 +9251,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 5.8,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 9.85,
      "period": 5
     },
@@ -9266,7 +9266,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 10.9,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -4.39,
      "period": 5
     },
@@ -9281,7 +9281,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-27",
      "sellPrice": 10.35,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     },
@@ -9296,7 +9296,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-27",
      "sellPrice": 22.954,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     },
@@ -9311,7 +9311,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 11.64,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 7.08,
      "period": 5
     }
@@ -9332,7 +9332,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-26",
      "sellPrice": 5.299,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     },
@@ -9347,7 +9347,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-26",
      "sellPrice": 5.4,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     },
@@ -9362,7 +9362,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-27",
      "sellPrice": 21.776,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 3
     }
@@ -9383,7 +9383,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-24",
      "sellPrice": 3.524,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -9398,7 +9398,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-23",
      "sellPrice": 19.256,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 1.35,
      "period": 0
     },
@@ -9413,7 +9413,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 4.3,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.62,
      "period": 7
     },
@@ -9428,7 +9428,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 55.63,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.14,
      "period": 7
     }
@@ -9449,7 +9449,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-20",
      "sellPrice": 7.323,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 4.62,
      "period": 0
     },
@@ -9464,7 +9464,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-20",
      "sellPrice": 47.058,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 8.03,
      "period": 0
     },
@@ -9479,7 +9479,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 66.46,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 9.18,
      "period": 10
     },
@@ -9494,7 +9494,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 10.2,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 9.56,
      "period": 10
     },
@@ -9509,7 +9509,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-26",
      "sellPrice": 3.754,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 7.86,
      "period": 6
     },
@@ -9524,7 +9524,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-20",
      "sellPrice": 11.224,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 4.8,
      "period": 0
     },
@@ -9539,7 +9539,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-20",
      "sellPrice": 5.078,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -9554,7 +9554,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 11.86,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 15.71,
      "period": 10
     },
@@ -9569,7 +9569,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-30",
      "sellPrice": 10.67,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 8.11,
      "period": 10
     }
@@ -9590,7 +9590,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-19",
      "sellPrice": 10.221,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -9605,7 +9605,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-23",
      "sellPrice": 3.772,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 4
     },
@@ -9620,7 +9620,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-26",
      "sellPrice": 20.81,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 7.71,
      "period": 7
     },
@@ -9635,7 +9635,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-20",
      "sellPrice": 15.787,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -9650,7 +9650,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-23",
      "sellPrice": 15.686,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 4
     },
@@ -9665,7 +9665,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-23",
      "sellPrice": 59.303,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 4
     },
@@ -9680,7 +9680,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-23",
      "sellPrice": 27.241,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 4
     },
@@ -9695,7 +9695,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-26",
      "sellPrice": 13.607,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 7
     }
@@ -9716,7 +9716,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-20",
      "sellPrice": 5.078,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     },
@@ -9731,7 +9731,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-27",
      "sellPrice": 5.272,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 19.81,
      "period": 9
     },
@@ -9746,7 +9746,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-27",
      "sellPrice": 36.257,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 9.87,
      "period": 9
     },
@@ -9761,7 +9761,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-20",
      "sellPrice": 3.303,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     }
@@ -9782,7 +9782,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-17",
      "sellPrice": 4.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.27,
      "period": 0
     },
@@ -9797,7 +9797,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-17",
      "sellPrice": 4.52,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.44,
      "period": 0
     },
@@ -9812,7 +9812,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-17",
      "sellPrice": 305.75,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.56,
      "period": 0
     },
@@ -9827,7 +9827,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-17",
      "sellPrice": 344.6,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.55,
      "period": 0
     }
@@ -9848,7 +9848,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 6.99,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 9.91,
      "period": 0
     },
@@ -9863,7 +9863,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 12.49,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.57,
      "period": 0
     },
@@ -9878,7 +9878,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 11.52,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.49,
      "period": 0
     },
@@ -9893,7 +9893,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 12.76,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.62,
      "period": 0
     },
@@ -9908,7 +9908,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 28.2,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -5.59,
      "period": 0
     },
@@ -9923,7 +9923,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 13.5,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 9.85,
      "period": 0
     },
@@ -9938,7 +9938,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 30.72,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.25,
      "period": 0
     },
@@ -9953,7 +9953,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 18.95,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.16,
      "period": 0
     }
@@ -9974,7 +9974,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 18.48,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.27,
      "period": 3
     },
@@ -9989,7 +9989,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 84.5,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -4.99,
      "period": 3
     },
@@ -10004,7 +10004,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 17.98,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.88,
      "period": 3
     },
@@ -10019,7 +10019,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-13",
      "sellPrice": 10.037,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 7.24,
      "period": 0
     },
@@ -10034,7 +10034,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 22.14,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.18,
      "period": 3
     },
@@ -10049,7 +10049,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 16.94,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.0,
      "period": 3
     },
@@ -10064,7 +10064,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-13",
      "sellPrice": 10.286,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 1.34,
      "period": 0
     }
@@ -10085,7 +10085,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-13",
      "sellPrice": 6.836,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -10100,7 +10100,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 3.65,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.18,
      "period": 4
     },
@@ -10115,7 +10115,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-12",
      "sellPrice": 19.559,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -10130,7 +10130,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 28.32,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.4,
      "period": 4
     },
@@ -10145,7 +10145,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 4.4,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.68,
      "period": 4
     },
@@ -10160,7 +10160,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 27.16,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.18,
      "period": 4
     },
@@ -10175,7 +10175,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-13",
      "sellPrice": 52.799,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -10190,7 +10190,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-13",
      "sellPrice": 20.24,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -10205,7 +10205,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 15.39,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.15,
      "period": 4
     }
@@ -10226,7 +10226,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-12",
      "sellPrice": 45.117,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -10241,7 +10241,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-11",
      "sellPrice": 3.146,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -10256,7 +10256,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-13",
      "sellPrice": 18.529,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 1.42,
      "period": 2
     },
@@ -10271,7 +10271,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 11.49,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -7.64,
      "period": 5
     },
@@ -10286,7 +10286,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-13",
      "sellPrice": 14.269,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     },
@@ -10301,7 +10301,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-11",
      "sellPrice": 8.823,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 3.68,
      "period": 0
     },
@@ -10316,7 +10316,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 112.71,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 7.55,
      "period": 5
     }
@@ -10337,7 +10337,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 24.81,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -7.77,
      "period": 6
     },
@@ -10352,7 +10352,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-10",
      "sellPrice": 18.152,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 1.41,
      "period": 0
     },
@@ -10367,7 +10367,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-12",
      "sellPrice": 22.172,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     },
@@ -10382,7 +10382,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 45.75,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.25,
      "period": 6
     },
@@ -10397,7 +10397,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-13",
      "sellPrice": 10.102,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 4.9,
      "period": 3
     },
@@ -10412,7 +10412,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 16.29,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -4.23,
      "period": 6
     }
@@ -10433,7 +10433,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-09",
      "sellPrice": 16.505,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -10448,7 +10448,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 22.14,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 29.63,
      "period": 7
     },
@@ -10463,7 +10463,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-13",
      "sellPrice": 24.527,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 4
     },
@@ -10478,7 +10478,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 12.49,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 5.76,
      "period": 7
     },
@@ -10493,7 +10493,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-13",
      "sellPrice": 5.851,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 1.23,
      "period": 4
     },
@@ -10508,7 +10508,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-13",
      "sellPrice": 6.596,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 21.48,
      "period": 4
     },
@@ -10523,7 +10523,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-12",
      "sellPrice": 41.207,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 3
     },
@@ -10538,7 +10538,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-09",
      "sellPrice": 13.69,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 3.47,
      "period": 0
     },
@@ -10553,7 +10553,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 28.32,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.95,
      "period": 7
     }
@@ -10574,7 +10574,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-11",
      "sellPrice": 40.195,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 5
     },
@@ -10589,7 +10589,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-13",
      "sellPrice": 17.71,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 7
     },
@@ -10604,7 +10604,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-12",
      "sellPrice": 129.867,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 13.39,
      "period": 6
     },
@@ -10619,7 +10619,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-13",
      "sellPrice": 9.899,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 7
     },
@@ -10634,7 +10634,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 8.58,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -6.02,
      "period": 10
     }
@@ -10655,7 +10655,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-05",
      "sellPrice": 42.21,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 1.27,
      "period": 0
     },
@@ -10670,7 +10670,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-06",
      "sellPrice": 26.901,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -10685,7 +10685,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 4.49,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.94,
      "period": 11
     },
@@ -10700,7 +10700,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-09",
      "sellPrice": 19.329,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 4
     },
@@ -10715,7 +10715,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-13",
      "sellPrice": 10.0,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 8
     }
@@ -10736,7 +10736,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-13",
      "sellPrice": 5.851,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 13.62,
      "period": 9
     },
@@ -10751,7 +10751,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-06",
      "sellPrice": 6.514,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     },
@@ -10766,7 +10766,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-16",
      "sellPrice": 49.94,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.6,
      "period": 12
     },
@@ -10781,7 +10781,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-05",
      "sellPrice": 22.982,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     }
@@ -10802,7 +10802,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-03",
      "sellPrice": 50.508,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 2.1,
      "period": 0
     },
@@ -10817,7 +10817,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-13",
      "sellPrice": 55.025,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 12.27,
      "period": 10
     }
@@ -10838,7 +10838,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 3.63,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.31,
      "period": 0
     },
@@ -10853,7 +10853,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 9.41,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.4,
      "period": 0
     },
@@ -10868,7 +10868,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 7.96,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.25,
      "period": 0
     },
@@ -10883,7 +10883,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 28.33,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -5.47,
      "period": 0
     },
@@ -10898,7 +10898,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 54.9,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.02,
      "period": 0
     },
@@ -10913,7 +10913,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 12.8,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.75,
      "period": 0
     },
@@ -10928,7 +10928,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 13.71,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.73,
      "period": 0
     },
@@ -10943,7 +10943,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 8.38,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.84,
      "period": 0
     },
@@ -10958,7 +10958,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 39.7,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.57,
      "period": 0
     }
@@ -10979,7 +10979,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 26.85,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.25,
      "period": 3
     },
@@ -10994,7 +10994,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-27",
      "sellPrice": 43.452,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -11009,7 +11009,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-27",
      "sellPrice": 8.933,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -11024,7 +11024,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 2.33,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.72,
      "period": 3
     },
@@ -11039,7 +11039,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 19.21,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.34,
      "period": 3
     },
@@ -11054,7 +11054,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 28.33,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.07,
      "period": 3
     },
@@ -11069,7 +11069,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 10.4,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.61,
      "period": 3
     },
@@ -11084,7 +11084,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 37.8,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.8,
      "period": 3
     },
@@ -11099,7 +11099,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 102.25,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.87,
      "period": 3
     }
@@ -11120,7 +11120,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 3.43,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -4.19,
      "period": 4
     },
@@ -11135,7 +11135,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 12.99,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.74,
      "period": 4
     },
@@ -11150,7 +11150,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 15.69,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 0.26,
      "period": 4
     },
@@ -11165,7 +11165,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 13.87,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.87,
      "period": 4
     },
@@ -11180,7 +11180,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 14.91,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.6,
      "period": 4
     },
@@ -11195,7 +11195,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 63.43,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 7.56,
      "period": 4
     },
@@ -11210,7 +11210,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 42.14,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.28,
      "period": 4
     },
@@ -11225,7 +11225,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 33.61,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.8,
      "period": 4
     },
@@ -11240,7 +11240,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 30.68,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.2,
      "period": 4
     },
@@ -11255,7 +11255,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 54.51,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.47,
      "period": 4
     }
@@ -11276,7 +11276,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 16.78,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -3.67,
      "period": 5
     },
@@ -11291,7 +11291,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-25",
      "sellPrice": 11.969,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -11306,7 +11306,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 17.0,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.3,
      "period": 5
     },
@@ -11321,7 +11321,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 9.3,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 5.32,
      "period": 5
     },
@@ -11336,7 +11336,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 12.58,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.33,
      "period": 5
     },
@@ -11351,7 +11351,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 17.82,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -1.27,
      "period": 5
     }
@@ -11372,7 +11372,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 23.42,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -0.64,
      "period": 6
     },
@@ -11387,7 +11387,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 22.15,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 18.96,
      "period": 6
     },
@@ -11402,7 +11402,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 7.93,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -8.32,
      "period": 6
     },
@@ -11417,7 +11417,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-25",
      "sellPrice": 32.954,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -11432,7 +11432,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 32.69,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.56,
      "period": 6
     },
@@ -11447,7 +11447,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 9.81,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.1,
      "period": 6
     }
@@ -11468,7 +11468,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 19.21,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 13.53,
      "period": 17
     },
@@ -11483,7 +11483,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 9.99,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 5.83,
      "period": 17
     },
@@ -11498,7 +11498,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 3.66,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 8.28,
      "period": 17
     },
@@ -11513,7 +11513,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 42.99,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 18.63,
      "period": 17
     },
@@ -11528,7 +11528,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 7.92,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 17.68,
      "period": 17
     },
@@ -11543,7 +11543,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-13",
      "sellPrice": 9.642,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 4.12,
      "period": 0
     },
@@ -11558,7 +11558,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 9.14,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 2.35,
      "period": 17
     },
@@ -11573,7 +11573,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 3.26,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 10.51,
      "period": 17
     }
@@ -11594,7 +11594,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 13.38,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 1.44,
      "period": 18
     },
@@ -11609,7 +11609,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 44.54,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 47.09,
      "period": 18
     },
@@ -11624,7 +11624,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 6.72,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 7.69,
      "period": 18
     },
@@ -11639,7 +11639,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-27",
      "sellPrice": 9.623,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 3.36,
      "period": 15
     },
@@ -11654,7 +11654,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-25",
      "sellPrice": 32.936,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 13
     },
@@ -11669,7 +11669,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 70.77,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 28.44,
      "period": 18
     },
@@ -11684,7 +11684,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 9.84,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 3.04,
      "period": 18
     }
@@ -11705,7 +11705,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-24",
      "sellPrice": 26.928,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 13
     }
@@ -11726,7 +11726,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-12",
      "sellPrice": 6.992,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     },
@@ -11741,7 +11741,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-13",
      "sellPrice": 10.396,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 3
     },
@@ -11756,7 +11756,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 14.31,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.84,
      "period": 20
     },
@@ -11771,7 +11771,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 11.5,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 8.59,
      "period": 20
     },
@@ -11786,7 +11786,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 16.78,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -2.33,
      "period": 20
     },
@@ -11801,7 +11801,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-11",
      "sellPrice": 28.796,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -11816,7 +11816,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 11.98,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -8.2,
      "period": 20
     },
@@ -11831,7 +11831,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-11",
      "sellPrice": 138.902,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     }
@@ -11852,7 +11852,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-10",
      "sellPrice": 13.874,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -11867,7 +11867,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-10",
      "sellPrice": 18.372,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -11882,7 +11882,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-09",
      "sellPrice": 10.111,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -11897,7 +11897,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-13",
      "sellPrice": 11.896,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 4
     },
@@ -11912,7 +11912,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-13",
      "sellPrice": 13.938,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 13.78,
      "period": 4
     },
@@ -11927,7 +11927,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 3.66,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 9.91,
      "period": 21
     },
@@ -11942,7 +11942,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 23.76,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -6.05,
      "period": 21
     },
@@ -11957,7 +11957,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-25",
      "sellPrice": 80.868,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 16
     },
@@ -11972,7 +11972,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 54.9,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 28.45,
      "period": 21
     },
@@ -11987,7 +11987,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-13",
      "sellPrice": 37.978,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 4
     },
@@ -12002,7 +12002,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-25",
      "sellPrice": 27.398,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 2.73,
      "period": 16
     },
@@ -12017,7 +12017,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-27",
      "sellPrice": 10.01,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 6.15,
      "period": 18
     }
@@ -12038,7 +12038,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-12",
      "sellPrice": 7.903,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 6
     },
@@ -12053,7 +12053,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-12",
      "sellPrice": 10.69,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 6
     },
@@ -12068,7 +12068,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-12",
      "sellPrice": 10.948,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 6
     },
@@ -12083,7 +12083,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-26",
      "sellPrice": 40.563,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 20
     },
@@ -12098,7 +12098,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-06",
      "sellPrice": 14.021,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     }
@@ -12119,7 +12119,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 14.57,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 4.07,
      "period": 25
     },
@@ -12134,7 +12134,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-06",
      "sellPrice": 6.587,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -12149,7 +12149,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 5.16,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 11.21,
      "period": 25
     },
@@ -12164,7 +12164,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-06",
      "sellPrice": 3.827,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -12179,7 +12179,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-12",
      "sellPrice": 10.911,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 1.59,
      "period": 7
     },
@@ -12194,7 +12194,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-06",
      "sellPrice": 4.6,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     }
@@ -12215,7 +12215,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-05",
      "sellPrice": 8.593,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -12230,7 +12230,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-05",
      "sellPrice": 202.75,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -12245,7 +12245,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-05",
      "sellPrice": 60.407,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -12260,7 +12260,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-24",
      "sellPrice": 24.095,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 10.22,
      "period": 20
     },
@@ -12275,7 +12275,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-05",
      "sellPrice": 12.963,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -12290,7 +12290,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-11",
      "sellPrice": 19.697,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 11.92,
      "period": 7
     },
@@ -12305,7 +12305,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-04",
      "sellPrice": 9.918,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -12320,7 +12320,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-04",
      "sellPrice": 15.162,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 2.37,
      "period": 0
     },
@@ -12335,7 +12335,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-10",
      "sellPrice": 48.567,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 6
     },
@@ -12350,7 +12350,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-06",
      "sellPrice": 37.15,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     },
@@ -12365,7 +12365,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-05",
      "sellPrice": 11.399,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -12380,7 +12380,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 7.25,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 6.62,
      "period": 26
     },
@@ -12395,7 +12395,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-05",
      "sellPrice": 32.789,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -12410,7 +12410,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-09",
      "sellPrice": 12.346,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 5
     }
@@ -12431,7 +12431,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-03",
      "sellPrice": 21.878,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -12446,7 +12446,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-03",
      "sellPrice": 8.51,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -12461,7 +12461,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-05",
      "sellPrice": 15.06,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     },
@@ -12476,7 +12476,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 9.3,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 22.53,
      "period": 27
     },
@@ -12491,7 +12491,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-05",
      "sellPrice": 14.453,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     },
@@ -12506,7 +12506,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-04",
      "sellPrice": 7.461,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -12521,7 +12521,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 13.58,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -8.24,
      "period": 27
     }
@@ -12542,7 +12542,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-10",
      "sellPrice": 5.023,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 21.92,
      "period": 8
     },
@@ -12557,7 +12557,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-13",
      "sellPrice": 41.372,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 11.55,
      "period": 11
     },
@@ -12572,7 +12572,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-05",
      "sellPrice": 210.275,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 10.4,
      "period": 3
     },
@@ -12587,7 +12587,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-04",
      "sellPrice": 29.532,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 1.28,
      "period": 2
     }
@@ -12608,7 +12608,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-06",
      "sellPrice": 11.15,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 7
     },
@@ -12623,7 +12623,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-30",
      "sellPrice": 11.399,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -12638,7 +12638,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-13",
      "sellPrice": 25.953,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 14
     },
@@ -12653,7 +12653,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 12.12,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": -6.12,
      "period": 31
     },
@@ -12668,7 +12668,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-04",
      "sellPrice": 15.162,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 15.65,
      "period": 5
     }
@@ -12689,7 +12689,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-05",
      "sellPrice": 23.524,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 7
     },
@@ -12704,7 +12704,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-29",
      "sellPrice": 11.463,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -12719,7 +12719,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-29",
      "sellPrice": 2.972,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -12734,7 +12734,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-02",
      "sellPrice": 5.336,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 4
     },
@@ -12749,7 +12749,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-05",
      "sellPrice": 12.061,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 1.44,
      "period": 7
     }
@@ -12770,7 +12770,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-05",
      "sellPrice": 29.974,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 13.28,
      "period": 8
     },
@@ -12785,7 +12785,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-28",
      "sellPrice": 45.246,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -12800,7 +12800,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-10",
      "sellPrice": 10.0,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 20.63,
      "period": 13
     },
@@ -12815,7 +12815,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-02",
      "sellPrice": 10.249,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 5
     },
@@ -12830,7 +12830,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-02",
      "sellPrice": 25.015,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 5
     },
@@ -12845,7 +12845,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-30",
      "sellPrice": 45.816,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     },
@@ -12860,7 +12860,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-30",
      "sellPrice": 16.569,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     },
@@ -12875,7 +12875,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-30",
      "sellPrice": 24.095,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     },
@@ -12890,7 +12890,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-05",
      "sellPrice": 13.966,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 8
     },
@@ -12905,7 +12905,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-11",
      "sellPrice": 5.281,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 50.45,
      "period": 14
     }
@@ -12926,7 +12926,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-02",
      "sellPrice": 9.835,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 6
     },
@@ -12941,7 +12941,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-30",
      "sellPrice": 12.429,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 3
     },
@@ -12956,7 +12956,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-27",
      "sellPrice": 21.684,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -12971,7 +12971,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-02",
      "sellPrice": 12.76,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 25.35,
      "period": 6
     },
@@ -12986,7 +12986,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-30",
      "sellPrice": 5.741,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 22.14,
      "period": 3
     },
@@ -13001,7 +13001,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-30",
      "sellPrice": 46.239,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 3
     },
@@ -13016,7 +13016,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-29",
      "sellPrice": 3.818,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 2
     }
@@ -13037,7 +13037,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-27",
      "sellPrice": 12.604,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 1
     },
@@ -13052,7 +13052,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-29",
      "sellPrice": 6.688,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 11.29,
      "period": 3
     },
@@ -13067,7 +13067,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-26",
      "sellPrice": 12.199,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -13082,7 +13082,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-30",
      "sellPrice": 10.838,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 4
     },
@@ -13097,7 +13097,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-26",
      "sellPrice": 23.616,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 2.81,
      "period": 0
     },
@@ -13112,7 +13112,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-30",
      "sellPrice": 8.335,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 4
     },
@@ -13127,7 +13127,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-11",
      "sellPrice": 41.704,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 4.08,
      "period": 16
     },
@@ -13142,7 +13142,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-26",
      "sellPrice": 34.868,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 3.28,
      "period": 0
     },
@@ -13157,7 +13157,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-30",
      "sellPrice": 25.944,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 4
     },
@@ -13172,7 +13172,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-26",
      "sellPrice": 50.812,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -13187,7 +13187,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-30",
      "sellPrice": 11.417,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 4
     },
@@ -13202,7 +13202,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-29",
      "sellPrice": 26.036,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 3
     },
@@ -13217,7 +13217,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-30",
      "sellPrice": 15.134,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 5.83,
      "period": 4
     },
@@ -13232,7 +13232,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-26",
      "sellPrice": 39.054,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 1.97,
      "period": 0
     },
@@ -13247,7 +13247,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-03-02",
      "sellPrice": 19.19,
-     "reason": "RECESSION EXIT (退潮清仓)",
+     "reason": "退潮清仓",
      "pnl": 10.22,
      "period": 35
     },
@@ -13262,7 +13262,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-02-03",
      "sellPrice": 90.16,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 8
     }
@@ -13283,7 +13283,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-23",
      "sellPrice": 13.607,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 0
     },
@@ -13298,7 +13298,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-30",
      "sellPrice": 58.558,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 14.59,
      "period": 7
     }
@@ -13319,7 +13319,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-29",
      "sellPrice": 16.56,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 7
     },
@@ -13334,7 +13334,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-27",
      "sellPrice": 4.968,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 5
     },
@@ -13349,7 +13349,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-27",
      "sellPrice": 51.446,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 5
     },
@@ -13364,7 +13364,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-26",
      "sellPrice": 8.243,
-     "reason": "HARD STOP -8%",
+     "reason": "固定止损",
      "pnl": -8.0,
      "period": 4
     },
@@ -13379,7 +13379,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-30",
      "sellPrice": 26.238,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 34.56,
      "period": 8
     },
@@ -13394,7 +13394,7 @@ window.SIGNAL_DATA = {
      "state": "已卖出",
      "sellDate": "2026-01-27",
      "sellPrice": 13.625,
-     "reason": "TRAIL STOP (close below high-8%)",
+     "reason": "移动止损",
      "pnl": 10.77,
      "period": 5
     }
