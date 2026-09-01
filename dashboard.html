@@ -116,7 +116,7 @@
         var status = x.state || '持有中';
         var sdate = x.sellDate || '—';
         var sprice = x.sellPrice || '—';
-        var reason = x.reason || '—';
+        var reason = (x.state==='已卖出') ? (x.reason||'—') : '—';
         var pnl = (x.pnl===''||x.pnl==null) ? null : x.pnl;
         var pnlCls = (pnl==null||pnl===0) ? '' : (pnl>0 ? 'emotion-up' : 'emotion-down');
         var pnlTxt = (pnl==null||pnl==='') ? '—' : pnl+'%';

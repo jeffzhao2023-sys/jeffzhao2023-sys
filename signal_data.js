@@ -1,5 +1,5 @@
 window.SIGNAL_DATA = {
- "generated": "2026-09-01 09:00",
+ "generated": "2026-09-01 09:03",
  "today": "20260901",
  "days": [
   {
@@ -66,8 +66,8 @@ window.SIGNAL_DATA = {
      "state": "持有中",
      "sellDate": "",
      "sellPrice": "",
-     "reason": "",
-     "pnl": "",
+     "reason": "持有中(浮盈)",
+     "pnl": 5.03,
      "period": 14
     },
     {
