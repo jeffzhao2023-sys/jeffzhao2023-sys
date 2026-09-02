@@ -193,14 +193,15 @@
         else { status="—"; }
         return {date:row.date, rec:row.rec, time:row.rec.time, status:status, buyPrice:buyPrice,
                 zb:row.rec.zb,
+                emotion:H.emotions ? H.emotions[date] : '',
                 sdate:sdate, stime:stime, sprice:sprice, reason:reason, pnl:pnl, period:period, cost:cost};
       });
       data.sort(function(a,b){ return a.date>b.date?-1:(a.date<b.date?1:0); });  // 最近在上,最早在下
       if(data.length===0) return '<div class="empty-tip">暂无记录</div>';
-      var h='<table><tr><th>买入日</th><th>选票时间</th><th>代码</th><th>名称</th><th>高度</th><th>买入价</th><th>炸板</th><th>状态</th><th>卖出日</th><th>卖出时间</th><th>卖出价</th><th>原因</th><th>收益率</th><th>周期</th></tr>';
+      var h='<table><tr><th>买入日</th><th>情绪</th><th>选票时间</th><th>代码</th><th>名称</th><th>高度</th><th>买入价</th><th>炸板</th><th>状态</th><th>卖出日</th><th>卖出时间</th><th>卖出价</th><th>原因</th><th>收益率</th><th>周期</th></tr>';
       data.forEach(function(x){
         var pnlCls = (x.pnl==null||x.pnl===0) ? '' : (x.pnl>0 ? 'emotion-up' : 'emotion-down');
-        h+='<tr><td class="mono">'+esc(x.date)+'</td><td class="mono">'+(x.time||"—")+'</td><td class="mono">'+esc(x.rec.code)+'</td><td>'+esc(x.rec.name)+'</td>'
+        h+='<tr><td class="mono">'+esc(x.date)+'</td><td class="'+emotionClass(x.emotion)+'">'+esc(x.emotion||'—')+'</td><td class="mono">'+(x.time||"—")+'</td><td class="mono">'+esc(x.rec.code)+'</td><td>'+esc(x.rec.name)+'</td>'
           +'<td>'+esc(x.rec.height)+'</td><td class="mono">'+esc(x.buyPrice)+'</td>'
           +'<td>'+(x.zb||"—")+'</td>'
           +'<td>'+esc(x.status)+'</td><td class="mono">'+(x.sdate||"—")+'</td><td class="mono">'+(x.stime||"—")+'</td>'
