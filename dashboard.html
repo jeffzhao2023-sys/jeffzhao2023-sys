@@ -193,7 +193,7 @@
         else { status="—"; }
         return {date:row.date, rec:row.rec, time:row.rec.time, status:status, buyPrice:buyPrice,
                 zb:row.rec.zb,
-                emotion:H.emotions ? H.emotions[date] : '',
+                emotion:H.emotions ? H.emotions[row.date] : '',
                 sdate:sdate, stime:stime, sprice:sprice, reason:reason, pnl:pnl, period:period, cost:cost};
       });
       data.sort(function(a,b){ return a.date>b.date?-1:(a.date<b.date?1:0); });  // 最近在上,最早在下
