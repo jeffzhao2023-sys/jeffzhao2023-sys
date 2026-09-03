@@ -1,5 +1,5 @@
 window.ALPHA_FUNDS_DATA = {
-  "generated": "2026-09-03 09:36:51",
+  "generated": "2026-09-03 10:21:10",
   "today": "20260903",
   "days": [
     {
@@ -11,22 +11,7 @@ window.ALPHA_FUNDS_DATA = {
           "date": "20260903",
           "buyDate": "20260904",
           "buyPrice": "",
-          "close": 13.54,
-          "emotion": "",
-          "state": "待次日开盘",
-          "sellDate": "",
-          "sellPrice": "",
-          "reason": "",
-          "pnl": "",
-          "period": ""
-        },
-        {
-          "code": "002437",
-          "name": "誉衡药业",
-          "date": "20260903",
-          "buyDate": "20260904",
-          "buyPrice": "",
-          "close": 4.29,
+          "close": 13.68,
           "emotion": "",
           "state": "待次日开盘",
           "sellDate": "",
