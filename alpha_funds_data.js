@@ -1,29 +1,11 @@
 window.ALPHA_FUNDS_DATA = {
-  "generated": "2026-09-03 10:57:35",
+  "generated": "2026-09-03 11:02:05",
   "today": "20260903",
   "days": [
     {
       "date": "20260903",
       "emotion": "暂无数据",
-      "candidates": [
-        {
-          "code": "601609",
-          "name": "金田股份",
-          "date": "20260903",
-          "alphaDate": "20260819",
-          "signalClose": 13.45,
-          "emotion": "暂无数据",
-          "buyDate": "",
-          "buyPrice": "",
-          "buyOpen": "",
-          "state": "待次日开盘",
-          "sellDate": "",
-          "sellPrice": "",
-          "reason": "",
-          "pnl": "",
-          "period": ""
-        }
-      ],
+      "candidates": [],
       "sells": []
     },
     {

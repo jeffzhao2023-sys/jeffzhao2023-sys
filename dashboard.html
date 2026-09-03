@@ -89,7 +89,7 @@
     var D = window.ALPHA_FUNDS_DATA || null;
     var H = window.HIGHEST_DATA || null;
     function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
-    function emotionClass(e){ if(e.indexOf('退潮')>=0)return 'emotion-recession'; if(e.indexOf('混沌')>=0)return 'emotion-chaos'; return 'emotion-normal'; }
+    function emotionClass(e){ if(!e || e==='暂无数据')return ''; if(e.indexOf('退潮')>=0)return 'emotion-recession'; if(e.indexOf('混沌')>=0)return 'emotion-chaos'; return 'emotion-normal'; }
 
     function parseYMD(v){
       if(!v) return null;
