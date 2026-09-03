@@ -111,7 +111,7 @@
       });
       rows.sort(function(a,b){ return a.buyDate>b.buyDate?-1:(a.buyDate<b.buyDate?1:0); });
       if(rows.length===0) return '<div class="empty-tip">暂无记录</div>';
-       var h='<table><tr><th>买入日</th><th>代码</th><th>名称</th><th>实际买入价</th><th>次日开盘参考价</th><th>情绪</th><th>状态</th><th>卖出日</th><th>卖出价</th><th>原因</th><th>收益率</th><th>周期</th></tr>';
+       var h='<table><tr><th>阿尔法日期</th><th>买入日</th><th>代码</th><th>名称</th><th>实际买入价</th><th>次日开盘参考价</th><th>情绪</th><th>状态</th><th>卖出日</th><th>卖出价</th><th>原因</th><th>收益率</th><th>周期</th></tr>';
       rows.forEach(function(x){
         var isNoBuy = (x.state==='退潮期不买' || x.state==='情绪数据缺失不买');
         var status = isNoBuy ? '—' : (x.state==='已卖出' ? '已卖出' : '持有中');
@@ -124,7 +124,7 @@
         var period = (x.period===''||x.period==null) ? '—' : x.period;
         var statusCls = (status==='持有中') ? 'emotion-up' : '';
         var emotionTxt = isNoBuy ? (x.emotion||'') + '（不买）' : x.emotion;
-        h+='<tr><td class="mono">'+esc(x.buyDate)+'</td><td class="mono">'+esc(x.code)+'</td>'
+         h+='<tr><td class="mono">'+esc(x.alphaDate||'—')+'</td><td class="mono">'+esc(x.buyDate)+'</td><td class="mono">'+esc(x.code)+'</td>'
           +'<td>'+esc(x.name||'—')+'</td>'
            +'<td class="mono">'+(x.buyPrice==''?'—':esc(x.buyPrice))+'</td><td class="mono">'+(x.buyOpen==null||x.buyOpen==''?'—':esc(x.buyOpen))+'</td>'
           +'<td class="'+emotionClass(x.emotion)+'">'+esc(emotionTxt)+'</td>'
