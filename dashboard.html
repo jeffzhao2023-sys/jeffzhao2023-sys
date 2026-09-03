@@ -229,16 +229,19 @@
       var h='';
       if(records.length===0){ h='<div class="empty-tip">暂无记录</div>'; }
       else {
-        h='<table><tr><th>买入日</th><th>代码</th><th>名称</th><th>买入价</th><th>情绪</th><th>状态</th><th>卖出时间</th><th>卖出价</th><th>原因</th><th>收益率</th><th>周期</th></tr>';
+        h='<table><tr><th>推荐日</th><th>买入日</th><th>代码</th><th>名称</th><th>买入价</th><th>状态</th><th>卖出时间</th><th>卖出价</th><th>原因</th><th>收益率</th><th>周期</th></tr>';
         records.forEach(function(r){
           var pnl = (r.pnl===''||r.pnl==null) ? '—' : r.pnl+'%';
           var pnlCls = (r.pnl===''||r.pnl==null||r.pnl===0) ? '' : (r.pnl>0 ? 'emotion-up' : 'emotion-down');
-          var emotion = r.emotion||'';
-          var emotionCls = emotion ? emotionClass(emotion) : '';
-          h+='<tr><td class="mono">'+esc(r.buy_date||'—')+'</td>'
+          function dte(dt, emo2){
+            var cell = esc(dt||'—');
+            if(dt && emo2){ cell += ' <span class="'+emotionClass(emo2)+'">'+esc(emo2)+'</span>'; }
+            return cell;
+          }
+          h+='<tr><td class="mono">'+dte(r.rec_dt, r.rec_emo)+'</td>'
+            +'<td class="mono">'+dte(r.buy_dt, r.buy_emo)+'</td>'
             +'<td class="mono">'+esc(r.code)+'</td><td>'+esc(r.name||'—')+'</td>'
-            +'<td class="mono">'+esc(r.buy_price||'—')+'</td>'
-            +'<td class="'+emotionCls+'">'+esc(emotion||'—')+'</td><td>'+esc(r.status||'—')+'</td>'
+            +'<td class="mono">'+esc(r.buy_price||'—')+'</td><td>'+esc(r.status||'—')+'</td>'
             +'<td class="mono">'+esc(r.sell_time||'—')+'</td><td class="mono">'+esc(r.sell_price||'—')+'</td><td>'+esc(r.reason||'—')+'</td>'
             +'<td class="mono '+pnlCls+'">'+pnl+'</td><td class="mono">'+(r.period===''||r.period==null?'—':esc(r.period)+'天')+'</td></tr>';
         });
