@@ -1,5 +1,5 @@
 window.ALPHA_FUNDS_DATA = {
-  "generated": "2026-09-03 13:04:12",
+  "generated": "2026-09-03 13:08:38",
   "today": "20260903",
   "days": [
     {
