@@ -1,10 +1,10 @@
 window.ALPHA_FUNDS_DATA = {
-  "generated": "2026-09-03 13:08:38",
+  "generated": "2026-09-03 15:05:54",
   "today": "20260903",
   "days": [
     {
       "date": "20260903",
-      "emotion": "暂无数据",
+      "emotion": "退潮期",
       "candidates": [],
       "sells": []
     },
@@ -20,13 +20,13 @@ window.ALPHA_FUNDS_DATA = {
           "alphaDate": "20260819",
           "signalClose": 13.46,
           "recommendEmotion": "退潮期",
-          "buyEmotion": "暂无数据",
+          "buyEmotion": "退潮期",
           "buyDate": "20260903",
           "buyPrice": "",
-          "state": "情绪数据缺失不买",
+          "state": "退潮期不买",
           "sellDate": "",
           "sellPrice": "",
-          "reason": "次日情绪数据缺失",
+          "reason": "次日退潮不买",
           "pnl": "",
           "period": ""
         }
