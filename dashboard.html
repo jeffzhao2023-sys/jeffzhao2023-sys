@@ -113,7 +113,7 @@
       if(rows.length===0) return '<div class="empty-tip">暂无记录</div>';
       var h='<table><tr><th>买入日</th><th>代码</th><th>名称</th><th>买入价</th><th>情绪</th><th>状态</th><th>卖出日</th><th>卖出价</th><th>原因</th><th>收益率</th><th>周期</th></tr>';
       rows.forEach(function(x){
-        var isNoBuy = (x.state==='退潮期不买');
+        var isNoBuy = (x.state==='退潮期不买' || x.state==='情绪数据缺失不买');
         var status = isNoBuy ? '—' : (x.state==='已卖出' ? '已卖出' : '持有中');
         var sdate = x.sellDate || '—';
         var sprice = x.sellPrice || '—';
@@ -137,7 +137,8 @@
     }
     function initLow(){
       if(!D || !D.days){ document.getElementById('sub').textContent='未找到数据：请先运行 run_daily.bat 生成 alpha_funds_data.js'; return; }
-      document.getElementById('sub').textContent='数据生成时间：'+D.generated;
+       var latest = (D.days||[]).filter(function(x){ return x.emotion && x.emotion!=='暂无数据'; })[0];
+       document.getElementById('sub').textContent='数据生成时间：'+D.generated+(latest ? '　最新情绪：'+latest.date+' '+latest.emotion : '');
       document.getElementById('lowAllBody').innerHTML = renderLowCombined();
     }
 
