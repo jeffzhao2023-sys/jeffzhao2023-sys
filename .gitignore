@@ -2,7 +2,7 @@
 *
 !.gitignore
 !dashboard.html
-!signal_data.js
+!alpha_funds_data.js
 !highest_data.js
 !dildj_data.js
 

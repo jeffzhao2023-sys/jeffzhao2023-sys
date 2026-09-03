@@ -82,11 +82,11 @@
 
   </div>
 
-  <script src="signal_data.js?v=202609010908" charset="utf-8"></script>
+  <script src="alpha_funds_data.js" charset="utf-8"></script>
   <script src="highest_data.js" charset="utf-8"></script>
   <script src="dildj_data.js" charset="utf-8"></script>
   <script>
-    var D = window.SIGNAL_DATA || null;
+    var D = window.ALPHA_FUNDS_DATA || null;
     var H = window.HIGHEST_DATA || null;
     function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
     function emotionClass(e){ if(e.indexOf('退潮')>=0)return 'emotion-recession'; if(e.indexOf('混沌')>=0)return 'emotion-chaos'; return 'emotion-normal'; }
@@ -136,7 +136,7 @@
       return h+'</table>';
     }
     function initLow(){
-      if(!D || !D.days){ document.getElementById('sub').textContent='未找到数据：请先运行 run.bat 生成 signal_data.js'; return; }
+      if(!D || !D.days){ document.getElementById('sub').textContent='未找到数据：请先运行 run_daily.bat 生成 alpha_funds_data.js'; return; }
       document.getElementById('sub').textContent='数据生成时间：'+D.generated;
       document.getElementById('lowAllBody').innerHTML = renderLowCombined();
     }
