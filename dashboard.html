@@ -32,6 +32,8 @@
   summary:hover { background: #eef2f7; }
   .count { color: #6b7280; font-weight: normal; margin-left: 8px; }
   .empty-tip { color: #6b7280; font-style: italic; }
+  .lb-broken { color: #16a34a; font-weight: 600; }
+  .lb-healthy { color: #ef4444; font-weight: 600; }
   .grid2 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 16px; align-items: start; }
   @media (max-width: 900px) { .grid2 { grid-template-columns: 1fr; } }
   .grid2c { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; }
@@ -262,14 +264,15 @@
 
     function initLianban(){
       if(!LB){ document.getElementById('subLianban').textContent='未找到数据：请运行连板股低吸 monitor.py 生成 lianban_data.js'; return; }
-      document.getElementById('subLianban').textContent='数据生成时间：'+LB.generated+'　截止：'+LB.today;
+      document.getElementById('subLianban').textContent='数据生成时间：'+LB.generated+'　截止：'+LB.today+'　（绿=跌破均线 红=未跌破）';
       var records = (LB.pool||[]).slice();
       if(records.length===0){ document.getElementById('lianbanAllBody').innerHTML='<div class="empty-tip">暂无记录</div>'; return; }
       var h='<table><tr><th>断板日</th><th>代码</th><th>名称</th><th>断板前板数</th><th>收盘</th><th>MA5</th><th>MA10</th><th>状态</th></tr>';
       records.forEach(function(r){
+        function maCell(broken, v){ return '<td class="mono '+(broken?'lb-broken':'lb-healthy')+'">'+esc(v)+'</td>'; }
         h+='<tr><td class="mono">'+esc(r.breakDate)+'</td><td class="mono">'+esc(r.code)+'</td><td>'+esc(r.name)+'</td>'
-          +'<td>'+esc(r.boards)+'</td><td class="mono">'+esc(r.lastClose)+'</td><td class="mono">'+esc(r.ma5)+'</td>'
-          +'<td class="mono">'+esc(r.ma10)+'</td><td>'+esc(r.status)+'</td></tr>';
+          +'<td>'+esc(r.boards)+'</td><td class="mono">'+esc(r.lastClose)+'</td>'+maCell(r.broken5, r.ma5)
+          +maCell(r.broken10, r.ma10)+'<td>'+esc(r.status)+'</td></tr>';
       });
       document.getElementById('lianbanAllBody').innerHTML = h+'</table>';
     }

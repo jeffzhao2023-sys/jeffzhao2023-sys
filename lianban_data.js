@@ -1,5 +1,5 @@
 window.LIANBAN_DATA = {
-  "generated": "2026-09-04 14:08:49",
+  "generated": "2026-09-04 14:18:02",
   "today": "2026-09-04",
   "pool": [
     {
@@ -10,6 +10,8 @@ window.LIANBAN_DATA = {
       "lastClose": 12.87,
       "ma5": 11.088,
       "ma10": 9.39,
+      "broken5": false,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -20,6 +22,8 @@ window.LIANBAN_DATA = {
       "lastClose": 7.5,
       "ma5": 7.086,
       "ma10": 6.204,
+      "broken5": false,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -30,6 +34,8 @@ window.LIANBAN_DATA = {
       "lastClose": 21.34,
       "ma5": 20.009999999999998,
       "ma10": 18.909,
+      "broken5": false,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -40,6 +46,8 @@ window.LIANBAN_DATA = {
       "lastClose": 15.41,
       "ma5": 14.146,
       "ma10": 13.044999999999998,
+      "broken5": false,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -50,6 +58,8 @@ window.LIANBAN_DATA = {
       "lastClose": 8.0,
       "ma5": 7.56,
       "ma10": 7.165000000000001,
+      "broken5": false,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -60,6 +70,8 @@ window.LIANBAN_DATA = {
       "lastClose": 33.75,
       "ma5": 31.919999999999998,
       "ma10": 29.884000000000004,
+      "broken5": false,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -70,6 +82,8 @@ window.LIANBAN_DATA = {
       "lastClose": 5.94,
       "ma5": 5.286,
       "ma10": 4.929,
+      "broken5": false,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -80,6 +94,8 @@ window.LIANBAN_DATA = {
       "lastClose": 18.7,
       "ma5": 18.788,
       "ma10": 16.330000000000002,
+      "broken5": true,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -90,6 +106,8 @@ window.LIANBAN_DATA = {
       "lastClose": 5.59,
       "ma5": 4.9799999999999995,
       "ma10": 4.381,
+      "broken5": false,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -100,6 +118,8 @@ window.LIANBAN_DATA = {
       "lastClose": 4.91,
       "ma5": 4.998,
       "ma10": 4.473,
+      "broken5": true,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -110,6 +130,8 @@ window.LIANBAN_DATA = {
       "lastClose": 14.12,
       "ma5": 12.824000000000002,
       "ma10": 12.186,
+      "broken5": false,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -120,6 +142,8 @@ window.LIANBAN_DATA = {
       "lastClose": 13.68,
       "ma5": 12.784,
       "ma10": 11.925,
+      "broken5": false,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -130,6 +154,8 @@ window.LIANBAN_DATA = {
       "lastClose": 10.82,
       "ma5": 9.968,
       "ma10": 9.17,
+      "broken5": false,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -140,6 +166,8 @@ window.LIANBAN_DATA = {
       "lastClose": 9.8,
       "ma5": 9.546000000000001,
       "ma10": 8.961,
+      "broken5": false,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -150,6 +178,8 @@ window.LIANBAN_DATA = {
       "lastClose": 25.33,
       "ma5": 25.541999999999998,
       "ma10": 24.399,
+      "broken5": true,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -160,6 +190,8 @@ window.LIANBAN_DATA = {
       "lastClose": 5.2,
       "ma5": 4.6899999999999995,
       "ma10": 4.343,
+      "broken5": false,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -170,6 +202,8 @@ window.LIANBAN_DATA = {
       "lastClose": 2.49,
       "ma5": 2.202,
       "ma10": 1.983,
+      "broken5": false,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -180,6 +214,8 @@ window.LIANBAN_DATA = {
       "lastClose": 7.7,
       "ma5": 7.37,
       "ma10": 6.884,
+      "broken5": false,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -190,6 +226,8 @@ window.LIANBAN_DATA = {
       "lastClose": 6.98,
       "ma5": 6.882,
       "ma10": 5.857,
+      "broken5": false,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -200,6 +238,8 @@ window.LIANBAN_DATA = {
       "lastClose": 13.45,
       "ma5": 13.52,
       "ma10": 11.572,
+      "broken5": true,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -210,6 +250,8 @@ window.LIANBAN_DATA = {
       "lastClose": 3.15,
       "ma5": 3.056,
       "ma10": 2.728,
+      "broken5": false,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -220,6 +262,8 @@ window.LIANBAN_DATA = {
       "lastClose": 8.09,
       "ma5": 8.4,
       "ma10": 7.698,
+      "broken5": true,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -230,6 +274,8 @@ window.LIANBAN_DATA = {
       "lastClose": 10.81,
       "ma5": 11.744,
       "ma10": 10.756,
+      "broken5": true,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -240,6 +286,8 @@ window.LIANBAN_DATA = {
       "lastClose": 21.2,
       "ma5": 19.845999999999997,
       "ma10": 16.972,
+      "broken5": false,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -250,6 +298,8 @@ window.LIANBAN_DATA = {
       "lastClose": 5.79,
       "ma5": 5.832,
       "ma10": 5.4079999999999995,
+      "broken5": true,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -260,6 +310,8 @@ window.LIANBAN_DATA = {
       "lastClose": 5.12,
       "ma5": 5.284000000000001,
       "ma10": 4.756,
+      "broken5": true,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -270,6 +322,8 @@ window.LIANBAN_DATA = {
       "lastClose": 24.08,
       "ma5": 23.791999999999998,
       "ma10": 22.21,
+      "broken5": false,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -280,6 +334,8 @@ window.LIANBAN_DATA = {
       "lastClose": 21.27,
       "ma5": 20.71,
       "ma10": 19.16,
+      "broken5": false,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -290,6 +346,8 @@ window.LIANBAN_DATA = {
       "lastClose": 12.58,
       "ma5": 12.969999999999999,
       "ma10": 11.504999999999999,
+      "broken5": true,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -300,6 +358,8 @@ window.LIANBAN_DATA = {
       "lastClose": 37.16,
       "ma5": 39.35,
       "ma10": 36.003,
+      "broken5": true,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -310,6 +370,8 @@ window.LIANBAN_DATA = {
       "lastClose": 27.51,
       "ma5": 26.54,
       "ma10": 23.003,
+      "broken5": false,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -320,6 +382,8 @@ window.LIANBAN_DATA = {
       "lastClose": 17.83,
       "ma5": 17.856,
       "ma10": 16.097,
+      "broken5": true,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -330,6 +394,8 @@ window.LIANBAN_DATA = {
       "lastClose": 3.03,
       "ma5": 3.154,
       "ma10": 2.92,
+      "broken5": true,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -340,6 +406,8 @@ window.LIANBAN_DATA = {
       "lastClose": 10.64,
       "ma5": 10.714,
       "ma10": 9.866,
+      "broken5": true,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -350,6 +418,8 @@ window.LIANBAN_DATA = {
       "lastClose": 13.18,
       "ma5": 13.184000000000001,
       "ma10": 12.221,
+      "broken5": true,
+      "broken10": false,
       "status": "观察中"
     },
     {
@@ -360,6 +430,8 @@ window.LIANBAN_DATA = {
       "lastClose": 3.25,
       "ma5": 3.3299999999999996,
       "ma10": 3.242,
+      "broken5": true,
+      "broken10": false,
       "status": "观察中"
     }
   ]
