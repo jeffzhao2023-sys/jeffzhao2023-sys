@@ -267,12 +267,12 @@
       document.getElementById('subLianban').textContent='数据生成时间：'+LB.generated+'　截止：'+LB.today+'　（红=健康 绿=跌破）';
       var records = (LB.pool||[]).slice();
       if(records.length===0){ document.getElementById('lianbanAllBody').innerHTML='<div class="empty-tip">暂无记录</div>'; return; }
-      var h='<table><tr><th>断板日</th><th>代码</th><th>名称</th><th>断板前板数</th><th>收盘</th><th>MA5</th><th>MA10</th><th>状态</th></tr>';
+      var h='<table><tr><th>断板日</th><th>代码</th><th>名称</th><th>断板前板数</th><th>收盘</th><th>MA5</th><th>状态</th></tr>';
       records.forEach(function(r){
         function maCell(broken){ return '<td class="mono '+(broken?'lb-broken':'lb-healthy')+'">'+(broken?'跌破':'健康')+'</td>'; }
         h+='<tr><td class="mono">'+esc(r.breakDate)+'</td><td class="mono">'+esc(r.code)+'</td><td>'+esc(r.name)+'</td>'
           +'<td>'+esc(r.boards)+'</td><td class="mono">'+esc(r.lastClose)+'</td>'+maCell(r.broken5)
-          +maCell(r.broken10)+'<td>'+esc(r.status)+'</td></tr>';
+          +'<td>'+esc(r.status)+'</td></tr>';
       });
       document.getElementById('lianbanAllBody').innerHTML = h+'</table>';
     }
