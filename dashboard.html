@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
@@ -32,7 +32,7 @@
   summary:hover { background: #eef2f7; }
   .count { color: #6b7280; font-weight: normal; margin-left: 8px; }
   .empty-tip { color: #6b7280; font-style: italic; }
-  .grid2 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; align-items: start; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 16px; align-items: start; }
   @media (max-width: 900px) { .grid2 { grid-template-columns: 1fr; } }
   .grid2c { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; }
   @media (max-width: 1200px) { .grid2c { grid-template-columns: 1fr; } }
@@ -43,7 +43,7 @@
 </head>
 <body>
   <h1>📈 投资看板</h1>
-  <div class="sub">左：阿尔法资金没走（盘后）　·　中：首次唯一最高板（盘中）　·　右：地量地价（盘中）</div>
+  <div class="sub">左：阿尔法资金没走（盘后）　·　中：首次唯一最高板（盘中）　·　右：地量地价（盘中）　·　连板低吸（盘后）</div>
 
   <div class="grid2">
 
@@ -80,14 +80,24 @@
 
     </div>
 
+    <!-- ============ 连板低吸 ============ -->
+    <div class="col">
+      <h1>📉 连板低吸策略</h1>
+      <div class="sub" id="subLianban">加载中…</div>
+      <div class="card">
+        <div id="lianbanAllBody"></div>
+      </div>
+    </div>
   </div>
 
   <script src="alpha_funds_data.js" charset="utf-8"></script>
   <script src="highest_data.js" charset="utf-8"></script>
   <script src="dildj_data.js" charset="utf-8"></script>
+  <script src="lianban_data.js" charset="utf-8"></script>
   <script>
     var D = window.ALPHA_FUNDS_DATA || null;
     var H = window.HIGHEST_DATA || null;
+    var LB = window.LIANBAN_DATA || null;
     function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
     function emotionClass(e){ if(!e || e==='暂无数据')return ''; if(e.indexOf('退潮')>=0)return 'emotion-recession'; if(e.indexOf('混沌')>=0)return 'emotion-chaos'; return 'emotion-normal'; }
 
@@ -250,9 +260,23 @@
       document.getElementById('dildjAllBody').innerHTML = h;
     }
 
+    function initLianban(){
+      if(!LB){ document.getElementById('subLianban').textContent='未找到数据：请运行连板股低吸 monitor.py 生成 lianban_data.js'; return; }
+      document.getElementById('subLianban').textContent='数据生成时间：'+LB.generated+'　截止：'+LB.today;
+      var records = (LB.pool||[]).slice();
+      if(records.length===0){ document.getElementById('lianbanAllBody').innerHTML='<div class="empty-tip">暂无记录</div>'; return; }
+      var h='<table><tr><th>断板日</th><th>代码</th><th>名称</th><th>断板前板数</th><th>收盘</th><th>MA5</th><th>MA10</th><th>状态</th></tr>';
+      records.forEach(function(r){
+        h+='<tr><td class="mono">'+esc(r.breakDate)+'</td><td class="mono">'+esc(r.code)+'</td><td>'+esc(r.name)+'</td>'
+          +'<td>'+esc(r.boards)+'</td><td class="mono">'+esc(r.lastClose)+'</td><td class="mono">'+esc(r.ma5)+'</td>'
+          +'<td class="mono">'+esc(r.ma10)+'</td><td>'+esc(r.status)+'</td></tr>';
+      });
+      document.getElementById('lianbanAllBody').innerHTML = h+'</table>';
+    }
     initLow();
     initHighest();
     initDildj();
+    initLianban();
   </script>
 </body>
 </html>

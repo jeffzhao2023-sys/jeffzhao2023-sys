@@ -1,10 +1,11 @@
-﻿# 只发布看板文件，其余全部忽略
+# 只发布看板文件，其余全部忽略
 *
 !.gitignore
 !dashboard.html
 !alpha_funds_data.js
 !highest_data.js
 !dildj_data.js
+!lianban_data.js
 
 # 令牌文件绝不发布
 github_token.txt
