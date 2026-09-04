@@ -1,5 +1,5 @@
 window.LIANBAN_DATA = {
-  "generated": "2026-09-04 14:33:44",
+  "generated": "2026-09-04 15:22:17",
   "today": "2026-09-04",
   "pool": [
     {
@@ -7,8 +7,8 @@ window.LIANBAN_DATA = {
       "name": "国芳集团",
       "boards": 5,
       "breakDate": "2026-09-04",
-      "lastClose": 12.98,
-      "ma5": 11.11,
+      "lastClose": 12.65,
+      "ma5": 11.044,
       "broken5": false,
       "status": "观察中"
     },
@@ -17,8 +17,8 @@ window.LIANBAN_DATA = {
       "name": "集泰股份",
       "boards": 4,
       "breakDate": "2026-09-04",
-      "lastClose": 7.25,
-      "ma5": 7.036,
+      "lastClose": 7.21,
+      "ma5": 7.0280000000000005,
       "broken5": false,
       "status": "观察中"
     },
@@ -27,8 +27,8 @@ window.LIANBAN_DATA = {
       "name": "博云新材",
       "boards": 2,
       "breakDate": "2026-09-04",
-      "lastClose": 21.25,
-      "ma5": 19.992,
+      "lastClose": 21.32,
+      "ma5": 20.006,
       "broken5": false,
       "status": "观察中"
     },
@@ -37,8 +37,8 @@ window.LIANBAN_DATA = {
       "name": "光洋股份",
       "boards": 2,
       "breakDate": "2026-09-04",
-      "lastClose": 15.24,
-      "ma5": 14.112,
+      "lastClose": 15.27,
+      "ma5": 14.118,
       "broken5": false,
       "status": "观察中"
     },
@@ -47,8 +47,8 @@ window.LIANBAN_DATA = {
       "name": "太阳电缆",
       "boards": 2,
       "breakDate": "2026-09-04",
-      "lastClose": 8.01,
-      "ma5": 7.562,
+      "lastClose": 8.03,
+      "ma5": 7.566,
       "broken5": false,
       "status": "观察中"
     },
@@ -57,8 +57,8 @@ window.LIANBAN_DATA = {
       "name": "信达地产",
       "boards": 2,
       "breakDate": "2026-09-04",
-      "lastClose": 3.55,
-      "ma5": 3.082,
+      "lastClose": 3.5,
+      "ma5": 3.072,
       "broken5": false,
       "status": "观察中"
     },
@@ -67,8 +67,8 @@ window.LIANBAN_DATA = {
       "name": "金帝股份",
       "boards": 2,
       "breakDate": "2026-09-04",
-      "lastClose": 33.22,
-      "ma5": 31.814,
+      "lastClose": 33.37,
+      "ma5": 31.844,
       "broken5": false,
       "status": "观察中"
     },
@@ -77,8 +77,8 @@ window.LIANBAN_DATA = {
       "name": "云南旅游",
       "boards": 2,
       "breakDate": "2026-09-04",
-      "lastClose": 5.86,
-      "ma5": 5.2700000000000005,
+      "lastClose": 5.67,
+      "ma5": 5.232,
       "broken5": false,
       "status": "观察中"
     },
@@ -87,8 +87,8 @@ window.LIANBAN_DATA = {
       "name": "欢瑞世纪",
       "boards": 3,
       "breakDate": "2026-09-03",
-      "lastClose": 5.56,
-      "ma5": 4.974,
+      "lastClose": 5.59,
+      "ma5": 4.9799999999999995,
       "broken5": false,
       "status": "观察中"
     },
@@ -97,8 +97,8 @@ window.LIANBAN_DATA = {
       "name": "恒宝股份",
       "boards": 2,
       "breakDate": "2026-09-03",
-      "lastClose": 14.17,
-      "ma5": 12.834,
+      "lastClose": 14.05,
+      "ma5": 12.809999999999999,
       "broken5": false,
       "status": "观察中"
     },
@@ -107,8 +107,8 @@ window.LIANBAN_DATA = {
       "name": "内蒙一机",
       "boards": 2,
       "breakDate": "2026-09-03",
-      "lastClose": 13.68,
-      "ma5": 12.784,
+      "lastClose": 13.66,
+      "ma5": 12.78,
       "broken5": false,
       "status": "观察中"
     },
@@ -117,8 +117,8 @@ window.LIANBAN_DATA = {
       "name": "九牧王",
       "boards": 2,
       "breakDate": "2026-09-03",
-      "lastClose": 10.77,
-      "ma5": 9.958,
+      "lastClose": 10.51,
+      "ma5": 9.906,
       "broken5": false,
       "status": "观察中"
     },
@@ -127,8 +127,8 @@ window.LIANBAN_DATA = {
       "name": "香溢融通",
       "boards": 2,
       "breakDate": "2026-09-03",
-      "lastClose": 9.6,
-      "ma5": 9.506,
+      "lastClose": 9.79,
+      "ma5": 9.544,
       "broken5": false,
       "status": "观察中"
     },
@@ -137,8 +137,8 @@ window.LIANBAN_DATA = {
       "name": "茂业商业",
       "boards": 2,
       "breakDate": "2026-09-03",
-      "lastClose": 5.17,
-      "ma5": 4.683999999999999,
+      "lastClose": 4.97,
+      "ma5": 4.644,
       "broken5": false,
       "status": "观察中"
     },
@@ -147,8 +147,8 @@ window.LIANBAN_DATA = {
       "name": "*ST宝馨",
       "boards": 2,
       "breakDate": "2026-09-03",
-      "lastClose": 2.48,
-      "ma5": 2.2,
+      "lastClose": 2.53,
+      "ma5": 2.21,
       "broken5": false,
       "status": "观察中"
     },
@@ -157,8 +157,8 @@ window.LIANBAN_DATA = {
       "name": "英 力 特",
       "boards": 2,
       "breakDate": "2026-09-03",
-      "lastClose": 7.65,
-      "ma5": 7.359999999999999,
+      "lastClose": 7.69,
+      "ma5": 7.368,
       "broken5": false,
       "status": "观察中"
     },
@@ -167,8 +167,8 @@ window.LIANBAN_DATA = {
       "name": "海鸥住工",
       "boards": 7,
       "breakDate": "2026-09-02",
-      "lastClose": 7.0,
-      "ma5": 6.886,
+      "lastClose": 7.1,
+      "ma5": 6.906000000000001,
       "broken5": false,
       "status": "观察中"
     },
@@ -177,8 +177,8 @@ window.LIANBAN_DATA = {
       "name": "芒果超媒",
       "boards": 2,
       "breakDate": "2026-09-02",
-      "lastClose": 21.0,
-      "ma5": 19.806,
+      "lastClose": 21.25,
+      "ma5": 19.856,
       "broken5": false,
       "status": "观察中"
     },
@@ -187,8 +187,8 @@ window.LIANBAN_DATA = {
       "name": "掌阅科技",
       "boards": 2,
       "breakDate": "2026-09-02",
-      "lastClose": 23.98,
-      "ma5": 23.772,
+      "lastClose": 24.0,
+      "ma5": 23.776,
       "broken5": false,
       "status": "观察中"
     },
@@ -197,8 +197,8 @@ window.LIANBAN_DATA = {
       "name": "中广天择",
       "boards": 2,
       "breakDate": "2026-09-02",
-      "lastClose": 21.32,
-      "ma5": 20.72,
+      "lastClose": 21.06,
+      "ma5": 20.668,
       "broken5": false,
       "status": "观察中"
     },
@@ -207,8 +207,8 @@ window.LIANBAN_DATA = {
       "name": "海鸥股份",
       "boards": 3,
       "breakDate": "2026-09-01",
-      "lastClose": 27.4,
-      "ma5": 26.518,
+      "lastClose": 27.41,
+      "ma5": 26.52,
       "broken5": false,
       "status": "观察中"
     }
