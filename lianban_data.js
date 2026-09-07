@@ -1,15 +1,33 @@
 window.LIANBAN_DATA = {
-  "generated": "2026-09-04 15:22:17",
-  "today": "2026-09-04",
+  "generated": "2026-09-07 13:44:52",
+  "today": "2026-09-07",
   "pool": [
+    {
+      "code": "sh603162",
+      "name": "海通发展",
+      "boards": 2,
+      "breakDate": "2026-09-07",
+      "lastClose": 14.1,
+      "ma5": 13.303999999999998,
+      "ma250": 9.24728,
+      "ma500": 7.5592,
+      "broken5": false,
+      "broken250": false,
+      "broken500": false,
+      "status": "观察中"
+    },
     {
       "code": "sh601086",
       "name": "国芳集团",
       "boards": 5,
       "breakDate": "2026-09-04",
-      "lastClose": 12.65,
-      "ma5": 11.044,
+      "lastClose": 13.92,
+      "ma5": 11.994,
+      "ma250": 9.382879999999998,
+      "ma500": 8.3171,
       "broken5": false,
+      "broken250": false,
+      "broken500": false,
       "status": "观察中"
     },
     {
@@ -17,9 +35,13 @@ window.LIANBAN_DATA = {
       "name": "集泰股份",
       "boards": 4,
       "breakDate": "2026-09-04",
-      "lastClose": 7.21,
-      "ma5": 7.0280000000000005,
+      "lastClose": 7.93,
+      "ma5": 7.409999999999999,
+      "ma250": 6.4148000000000005,
+      "ma500": 5.926,
       "broken5": false,
+      "broken250": false,
+      "broken500": false,
       "status": "观察中"
     },
     {
@@ -27,9 +49,13 @@ window.LIANBAN_DATA = {
       "name": "博云新材",
       "boards": 2,
       "breakDate": "2026-09-04",
-      "lastClose": 21.32,
-      "ma5": 20.006,
+      "lastClose": 20.84,
+      "ma5": 20.468,
+      "ma250": 15.02132,
+      "ma500": 11.06634,
       "broken5": false,
+      "broken250": false,
+      "broken500": false,
       "status": "观察中"
     },
     {
@@ -37,29 +63,13 @@ window.LIANBAN_DATA = {
       "name": "光洋股份",
       "boards": 2,
       "breakDate": "2026-09-04",
-      "lastClose": 15.27,
-      "ma5": 14.118,
+      "lastClose": 16.8,
+      "ma5": 14.936000000000002,
+      "ma250": 12.985280000000001,
+      "ma500": 11.606459999999998,
       "broken5": false,
-      "status": "观察中"
-    },
-    {
-      "code": "sz002300",
-      "name": "太阳电缆",
-      "boards": 2,
-      "breakDate": "2026-09-04",
-      "lastClose": 8.03,
-      "ma5": 7.566,
-      "broken5": false,
-      "status": "观察中"
-    },
-    {
-      "code": "sh600657",
-      "name": "信达地产",
-      "boards": 2,
-      "breakDate": "2026-09-04",
-      "lastClose": 3.5,
-      "ma5": 3.072,
-      "broken5": false,
+      "broken250": false,
+      "broken500": false,
       "status": "观察中"
     },
     {
@@ -67,9 +77,13 @@ window.LIANBAN_DATA = {
       "name": "金帝股份",
       "boards": 2,
       "breakDate": "2026-09-04",
-      "lastClose": 33.37,
-      "ma5": 31.844,
+      "lastClose": 34.42,
+      "ma5": 32.678,
+      "ma250": 26.61112,
+      "ma500": 24.55484,
       "broken5": false,
+      "broken250": false,
+      "broken500": false,
       "status": "观察中"
     },
     {
@@ -77,39 +91,13 @@ window.LIANBAN_DATA = {
       "name": "云南旅游",
       "boards": 2,
       "breakDate": "2026-09-04",
-      "lastClose": 5.67,
-      "ma5": 5.232,
+      "lastClose": 6.01,
+      "ma5": 5.496,
+      "ma250": 5.110480000000001,
+      "ma500": 5.2081599999999995,
       "broken5": false,
-      "status": "观察中"
-    },
-    {
-      "code": "sz000892",
-      "name": "欢瑞世纪",
-      "boards": 3,
-      "breakDate": "2026-09-03",
-      "lastClose": 5.59,
-      "ma5": 4.9799999999999995,
-      "broken5": false,
-      "status": "观察中"
-    },
-    {
-      "code": "sz002104",
-      "name": "恒宝股份",
-      "boards": 2,
-      "breakDate": "2026-09-03",
-      "lastClose": 14.05,
-      "ma5": 12.809999999999999,
-      "broken5": false,
-      "status": "观察中"
-    },
-    {
-      "code": "sh600967",
-      "name": "内蒙一机",
-      "boards": 2,
-      "breakDate": "2026-09-03",
-      "lastClose": 13.66,
-      "ma5": 12.78,
-      "broken5": false,
+      "broken250": false,
+      "broken500": false,
       "status": "观察中"
     },
     {
@@ -117,19 +105,13 @@ window.LIANBAN_DATA = {
       "name": "九牧王",
       "boards": 2,
       "breakDate": "2026-09-03",
-      "lastClose": 10.51,
-      "ma5": 9.906,
+      "lastClose": 10.73,
+      "ma5": 10.34,
+      "ma250": 10.32428,
+      "ma500": 8.97676,
       "broken5": false,
-      "status": "观察中"
-    },
-    {
-      "code": "sh600830",
-      "name": "香溢融通",
-      "boards": 2,
-      "breakDate": "2026-09-03",
-      "lastClose": 9.79,
-      "ma5": 9.544,
-      "broken5": false,
+      "broken250": false,
+      "broken500": false,
       "status": "观察中"
     },
     {
@@ -137,49 +119,13 @@ window.LIANBAN_DATA = {
       "name": "茂业商业",
       "boards": 2,
       "breakDate": "2026-09-03",
-      "lastClose": 4.97,
-      "ma5": 4.644,
+      "lastClose": 5.13,
+      "ma5": 4.8759999999999994,
+      "ma250": 4.950279999999999,
+      "ma500": 4.27424,
       "broken5": false,
-      "status": "观察中"
-    },
-    {
-      "code": "sz002514",
-      "name": "*ST宝馨",
-      "boards": 2,
-      "breakDate": "2026-09-03",
-      "lastClose": 2.53,
-      "ma5": 2.21,
-      "broken5": false,
-      "status": "观察中"
-    },
-    {
-      "code": "sz000635",
-      "name": "英 力 特",
-      "boards": 2,
-      "breakDate": "2026-09-03",
-      "lastClose": 7.69,
-      "ma5": 7.368,
-      "broken5": false,
-      "status": "观察中"
-    },
-    {
-      "code": "sz002084",
-      "name": "海鸥住工",
-      "boards": 7,
-      "breakDate": "2026-09-02",
-      "lastClose": 7.1,
-      "ma5": 6.906000000000001,
-      "broken5": false,
-      "status": "观察中"
-    },
-    {
-      "code": "sz300413",
-      "name": "芒果超媒",
-      "boards": 2,
-      "breakDate": "2026-09-02",
-      "lastClose": 21.25,
-      "ma5": 19.856,
-      "broken5": false,
+      "broken250": false,
+      "broken500": false,
       "status": "观察中"
     },
     {
@@ -187,19 +133,13 @@ window.LIANBAN_DATA = {
       "name": "掌阅科技",
       "boards": 2,
       "breakDate": "2026-09-02",
-      "lastClose": 24.0,
-      "ma5": 23.776,
+      "lastClose": 24.32,
+      "ma5": 24.122,
+      "ma250": 22.72928,
+      "ma500": 21.36432,
       "broken5": false,
-      "status": "观察中"
-    },
-    {
-      "code": "sh603721",
-      "name": "中广天择",
-      "boards": 2,
-      "breakDate": "2026-09-02",
-      "lastClose": 21.06,
-      "ma5": 20.668,
-      "broken5": false,
+      "broken250": false,
+      "broken500": false,
       "status": "观察中"
     },
     {
@@ -207,9 +147,13 @@ window.LIANBAN_DATA = {
       "name": "海鸥股份",
       "boards": 3,
       "breakDate": "2026-09-01",
-      "lastClose": 27.41,
-      "ma5": 26.52,
+      "lastClose": 27.1,
+      "ma5": 27.060000000000002,
+      "ma250": 11.72992,
+      "ma500": 8.61602,
       "broken5": false,
+      "broken250": false,
+      "broken500": false,
       "status": "观察中"
     }
   ]
