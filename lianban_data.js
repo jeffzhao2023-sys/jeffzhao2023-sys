@@ -1,5 +1,5 @@
 window.LIANBAN_DATA = {
-  "generated": "2026-09-07 14:24:51",
+  "generated": "2026-09-07 14:37:01",
   "today": "2026-09-07",
   "pool": [
     {
@@ -14,6 +14,8 @@ window.LIANBAN_DATA = {
       "broken5": false,
       "broken250": false,
       "broken500": false,
+      "declineStreak": 1,
+      "daysAfterBreak": 1,
       "status": "观察中"
     },
     {
@@ -28,6 +30,8 @@ window.LIANBAN_DATA = {
       "broken5": false,
       "broken250": false,
       "broken500": false,
+      "declineStreak": 1,
+      "daysAfterBreak": 1,
       "status": "观察中"
     },
     {
@@ -42,6 +46,8 @@ window.LIANBAN_DATA = {
       "broken5": false,
       "broken250": false,
       "broken500": false,
+      "declineStreak": 1,
+      "daysAfterBreak": 2,
       "status": "观察中"
     },
     {
@@ -56,6 +62,8 @@ window.LIANBAN_DATA = {
       "broken5": false,
       "broken250": false,
       "broken500": false,
+      "declineStreak": 1,
+      "daysAfterBreak": 2,
       "status": "观察中"
     },
     {
@@ -70,6 +78,8 @@ window.LIANBAN_DATA = {
       "broken5": false,
       "broken250": false,
       "broken500": false,
+      "declineStreak": 2,
+      "daysAfterBreak": 2,
       "status": "观察中"
     },
     {
@@ -84,6 +94,8 @@ window.LIANBAN_DATA = {
       "broken5": false,
       "broken250": false,
       "broken500": false,
+      "declineStreak": 1,
+      "daysAfterBreak": 2,
       "status": "观察中"
     },
     {
@@ -98,6 +110,8 @@ window.LIANBAN_DATA = {
       "broken5": false,
       "broken250": false,
       "broken500": false,
+      "declineStreak": 1,
+      "daysAfterBreak": 2,
       "status": "观察中"
     },
     {
@@ -112,6 +126,8 @@ window.LIANBAN_DATA = {
       "broken5": false,
       "broken250": false,
       "broken500": false,
+      "declineStreak": 1,
+      "daysAfterBreak": 2,
       "status": "观察中"
     },
     {
@@ -126,6 +142,8 @@ window.LIANBAN_DATA = {
       "broken5": false,
       "broken250": false,
       "broken500": false,
+      "declineStreak": 2,
+      "daysAfterBreak": 3,
       "status": "观察中"
     },
     {
@@ -140,6 +158,8 @@ window.LIANBAN_DATA = {
       "broken5": false,
       "broken250": false,
       "broken500": false,
+      "declineStreak": 2,
+      "daysAfterBreak": 3,
       "status": "观察中"
     },
     {
@@ -154,6 +174,8 @@ window.LIANBAN_DATA = {
       "broken5": false,
       "broken250": false,
       "broken500": false,
+      "declineStreak": 2,
+      "daysAfterBreak": 4,
       "status": "观察中"
     },
     {
@@ -168,6 +190,8 @@ window.LIANBAN_DATA = {
       "broken5": false,
       "broken250": false,
       "broken500": false,
+      "declineStreak": 2,
+      "daysAfterBreak": 4,
       "status": "观察中"
     }
   ]
