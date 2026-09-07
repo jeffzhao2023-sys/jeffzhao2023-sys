@@ -267,14 +267,22 @@
       document.getElementById('subLianban').textContent='数据生成时间：'+LB.generated+'　截止：'+LB.today+'　（红=健康 绿=跌破）';
       var records = (LB.pool||[]).slice();
       if(records.length===0){ document.getElementById('lianbanAllBody').innerHTML='<div class="empty-tip">暂无记录</div>'; return; }
-      var h='<table><tr><th>断板日</th><th>代码</th><th>名称</th><th>断板前板数</th><th>断板后天数</th><th>收盘</th><th>MA5</th><th>MA250</th><th>MA500</th><th>连跌天数</th></tr>';
+      var h='<table><tr><th>断板日</th><th>代码</th><th>名称</th><th>断板前板数</th><th>断板后天数</th><th>收盘/卖出</th><th>MA5</th><th>MA250</th><th>MA500</th><th>连跌天数</th><th>收益率</th></tr>';
       records.forEach(function(r){
         function numCell(broken, v){ return '<td class="mono '+(broken?'lb-broken':'lb-healthy')+'">'+esc(v==null?'—':Number(v).toFixed(3))+'</td>'; }
-        function tagCell(broken, v){ return '<td class="mono '+(broken?'lb-broken':'lb-healthy')+'">'+esc(v==null?'—':Number(v).toFixed(3))+'</td>'; }
+        var sold = (r.status==='已卖出');
+        var priceCell = sold ? ('<td class="mono">'+esc(r.sellPrice)+'</td>') : ('<td class="mono">'+esc(r.lastClose)+'</td>');
+        var pnlCell = '';
+        if(sold){
+          var pc = (r.pnl>0)?'emotion-up':(r.pnl<0?'emotion-down':'');
+          pnlCell='<td class="mono '+pc+'">'+esc((r.pnl==null?'—':r.pnl+'%'))+'</td>';
+        } else {
+          pnlCell='<td class="mono">持有中</td>';
+        }
         h+='<tr><td class="mono">'+esc(r.breakDate)+'</td><td class="mono">'+esc(r.code)+'</td><td>'+esc(r.name)+'</td>'
-          +'<td>'+esc(r.boards)+'</td><td class="mono">'+esc(r.daysAfterBreak)+'</td><td class="mono">'+esc(r.lastClose)+'</td>'
-          +numCell(r.broken5, r.ma5)+tagCell(r.broken250, r.ma250)+tagCell(r.broken500, r.ma500)
-          +'<td class="mono">'+esc(r.declineStreak!=null?r.declineStreak+'天':'—')+'</td></tr>';
+          +'<td>'+esc(r.boards)+'</td><td class="mono">'+esc(r.daysAfterBreak)+'</td>'+priceCell
+          +numCell(r.broken5, r.ma5)+numCell(r.broken250, r.ma250)+numCell(r.broken500, r.ma500)
+          +'<td class="mono">'+esc(r.declineStreak!=null?r.declineStreak+'天':'—')+'</td>'+pnlCell+'</tr>';
       });
       document.getElementById('lianbanAllBody').innerHTML = h+'</table>';
     }
