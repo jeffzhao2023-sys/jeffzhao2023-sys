@@ -265,38 +265,34 @@
 
     function initLianban(){
       if(!LB){ document.getElementById('subLianban').textContent='未找到数据：请运行连板股低吸 monitor.py 生成 lianban_data.js'; return; }
-      document.getElementById('subLianban').textContent='数据生成时间：'+LB.generated+'　截止：'+LB.today+'　（红=健康 绿=跌破）';
+      document.getElementById('subLianban').textContent='数据生成时间：'+LB.generated+'　截止：'+LB.today+'　收益率=现价相对买入价浮动值';
       var records = (LB.pool||[]).slice();
       if(records.length===0){ document.getElementById('lianbanAllBody').innerHTML='<div class="empty-tip">暂无记录</div>'; return; }
       var active = records.filter(function(r){ return r.status!=='已卖出'; });
-      var sold = records.filter(function(r){ return r.status==='已卖出'; });
-      var h='<table><tr><th>断板日</th><th>代码</th><th>名称</th><th>断板前板数</th><th>断板后天数</th><th>收盘/卖出</th><th>MA5</th><th>MA250</th><th>MA500</th><th>连跌天数</th><th>收益率</th></tr>';
+      function floatPnl(r){
+        var b=r.buyPrice, c=r.lastClose;
+        if(b==null||b===0||c==null) return null;
+        return (c/b-1)*100;
+      }
       function row(r){
-        function numCell(broken, v){ return '<td class="mono '+(broken?'lb-broken':'lb-healthy')+'">'+esc(v==null?'—':Number(v).toFixed(3))+'</td>'; }
-        var sold = (r.status==='已卖出');
-        var priceCell = sold ? ('<td class="mono">'+esc(r.sellPrice)+'</td>') : ('<td class="mono">'+esc(r.lastClose)+'</td>');
-        var pnlCell = '';
-        if(sold){
-          var pc = (r.pnl>0)?'emotion-up':(r.pnl<0?'emotion-down':'');
-          pnlCell='<td class="mono '+pc+'">'+esc((r.pnl==null?'—':r.pnl+'%'))+'</td>';
-        } else {
-          pnlCell='<td class="mono">持有中</td>';
-        }
+        var pnl=floatPnl(r);
+        var pc=(pnl==null)?'':(pnl>0?'emotion-up':(pnl<0?'emotion-down':''));
+        var pnlTxt=(pnl==null)?'—':pnl.toFixed(2)+'%';
         return '<tr><td class="mono">'+esc(r.breakDate)+'</td><td class="mono">'+esc(r.code)+'</td><td>'+esc(r.name)+'</td>'
-          +'<td>'+esc(r.boards)+'</td><td class="mono">'+esc(r.daysAfterBreak)+'</td>'+priceCell
-          +numCell(r.broken5, r.ma5)+numCell(r.broken250, r.ma250)+numCell(r.broken500, r.ma500)
-          +'<td class="mono">'+esc(r.declineStreak!=null?r.declineStreak+'天':'—')+'</td>'+pnlCell+'</tr>';
+          +'<td>'+esc(r.boards)+'</td><td class="mono">'+esc(r.daysAfterBreak)+'</td>'
+          +'<td class="mono">'+esc(r.lastClose)+'</td>'
+          +'<td class="mono">'+esc(r.declineStreak!=null?r.declineStreak+'天':'—')+'</td>'
+          +'<td class="mono '+pc+'">'+pnlTxt+'</td></tr>';
       }
       function rowSection(title, items){
         if(!items.length) return '';
-        var s='<tr><td colspan="11" class="lb-section">'+esc(title)+'（'+items.length+'）</td></tr>';
+        var s='<tr><td colspan="8" class="lb-section">'+esc(title)+'（'+items.length+'）</td></tr>';
         items.forEach(function(r){ s+=row(r); });
         return s;
       }
       active.sort(function(a,b){ return b.breakDate>a.breakDate?1:-1; });
-      sold.sort(function(a,b){ return (b.sellDate||b.breakDate)>(a.sellDate||a.breakDate)?1:-1; });
-      h += rowSection('📌 观察中 · 未淘汰', active);
-      h += rowSection('✅ 已卖出 · 淘汰', sold);
+      var h='<table><tr><th>断板日</th><th>代码</th><th>名称</th><th>断板前板数</th><th>断板后天数</th><th>现价</th><th>连跌天数</th><th>收益率</th></tr>';
+      h += rowSection('📌 观察中', active);
       document.getElementById('lianbanAllBody').innerHTML = h+'</table>';
     }
     initLow();
