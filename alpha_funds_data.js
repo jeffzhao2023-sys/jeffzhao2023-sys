@@ -1,11 +1,36 @@
 window.ALPHA_FUNDS_DATA = {
-  "generated": "2026-09-07 15:06:01",
-  "today": "20260907",
+  "generated": "2026-09-08 15:06:20",
+  "today": "20260908",
   "days": [
+    {
+      "date": "20260908",
+      "emotion": "混沌期",
+      "candidates": [],
+      "sells": []
+    },
     {
       "date": "20260907",
       "emotion": "混沌期",
-      "candidates": [],
+      "candidates": [
+        {
+          "code": "601609",
+          "name": "金田股份",
+          "date": "20260907",
+          "recommendDate": "20260907",
+          "alphaDate": "20260819",
+          "signalClose": 13.31,
+          "recommendEmotion": "混沌期",
+          "buyEmotion": "混沌期",
+          "buyDate": "20260908",
+          "buyPrice": 13.27,
+          "state": "持有中",
+          "sellDate": "",
+          "sellPrice": "",
+          "reason": "",
+          "pnl": "",
+          "period": 0
+        }
+      ],
       "sells": []
     },
     {
@@ -28,7 +53,7 @@ window.ALPHA_FUNDS_DATA = {
           "sellPrice": "",
           "reason": "",
           "pnl": "",
-          "period": 0
+          "period": 1
         }
       ],
       "sells": []
@@ -433,12 +458,6 @@ window.ALPHA_FUNDS_DATA = {
     },
     {
       "date": "20260729",
-      "emotion": "退潮期",
-      "candidates": [],
-      "sells": []
-    },
-    {
-      "date": "20260728",
       "emotion": "退潮期",
       "candidates": [],
       "sells": []
