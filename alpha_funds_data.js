@@ -1,7 +1,13 @@
 window.ALPHA_FUNDS_DATA = {
-  "generated": "2026-09-09 17:38:43",
-  "today": "20260909",
+  "generated": "2026-09-10 07:50:39",
+  "today": "20260910",
   "days": [
+    {
+      "date": "20260910",
+      "emotion": "暂无数据",
+      "candidates": [],
+      "sells": []
+    },
     {
       "date": "20260909",
       "emotion": "混沌期",
@@ -47,40 +53,6 @@ window.ALPHA_FUNDS_DATA = {
           "period": 0
         },
         {
-          "code": "002721",
-          "name": "金一文化",
-          "date": "20260908",
-          "recommendDate": "20260908",
-          "alphaDate": "20260904",
-          "signalClose": 3.03,
-          "recommendEmotion": "混沌期",
-          "buyEmotion": "混沌期",
-          "buyDate": "20260909",
-          "buyPrice": 2.98,
-          "sellDate": "",
-          "sellPrice": "",
-          "reason": "未卖出，按最新收盘价估算",
-          "pnl": -0.67,
-          "period": 0
-        },
-        {
-          "code": "002721",
-          "name": "金一文化",
-          "date": "20260908",
-          "recommendDate": "20260908",
-          "alphaDate": "20260904",
-          "signalClose": 3.03,
-          "recommendEmotion": "混沌期",
-          "buyEmotion": "混沌期",
-          "buyDate": "20260909",
-          "buyPrice": 2.98,
-          "sellDate": "",
-          "sellPrice": "",
-          "reason": "未卖出，按最新收盘价估算",
-          "pnl": -0.67,
-          "period": 0
-        },
-        {
           "code": "001258",
           "name": "立新能源",
           "date": "20260908",
@@ -95,6 +67,23 @@ window.ALPHA_FUNDS_DATA = {
           "sellPrice": "",
           "reason": "未卖出，按最新收盘价估算",
           "pnl": 0.58,
+          "period": 0
+        },
+        {
+          "code": "603011",
+          "name": "合锻智能",
+          "date": "20260908",
+          "recommendDate": "20260908",
+          "alphaDate": "20260907",
+          "signalClose": 26.25,
+          "recommendEmotion": "混沌期",
+          "buyEmotion": "混沌期",
+          "buyDate": "20260909",
+          "buyPrice": 26.67,
+          "sellDate": "",
+          "sellPrice": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": -0.82,
           "period": 0
         }
       ],
@@ -137,6 +126,40 @@ window.ALPHA_FUNDS_DATA = {
           "reason": "未卖出，按最新收盘价估算",
           "pnl": 0.12,
           "period": 1
+        },
+        {
+          "code": "002721",
+          "name": "金一文化",
+          "date": "20260907",
+          "recommendDate": "20260907",
+          "alphaDate": "20260904",
+          "signalClose": 2.98,
+          "recommendEmotion": "混沌期",
+          "buyEmotion": "混沌期",
+          "buyDate": "20260908",
+          "buyPrice": 2.99,
+          "sellDate": "",
+          "sellPrice": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": -1.0,
+          "period": 1
+        },
+        {
+          "code": "002721",
+          "name": "金一文化",
+          "date": "20260907",
+          "recommendDate": "20260907",
+          "alphaDate": "20260904",
+          "signalClose": 2.98,
+          "recommendEmotion": "混沌期",
+          "buyEmotion": "混沌期",
+          "buyDate": "20260908",
+          "buyPrice": 2.99,
+          "sellDate": "",
+          "sellPrice": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": -1.0,
+          "period": 1
         }
       ],
       "sells": []
@@ -145,6 +168,23 @@ window.ALPHA_FUNDS_DATA = {
       "date": "20260904",
       "emotion": "退潮期",
       "candidates": [
+        {
+          "code": "603083",
+          "name": "剑桥科技",
+          "date": "20260904",
+          "recommendDate": "20260904",
+          "alphaDate": "20260814",
+          "signalClose": 188.28,
+          "recommendEmotion": "退潮期",
+          "buyEmotion": "混沌期",
+          "buyDate": "20260907",
+          "buyPrice": 205.91,
+          "sellDate": "",
+          "sellPrice": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": 6.35,
+          "period": 2
+        },
         {
           "code": "601609",
           "name": "金田股份",
@@ -163,20 +203,20 @@ window.ALPHA_FUNDS_DATA = {
           "period": 2
         },
         {
-          "code": "603118",
-          "name": "共进股份",
+          "code": "603083",
+          "name": "剑桥科技",
           "date": "20260904",
           "recommendDate": "20260904",
           "alphaDate": "20260826",
-          "signalClose": 16.26,
+          "signalClose": 188.28,
           "recommendEmotion": "退潮期",
           "buyEmotion": "混沌期",
           "buyDate": "20260907",
-          "buyPrice": 17.0,
+          "buyPrice": 205.91,
           "sellDate": "",
           "sellPrice": "",
           "reason": "未卖出，按最新收盘价估算",
-          "pnl": 5.0,
+          "pnl": 6.35,
           "period": 2
         },
         {
@@ -328,6 +368,40 @@ window.ALPHA_FUNDS_DATA = {
           "reason": "退潮清仓",
           "pnl": -3.45,
           "period": 1
+        },
+        {
+          "code": "601700",
+          "name": "风范股份",
+          "date": "20260902",
+          "recommendDate": "20260902",
+          "alphaDate": "20260828",
+          "signalClose": 8.25,
+          "recommendEmotion": "退潮期",
+          "buyEmotion": "退潮期",
+          "buyDate": "20260903",
+          "buyPrice": 8.35,
+          "sellDate": "20260904",
+          "sellPrice": 7.7,
+          "reason": "退潮清仓",
+          "pnl": -7.78,
+          "period": 1
+        },
+        {
+          "code": "000925",
+          "name": "众合科技",
+          "date": "20260902",
+          "recommendDate": "20260902",
+          "alphaDate": "20260828",
+          "signalClose": 8.73,
+          "recommendEmotion": "退潮期",
+          "buyEmotion": "退潮期",
+          "buyDate": "20260903",
+          "buyPrice": 8.79,
+          "sellDate": "20260904",
+          "sellPrice": 8.71,
+          "reason": "退潮清仓",
+          "pnl": -0.91,
+          "period": 1
         }
       ],
       "sells": []
@@ -336,6 +410,23 @@ window.ALPHA_FUNDS_DATA = {
       "date": "20260901",
       "emotion": "混沌期",
       "candidates": [
+        {
+          "code": "000938",
+          "name": "紫光股份",
+          "date": "20260901",
+          "recommendDate": "20260901",
+          "alphaDate": "20260813",
+          "signalClose": 38.32,
+          "recommendEmotion": "混沌期",
+          "buyEmotion": "退潮期",
+          "buyDate": "20260902",
+          "buyPrice": 38.0,
+          "sellDate": "20260903",
+          "sellPrice": 38.86,
+          "reason": "退潮清仓",
+          "pnl": 2.26,
+          "period": 1
+        },
         {
           "code": "601609",
           "name": "金田股份",
@@ -392,23 +483,6 @@ window.ALPHA_FUNDS_DATA = {
           "sellPrice": 180.42,
           "reason": "退潮清仓",
           "pnl": -4.49,
-          "period": 1
-        },
-        {
-          "code": "601609",
-          "name": "金田股份",
-          "date": "20260831",
-          "recommendDate": "20260831",
-          "alphaDate": "20260819",
-          "signalClose": 13.49,
-          "recommendEmotion": "混沌期",
-          "buyEmotion": "混沌期",
-          "buyDate": "20260901",
-          "buyPrice": 13.6,
-          "sellDate": "20260902",
-          "sellPrice": 13.24,
-          "reason": "退潮清仓",
-          "pnl": -2.65,
           "period": 1
         },
         {
@@ -604,6 +678,23 @@ window.ALPHA_FUNDS_DATA = {
           "reason": "退潮清仓",
           "pnl": 0.4,
           "period": 2
+        },
+        {
+          "code": "002953",
+          "name": "日丰股份",
+          "date": "20260828",
+          "recommendDate": "20260828",
+          "alphaDate": "20260827",
+          "signalClose": 11.34,
+          "recommendEmotion": "混沌期",
+          "buyEmotion": "混沌期",
+          "buyDate": "20260831",
+          "buyPrice": 11.15,
+          "sellDate": "20260902",
+          "sellPrice": 10.82,
+          "reason": "退潮清仓",
+          "pnl": -2.96,
+          "period": 2
         }
       ],
       "sells": []
@@ -678,6 +769,23 @@ window.ALPHA_FUNDS_DATA = {
           "sellPrice": 3.15,
           "reason": "退潮清仓",
           "pnl": -7.89,
+          "period": 3
+        },
+        {
+          "code": "002081",
+          "name": "金 螳 螂",
+          "date": "20260827",
+          "recommendDate": "20260827",
+          "alphaDate": "20260825",
+          "signalClose": 5.69,
+          "recommendEmotion": "混沌期",
+          "buyEmotion": "混沌期",
+          "buyDate": "20260828",
+          "buyPrice": 5.56,
+          "sellDate": "20260902",
+          "sellPrice": 5.64,
+          "reason": "退潮清仓",
+          "pnl": 1.44,
           "period": 3
         }
       ],
@@ -865,6 +973,23 @@ window.ALPHA_FUNDS_DATA = {
           "period": 2
         },
         {
+          "code": "600584",
+          "name": "长电科技",
+          "date": "20260818",
+          "recommendDate": "20260818",
+          "alphaDate": "20260806",
+          "signalClose": 85.42,
+          "recommendEmotion": "退潮期",
+          "buyEmotion": "退潮期",
+          "buyDate": "20260819",
+          "buyPrice": 81.11,
+          "sellDate": "20260821",
+          "sellPrice": 78.29,
+          "reason": "退潮清仓",
+          "pnl": -3.48,
+          "period": 2
+        },
+        {
           "code": "002900",
           "name": "哈三联",
           "date": "20260818",
@@ -897,6 +1022,23 @@ window.ALPHA_FUNDS_DATA = {
           "reason": "退潮清仓",
           "pnl": -6.16,
           "period": 2
+        },
+        {
+          "code": "000938",
+          "name": "紫光股份",
+          "date": "20260818",
+          "recommendDate": "20260818",
+          "alphaDate": "20260813",
+          "signalClose": 39.25,
+          "recommendEmotion": "退潮期",
+          "buyEmotion": "退潮期",
+          "buyDate": "20260819",
+          "buyPrice": 37.5,
+          "sellDate": "20260820",
+          "sellPrice": 34.5,
+          "reason": "固定止损",
+          "pnl": -8.0,
+          "period": 1
         }
       ],
       "sells": []
@@ -904,7 +1046,42 @@ window.ALPHA_FUNDS_DATA = {
     {
       "date": "20260817",
       "emotion": "混沌期",
-      "candidates": [],
+      "candidates": [
+        {
+          "code": "000676",
+          "name": "智度股份",
+          "date": "20260817",
+          "recommendDate": "20260817",
+          "alphaDate": "20260807",
+          "signalClose": 7.0,
+          "recommendEmotion": "混沌期",
+          "buyEmotion": "退潮期",
+          "buyDate": "20260818",
+          "buyPrice": 7.07,
+          "sellDate": "20260819",
+          "sellPrice": 6.6,
+          "reason": "退潮清仓",
+          "pnl": -6.65,
+          "period": 1
+        },
+        {
+          "code": "000938",
+          "name": "紫光股份",
+          "date": "20260817",
+          "recommendDate": "20260817",
+          "alphaDate": "20260813",
+          "signalClose": 41.03,
+          "recommendEmotion": "混沌期",
+          "buyEmotion": "退潮期",
+          "buyDate": "20260818",
+          "buyPrice": 40.58,
+          "sellDate": "20260819",
+          "sellPrice": 37.5,
+          "reason": "退潮清仓",
+          "pnl": -7.59,
+          "period": 1
+        }
+      ],
       "sells": []
     },
     {
@@ -936,23 +1113,6 @@ window.ALPHA_FUNDS_DATA = {
       "emotion": "退潮期",
       "candidates": [
         {
-          "code": "000676",
-          "name": "智度股份",
-          "date": "20260813",
-          "recommendDate": "20260813",
-          "alphaDate": "20260807",
-          "signalClose": 7.02,
-          "recommendEmotion": "退潮期",
-          "buyEmotion": "退潮期",
-          "buyDate": "20260814",
-          "buyPrice": 7.09,
-          "sellDate": "20260818",
-          "sellPrice": 7.07,
-          "reason": "退潮清仓",
-          "pnl": -0.28,
-          "period": 2
-        },
-        {
           "code": "002141",
           "name": "贤丰控股",
           "date": "20260813",
@@ -968,6 +1128,23 @@ window.ALPHA_FUNDS_DATA = {
           "reason": "退潮清仓",
           "pnl": 1.78,
           "period": 2
+        },
+        {
+          "code": "002739",
+          "name": "儒意电影",
+          "date": "20260813",
+          "recommendDate": "20260813",
+          "alphaDate": "20260812",
+          "signalClose": 10.23,
+          "recommendEmotion": "退潮期",
+          "buyEmotion": "退潮期",
+          "buyDate": "20260814",
+          "buyPrice": 10.02,
+          "sellDate": "20260817",
+          "sellPrice": 9.2184,
+          "reason": "固定止损",
+          "pnl": -8.0,
+          "period": 1
         }
       ],
       "sells": []
@@ -1077,12 +1254,6 @@ window.ALPHA_FUNDS_DATA = {
     {
       "date": "20260731",
       "emotion": "混沌期",
-      "candidates": [],
-      "sells": []
-    },
-    {
-      "date": "20260730",
-      "emotion": "退潮期",
       "candidates": [],
       "sells": []
     }
