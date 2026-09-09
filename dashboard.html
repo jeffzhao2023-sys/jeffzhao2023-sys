@@ -278,15 +278,9 @@
           +'<td class="mono">'+esc(r.declineStreak!=null?r.declineStreak+'天':'—')+'</td>'
           +'<td class="mono '+pc+'">'+pnlTxt+'</td></tr>';
       }
-      function rowSection(title, items){
-        if(!items.length) return '';
-        var s='<tr><td colspan="7" class="lb-section">'+esc(title)+'（'+items.length+'）</td></tr>';
-        items.forEach(function(r){ s+=row(r); });
-        return s;
-      }
       active.sort(function(a,b){ return b.breakDate>a.breakDate?1:-1; });
       var h='<table><tr><th>断板日</th><th>代码</th><th>名称</th><th>断板前板数</th><th>断板后天数</th><th>连跌天数</th><th>收益率</th></tr>';
-      h += rowSection('📌 观察中', active);
+      active.forEach(function(r){ h+=row(r); });
       document.getElementById('lianbanAllBody').innerHTML = h+'</table>';
     }
     initLow();
