@@ -265,7 +265,7 @@
 
     function initLianban(){
       if(!LB){ document.getElementById('subLianban').textContent='未找到数据：请运行连板股低吸 monitor.py 生成 lianban_data.js'; return; }
-      document.getElementById('subLianban').textContent='数据生成时间：'+LB.generated+'　截止：'+LB.today+'　收益率=现价相对买入价浮动值　操作模式：断板次日或第三日尾盘买，四、五日为收获日';
+      document.getElementById('subLianban').textContent='数据生成时间：'+LB.generated+'　截止：'+LB.today+'　操作模式：断板次日或第三日尾盘买，四、五日为收获日　四、五日的票越多收益率越高说明此模式盈利效率越好。';
       var records = (LB.pool||[]).slice();
       if(records.length===0){ document.getElementById('lianbanAllBody').innerHTML='<div class="empty-tip">暂无记录</div>'; return; }
       var active = records.filter(function(r){ return r.status!=='已卖出'; });
