@@ -124,10 +124,8 @@
       });
       rows.sort(function(a,b){ return a.buyDate>b.buyDate?-1:(a.buyDate<b.buyDate?1:0); });
       if(rows.length===0) return '<div class="empty-tip">暂无记录</div>';
-       var h='<table><tr><th>推荐日</th><th>买入日</th><th>代码</th><th>名称</th><th>理论买入价</th><th>卖出日</th><th>卖出价</th><th>原因</th><th>毛收益率</th><th>周期</th></tr>';
+       var h='<table><tr><th>推荐日</th><th>买入日</th><th>代码</th><th>名称</th><th>原因</th><th>毛收益率</th><th>周期</th></tr>';
       rows.forEach(function(x){
-        var sdate = x.sellDate || '—';
-        var sprice = x.sellPrice || '—';
         var reason = x.reason || '—';
         var pnl = (x.pnl===''||x.pnl==null) ? null : x.pnl;
         var pnlCls = (pnl==null||pnl===0) ? '' : (pnl>0 ? 'emotion-up' : 'emotion-down');
@@ -135,8 +133,6 @@
         var period = (x.period===''||x.period==null) ? '—' : x.period;
          h+='<tr><td class="mono">'+esc(x.recommendDate||x.date||'—')+'<br><span class="'+emotionClass(x.recommendEmotion)+'">'+esc(x.recommendEmotion||'—')+'</span></td><td class="mono">'+esc(x.buyDate)+'<br><span class="'+emotionClass(x.buyEmotion)+'">'+esc(x.buyEmotion||'—')+'</span></td><td class="mono">'+esc(x.code)+'</td>'
           +'<td>'+esc(x.name||'—')+'</td>'
-           +'<td class="mono">'+(x.buyPrice==''?'—':esc(x.buyPrice))+'</td>'
-          +'<td class="mono">'+esc(sdate)+'</td><td class="mono">'+esc(sprice)+'</td>'
           +'<td>'+esc(reason)+'</td><td class="mono '+pnlCls+'">'+pnlTxt+'</td>'
           +'<td class="mono">'+period+'</td></tr>';
       });
