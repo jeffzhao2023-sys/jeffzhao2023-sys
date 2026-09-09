@@ -1,5 +1,5 @@
 window.ALPHA_FUNDS_DATA = {
-  "generated": "2026-09-09 15:11:08",
+  "generated": "2026-09-09 17:38:43",
   "today": "20260909",
   "days": [
     {
@@ -25,8 +25,8 @@ window.ALPHA_FUNDS_DATA = {
           "buyPrice": 13.8,
           "sellDate": "",
           "sellPrice": "",
-          "reason": "",
-          "pnl": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": -3.84,
           "period": 0
         },
         {
@@ -42,8 +42,8 @@ window.ALPHA_FUNDS_DATA = {
           "buyPrice": 8.43,
           "sellDate": "",
           "sellPrice": "",
-          "reason": "",
-          "pnl": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": 2.49,
           "period": 0
         },
         {
@@ -59,8 +59,8 @@ window.ALPHA_FUNDS_DATA = {
           "buyPrice": 2.98,
           "sellDate": "",
           "sellPrice": "",
-          "reason": "",
-          "pnl": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": -0.67,
           "period": 0
         },
         {
@@ -76,8 +76,8 @@ window.ALPHA_FUNDS_DATA = {
           "buyPrice": 2.98,
           "sellDate": "",
           "sellPrice": "",
-          "reason": "",
-          "pnl": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": -0.67,
           "period": 0
         },
         {
@@ -93,8 +93,8 @@ window.ALPHA_FUNDS_DATA = {
           "buyPrice": 12.03,
           "sellDate": "",
           "sellPrice": "",
-          "reason": "",
-          "pnl": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": 0.58,
           "period": 0
         }
       ],
@@ -117,8 +117,8 @@ window.ALPHA_FUNDS_DATA = {
           "buyPrice": 13.27,
           "sellDate": "",
           "sellPrice": "",
-          "reason": "",
-          "pnl": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": 0.0,
           "period": 1
         },
         {
@@ -134,8 +134,8 @@ window.ALPHA_FUNDS_DATA = {
           "buyPrice": 8.63,
           "sellDate": "",
           "sellPrice": "",
-          "reason": "",
-          "pnl": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": 0.12,
           "period": 1
         }
       ],
@@ -158,8 +158,8 @@ window.ALPHA_FUNDS_DATA = {
           "buyPrice": 13.34,
           "sellDate": "",
           "sellPrice": "",
-          "reason": "",
-          "pnl": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": -0.52,
           "period": 2
         },
         {
@@ -175,8 +175,8 @@ window.ALPHA_FUNDS_DATA = {
           "buyPrice": 17.0,
           "sellDate": "",
           "sellPrice": "",
-          "reason": "",
-          "pnl": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": 5.0,
           "period": 2
         },
         {
@@ -192,8 +192,8 @@ window.ALPHA_FUNDS_DATA = {
           "buyPrice": 8.57,
           "sellDate": "",
           "sellPrice": "",
-          "reason": "",
-          "pnl": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": 0.82,
           "period": 2
         }
       ],
@@ -233,8 +233,8 @@ window.ALPHA_FUNDS_DATA = {
           "buyPrice": 13.74,
           "sellDate": "",
           "sellPrice": "",
-          "reason": "",
-          "pnl": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": -3.42,
           "period": 3
         },
         {
@@ -250,8 +250,8 @@ window.ALPHA_FUNDS_DATA = {
           "buyPrice": 17.36,
           "sellDate": "",
           "sellPrice": "",
-          "reason": "",
-          "pnl": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": 2.82,
           "period": 3
         },
         {
@@ -267,8 +267,8 @@ window.ALPHA_FUNDS_DATA = {
           "buyPrice": 8.71,
           "sellDate": "",
           "sellPrice": "",
-          "reason": "",
-          "pnl": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": -0.8,
           "period": 3
         }
       ],
