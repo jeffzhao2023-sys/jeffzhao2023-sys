@@ -256,7 +256,7 @@
 
     function initLianban(){
       if(!LB){ document.getElementById('subLianban').textContent='未找到数据：请运行连板股低吸 monitor.py 生成 lianban_data.js'; return; }
-      document.getElementById('subLianban').textContent='数据生成时间：'+LB.generated+'　截止：'+LB.today+'　操作模式：断板次日或第三日尾盘买，四、五日为收获日　四、五日的票越多收益率越高说明此模式盈利效率越好。';
+      document.getElementById('subLianban').innerHTML='数据生成时间：'+LB.generated+'　截止：'+LB.today+'　操作说明：<br>1，新周期龙头突破高度、盘面普涨、相关消息刺激等情绪氛围好的时候用，做踏空资金对龙头的再次认可和涨停持续预期；<br>2，必须是换手龙不是连续一字板龙，否则筹码有断层成本不一样；<br>3，当日首阴尾盘买入或者次日确认反包买入；<br>4，换手龙前期涨幅大，资金沉淀较多，如果走出上升趋势结构，说明有资金看好后市。';
       var records = (LB.pool||[]).slice();
       if(records.length===0){ document.getElementById('lianbanAllBody').innerHTML='<div class="empty-tip">暂无记录</div>'; return; }
       var active = records.filter(function(r){ return r.status!=='已卖出'; });
