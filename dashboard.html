@@ -140,8 +140,7 @@
     }
     function initLow(){
       if(!D || !D.days){ document.getElementById('sub').textContent='未找到数据：请先运行 run_daily.bat 生成 alpha_funds_data.js'; return; }
-       var latest = (D.days||[]).filter(function(x){ return x.emotion && x.emotion!=='暂无数据'; })[0];
-       document.getElementById('sub').textContent='数据生成时间：'+D.generated+(latest ? '　最新情绪：'+latest.date+' '+latest.emotion : '');
+       document.getElementById('sub').textContent='数据生成时间：'+D.generated+'　操作说明：主要做趋势中军票在调整期的低吸';
       document.getElementById('lowAllBody').innerHTML = renderLowCombined();
     }
 
