@@ -122,7 +122,17 @@
       D.days.forEach(function(day){
         (day.candidates||[]).forEach(function(c){ rows.push(c); });
       });
-      rows.sort(function(a,b){ return a.buyDate>b.buyDate?-1:(a.buyDate<b.buyDate?1:0); });
+      rows.sort(function(a,b){
+        var ad = a.recommendDate || a.date || '';
+        var bd = b.recommendDate || b.date || '';
+        return ad>bd?-1:(ad<bd?1:0);
+      });
+      var latest = {};
+      rows = rows.filter(function(row){
+        if(latest[row.code]) return false;
+        latest[row.code] = true;
+        return true;
+      });
       if(rows.length===0) return '<div class="empty-tip">暂无记录</div>';
        var h='<table><tr><th>推荐日</th><th>买入日</th><th>代码</th><th>名称</th><th>原因</th><th>毛收益率</th><th>周期</th></tr>';
       rows.forEach(function(x){
