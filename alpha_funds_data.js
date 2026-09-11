@@ -1,11 +1,137 @@
 window.ALPHA_FUNDS_DATA = {
-  "generated": "2026-09-10 15:08:00",
-  "today": "20260910",
+  "generated": "2026-09-11 15:07:19",
+  "today": "20260911",
   "days": [
+    {
+      "date": "20260911",
+      "emotion": "退潮期",
+      "candidates": [],
+      "sells": []
+    },
     {
       "date": "20260910",
       "emotion": "退潮期",
-      "candidates": [],
+      "candidates": [
+        {
+          "code": "002721",
+          "name": "金一文化",
+          "date": "20260910",
+          "recommendDate": "20260910",
+          "alphaDate": "20260904",
+          "signalClose": 2.86,
+          "recommendEmotion": "退潮期",
+          "buyEmotion": "退潮期",
+          "buyDate": "20260911",
+          "buyPrice": 2.78,
+          "sellDate": "",
+          "sellPrice": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": -2.16,
+          "period": 0
+        },
+        {
+          "code": "002721",
+          "name": "金一文化",
+          "date": "20260910",
+          "recommendDate": "20260910",
+          "alphaDate": "20260904",
+          "signalClose": 2.86,
+          "recommendEmotion": "退潮期",
+          "buyEmotion": "退潮期",
+          "buyDate": "20260911",
+          "buyPrice": 2.78,
+          "sellDate": "",
+          "sellPrice": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": -2.16,
+          "period": 0
+        },
+        {
+          "code": "002104",
+          "name": "恒宝股份",
+          "date": "20260910",
+          "recommendDate": "20260910",
+          "alphaDate": "20260904",
+          "signalClose": 12.36,
+          "recommendEmotion": "退潮期",
+          "buyEmotion": "退潮期",
+          "buyDate": "20260911",
+          "buyPrice": 12.16,
+          "sellDate": "",
+          "sellPrice": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": -2.96,
+          "period": 0
+        },
+        {
+          "code": "002463",
+          "name": "沪电股份",
+          "date": "20260910",
+          "recommendDate": "20260910",
+          "alphaDate": "20260907",
+          "signalClose": 127.92,
+          "recommendEmotion": "退潮期",
+          "buyEmotion": "退潮期",
+          "buyDate": "20260911",
+          "buyPrice": 126.05,
+          "sellDate": "",
+          "sellPrice": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": 1.75,
+          "period": 0
+        },
+        {
+          "code": "002463",
+          "name": "沪电股份",
+          "date": "20260910",
+          "recommendDate": "20260910",
+          "alphaDate": "20260907",
+          "signalClose": 127.92,
+          "recommendEmotion": "退潮期",
+          "buyEmotion": "退潮期",
+          "buyDate": "20260911",
+          "buyPrice": 126.05,
+          "sellDate": "",
+          "sellPrice": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": 1.75,
+          "period": 0
+        },
+        {
+          "code": "603618",
+          "name": "杭电股份",
+          "date": "20260910",
+          "recommendDate": "20260910",
+          "alphaDate": "20260908",
+          "signalClose": 39.3,
+          "recommendEmotion": "退潮期",
+          "buyEmotion": "退潮期",
+          "buyDate": "20260911",
+          "buyPrice": 37.8,
+          "sellDate": "",
+          "sellPrice": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": 7.7,
+          "period": 0
+        },
+        {
+          "code": "002953",
+          "name": "日丰股份",
+          "date": "20260910",
+          "recommendDate": "20260910",
+          "alphaDate": "20260909",
+          "signalClose": 11.03,
+          "recommendEmotion": "退潮期",
+          "buyEmotion": "退潮期",
+          "buyDate": "20260911",
+          "buyPrice": 10.88,
+          "sellDate": "",
+          "sellPrice": "",
+          "reason": "未卖出，按最新收盘价估算",
+          "pnl": -1.56,
+          "period": 0
+        }
+      ],
       "sells": []
     },
     {
@@ -23,11 +149,11 @@ window.ALPHA_FUNDS_DATA = {
           "buyEmotion": "退潮期",
           "buyDate": "20260910",
           "buyPrice": 13.23,
-          "sellDate": "",
-          "sellPrice": "",
-          "reason": "未卖出，按最新收盘价估算",
-          "pnl": 0.15,
-          "period": 0
+          "sellDate": "20260911",
+          "sellPrice": 12.95,
+          "reason": "退潮清仓",
+          "pnl": -2.12,
+          "period": 1
         },
         {
           "code": "603083",
@@ -40,11 +166,11 @@ window.ALPHA_FUNDS_DATA = {
           "buyEmotion": "退潮期",
           "buyDate": "20260910",
           "buyPrice": 215.0,
-          "sellDate": "",
-          "sellPrice": "",
-          "reason": "未卖出，按最新收盘价估算",
-          "pnl": 9.04,
-          "period": 0
+          "sellDate": "20260911",
+          "sellPrice": 230.03,
+          "reason": "退潮清仓",
+          "pnl": 6.99,
+          "period": 1
         },
         {
           "code": "002721",
@@ -57,11 +183,11 @@ window.ALPHA_FUNDS_DATA = {
           "buyEmotion": "退潮期",
           "buyDate": "20260910",
           "buyPrice": 2.9,
-          "sellDate": "",
-          "sellPrice": "",
-          "reason": "未卖出，按最新收盘价估算",
-          "pnl": -1.38,
-          "period": 0
+          "sellDate": "20260911",
+          "sellPrice": 2.78,
+          "reason": "退潮清仓",
+          "pnl": -4.14,
+          "period": 1
         },
         {
           "code": "002721",
@@ -74,11 +200,11 @@ window.ALPHA_FUNDS_DATA = {
           "buyEmotion": "退潮期",
           "buyDate": "20260910",
           "buyPrice": 2.9,
-          "sellDate": "",
-          "sellPrice": "",
-          "reason": "未卖出，按最新收盘价估算",
-          "pnl": -1.38,
-          "period": 0
+          "sellDate": "20260911",
+          "sellPrice": 2.78,
+          "reason": "退潮清仓",
+          "pnl": -4.14,
+          "period": 1
         },
         {
           "code": "001258",
@@ -91,11 +217,11 @@ window.ALPHA_FUNDS_DATA = {
           "buyEmotion": "退潮期",
           "buyDate": "20260910",
           "buyPrice": 12.0,
-          "sellDate": "",
-          "sellPrice": "",
-          "reason": "未卖出，按最新收盘价估算",
-          "pnl": 3.75,
-          "period": 0
+          "sellDate": "20260911",
+          "sellPrice": 12.29,
+          "reason": "退潮清仓",
+          "pnl": 2.42,
+          "period": 1
         },
         {
           "code": "000813",
@@ -108,11 +234,11 @@ window.ALPHA_FUNDS_DATA = {
           "buyEmotion": "退潮期",
           "buyDate": "20260910",
           "buyPrice": 3.46,
-          "sellDate": "",
-          "sellPrice": "",
-          "reason": "未卖出，按最新收盘价估算",
-          "pnl": -2.89,
-          "period": 0
+          "sellDate": "20260911",
+          "sellPrice": 3.32,
+          "reason": "退潮清仓",
+          "pnl": -4.05,
+          "period": 1
         },
         {
           "code": "000813",
@@ -125,11 +251,11 @@ window.ALPHA_FUNDS_DATA = {
           "buyEmotion": "退潮期",
           "buyDate": "20260910",
           "buyPrice": 3.46,
-          "sellDate": "",
-          "sellPrice": "",
-          "reason": "未卖出，按最新收盘价估算",
-          "pnl": -2.89,
-          "period": 0
+          "sellDate": "20260911",
+          "sellPrice": 3.32,
+          "reason": "退潮清仓",
+          "pnl": -4.05,
+          "period": 1
         },
         {
           "code": "002436",
@@ -142,11 +268,11 @@ window.ALPHA_FUNDS_DATA = {
           "buyEmotion": "退潮期",
           "buyDate": "20260910",
           "buyPrice": 39.08,
-          "sellDate": "",
-          "sellPrice": "",
-          "reason": "未卖出，按最新收盘价估算",
-          "pnl": 1.61,
-          "period": 0
+          "sellDate": "20260911",
+          "sellPrice": 39.39,
+          "reason": "退潮清仓",
+          "pnl": 0.79,
+          "period": 1
         },
         {
           "code": "002436",
@@ -159,11 +285,11 @@ window.ALPHA_FUNDS_DATA = {
           "buyEmotion": "退潮期",
           "buyDate": "20260910",
           "buyPrice": 39.08,
-          "sellDate": "",
-          "sellPrice": "",
-          "reason": "未卖出，按最新收盘价估算",
-          "pnl": 1.61,
-          "period": 0
+          "sellDate": "20260911",
+          "sellPrice": 39.39,
+          "reason": "退潮清仓",
+          "pnl": 0.79,
+          "period": 1
         },
         {
           "code": "002463",
@@ -176,11 +302,11 @@ window.ALPHA_FUNDS_DATA = {
           "buyEmotion": "退潮期",
           "buyDate": "20260910",
           "buyPrice": 126.06,
-          "sellDate": "",
-          "sellPrice": "",
-          "reason": "未卖出，按最新收盘价估算",
-          "pnl": 1.48,
-          "period": 0
+          "sellDate": "20260911",
+          "sellPrice": 126.05,
+          "reason": "退潮清仓",
+          "pnl": -0.01,
+          "period": 1
         },
         {
           "code": "603011",
@@ -193,11 +319,11 @@ window.ALPHA_FUNDS_DATA = {
           "buyEmotion": "退潮期",
           "buyDate": "20260910",
           "buyPrice": 26.1,
-          "sellDate": "",
-          "sellPrice": "",
-          "reason": "未卖出，按最新收盘价估算",
-          "pnl": 2.8,
-          "period": 0
+          "sellDate": "20260911",
+          "sellPrice": 26.39,
+          "reason": "退潮清仓",
+          "pnl": 1.11,
+          "period": 1
         },
         {
           "code": "002463",
@@ -210,11 +336,11 @@ window.ALPHA_FUNDS_DATA = {
           "buyEmotion": "退潮期",
           "buyDate": "20260910",
           "buyPrice": 126.06,
-          "sellDate": "",
-          "sellPrice": "",
-          "reason": "未卖出，按最新收盘价估算",
-          "pnl": 1.48,
-          "period": 0
+          "sellDate": "20260911",
+          "sellPrice": 126.05,
+          "reason": "退潮清仓",
+          "pnl": -0.01,
+          "period": 1
         }
       ],
       "sells": []
@@ -1452,12 +1578,6 @@ window.ALPHA_FUNDS_DATA = {
     },
     {
       "date": "20260803",
-      "emotion": "混沌期",
-      "candidates": [],
-      "sells": []
-    },
-    {
-      "date": "20260731",
       "emotion": "混沌期",
       "candidates": [],
       "sells": []
