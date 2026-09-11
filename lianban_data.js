@@ -1,5 +1,5 @@
 window.LIANBAN_DATA = {
-  "generated": "2026-09-11 15:00:14",
+  "generated": "2026-09-11 15:05:15",
   "today": "2026-09-11",
   "pool": [
     {
@@ -7,11 +7,11 @@ window.LIANBAN_DATA = {
       "name": "桂林旅游",
       "boards": 4,
       "breakDate": "2026-09-11",
-      "lastClose": 9.73,
-      "buyPrice": 9.73,
-      "ma5": 8.704,
-      "ma250": 6.68264,
-      "ma500": 6.454680000000001,
+      "lastClose": 9.87,
+      "buyPrice": 9.87,
+      "ma5": 8.732,
+      "ma250": 6.6832,
+      "ma500": 6.45496,
       "broken5": false,
       "broken250": false,
       "broken500": false,
