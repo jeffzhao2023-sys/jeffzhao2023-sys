@@ -1,5 +1,5 @@
 window.LIANBAN_DATA = {
-  "generated": "2026-09-14 12:44:13",
+  "generated": "2026-09-14 13:00:07",
   "today": "2026-09-14",
   "pool": [
     {
@@ -8,7 +8,7 @@ window.LIANBAN_DATA = {
       "boards": 3,
       "breakDate": "2026-09-14",
       "lastClose": null,
-      "buyPrice": 8.79,
+      "buyPrice": 8.8,
       "ma5": null,
       "ma250": null,
       "ma500": null,
