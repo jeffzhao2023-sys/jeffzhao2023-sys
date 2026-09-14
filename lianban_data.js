@@ -1,5 +1,5 @@
 window.LIANBAN_DATA = {
-  "generated": "2026-09-14 10:00:08",
+  "generated": "2026-09-14 10:30:07",
   "today": "2026-09-14",
   "pool": [
     {
@@ -7,11 +7,11 @@ window.LIANBAN_DATA = {
       "name": "九鼎新材",
       "boards": 2,
       "breakDate": "2026-09-14",
-      "lastClose": 12.0,
-      "buyPrice": 12.0,
-      "ma5": 10.326,
-      "ma250": 10.31344,
-      "ma500": 8.13016,
+      "lastClose": 11.37,
+      "buyPrice": 11.37,
+      "ma5": 10.2,
+      "ma250": 10.31092,
+      "ma500": 8.1289,
       "broken5": false,
       "broken250": false,
       "broken500": false,
