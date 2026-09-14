@@ -1,5 +1,5 @@
 window.LIANBAN_DATA = {
-  "generated": "2026-09-14 13:15:16",
+  "generated": "2026-09-14 13:30:07",
   "today": "2026-09-11",
   "pool": [
     {
@@ -7,7 +7,7 @@ window.LIANBAN_DATA = {
       "name": "桂林旅游",
       "boards": 4,
       "breakDate": "2026-09-11",
-      "lastClose": 9.87,
+      "lastClose": 10.77,
       "buyPrice": 9.87,
       "ma5": 8.732,
       "ma250": 6.6832,
@@ -28,7 +28,7 @@ window.LIANBAN_DATA = {
       "name": "云煤能源",
       "boards": 3,
       "breakDate": "2026-09-11",
-      "lastClose": null,
+      "lastClose": 5.16,
       "buyPrice": 5.15,
       "ma5": null,
       "ma250": null,
@@ -49,7 +49,7 @@ window.LIANBAN_DATA = {
       "name": "新农开发",
       "boards": 2,
       "breakDate": "2026-09-11",
-      "lastClose": 9.72,
+      "lastClose": 8.75,
       "buyPrice": 9.72,
       "ma5": 8.792,
       "ma250": 6.9574,
@@ -70,7 +70,7 @@ window.LIANBAN_DATA = {
       "name": "国创高新",
       "boards": 2,
       "breakDate": "2026-09-11",
-      "lastClose": null,
+      "lastClose": 3.11,
       "buyPrice": 3.17,
       "ma5": null,
       "ma250": null,
