@@ -1,5 +1,5 @@
 window.LIANBAN_DATA = {
-  "generated": "2026-09-14 14:00:07",
+  "generated": "2026-09-14 14:30:07",
   "today": "2026-09-11",
   "pool": [
     {
@@ -28,7 +28,7 @@ window.LIANBAN_DATA = {
       "name": "云煤能源",
       "boards": 3,
       "breakDate": "2026-09-11",
-      "lastClose": 5.12,
+      "lastClose": 5.1,
       "buyPrice": 5.15,
       "ma5": null,
       "ma250": null,
