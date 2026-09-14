@@ -42,6 +42,9 @@
   .col h1 { font-size: 18px; margin-bottom: 4px; }
   .col .sub { margin-bottom: 14px; }
   .mono { font-variant-numeric: tabular-nums; }
+  .row-pending td { background: #fafafa; color: #9ca3af; }
+  .tag-pending { display: inline-block; margin-left: 6px; font-size: 11px; padding: 1px 6px; border-radius: 8px; background: #e5e7eb; color: #6b7280; vertical-align: middle; }
+
 </style>
 </head>
 <body>
@@ -275,10 +278,15 @@
         return (c/b-1)*100;
       }
       function row(r){
-        var pnl=floatPnl(r);
+        var pending=(r.status==='待确认');
+        var pnl=pending?null:floatPnl(r);
         var pc=(pnl==null)?'':(pnl>0?'emotion-up':(pnl<0?'emotion-down':''));
         var pnlTxt=(pnl==null)?'—':pnl.toFixed(2)+'%';
-        return '<tr><td class="mono">'+esc(r.breakDate)+'</td><td class="mono">'+esc(r.code)+'</td><td>'+esc(r.name)+'</td>'
+        var name=esc(r.name);
+        if(pending){
+          name+='<span class="tag-pending" title="断板日收盘低于前一日收盘，需次一交易日收盘超过'+(r.pendingRefClose!=null?r.pendingRefClose:'涨停日收盘价')+'才重新进看板">待确认</span>';
+        }
+        return '<tr'+(pending?' class="row-pending"':'')+'><td class="mono">'+esc(r.breakDate)+'</td><td class="mono">'+esc(r.code)+'</td><td>'+name+'</td>'
           +'<td>'+esc(r.boards)+'</td><td class="mono">'+esc(r.daysAfterBreak)+'</td>'
           +'<td class="mono">'+esc(r.declineStreak!=null?r.declineStreak+'天':'—')+'</td>'
           +'<td class="mono '+pc+'">'+pnlTxt+'</td></tr>';

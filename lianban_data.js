@@ -1,7 +1,28 @@
 window.LIANBAN_DATA = {
-  "generated": "2026-09-14 12:04:36",
+  "generated": "2026-09-14 12:44:13",
   "today": "2026-09-14",
   "pool": [
+    {
+      "code": "sz002790",
+      "name": "瑞尔特",
+      "boards": 3,
+      "breakDate": "2026-09-14",
+      "lastClose": null,
+      "buyPrice": 8.79,
+      "ma5": null,
+      "ma250": null,
+      "ma500": null,
+      "broken5": null,
+      "broken250": null,
+      "broken500": null,
+      "declineStreak": null,
+      "daysAfterBreak": 1,
+      "status": "待确认",
+      "sellDate": null,
+      "sellPrice": null,
+      "pnl": null,
+      "pendingRefClose": 9.31
+    },
     {
       "code": "sz002201",
       "name": "九鼎新材",
@@ -20,7 +41,29 @@ window.LIANBAN_DATA = {
       "status": "观察中",
       "sellDate": null,
       "sellPrice": null,
-      "pnl": null
+      "pnl": null,
+      "pendingRefClose": null
+    },
+    {
+      "code": "sh603421",
+      "name": "鼎信通讯",
+      "boards": 3,
+      "breakDate": "2026-09-14",
+      "lastClose": null,
+      "buyPrice": 7.64,
+      "ma5": null,
+      "ma250": null,
+      "ma500": null,
+      "broken5": null,
+      "broken250": null,
+      "broken500": null,
+      "declineStreak": null,
+      "daysAfterBreak": 1,
+      "status": "待确认",
+      "sellDate": null,
+      "sellPrice": null,
+      "pnl": null,
+      "pendingRefClose": 8.02
     },
     {
       "code": "sh600359",
@@ -40,7 +83,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-14",
       "sellPrice": 8.75,
-      "pnl": -9.98
+      "pnl": -9.98,
+      "pendingRefClose": null
     },
     {
       "code": "sz000759",
@@ -60,7 +104,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-14",
       "sellPrice": 7.6,
-      "pnl": -12.54
+      "pnl": -12.54,
+      "pendingRefClose": null
     },
     {
       "code": "sz000930",
@@ -80,7 +125,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-11",
       "sellPrice": 5.91,
-      "pnl": -9.08
+      "pnl": -9.08,
+      "pendingRefClose": null
     },
     {
       "code": "sz000523",
@@ -100,7 +146,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-11",
       "sellPrice": 4.01,
-      "pnl": -10.09
+      "pnl": -10.09,
+      "pendingRefClose": null
     },
     {
       "code": "sz002295",
@@ -120,7 +167,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-14",
       "sellPrice": 9.98,
-      "pnl": -18.99
+      "pnl": -18.99,
+      "pendingRefClose": null
     },
     {
       "code": "sh600108",
@@ -140,7 +188,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-11",
       "sellPrice": 5.12,
-      "pnl": -10.33
+      "pnl": -10.33,
+      "pendingRefClose": null
     },
     {
       "code": "sh600354",
@@ -160,7 +209,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-14",
       "sellPrice": 9.87,
-      "pnl": -10.11
+      "pnl": -10.11,
+      "pendingRefClose": null
     },
     {
       "code": "sh605577",
@@ -180,7 +230,8 @@ window.LIANBAN_DATA = {
       "status": "观察中",
       "sellDate": null,
       "sellPrice": null,
-      "pnl": null
+      "pnl": null,
+      "pendingRefClose": null
     },
     {
       "code": "sz000428",
@@ -200,7 +251,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-11",
       "sellPrice": 4.95,
-      "pnl": -6.6
+      "pnl": -6.6,
+      "pendingRefClose": null
     },
     {
       "code": "sh603696",
@@ -220,7 +272,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-10",
       "sellPrice": 15.69,
-      "pnl": -11.36
+      "pnl": -11.36,
+      "pendingRefClose": null
     },
     {
       "code": "sz001366",
@@ -240,7 +293,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-09",
       "sellPrice": 14.74,
-      "pnl": -10.01
+      "pnl": -10.01,
+      "pendingRefClose": null
     },
     {
       "code": "sz002059",
@@ -260,7 +314,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-11",
       "sellPrice": 5.9,
-      "pnl": 4.06
+      "pnl": 4.06,
+      "pendingRefClose": null
     },
     {
       "code": "sz003005",
@@ -280,7 +335,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-04",
       "sellPrice": 18.48,
-      "pnl": -9.99
+      "pnl": -9.99,
+      "pendingRefClose": null
     },
     {
       "code": "sh600892",
@@ -300,7 +356,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-04",
       "sellPrice": 4.91,
-      "pnl": -9.91
+      "pnl": -9.91,
+      "pendingRefClose": null
     },
     {
       "code": "sh601566",
@@ -320,7 +377,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-09",
       "sellPrice": 10.55,
-      "pnl": -1.22
+      "pnl": -1.22,
+      "pendingRefClose": null
     },
     {
       "code": "sh600830",
@@ -340,7 +398,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-07",
       "sellPrice": 9.51,
-      "pnl": -6.4
+      "pnl": -6.4,
+      "pendingRefClose": null
     },
     {
       "code": "sh600828",
@@ -360,7 +419,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-09",
       "sellPrice": 4.98,
-      "pnl": -2.35
+      "pnl": -2.35,
+      "pendingRefClose": null
     },
     {
       "code": "sz002084",
@@ -380,7 +440,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-08",
       "sellPrice": 6.8,
-      "pnl": -4.49
+      "pnl": -4.49,
+      "pendingRefClose": null
     },
     {
       "code": "sh600371",
@@ -400,7 +461,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-03",
       "sellPrice": 13.08,
-      "pnl": -9.29
+      "pnl": -9.29,
+      "pendingRefClose": null
     },
     {
       "code": "sh600121",
@@ -420,7 +482,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-04",
       "sellPrice": 5.12,
-      "pnl": -3.4
+      "pnl": -3.4,
+      "pendingRefClose": null
     },
     {
       "code": "sz002418",
@@ -440,7 +503,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-04",
       "sellPrice": 5.21,
-      "pnl": 6.33
+      "pnl": 6.33,
+      "pendingRefClose": null
     },
     {
       "code": "sz000712",
@@ -460,7 +524,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-03",
       "sellPrice": 12.63,
-      "pnl": -6.44
+      "pnl": -6.44,
+      "pendingRefClose": null
     },
     {
       "code": "sh600722",
@@ -480,7 +545,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-03",
       "sellPrice": 17.33,
-      "pnl": -4.04
+      "pnl": -4.04,
+      "pendingRefClose": null
     },
     {
       "code": "sh600227",
@@ -500,7 +566,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-03",
       "sellPrice": 4.42,
-      "pnl": -14.51
+      "pnl": -14.51,
+      "pendingRefClose": null
     },
     {
       "code": "sh600691",
@@ -520,7 +587,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-03",
       "sellPrice": 3.02,
-      "pnl": -10.12
+      "pnl": -10.12,
+      "pendingRefClose": null
     },
     {
       "code": "sh603559",
@@ -540,7 +608,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-04",
       "sellPrice": 10.57,
-      "pnl": -3.21
+      "pnl": -3.21,
+      "pendingRefClose": null
     },
     {
       "code": "sz000017",
@@ -560,7 +629,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-03",
       "sellPrice": 10.58,
-      "pnl": -5.62
+      "pnl": -5.62,
+      "pendingRefClose": null
     },
     {
       "code": "sz002942",
@@ -580,7 +650,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-02",
       "sellPrice": 19.88,
-      "pnl": -9.64
+      "pnl": -9.64,
+      "pendingRefClose": null
     },
     {
       "code": "sh600613",
@@ -600,7 +671,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-31",
       "sellPrice": 11.16,
-      "pnl": 43.44
+      "pnl": 43.44,
+      "pendingRefClose": null
     },
     {
       "code": "sh603618",
@@ -620,7 +692,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-01",
       "sellPrice": 33.84,
-      "pnl": -5.79
+      "pnl": -5.79,
+      "pendingRefClose": null
     },
     {
       "code": "sz000890",
@@ -640,7 +713,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-03",
       "sellPrice": 8.74,
-      "pnl": 1.63
+      "pnl": 1.63,
+      "pendingRefClose": null
     },
     {
       "code": "sh601212",
@@ -660,7 +734,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-31",
       "sellPrice": 6.87,
-      "pnl": 4.41
+      "pnl": 4.41,
+      "pendingRefClose": null
     },
     {
       "code": "sz002412",
@@ -680,7 +755,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-31",
       "sellPrice": 11.82,
-      "pnl": -9.7
+      "pnl": -9.7,
+      "pendingRefClose": null
     },
     {
       "code": "sz002041",
@@ -700,7 +776,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-31",
       "sellPrice": 10.8,
-      "pnl": 0.19
+      "pnl": 0.19,
+      "pendingRefClose": null
     },
     {
       "code": "sh600508",
@@ -720,7 +797,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-09-02",
       "sellPrice": 11.2,
-      "pnl": -2.18
+      "pnl": -2.18,
+      "pendingRefClose": null
     },
     {
       "code": "sh603958",
@@ -740,7 +818,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-28",
       "sellPrice": 21.76,
-      "pnl": -2.25
+      "pnl": -2.25,
+      "pendingRefClose": null
     },
     {
       "code": "sh603330",
@@ -760,7 +839,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-31",
       "sellPrice": 10.55,
-      "pnl": -3.56
+      "pnl": -3.56,
+      "pendingRefClose": null
     },
     {
       "code": "sz002667",
@@ -780,7 +860,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-26",
       "sellPrice": 19.13,
-      "pnl": -1.65
+      "pnl": -1.65,
+      "pendingRefClose": null
     },
     {
       "code": "sz002491",
@@ -800,7 +881,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-31",
       "sellPrice": 22.22,
-      "pnl": 6.78
+      "pnl": 6.78,
+      "pendingRefClose": null
     },
     {
       "code": "sh603626",
@@ -820,7 +902,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-28",
       "sellPrice": 19.29,
-      "pnl": -0.98
+      "pnl": -0.98,
+      "pendingRefClose": null
     },
     {
       "code": "sh603580",
@@ -840,7 +923,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-26",
       "sellPrice": 73.2,
-      "pnl": 7.66
+      "pnl": 7.66,
+      "pendingRefClose": null
     },
     {
       "code": "sz000505",
@@ -860,7 +944,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-21",
       "sellPrice": 6.74,
-      "pnl": -10.01
+      "pnl": -10.01,
+      "pendingRefClose": null
     },
     {
       "code": "sh600313",
@@ -880,7 +965,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-21",
       "sellPrice": 6.5,
-      "pnl": -8.84
+      "pnl": -8.84,
+      "pendingRefClose": null
     },
     {
       "code": "sz300313",
@@ -900,7 +986,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-21",
       "sellPrice": 12.8,
-      "pnl": -11.42
+      "pnl": -11.42,
+      "pendingRefClose": null
     },
     {
       "code": "sz002081",
@@ -920,7 +1007,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-20",
       "sellPrice": 5.55,
-      "pnl": -11.48
+      "pnl": -11.48,
+      "pendingRefClose": null
     },
     {
       "code": "sz003031",
@@ -940,7 +1028,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-19",
       "sellPrice": 129.25,
-      "pnl": -10.0
+      "pnl": -10.0,
+      "pendingRefClose": null
     },
     {
       "code": "sz300862",
@@ -960,7 +1049,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-25",
       "sellPrice": 53.4,
-      "pnl": -2.5
+      "pnl": -2.5,
+      "pendingRefClose": null
     },
     {
       "code": "sz300404",
@@ -980,7 +1070,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-19",
       "sellPrice": 15.35,
-      "pnl": -12.78
+      "pnl": -12.78,
+      "pendingRefClose": null
     },
     {
       "code": "sz002552",
@@ -1000,7 +1091,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-18",
       "sellPrice": 57.6,
-      "pnl": 5.48
+      "pnl": 5.48,
+      "pendingRefClose": null
     },
     {
       "code": "sz002589",
@@ -1020,7 +1112,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-18",
       "sellPrice": 3.47,
-      "pnl": 7.43
+      "pnl": 7.43,
+      "pendingRefClose": null
     },
     {
       "code": "sh600721",
@@ -1040,7 +1133,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-18",
       "sellPrice": 13.5,
-      "pnl": -6.9
+      "pnl": -6.9,
+      "pendingRefClose": null
     },
     {
       "code": "sh603897",
@@ -1060,7 +1154,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-18",
       "sellPrice": 32.1,
-      "pnl": -7.44
+      "pnl": -7.44,
+      "pendingRefClose": null
     },
     {
       "code": "sh600664",
@@ -1080,7 +1175,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-21",
       "sellPrice": 8.17,
-      "pnl": -7.26
+      "pnl": -7.26,
+      "pendingRefClose": null
     },
     {
       "code": "sh603188",
@@ -1100,7 +1196,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-14",
       "sellPrice": 4.59,
-      "pnl": -6.52
+      "pnl": -6.52,
+      "pendingRefClose": null
     },
     {
       "code": "sz301080",
@@ -1120,7 +1217,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-19",
       "sellPrice": 85.75,
-      "pnl": 4.19
+      "pnl": 4.19,
+      "pendingRefClose": null
     },
     {
       "code": "sh601208",
@@ -1140,7 +1238,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-19",
       "sellPrice": 45.06,
-      "pnl": 7.9
+      "pnl": 7.9,
+      "pendingRefClose": null
     },
     {
       "code": "sz002428",
@@ -1160,7 +1259,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-13",
       "sellPrice": 100.21,
-      "pnl": -2.31
+      "pnl": -2.31,
+      "pendingRefClose": null
     },
     {
       "code": "sz001267",
@@ -1180,7 +1280,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-11",
       "sellPrice": 39.54,
-      "pnl": -7.98
+      "pnl": -7.98,
+      "pendingRefClose": null
     },
     {
       "code": "sh603773",
@@ -1200,7 +1301,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-13",
       "sellPrice": 93.8,
-      "pnl": -1.91
+      "pnl": -1.91,
+      "pendingRefClose": null
     },
     {
       "code": "sh600206",
@@ -1220,7 +1322,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-13",
       "sellPrice": 50.17,
-      "pnl": -3.5
+      "pnl": -3.5,
+      "pendingRefClose": null
     },
     {
       "code": "sh600601",
@@ -1240,7 +1343,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-13",
       "sellPrice": 12.58,
-      "pnl": -4.84
+      "pnl": -4.84,
+      "pendingRefClose": null
     },
     {
       "code": "sz002975",
@@ -1260,7 +1364,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-13",
       "sellPrice": 96.42,
-      "pnl": -1.55
+      "pnl": -1.55,
+      "pendingRefClose": null
     },
     {
       "code": "sh600397",
@@ -1280,7 +1385,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-11",
       "sellPrice": 17.04,
-      "pnl": -7.44
+      "pnl": -7.44,
+      "pendingRefClose": null
     },
     {
       "code": "sh603629",
@@ -1300,7 +1406,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-11",
       "sellPrice": 118.22,
-      "pnl": -3.51
+      "pnl": -3.51,
+      "pendingRefClose": null
     },
     {
       "code": "sz000811",
@@ -1320,7 +1427,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-13",
       "sellPrice": 40.89,
-      "pnl": 1.44
+      "pnl": 1.44,
+      "pendingRefClose": null
     },
     {
       "code": "sz000962",
@@ -1340,7 +1448,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-12",
       "sellPrice": 55.0,
-      "pnl": 2.12
+      "pnl": 2.12,
+      "pendingRefClose": null
     },
     {
       "code": "sz002348",
@@ -1360,7 +1469,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-11",
       "sellPrice": 11.92,
-      "pnl": 0.59
+      "pnl": 0.59,
+      "pendingRefClose": null
     },
     {
       "code": "sz000510",
@@ -1380,7 +1490,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-11",
       "sellPrice": 16.54,
-      "pnl": 2.67
+      "pnl": 2.67,
+      "pendingRefClose": null
     },
     {
       "code": "sz002990",
@@ -1400,7 +1511,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-13",
       "sellPrice": 53.45,
-      "pnl": 8.59
+      "pnl": 8.59,
+      "pendingRefClose": null
     },
     {
       "code": "sz002674",
@@ -1420,7 +1532,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-11",
       "sellPrice": 27.96,
-      "pnl": -2.41
+      "pnl": -2.41,
+      "pendingRefClose": null
     },
     {
       "code": "sz003018",
@@ -1440,7 +1553,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-11",
       "sellPrice": 38.58,
-      "pnl": -2.08
+      "pnl": -2.08,
+      "pendingRefClose": null
     },
     {
       "code": "sh603061",
@@ -1460,7 +1574,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-19",
       "sellPrice": 330.17,
-      "pnl": 7.29
+      "pnl": 7.29,
+      "pendingRefClose": null
     },
     {
       "code": "sz002957",
@@ -1480,7 +1595,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-11",
       "sellPrice": 38.8,
-      "pnl": 0.41
+      "pnl": 0.41,
+      "pendingRefClose": null
     },
     {
       "code": "sz002354",
@@ -1500,7 +1616,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-14",
       "sellPrice": 8.14,
-      "pnl": 2.78
+      "pnl": 2.78,
+      "pendingRefClose": null
     },
     {
       "code": "sz000815",
@@ -1520,7 +1637,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-07",
       "sellPrice": 18.03,
-      "pnl": -4.35
+      "pnl": -4.35,
+      "pendingRefClose": null
     },
     {
       "code": "sz000595",
@@ -1540,7 +1658,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-07",
       "sellPrice": 6.19,
-      "pnl": -7.2
+      "pnl": -7.2,
+      "pendingRefClose": null
     },
     {
       "code": "sz000533",
@@ -1560,7 +1679,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-07",
       "sellPrice": 12.13,
-      "pnl": -4.49
+      "pnl": -4.49,
+      "pendingRefClose": null
     },
     {
       "code": "sz001331",
@@ -1580,7 +1700,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-13",
       "sellPrice": 55.15,
-      "pnl": 9.86
+      "pnl": 9.86,
+      "pendingRefClose": null
     },
     {
       "code": "sh601858",
@@ -1600,7 +1721,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-11",
       "sellPrice": 24.58,
-      "pnl": -3.08
+      "pnl": -3.08,
+      "pendingRefClose": null
     },
     {
       "code": "sh605167",
@@ -1620,7 +1742,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-07",
       "sellPrice": 15.04,
-      "pnl": -5.23
+      "pnl": -5.23,
+      "pendingRefClose": null
     },
     {
       "code": "sh603261",
@@ -1640,7 +1763,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-07",
       "sellPrice": 49.11,
-      "pnl": -1.48
+      "pnl": -1.48,
+      "pendingRefClose": null
     },
     {
       "code": "sh603221",
@@ -1660,7 +1784,8 @@ window.LIANBAN_DATA = {
       "status": "已卖出",
       "sellDate": "2026-08-21",
       "sellPrice": 26.26,
-      "pnl": 6.06
+      "pnl": 6.06,
+      "pendingRefClose": null
     }
   ]
 };
