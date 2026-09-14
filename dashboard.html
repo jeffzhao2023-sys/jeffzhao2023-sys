@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
@@ -49,9 +49,9 @@
 </head>
 <body>
   <h1>📈 投资看板</h1>
-  <div class="sub">左：首次唯一最高板（盘中）　·　中：阿尔法资金没走（盘后）　·　右：地量地价（盘中）　·　连板低吸（盘后）</div>
+  <div class="sub">左：首次唯一最高板（盘中）　·　右：连板低吸（盘后）</div>
 
-  <div class="grid2">
+  <div class="grid2" style="grid-template-columns: 1fr 1fr;">
     <!-- ============ 左栏：首次唯一最高板 ============ -->
     <div class="col">
       <h1>🚀 首次唯一最高板</h1>
@@ -61,29 +61,6 @@
       </div>
     </div>
 
-
-    <!-- ============ 中栏：阿尔法资金没走 ============ -->
-    <div class="col">
-      <h1>📊 阿尔法资金没走策略</h1>
-      <div class="sub" id="sub">加载中…</div>
-
-      <div class="card">
-
-        <div id="lowAllBody"></div>
-      </div>
-    </div>
-
-    <!-- ============ 右栏：地量地价 ============ -->
-    <div class="col">
-      <h1>📉 地量地价策略</h1>
-      <div class="sub" id="subDildj">加载中…</div>
-
-      <div class="card">
-        <div id="dildjAllBody"></div>
-      </div>
-
-
-    </div>
 
     <!-- ============ 最右栏：连板低吸 ============ -->
     <div class="col">
@@ -100,7 +77,6 @@
   <script src="dildj_data.js" charset="utf-8"></script>
   <script src="lianban_data.js" charset="utf-8"></script>
   <script>
-    var D = window.ALPHA_FUNDS_DATA || null;
     var H = window.HIGHEST_DATA || null;
     var LB = window.LIANBAN_DATA || null;
     function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
@@ -118,44 +94,6 @@
       if(!da||!db) return '—';
       return Math.round((db-da)/86400000);
     }
-    function renderLowCombined(){
-      if(!D || !D.days){ return '<div class="empty-tip">暂无记录</div>'; }
-      var rows = [];
-      D.days.forEach(function(day){
-        (day.candidates||[]).forEach(function(c){ rows.push(c); });
-      });
-      rows.sort(function(a,b){
-        var ad = a.recommendDate || a.date || '';
-        var bd = b.recommendDate || b.date || '';
-        return ad>bd?-1:(ad<bd?1:0);
-      });
-      var latest = {};
-      rows = rows.filter(function(row){
-        if(latest[row.code]) return false;
-        latest[row.code] = true;
-        return true;
-      });
-      if(rows.length===0) return '<div class="empty-tip">暂无记录</div>';
-       var h='<table><tr><th>推荐日</th><th>买入日</th><th>代码</th><th>名称</th><th>原因</th><th>毛收益率</th><th>周期</th></tr>';
-      rows.forEach(function(x){
-        var reason = x.reason || '—';
-        var pnl = (x.pnl===''||x.pnl==null) ? null : x.pnl;
-        var pnlCls = (pnl==null||pnl===0) ? '' : (pnl>0 ? 'emotion-up' : 'emotion-down');
-        var pnlTxt = (pnl==null||pnl==='') ? '—' : pnl+'%';
-        var period = (x.period===''||x.period==null) ? '—' : x.period;
-         h+='<tr><td class="mono">'+esc(x.recommendDate||x.date||'—')+'<br><span class="'+emotionClass(x.recommendEmotion)+'">'+esc(x.recommendEmotion||'—')+'</span></td><td class="mono">'+esc(x.buyDate)+'<br><span class="'+emotionClass(x.buyEmotion)+'">'+esc(x.buyEmotion||'—')+'</span></td><td class="mono">'+esc(x.code)+'</td>'
-          +'<td>'+esc(x.name||'—')+'</td>'
-          +'<td>'+esc(reason)+'</td><td class="mono '+pnlCls+'">'+pnlTxt+'</td>'
-          +'<td class="mono">'+period+'</td></tr>';
-      });
-      return h+'</table>';
-    }
-    function initLow(){
-      if(!D || !D.days){ document.getElementById('sub').textContent='未找到数据：请先运行 run_daily.bat 生成 alpha_funds_data.js'; return; }
-       document.getElementById('sub').textContent='数据生成时间：'+D.generated+'　操作说明：主要做趋势中军票在调整期的低吸';
-      document.getElementById('lowAllBody').innerHTML = renderLowCombined();
-    }
-
     // ===== 首次唯一最高板 =====
     function renderHighestTable(rows){
       if(!rows || rows.length===0) return '<div class="empty-tip">当日暂无信号</div>';
@@ -231,40 +169,6 @@
       document.getElementById('subHighest').textContent='数据生成时间：'+H.generated;
       document.getElementById('highestAllBody').innerHTML = renderCombinedTable();
     }
-    var DD = window.DILDJ_DATA || null;
-    function initDildj(){
-      if(!DD){ document.getElementById('subDildj').textContent='未找到数据：请运行地量地价 monitor.py 生成 dildj_data.js'; return; }
-      document.getElementById('subDildj').textContent='数据生成时间：'+DD.generated;
-      var records = (DD.records || []).slice();
-      records.sort(function(a,b){
-        var da = a.buy_date||a.confirm_date||a.t_date||'';
-        var db = b.buy_date||b.confirm_date||b.t_date||'';
-        return db.localeCompare(da);
-      });
-      var h='';
-      if(records.length===0){ h='<div class="empty-tip">暂无记录</div>'; }
-      else {
-        h='<table><tr><th>推荐日</th><th>买入日</th><th>代码</th><th>名称</th><th>买入价</th><th>状态</th><th>卖出时间</th><th>卖出价</th><th>原因</th><th>收益率</th><th>周期</th></tr>';
-        records.forEach(function(r){
-          var pnl = (r.pnl===''||r.pnl==null) ? '—' : r.pnl+'%';
-          var pnlCls = (r.pnl===''||r.pnl==null||r.pnl===0) ? '' : (r.pnl>0 ? 'emotion-up' : 'emotion-down');
-          function dte(dt, emo2){
-            var cell = esc(dt||'—');
-            if(dt && emo2){ cell += ' <span class="'+emotionClass(emo2)+'">'+esc(emo2)+'</span>'; }
-            return cell;
-          }
-          h+='<tr><td class="mono">'+dte(r.rec_dt, r.rec_emo)+'</td>'
-            +'<td class="mono">'+dte(r.buy_dt, r.buy_emo)+'</td>'
-            +'<td class="mono">'+esc(r.code)+'</td><td>'+esc(r.name||'—')+'</td>'
-            +'<td class="mono">'+esc(r.buy_price||'—')+'</td><td>'+esc(r.status||'—')+'</td>'
-            +'<td class="mono">'+esc(r.sell_time||'—')+'</td><td class="mono">'+esc(r.sell_price||'—')+'</td><td>'+esc(r.reason||'—')+'</td>'
-            +'<td class="mono '+pnlCls+'">'+pnl+'</td><td class="mono">'+(r.period===''||r.period==null?'—':esc(r.period)+'天')+'</td></tr>';
-        });
-        h+='</table>';
-      }
-      document.getElementById('dildjAllBody').innerHTML = h;
-    }
-
     function initLianban(){
       if(!LB){ document.getElementById('subLianban').textContent='未找到数据：请运行连板股低吸 monitor.py 生成 lianban_data.js'; return; }
       document.getElementById('subLianban').innerHTML='数据生成时间：'+LB.generated+'　截止：'+LB.today+'　操作说明：<br>1，新周期龙头突破高度、盘面普涨、相关消息刺激等情绪氛围好的时候用，做踏空资金对龙头的再次认可和涨停持续预期；<br>2，必须是换手龙不是连续一字板龙，否则筹码有断层成本不一样；<br>3，当日首阴尾盘买入或者次日确认反包买入；<br>4，换手龙前期涨幅大，资金沉淀较多，如果走出上升趋势结构，说明有资金看好后市。';
@@ -295,9 +199,9 @@
       active.forEach(function(r){ h+=row(r); });
       document.getElementById('lianbanAllBody').innerHTML = h+'</table>';
     }
-    initLow();
+
     initHighest();
-    initDildj();
+
     initLianban();
   </script>
 </body>
