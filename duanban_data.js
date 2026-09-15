@@ -1,5 +1,5 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-09-15 14:44:52",
+  "generated": "2026-09-15 15:00:04",
   "today": "20260915",
   "emotion": "混沌期",
   "alerts": [
@@ -14,25 +14,30 @@ window.DUANBAN_DATA = {
       "emotion": "混沌期"
     }
   ],
-  "candidates": [
-    {
-      "code": "000993",
-      "name": "闽东电力",
-      "boards": 4,
-      "prevClose": 15.27,
-      "runUp": 51.6,
-      "price": 16.79,
-      "pct": 9.95
-    },
+  "candidates": [],
+  "records": [
     {
       "code": "000823",
       "name": "超声电子",
       "boards": 3,
-      "prevClose": 22.63,
-      "runUp": 56.2,
-      "price": 23.85,
-      "pct": 5.39
+      "breakDate": "20260915",
+      "breakHigh": 24.89,
+      "breakPct": 5.74,
+      "emotion": "混沌期",
+      "status": "观察中",
+      "cost": null,
+      "price": 23.74,
+      "daysAfterBreak": 0,
+      "pnl": null,
+      "buyDate": null,
+      "buyPrice": null,
+      "buyTime": null,
+      "way": null,
+      "sellDate": null,
+      "sellTime": null,
+      "sellPrice": null,
+      "sellReason": "观察中，等反包",
+      "period": null
     }
-  ],
-  "records": []
+  ]
 };
