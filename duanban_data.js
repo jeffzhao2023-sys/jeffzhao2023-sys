@@ -1,5 +1,5 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-09-15 14:38:47",
+  "generated": "2026-09-15 14:43:51",
   "today": "20260915",
   "emotion": "混沌期",
   "alerts": [],
@@ -10,8 +10,8 @@ window.DUANBAN_DATA = {
       "boards": 4,
       "prevClose": 15.27,
       "runUp": 51.6,
-      "price": 16.8,
-      "pct": 10.02
+      "price": 16.79,
+      "pct": 9.95
     },
     {
       "code": "000823",
@@ -19,8 +19,8 @@ window.DUANBAN_DATA = {
       "boards": 3,
       "prevClose": 22.63,
       "runUp": 56.2,
-      "price": 23.73,
-      "pct": 4.86
+      "price": 23.85,
+      "pct": 5.39
     }
   ],
   "records": []
