@@ -9,7 +9,7 @@ ROOT = Path(__file__).parent
 QUEUE = ROOT / ".publish_queue"
 LOCK = ROOT / ".publish_worker.lock"
 LOG = ROOT / "publisher.log"
-DATA_FILES = ("dashboard.html", "highest_data.js", "lianban_data.js")
+DATA_FILES = ("dashboard.html", ".gitignore", "publisher_worker.py", "highest_data.js", "lianban_data.js", "duanban_data.js")
 MAX_PUSH_TRIES = 5
 
 
