@@ -12,6 +12,10 @@ LOG = ROOT / "publisher.log"
 DATA_FILES = ("dashboard.html", ".gitignore", "publisher_worker.py", "highest_data.js", "lianban_data.js", "duanban_data.js")
 MAX_PUSH_TRIES = 5
 
+# 本进程由 publish.py 以 DETACHED_PROCESS 拉起、没有控制台，
+# git 子进程不加此标志会自己新建可见窗口（每次发布闪一下）
+NO_WINDOW = getattr(subprocess, "CREATE_NO_WINDOW", 0)
+
 
 def log(message):
     with LOG.open("a", encoding="utf-8") as handle:
@@ -20,7 +24,8 @@ def log(message):
 
 def git(*args):
     return subprocess.run(["git", "-C", str(ROOT), *args], capture_output=True, text=True,
-                          encoding="utf-8", errors="replace", timeout=120)
+                          encoding="utf-8", errors="replace", timeout=120,
+                          creationflags=NO_WINDOW)
 
 
 def acquire_lock():
