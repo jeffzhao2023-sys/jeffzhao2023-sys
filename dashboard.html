@@ -70,6 +70,9 @@
         <div id="duanbanAlertBody"></div>
       </div>
       <div class="card">
+        <div id="duanbanCandBody"></div>
+      </div>
+      <div class="card">
         <div id="duanbanPoolBody"></div>
       </div>
     </div>
@@ -227,6 +230,20 @@
             +'<td>'+esc(r.note||'')+'</td><td>'+esc(r.emotion||'—')+'</td></tr>';
         });
         document.getElementById('duanbanAlertBody').innerHTML=h+'</table>';
+      }
+      var cands=(DB.candidates||[]).slice();
+      if(cands.length===0){ document.getElementById('duanbanCandBody').innerHTML='<div class="empty-tip">今日无候选（全部淘汰或已转入观察池）</div>'; }
+      else{
+        var hc='<div style="font-weight:600;margin-bottom:8px">候选池 <span class="count">'+cands.length+' 只</span> <span style="font-weight:normal;color:#6b7280;font-size:12px">—— 前一日连板≥2板、连板内含非一字板、前期涨幅≥50%</span></div>';
+        hc+='<table><tr><th>代码</th><th>名称</th><th>板数</th><th>前期涨幅</th><th>现价</th><th>今日涨幅</th></tr>';
+        cands.forEach(function(r){
+          var pc=(r.pct==null)?'':(r.pct>0?'emotion-up':(r.pct<0?'emotion-down':''));
+          hc+='<tr><td class="mono">'+esc(r.code)+'</td><td>'+esc(r.name)+'</td>'
+            +'<td>'+esc(r.boards)+'板</td><td class="mono">'+(r.runUp!=null?r.runUp+'%':'—')+'</td>'
+            +'<td class="mono">'+esc(r.price==null?'—':r.price)+'</td>'
+            +'<td class="mono '+pc+'">'+(r.pct!=null?(r.pct>0?'+':'')+r.pct+'%':'—')+'</td></tr>';
+        });
+        document.getElementById('duanbanCandBody').innerHTML=hc+'</table>';
       }
       var pool=(DB.pool||[]).slice();
       if(pool.length===0){ document.getElementById('duanbanPoolBody').innerHTML='<div class="empty-tip">暂无观察中的票</div>'; }
