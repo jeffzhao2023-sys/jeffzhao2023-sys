@@ -1,5 +1,5 @@
 window.LIANBAN_DATA = {
-  "generated": "2026-09-15 10:00:07",
+  "generated": "2026-09-15 10:30:07",
   "today": "2026-09-14",
   "pool": [
     {
@@ -7,7 +7,7 @@ window.LIANBAN_DATA = {
       "name": "鼎信通讯",
       "boards": 3,
       "breakDate": "2026-09-14",
-      "lastClose": 7.02,
+      "lastClose": 7.43,
       "buyPrice": 7.5,
       "ma5": null,
       "ma250": null,
@@ -49,7 +49,7 @@ window.LIANBAN_DATA = {
       "name": "九鼎新材",
       "boards": 2,
       "breakDate": "2026-09-14",
-      "lastClose": 11.39,
+      "lastClose": 11.02,
       "buyPrice": 11.22,
       "ma5": 10.17,
       "ma250": 10.310319999999999,
@@ -238,7 +238,7 @@ window.LIANBAN_DATA = {
       "name": "龙版传媒",
       "boards": 6,
       "breakDate": "2026-09-08",
-      "lastClose": 15.58,
+      "lastClose": 15.29,
       "buyPrice": 18.67,
       "ma5": 16.454,
       "ma250": 12.25884,
