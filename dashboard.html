@@ -220,7 +220,7 @@
       sub.textContent='数据生成时间：'+(DB.generated||'—')+'　情绪：'+(DB.emotion||'—');
       var cands=(DB.candidates||[]).slice();
       {
-        var hc='<div style="font-weight:600;margin-bottom:8px">候选池 <span class="count">'+cands.length+' 只</span> <span style="font-weight:normal;color:#6b7280;font-size:12px">—— 前一日连板≥2板、连板内含非一字板、前期涨幅≥50%</span></div>';
+        var hc='<div style="font-weight:600;margin-bottom:8px">候选池 <span class="count">'+cands.length+' 只</span> <span style="font-weight:normal;color:#6b7280;font-size:12px">—— 前一日连板≥2板、连板内含非一字板、前期涨幅≥30%</span></div>';
         hc+='<table><tr><th>代码</th><th>名称</th><th>板数</th><th>前期涨幅</th><th>现价</th><th>今日涨幅</th></tr>';
         if(cands.length===0){ hc+='<tr><td colspan="6" class="empty-tip">今日无候选（全部淘汰或已转入观察池）</td></tr>'; }
         cands.forEach(function(r){
