@@ -138,6 +138,7 @@
       var today = H.today;
       Object.keys(H.days||{}).sort().forEach(function(d){
         (H.days[d]||[]).forEach(function(r){
+          if(!r) return;   // 数据文件里可能有 null 占位，跳过
           rows.push({date:d, rec:r});
         });
       });
@@ -261,10 +262,11 @@
       }
     }
 
-    initHighest();
-
-    initLianban();
-    initDuanban();
+    // 三栏各自独立渲染：某一栏数据异常，不至于让整页卡在「加载中」
+    function safeInit(fn){ try{ fn(); }catch(e){ if(window.console) console.error(fn.name + " 渲染失败", e); } }
+    safeInit(initHighest);
+    safeInit(initLianban);
+    safeInit(initDuanban);
   </script>
 </body>
 </html>
