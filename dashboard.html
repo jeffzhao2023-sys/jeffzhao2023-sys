@@ -179,7 +179,7 @@
 
     function initHighest(){
       if(!H || !H.days){ document.getElementById('subHighest').textContent='未找到数据：请运行 monitor_dash.py 生成 highest_data.js'; return; }
-      document.getElementById('subHighest').textContent='数据生成时间：'+H.generated;
+      document.getElementById('subHighest').textContent='最近成功检查：'+(H.lastCheck||H.generated)+'　·　数据更新时间：'+H.generated;
       document.getElementById('highestAllBody').innerHTML = renderCombinedTable();
     }
     function initLianban(){
