@@ -1,5 +1,5 @@
 window.LIANBAN_DATA = {
-  "generated": "2026-09-15 15:12:43",
+  "generated": "2026-09-16 08:38:27",
   "today": "2026-09-15",
   "pool": [
     {
@@ -7,7 +7,7 @@ window.LIANBAN_DATA = {
       "name": "桂林旅游",
       "boards": 4,
       "breakDate": "2026-09-15",
-      "lastClose": 10.86,
+      "lastClose": 9.77,
       "buyPrice": 9.87,
       "ma5": 9.447999999999999,
       "ma250": 6.69916,
@@ -91,7 +91,7 @@ window.LIANBAN_DATA = {
       "name": "正和生态",
       "boards": 2,
       "breakDate": "2026-09-15",
-      "lastClose": null,
+      "lastClose": 12.36,
       "buyPrice": 12.36,
       "ma5": null,
       "ma250": null,
