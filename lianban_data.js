@@ -1,5 +1,5 @@
 window.LIANBAN_DATA = {
-  "generated": "2026-09-16 11:30:08",
+  "generated": "2026-09-16 13:00:11",
   "today": "2026-09-15",
   "pool": [
     {
@@ -28,7 +28,7 @@ window.LIANBAN_DATA = {
       "name": "超声电子",
       "boards": 3,
       "breakDate": "2026-09-15",
-      "lastClose": 24.29,
+      "lastClose": 24.35,
       "buyPrice": 23.9,
       "ma5": 20.56,
       "ma250": 15.08556,
@@ -49,7 +49,7 @@ window.LIANBAN_DATA = {
       "name": "通达股份",
       "boards": 2,
       "breakDate": "2026-09-15",
-      "lastClose": 7.46,
+      "lastClose": 7.47,
       "buyPrice": 7.72,
       "ma5": 6.956,
       "ma250": 7.22792,
@@ -70,7 +70,7 @@ window.LIANBAN_DATA = {
       "name": "三力制药",
       "boards": 2,
       "breakDate": "2026-09-15",
-      "lastClose": 14.5,
+      "lastClose": 14.42,
       "buyPrice": 14.14,
       "ma5": 12.758,
       "ma250": 12.2456,
@@ -91,7 +91,7 @@ window.LIANBAN_DATA = {
       "name": "正和生态",
       "boards": 2,
       "breakDate": "2026-09-15",
-      "lastClose": 12.14,
+      "lastClose": 12.15,
       "buyPrice": 12.36,
       "ma5": null,
       "ma250": null,
