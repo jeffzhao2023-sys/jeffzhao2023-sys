@@ -1,5 +1,5 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-09-17 14:50:26",
+  "generated": "2026-09-17 14:51:27",
   "today": "20260917",
   "emotion": "混沌期",
   "alerts": [
@@ -23,9 +23,9 @@ window.DUANBAN_DATA = {
       "runUp": 77.2,
       "selectDate": "20260917",
       "baseClose": 18.48,
-      "price": 18.09,
-      "pct": -2.11,
-      "sincePct": -2.11,
+      "price": 17.98,
+      "pct": -2.71,
+      "sincePct": -2.71,
       "status": "持有中"
     },
     {
@@ -53,9 +53,9 @@ window.DUANBAN_DATA = {
       "emotion": "混沌期",
       "status": "持有中",
       "cost": 17.88,
-      "price": 18.09,
+      "price": 17.98,
       "daysAfterBreak": 0,
-      "pnl": 1.17,
+      "pnl": 0.56,
       "buyDate": "20260917",
       "buyPrice": 17.88,
       "buyTime": "14:45:22",
