@@ -1,5 +1,5 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-09-17 09:52:42",
+  "generated": "2026-09-17 09:55:44",
   "today": "20260917",
   "emotion": "混沌期",
   "alerts": [],
@@ -12,9 +12,9 @@ window.DUANBAN_DATA = {
       "runUp": 77.2,
       "selectDate": "20260917",
       "baseClose": 18.48,
-      "price": 17.27,
-      "pct": -6.55,
-      "sincePct": -6.55,
+      "price": 16.93,
+      "pct": -8.39,
+      "sincePct": -8.39,
       "status": "候选"
     },
     {
@@ -25,9 +25,9 @@ window.DUANBAN_DATA = {
       "runUp": 61.4,
       "selectDate": "20260917",
       "baseClose": 44.33,
-      "price": 47.19,
-      "pct": 6.45,
-      "sincePct": 6.45,
+      "price": 46.48,
+      "pct": 4.85,
+      "sincePct": 4.85,
       "status": "候选"
     }
   ],
