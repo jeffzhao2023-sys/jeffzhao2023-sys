@@ -1,5 +1,5 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-09-17 14:44:21",
+  "generated": "2026-09-17 14:45:53",
   "today": "20260917",
   "emotion": "混沌期",
   "alerts": [
@@ -23,10 +23,10 @@ window.DUANBAN_DATA = {
       "runUp": 77.2,
       "selectDate": "20260917",
       "baseClose": 18.48,
-      "price": 17.87,
-      "pct": -3.3,
-      "sincePct": -3.3,
-      "status": "候选"
+      "price": 17.9,
+      "pct": -3.14,
+      "sincePct": -3.14,
+      "status": "持有中"
     },
     {
       "code": "605058",
@@ -42,5 +42,29 @@ window.DUANBAN_DATA = {
       "status": "候选"
     }
   ],
-  "records": []
+  "records": [
+    {
+      "code": "000993",
+      "name": "闽东电力",
+      "boards": 6,
+      "breakDate": "20260917",
+      "breakHigh": 18.47,
+      "breakPct": -3.25,
+      "emotion": "混沌期",
+      "status": "持有中",
+      "cost": 17.88,
+      "price": 17.9,
+      "daysAfterBreak": 0,
+      "pnl": 0.11,
+      "buyDate": "20260917",
+      "buyPrice": 17.88,
+      "buyTime": "14:45:22",
+      "way": "断板买入",
+      "sellDate": null,
+      "sellTime": null,
+      "sellPrice": null,
+      "sellReason": "持有中",
+      "period": 1
+    }
+  ]
 };
