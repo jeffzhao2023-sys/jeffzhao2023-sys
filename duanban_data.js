@@ -1,5 +1,5 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-09-18 14:45:11",
+  "generated": "2026-09-18 14:48:14",
   "today": "20260918",
   "emotion": "混沌期",
   "alerts": [
@@ -33,9 +33,9 @@ window.DUANBAN_DATA = {
       "runUp": 77.2,
       "selectDate": "20260917",
       "baseClose": 18.48,
-      "price": 19.7,
-      "pct": 9.63,
-      "sincePct": 6.6,
+      "price": 19.73,
+      "pct": 9.79,
+      "sincePct": 6.76,
       "status": "持有中"
     },
     {
@@ -46,9 +46,9 @@ window.DUANBAN_DATA = {
       "runUp": 61.4,
       "selectDate": "20260917",
       "baseClose": 44.33,
-      "price": 46.9,
-      "pct": -3.81,
-      "sincePct": 5.8,
+      "price": 46.98,
+      "pct": -3.65,
+      "sincePct": 5.98,
       "status": "候选"
     },
     {
@@ -59,9 +59,9 @@ window.DUANBAN_DATA = {
       "runUp": 36.0,
       "selectDate": "20260918",
       "baseClose": 37.0,
-      "price": 36.94,
-      "pct": -0.16,
-      "sincePct": -0.16,
+      "price": 36.76,
+      "pct": -0.65,
+      "sincePct": -0.65,
       "status": "持有中"
     },
     {
@@ -98,9 +98,9 @@ window.DUANBAN_DATA = {
       "runUp": 30.6,
       "selectDate": "20260918",
       "baseClose": 20.32,
-      "price": 19.61,
-      "pct": -3.49,
-      "sincePct": -3.49,
+      "price": 19.58,
+      "pct": -3.64,
+      "sincePct": -3.64,
       "status": "持有中"
     }
   ],
@@ -115,9 +115,9 @@ window.DUANBAN_DATA = {
       "emotion": "混沌期",
       "status": "持有中",
       "cost": 17.88,
-      "price": 19.7,
+      "price": 19.73,
       "daysAfterBreak": 1,
-      "pnl": 10.18,
+      "pnl": 10.35,
       "buyDate": "20260917",
       "buyPrice": 17.88,
       "buyTime": "14:45:22",
@@ -138,9 +138,9 @@ window.DUANBAN_DATA = {
       "emotion": "混沌期",
       "status": "持有中",
       "cost": 36.94,
-      "price": 36.94,
+      "price": 36.76,
       "daysAfterBreak": 0,
-      "pnl": null,
+      "pnl": -0.49,
       "buyDate": "20260918",
       "buyPrice": 36.94,
       "buyTime": "14:45:11",
@@ -149,7 +149,7 @@ window.DUANBAN_DATA = {
       "sellTime": null,
       "sellPrice": null,
       "sellReason": "持有中",
-      "period": null
+      "period": 1
     },
     {
       "code": "003001",
@@ -161,9 +161,9 @@ window.DUANBAN_DATA = {
       "emotion": "混沌期",
       "status": "持有中",
       "cost": 19.61,
-      "price": 19.61,
+      "price": 19.58,
       "daysAfterBreak": 0,
-      "pnl": null,
+      "pnl": -0.15,
       "buyDate": "20260918",
       "buyPrice": 19.61,
       "buyTime": "14:45:12",
@@ -172,7 +172,7 @@ window.DUANBAN_DATA = {
       "sellTime": null,
       "sellPrice": null,
       "sellReason": "持有中",
-      "period": null
+      "period": 1
     }
   ]
 };
