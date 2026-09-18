@@ -1,19 +1,8 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-09-18 10:41:12",
+  "generated": "2026-09-18 10:46:07",
   "today": "20260918",
   "emotion": "混沌期",
-  "alerts": [
-    {
-      "time": "09:15:04",
-      "type": "止损卖出",
-      "code": "000993",
-      "name": "闽东电力",
-      "breakDate": "20260917",
-      "price": 17.08,
-      "note": "跌破5日线(17.12) 浮盈-4.47%",
-      "emotion": "混沌期"
-    }
-  ],
+  "alerts": [],
   "candidates": [
     {
       "code": "000993",
@@ -36,9 +25,9 @@ window.DUANBAN_DATA = {
       "runUp": 61.4,
       "selectDate": "20260917",
       "baseClose": 44.33,
-      "price": 48.21,
-      "pct": -1.13,
-      "sincePct": 8.75,
+      "price": 47.94,
+      "pct": -1.68,
+      "sincePct": 8.14,
       "status": "候选"
     },
     {
@@ -49,9 +38,9 @@ window.DUANBAN_DATA = {
       "runUp": 36.0,
       "selectDate": "20260918",
       "baseClose": 37.0,
-      "price": 38.0,
-      "pct": 2.7,
-      "sincePct": 2.7,
+      "price": 37.94,
+      "pct": 2.54,
+      "sincePct": 2.54,
       "status": "候选"
     },
     {
@@ -88,9 +77,9 @@ window.DUANBAN_DATA = {
       "runUp": 30.6,
       "selectDate": "20260918",
       "baseClose": 20.32,
-      "price": 19.75,
-      "pct": -2.81,
-      "sincePct": -2.81,
+      "price": 19.76,
+      "pct": -2.76,
+      "sincePct": -2.76,
       "status": "候选"
     }
   ],
