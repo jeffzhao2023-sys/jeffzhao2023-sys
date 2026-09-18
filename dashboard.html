@@ -221,6 +221,7 @@
     }
 
     var duanbanShowAll=false;
+    var duanbanRecShowAll=false;
     function initDuanban(){
       var sub=document.getElementById('subDuanban');
       if(!DB){ sub.textContent='未找到数据：请运行本策略 monitor.py 生成 duanban_data.js'; return; }
@@ -248,13 +249,17 @@
         document.getElementById('duanbanCandBody').innerHTML=hc+'</table>';
       }
       var recs=(DB.records||[]).slice();
-      recs.sort(function(a,b){ return (a.breakDate||'')<(b.breakDate||'')?1:-1; });
+      var recActive=recs.filter(function(r){ return ['止盈','止损','作废'].indexOf(r.status)<0; });
+      var showRec=duanbanRecShowAll?recs:recActive;
+      showRec.sort(function(a,b){ return (a.breakDate||'')<(b.breakDate||'')?1:-1; });
       {
-        var h2='<div style="font-weight:600;margin-bottom:8px">记录 <span class="count">'+recs.length+' 条</span></div>';
+        var h2='<div style="font-weight:600;margin-bottom:8px">记录 <span class="count">'+showRec.length+' 条</span>'
+          +' <span style="font-weight:normal;color:#6b7280;font-size:12px">—— 买卖过的票永久保留；已了结的收益率按卖出价定格</span>'
+          +' <label style="font-weight:normal;font-size:12px;margin-left:8px;cursor:pointer"><input type="checkbox" id="duanbanRecAll"'+(duanbanRecShowAll?' checked':'')+' onchange="duanbanRecShowAll=this.checked;initDuanban();"> 显示已了结</label></div>';
         h2+='<table><tr><th>买入日</th><th>当日情绪</th><th>代码</th><th>名称</th><th>高度</th><th>买入价</th>'
           +'<th>卖出日</th><th>卖出时间</th><th>卖出价</th><th>原因</th><th>收益率</th><th>周期</th></tr>';
-        if(recs.length===0){ h2+='<tr><td colspan="12" class="empty-tip">暂无记录</td></tr>'; }
-        recs.forEach(function(r){
+        if(showRec.length===0){ h2+='<tr><td colspan="12" class="empty-tip">暂无记录</td></tr>'; }
+        showRec.forEach(function(r){
           var pnl=r.pnl, pc=(pnl==null||pnl===0)?'':(pnl>0?'emotion-up':'emotion-down');
           var em=r.emotion||'—';
           h2+='<tr>'
