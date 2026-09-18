@@ -1,5 +1,5 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-09-18 14:31:32",
+  "generated": "2026-09-18 14:32:02",
   "today": "20260918",
   "emotion": "混沌期",
   "alerts": [],
@@ -38,9 +38,9 @@ window.DUANBAN_DATA = {
       "runUp": 36.0,
       "selectDate": "20260918",
       "baseClose": 37.0,
-      "price": 37.04,
-      "pct": 0.11,
-      "sincePct": 0.11,
+      "price": 37.05,
+      "pct": 0.14,
+      "sincePct": 0.14,
       "status": "候选"
     },
     {
