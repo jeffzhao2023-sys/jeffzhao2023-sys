@@ -1,5 +1,5 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-09-18 10:46:37",
+  "generated": "2026-09-18 10:51:31",
   "today": "20260918",
   "emotion": "混沌期",
   "alerts": [],
@@ -12,10 +12,10 @@ window.DUANBAN_DATA = {
       "runUp": 77.2,
       "selectDate": "20260917",
       "baseClose": 18.48,
-      "price": 19.76,
-      "pct": 9.96,
-      "sincePct": 6.93,
-      "status": "止损"
+      "price": 19.74,
+      "pct": 9.85,
+      "sincePct": 6.82,
+      "status": "持有中"
     },
     {
       "code": "605058",
@@ -25,9 +25,9 @@ window.DUANBAN_DATA = {
       "runUp": 61.4,
       "selectDate": "20260917",
       "baseClose": 44.33,
-      "price": 47.88,
-      "pct": -1.8,
-      "sincePct": 8.01,
+      "price": 48.65,
+      "pct": -0.23,
+      "sincePct": 9.75,
       "status": "候选"
     },
     {
@@ -38,9 +38,9 @@ window.DUANBAN_DATA = {
       "runUp": 36.0,
       "selectDate": "20260918",
       "baseClose": 37.0,
-      "price": 37.8,
-      "pct": 2.16,
-      "sincePct": 2.16,
+      "price": 37.83,
+      "pct": 2.24,
+      "sincePct": 2.24,
       "status": "候选"
     },
     {
@@ -77,9 +77,9 @@ window.DUANBAN_DATA = {
       "runUp": 30.6,
       "selectDate": "20260918",
       "baseClose": 20.32,
-      "price": 19.77,
-      "pct": -2.71,
-      "sincePct": -2.71,
+      "price": 19.65,
+      "pct": -3.3,
+      "sincePct": -3.3,
       "status": "候选"
     }
   ],
@@ -92,19 +92,19 @@ window.DUANBAN_DATA = {
       "breakHigh": 18.47,
       "breakPct": -3.25,
       "emotion": "混沌期",
-      "status": "止损",
+      "status": "持有中",
       "cost": 17.88,
-      "price": 19.76,
+      "price": 19.74,
       "daysAfterBreak": 1,
-      "pnl": 10.51,
+      "pnl": 10.4,
       "buyDate": "20260917",
       "buyPrice": 17.88,
       "buyTime": "14:45:22",
       "way": "断板买入",
-      "sellDate": "20260918",
-      "sellTime": "09:15:04",
-      "sellPrice": 17.08,
-      "sellReason": "跌破5日线(17.12)",
+      "sellDate": null,
+      "sellTime": null,
+      "sellPrice": null,
+      "sellReason": "持有中",
       "period": 1
     }
   ]
