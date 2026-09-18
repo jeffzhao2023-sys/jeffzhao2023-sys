@@ -1,8 +1,29 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-09-18 14:42:39",
+  "generated": "2026-09-18 14:45:11",
   "today": "20260918",
   "emotion": "混沌期",
-  "alerts": [],
+  "alerts": [
+    {
+      "time": "14:45:11",
+      "type": "断板买入",
+      "code": "003026",
+      "name": "中晶科技",
+      "breakDate": "20260918",
+      "price": 36.94,
+      "note": "断板日涨幅-0.16%，尾盘低吸",
+      "emotion": "混沌期"
+    },
+    {
+      "time": "14:45:12",
+      "type": "断板买入",
+      "code": "003001",
+      "name": "中岩大地",
+      "breakDate": "20260918",
+      "price": 19.61,
+      "note": "断板日涨幅-3.49%，尾盘低吸",
+      "emotion": "混沌期"
+    }
+  ],
   "candidates": [
     {
       "code": "000993",
@@ -25,9 +46,9 @@ window.DUANBAN_DATA = {
       "runUp": 61.4,
       "selectDate": "20260917",
       "baseClose": 44.33,
-      "price": 46.94,
-      "pct": -3.73,
-      "sincePct": 5.89,
+      "price": 46.9,
+      "pct": -3.81,
+      "sincePct": 5.8,
       "status": "候选"
     },
     {
@@ -38,10 +59,10 @@ window.DUANBAN_DATA = {
       "runUp": 36.0,
       "selectDate": "20260918",
       "baseClose": 37.0,
-      "price": 36.98,
-      "pct": -0.05,
-      "sincePct": -0.05,
-      "status": "候选"
+      "price": 36.94,
+      "pct": -0.16,
+      "sincePct": -0.16,
+      "status": "持有中"
     },
     {
       "code": "001216",
@@ -77,10 +98,10 @@ window.DUANBAN_DATA = {
       "runUp": 30.6,
       "selectDate": "20260918",
       "baseClose": 20.32,
-      "price": 19.55,
-      "pct": -3.79,
-      "sincePct": -3.79,
-      "status": "候选"
+      "price": 19.61,
+      "pct": -3.49,
+      "sincePct": -3.49,
+      "status": "持有中"
     }
   ],
   "records": [
@@ -106,6 +127,52 @@ window.DUANBAN_DATA = {
       "sellPrice": null,
       "sellReason": "持有中",
       "period": 1
+    },
+    {
+      "code": "003026",
+      "name": "中晶科技",
+      "boards": 3,
+      "breakDate": "20260918",
+      "breakHigh": 40.7,
+      "breakPct": -0.16,
+      "emotion": "混沌期",
+      "status": "持有中",
+      "cost": 36.94,
+      "price": 36.94,
+      "daysAfterBreak": 0,
+      "pnl": null,
+      "buyDate": "20260918",
+      "buyPrice": 36.94,
+      "buyTime": "14:45:11",
+      "way": "断板买入",
+      "sellDate": null,
+      "sellTime": null,
+      "sellPrice": null,
+      "sellReason": "持有中",
+      "period": null
+    },
+    {
+      "code": "003001",
+      "name": "中岩大地",
+      "boards": 2,
+      "breakDate": "20260918",
+      "breakHigh": 21.93,
+      "breakPct": -3.49,
+      "emotion": "混沌期",
+      "status": "持有中",
+      "cost": 19.61,
+      "price": 19.61,
+      "daysAfterBreak": 0,
+      "pnl": null,
+      "buyDate": "20260918",
+      "buyPrice": 19.61,
+      "buyTime": "14:45:12",
+      "way": "断板买入",
+      "sellDate": null,
+      "sellTime": null,
+      "sellPrice": null,
+      "sellReason": "持有中",
+      "period": null
     }
   ]
 };
