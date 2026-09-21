@@ -1,29 +1,8 @@
 window.DUANBAN_DATA = {
   "generated": "2026-09-18 15:25:04",
-  "today": "20260918",
+  "today": "20260921",
   "emotion": "混沌期",
-  "alerts": [
-    {
-      "time": "14:45:11",
-      "type": "断板买入",
-      "code": "003026",
-      "name": "中晶科技",
-      "breakDate": "20260918",
-      "price": 36.94,
-      "note": "断板日涨幅-0.16%，尾盘低吸",
-      "emotion": "混沌期"
-    },
-    {
-      "time": "14:45:12",
-      "type": "断板买入",
-      "code": "003001",
-      "name": "中岩大地",
-      "breakDate": "20260918",
-      "price": 19.61,
-      "note": "断板日涨幅-3.49%，尾盘低吸",
-      "emotion": "混沌期"
-    }
-  ],
+  "alerts": [],
   "candidates": [
     {
       "code": "000993",
@@ -102,6 +81,19 @@ window.DUANBAN_DATA = {
       "pct": -2.07,
       "sincePct": -2.07,
       "status": "持有中"
+    },
+    {
+      "code": "603230",
+      "name": "内蒙新华",
+      "boards": 3,
+      "prevClose": 13.48,
+      "runUp": 38.3,
+      "selectDate": "20260921",
+      "baseClose": 13.48,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
     }
   ],
   "records": [
