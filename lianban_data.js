@@ -1,5 +1,5 @@
 window.LIANBAN_DATA = {
-  "generated": "2026-09-21 15:05:13",
+  "generated": "2026-09-22 06:13:46",
   "today": "2026-09-21",
   "pool": [
     {
@@ -7,7 +7,7 @@ window.LIANBAN_DATA = {
       "name": "科森科技",
       "boards": 2,
       "breakDate": "2026-09-21",
-      "lastClose": null,
+      "lastClose": 23.35,
       "buyPrice": 23.35,
       "ma5": null,
       "ma250": null,
@@ -49,7 +49,7 @@ window.LIANBAN_DATA = {
       "name": "锡华科技",
       "boards": 4,
       "breakDate": "2026-09-21",
-      "lastClose": null,
+      "lastClose": 24.25,
       "buyPrice": 24.25,
       "ma5": null,
       "ma250": null,
@@ -70,7 +70,7 @@ window.LIANBAN_DATA = {
       "name": "经纬股份",
       "boards": 2,
       "breakDate": "2026-09-21",
-      "lastClose": null,
+      "lastClose": 50.39,
       "buyPrice": 50.39,
       "ma5": null,
       "ma250": null,
