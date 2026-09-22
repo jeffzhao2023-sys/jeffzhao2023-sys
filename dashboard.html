@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>投资看板 · 换手龙断板低吸 & 首次唯一最高板 & 连板股低吸</title>
+<title>投资看板 · 情绪龙头低吸</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: "Microsoft YaHei", -apple-system, sans-serif; background: #f4f6f9; color: #1f2937; padding: 20px; }
@@ -42,18 +42,16 @@
   .col h1 { font-size: 18px; margin-bottom: 4px; }
   .col .sub { margin-bottom: 14px; }
   .mono { font-variant-numeric: tabular-nums; }
-  .row-pending td { background: #fafafa; color: #9ca3af; }
   .status-yizi { color: #7c3aed; font-weight: 600; }
-  .tag-pending { display: inline-block; margin-left: 6px; font-size: 11px; padding: 1px 6px; border-radius: 8px; background: #e5e7eb; color: #6b7280; vertical-align: middle; }
 
 </style>
 </head>
 <body>
   <h1>📈 情绪龙头低吸</h1>
   <div class="sub">操作说明：1，有效期：市场增量不足，大票主升浪无法启动时使用；2，核心是最高辨识度情绪龙的低吸</div>
-  <div class="sub">最左：预首次唯一最高板（盘中）　·　左：首次唯一最高板（盘中）　·　中：换手龙断板低吸（盘中）　·　右：连板低吸（盘后）</div>
+  <div class="sub">最左：预首次唯一最高板（盘中）　·　左：首次唯一最高板（盘中）　·　右：换手龙断板低吸（盘中）</div>
 
-  <div class="grid2" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+  <div class="grid2" style="grid-template-columns: 1fr 1fr 1fr;">
     <!-- ============ 最左栏：预首次唯一最高板 ============ -->
     <div class="col">
       <h1>🚀 预首次唯一最高板</h1>
@@ -91,23 +89,13 @@
       </div>
     </div>
 
-    <!-- ============ 最右栏：连板低吸 ============ -->
-    <div class="col">
-      <h1>📉 连板转强趋势的低吸策略</h1>
-      <div class="sub" id="subLianban">加载中…</div>
-      <div class="card">
-        <div id="lianbanAllBody"></div>
-      </div>
-    </div>
   </div>
 
   <script src="highest_data.js" charset="utf-8"></script>
-  <script src="lianban_data.js" charset="utf-8"></script>
   <script src="duanban_data.js" charset="utf-8"></script>
   <script src="yushouci_data.js" charset="utf-8"></script>
   <script>
     var H = window.HIGHEST_DATA || null;
-    var LB = window.LIANBAN_DATA || null;
     var DB = window.DUANBAN_DATA || null;
     var YC = window.YUSHOUCI_DATA || null;
     function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
@@ -201,37 +189,6 @@
       document.getElementById('subHighest').textContent='最近成功检查：'+(H.lastCheck||H.generated)+'　·　数据更新时间：'+H.generated;
       document.getElementById('highestAllBody').innerHTML = renderCombinedTable();
     }
-    function initLianban(){
-      if(!LB){ document.getElementById('subLianban').textContent='未找到数据：请运行连板股低吸 monitor.py 生成 lianban_data.js'; return; }
-      document.getElementById('subLianban').textContent='数据生成时间：'+LB.generated+'　截止：'+LB.today;
-      var records = (LB.pool||[]).slice();
-      if(records.length===0){ document.getElementById('lianbanAllBody').innerHTML='<div class="empty-tip">暂无记录</div>'; return; }
-      var active = records.filter(function(r){ return r.status!=='已卖出'; });
-      function floatPnl(r){
-        var b=r.buyPrice, c=r.lastClose;
-        if(b==null||b===0||c==null) return null;
-        return (c/b-1)*100;
-      }
-      function row(r){
-        var pending=(r.status==='待确认');
-        var pnl=pending?null:floatPnl(r);
-        var pc=(pnl==null)?'':(pnl>0?'emotion-up':(pnl<0?'emotion-down':''));
-        var pnlTxt=(pnl==null)?'—':pnl.toFixed(2)+'%';
-        var name=esc(r.name);
-        if(pending){
-          name+='<span class="tag-pending" title="断板日收盘低于前一日收盘，需次一交易日收盘超过'+(r.pendingRefClose!=null?r.pendingRefClose:'涨停日收盘价')+'才重新进看板">待确认</span>';
-        }
-        return '<tr'+(pending?' class="row-pending"':'')+'><td class="mono">'+esc(r.breakDate)+'</td><td class="mono">'+esc(r.code)+'</td><td>'+name+'</td>'
-          +'<td>'+esc(r.boards)+'</td><td class="mono">'+esc(r.daysAfterBreak)+'</td>'
-          +'<td class="mono">'+esc(r.declineStreak!=null?r.declineStreak+'天':'—')+'</td>'
-          +'<td class="mono '+pc+'">'+pnlTxt+'</td></tr>';
-      }
-      active.sort(function(a,b){ return b.breakDate>a.breakDate?1:-1; });
-      var h='<table><tr><th>断板日</th><th>代码</th><th>名称</th><th>断板前板数</th><th>断板后天数</th><th>连跌天数</th><th>收益率</th></tr>';
-      active.forEach(function(r){ h+=row(r); });
-      document.getElementById('lianbanAllBody').innerHTML = h+'</table>';
-    }
-
     var duanbanShowAll=false;
     var duanbanRecShowAll=false;
     function initDuanban(){
@@ -319,7 +276,6 @@
     function safeInit(fn){ try{ fn(); }catch(e){ if(window.console) console.error(fn.name + " 渲染失败", e); } }
     safeInit(initYushouci);
     safeInit(initHighest);
-    safeInit(initLianban);
     safeInit(initDuanban);
   </script>
 </body>
