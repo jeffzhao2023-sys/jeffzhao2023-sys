@@ -1,6 +1,6 @@
 window.DUANBAN_DATA = {
   "generated": "2026-09-21 17:21:36",
-  "today": "20260921",
+  "today": "20260922",
   "emotion": "混沌期",
   "alerts": [],
   "candidates": [
@@ -93,6 +93,71 @@ window.DUANBAN_DATA = {
       "price": 14.83,
       "pct": 10.01,
       "sincePct": 10.01,
+      "status": "候选"
+    },
+    {
+      "code": "002285",
+      "name": "世联行",
+      "boards": 4,
+      "prevClose": 3.18,
+      "runUp": 46.5,
+      "selectDate": "20260922",
+      "baseClose": 3.18,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
+    },
+    {
+      "code": "600448",
+      "name": "华纺股份",
+      "boards": 3,
+      "prevClose": 3.89,
+      "runUp": 36.5,
+      "selectDate": "20260922",
+      "baseClose": 3.89,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
+    },
+    {
+      "code": "600630",
+      "name": "龙头股份",
+      "boards": 3,
+      "prevClose": 9.12,
+      "runUp": 35.1,
+      "selectDate": "20260922",
+      "baseClose": 9.12,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
+    },
+    {
+      "code": "002453",
+      "name": "华软科技",
+      "boards": 3,
+      "prevClose": 5.87,
+      "runUp": 36.2,
+      "selectDate": "20260922",
+      "baseClose": 5.87,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
+    },
+    {
+      "code": "601579",
+      "name": "会稽山",
+      "boards": 2,
+      "prevClose": 36.12,
+      "runUp": 57.0,
+      "selectDate": "20260922",
+      "baseClose": 36.12,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
       "status": "候选"
     }
   ],
