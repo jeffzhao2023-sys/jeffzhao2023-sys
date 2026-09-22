@@ -1,8 +1,19 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-09-22 09:35:08",
+  "generated": "2026-09-22 09:38:40",
   "today": "20260922",
   "emotion": "混沌期",
-  "alerts": [],
+  "alerts": [
+    {
+      "time": "09:38:40",
+      "type": "止损卖出",
+      "code": "003026",
+      "name": "中晶科技",
+      "breakDate": "20260918",
+      "price": 36.4,
+      "note": "跌破5日线(36.43) 浮盈-1.46%",
+      "emotion": "混沌期"
+    }
+  ],
   "candidates": [
     {
       "code": "000993",
@@ -12,9 +23,9 @@ window.DUANBAN_DATA = {
       "runUp": 77.2,
       "selectDate": "20260917",
       "baseClose": 18.48,
-      "price": 19.99,
-      "pct": -2.15,
-      "sincePct": 8.17,
+      "price": 20.29,
+      "pct": -0.69,
+      "sincePct": 9.79,
       "status": "持有中"
     },
     {
@@ -25,9 +36,9 @@ window.DUANBAN_DATA = {
       "runUp": 61.4,
       "selectDate": "20260917",
       "baseClose": 44.33,
-      "price": 49.57,
-      "pct": 2.35,
-      "sincePct": 11.82,
+      "price": 48.68,
+      "pct": 0.52,
+      "sincePct": 9.81,
       "status": "候选"
     },
     {
@@ -38,10 +49,10 @@ window.DUANBAN_DATA = {
       "runUp": 36.0,
       "selectDate": "20260918",
       "baseClose": 37.0,
-      "price": 36.93,
-      "pct": -2.53,
-      "sincePct": -0.19,
-      "status": "持有中"
+      "price": 36.4,
+      "pct": -3.93,
+      "sincePct": -1.62,
+      "status": "止损"
     },
     {
       "code": "001216",
@@ -64,9 +75,9 @@ window.DUANBAN_DATA = {
       "runUp": 33.1,
       "selectDate": "20260918",
       "baseClose": 22.34,
-      "price": 23.7,
-      "pct": -2.27,
-      "sincePct": 6.09,
+      "price": 23.6,
+      "pct": -2.68,
+      "sincePct": 5.64,
       "status": "候选"
     },
     {
@@ -77,9 +88,9 @@ window.DUANBAN_DATA = {
       "runUp": 30.6,
       "selectDate": "20260918",
       "baseClose": 20.32,
-      "price": 21.71,
-      "pct": 3.98,
-      "sincePct": 6.84,
+      "price": 21.7,
+      "pct": 3.93,
+      "sincePct": 6.79,
       "status": "持有中"
     },
     {
@@ -90,9 +101,9 @@ window.DUANBAN_DATA = {
       "runUp": 38.3,
       "selectDate": "20260921",
       "baseClose": 13.48,
-      "price": 16.07,
-      "pct": 8.36,
-      "sincePct": 19.21,
+      "price": 16.3,
+      "pct": 9.91,
+      "sincePct": 20.92,
       "status": "候选"
     },
     {
@@ -103,9 +114,9 @@ window.DUANBAN_DATA = {
       "runUp": 46.5,
       "selectDate": "20260922",
       "baseClose": 3.18,
-      "price": 3.26,
-      "pct": 2.52,
-      "sincePct": 2.52,
+      "price": 3.2,
+      "pct": 0.63,
+      "sincePct": 0.63,
       "status": "候选"
     },
     {
@@ -116,9 +127,9 @@ window.DUANBAN_DATA = {
       "runUp": 36.5,
       "selectDate": "20260922",
       "baseClose": 3.89,
-      "price": 3.76,
-      "pct": -3.34,
-      "sincePct": -3.34,
+      "price": 3.75,
+      "pct": -3.6,
+      "sincePct": -3.6,
       "status": "候选"
     },
     {
@@ -129,9 +140,9 @@ window.DUANBAN_DATA = {
       "runUp": 35.1,
       "selectDate": "20260922",
       "baseClose": 9.12,
-      "price": 9.51,
-      "pct": 4.28,
-      "sincePct": 4.28,
+      "price": 9.36,
+      "pct": 2.63,
+      "sincePct": 2.63,
       "status": "候选"
     },
     {
@@ -155,9 +166,9 @@ window.DUANBAN_DATA = {
       "runUp": 57.0,
       "selectDate": "20260922",
       "baseClose": 36.12,
-      "price": 37.36,
-      "pct": 3.43,
-      "sincePct": 3.43,
+      "price": 37.44,
+      "pct": 3.65,
+      "sincePct": 3.65,
       "status": "候选"
     }
   ],
@@ -172,9 +183,9 @@ window.DUANBAN_DATA = {
       "emotion": "混沌期",
       "status": "持有中",
       "cost": 17.88,
-      "price": 19.99,
+      "price": 20.29,
       "daysAfterBreak": 3,
-      "pnl": 11.8,
+      "pnl": 13.48,
       "buyDate": "20260917",
       "buyPrice": 17.88,
       "buyTime": "14:45:22",
@@ -193,19 +204,19 @@ window.DUANBAN_DATA = {
       "breakHigh": 40.7,
       "breakPct": -0.16,
       "emotion": "混沌期",
-      "status": "持有中",
+      "status": "止损",
       "cost": 36.94,
-      "price": 36.93,
+      "price": 36.4,
       "daysAfterBreak": 2,
-      "pnl": -0.03,
+      "pnl": -1.46,
       "buyDate": "20260918",
       "buyPrice": 36.94,
       "buyTime": "14:45:11",
       "way": "断板买入",
-      "sellDate": null,
-      "sellTime": null,
-      "sellPrice": null,
-      "sellReason": "持有中",
+      "sellDate": "20260922",
+      "sellTime": "09:38:41",
+      "sellPrice": 36.4,
+      "sellReason": "跌破5日线(36.43)",
       "period": 2
     },
     {
@@ -218,9 +229,9 @@ window.DUANBAN_DATA = {
       "emotion": "混沌期",
       "status": "持有中",
       "cost": 19.61,
-      "price": 21.71,
+      "price": 21.7,
       "daysAfterBreak": 2,
-      "pnl": 10.71,
+      "pnl": 10.66,
       "buyDate": "20260918",
       "buyPrice": 19.61,
       "buyTime": "14:45:12",
