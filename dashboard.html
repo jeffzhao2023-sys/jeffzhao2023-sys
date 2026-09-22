@@ -257,7 +257,7 @@
       var body=document.getElementById('yushouciBody');
       if(!YC || !YC.rows){ sub.textContent='未找到数据：请运行本策略 monitor.py 生成 yushouci_data.js'; body.innerHTML=''; return; }
       sub.innerHTML='监控名单 = 昨日「次高板 + 再次高板」两档　·　换手率阈值 &gt; '+esc(YC.threshold)+'%<br>'
-        +'状态：开板=绿　换手板晋级=红　一字板涨停=紫<br>'
+        +'状态：开板=绿　换手板晋级=红<br>'
         +'更新时间：'+esc(YC.generated)+'　·　昨日梯队：'+esc(YC.tiersText||'—');
       var rows=YC.rows||[];
       if(rows.length===0){ body.innerHTML='<div class="empty-tip">暂无监控标的</div>'; return; }
