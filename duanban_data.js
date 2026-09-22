@@ -1,5 +1,5 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-09-22 14:44:23",
+  "generated": "2026-09-22 14:44:54",
   "today": "20260922",
   "emotion": "混沌期",
   "alerts": [
@@ -22,6 +22,36 @@ window.DUANBAN_DATA = {
       "price": 20.8,
       "note": "最高浮盈11.27%回落至6.07%",
       "emotion": "混沌期"
+    },
+    {
+      "time": "14:45:24",
+      "type": "断板买入",
+      "code": "002285",
+      "name": "世联行",
+      "breakDate": "20260922",
+      "price": 3.25,
+      "note": "断板日涨幅2.20%，尾盘低吸",
+      "emotion": "混沌期"
+    },
+    {
+      "time": "14:45:24",
+      "type": "断板观察",
+      "code": "600448",
+      "name": "华纺股份",
+      "breakDate": "20260922",
+      "price": 3.62,
+      "note": "断板日涨幅-6.94% 超出-5%~+5%，不买，等反包",
+      "emotion": "混沌期"
+    },
+    {
+      "time": "14:45:24",
+      "type": "断板买入",
+      "code": "600630",
+      "name": "龙头股份",
+      "breakDate": "20260922",
+      "price": 9.55,
+      "note": "断板日涨幅4.71%，尾盘低吸",
+      "emotion": "混沌期"
     }
   ],
   "candidates": [
@@ -33,9 +63,9 @@ window.DUANBAN_DATA = {
       "runUp": 77.2,
       "selectDate": "20260917",
       "baseClose": 18.48,
-      "price": 20.82,
-      "pct": 1.91,
-      "sincePct": 12.66,
+      "price": 20.8,
+      "pct": 1.81,
+      "sincePct": 12.55,
       "status": "持有中"
     },
     {
@@ -85,9 +115,9 @@ window.DUANBAN_DATA = {
       "runUp": 33.1,
       "selectDate": "20260918",
       "baseClose": 22.34,
-      "price": 23.51,
-      "pct": -3.05,
-      "sincePct": 5.24,
+      "price": 23.56,
+      "pct": -2.85,
+      "sincePct": 5.46,
       "status": "候选"
     },
     {
@@ -124,9 +154,9 @@ window.DUANBAN_DATA = {
       "runUp": 46.5,
       "selectDate": "20260922",
       "baseClose": 3.18,
-      "price": 3.23,
-      "pct": 1.57,
-      "sincePct": 1.57,
+      "price": 3.22,
+      "pct": 1.26,
+      "sincePct": 1.26,
       "status": "候选"
     },
     {
@@ -137,9 +167,9 @@ window.DUANBAN_DATA = {
       "runUp": 36.5,
       "selectDate": "20260922",
       "baseClose": 3.89,
-      "price": 3.61,
-      "pct": -7.2,
-      "sincePct": -7.2,
+      "price": 3.63,
+      "pct": -6.68,
+      "sincePct": -6.68,
       "status": "候选"
     },
     {
@@ -150,9 +180,9 @@ window.DUANBAN_DATA = {
       "runUp": 35.1,
       "selectDate": "20260922",
       "baseClose": 9.12,
-      "price": 9.57,
-      "pct": 4.93,
-      "sincePct": 4.93,
+      "price": 9.58,
+      "pct": 5.04,
+      "sincePct": 5.04,
       "status": "候选"
     },
     {
@@ -163,9 +193,9 @@ window.DUANBAN_DATA = {
       "runUp": 36.2,
       "selectDate": "20260922",
       "baseClose": 5.87,
-      "price": 5.38,
-      "pct": -8.35,
-      "sincePct": -8.35,
+      "price": 5.37,
+      "pct": -8.52,
+      "sincePct": -8.52,
       "status": "候选"
     },
     {
@@ -193,9 +223,9 @@ window.DUANBAN_DATA = {
       "emotion": "混沌期",
       "status": "持有中",
       "cost": 17.88,
-      "price": 20.82,
+      "price": 20.81,
       "daysAfterBreak": 3,
-      "pnl": 16.44,
+      "pnl": 16.39,
       "buyDate": "20260917",
       "buyPrice": 17.88,
       "buyTime": "14:45:22",
@@ -251,6 +281,52 @@ window.DUANBAN_DATA = {
       "sellPrice": 20.8,
       "sellReason": "最高浮盈11.27%回落至6.07%",
       "period": 2
+    },
+    {
+      "code": "002285",
+      "name": "世联行",
+      "boards": 4,
+      "breakDate": "20260922",
+      "breakHigh": 3.44,
+      "breakPct": 2.2,
+      "emotion": "混沌期",
+      "status": "持有中",
+      "cost": 3.25,
+      "price": 3.25,
+      "daysAfterBreak": 0,
+      "pnl": null,
+      "buyDate": "20260922",
+      "buyPrice": 3.25,
+      "buyTime": "14:45:24",
+      "way": "断板买入",
+      "sellDate": null,
+      "sellTime": null,
+      "sellPrice": null,
+      "sellReason": "持有中",
+      "period": null
+    },
+    {
+      "code": "600448",
+      "name": "华纺股份",
+      "boards": 3,
+      "breakDate": "20260922",
+      "breakHigh": 4.23,
+      "breakPct": -6.94,
+      "emotion": "混沌期",
+      "status": "观察中",
+      "cost": null,
+      "price": 3.62,
+      "daysAfterBreak": 0,
+      "pnl": null,
+      "buyDate": null,
+      "buyPrice": null,
+      "buyTime": null,
+      "way": null,
+      "sellDate": null,
+      "sellTime": null,
+      "sellPrice": null,
+      "sellReason": "观察中，等反包",
+      "period": null
     }
   ]
 };
