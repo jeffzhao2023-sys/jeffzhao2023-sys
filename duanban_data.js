@@ -1,5 +1,5 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-09-22 14:44:54",
+  "generated": "2026-09-22 14:45:24",
   "today": "20260922",
   "emotion": "混沌期",
   "alerts": [
@@ -52,6 +52,26 @@ window.DUANBAN_DATA = {
       "price": 9.55,
       "note": "断板日涨幅4.71%，尾盘低吸",
       "emotion": "混沌期"
+    },
+    {
+      "time": "14:45:24",
+      "type": "断板观察",
+      "code": "002453",
+      "name": "华软科技",
+      "breakDate": "20260922",
+      "price": 5.38,
+      "note": "断板日涨幅-8.35% 超出-5%~+5%，不买，等反包",
+      "emotion": "混沌期"
+    },
+    {
+      "time": "14:45:25",
+      "type": "断板买入",
+      "code": "601579",
+      "name": "会稽山",
+      "breakDate": "20260922",
+      "price": 37.65,
+      "note": "断板日涨幅4.24%，尾盘低吸",
+      "emotion": "混沌期"
     }
   ],
   "candidates": [
@@ -63,9 +83,9 @@ window.DUANBAN_DATA = {
       "runUp": 77.2,
       "selectDate": "20260917",
       "baseClose": 18.48,
-      "price": 20.8,
-      "pct": 1.81,
-      "sincePct": 12.55,
+      "price": 20.81,
+      "pct": 1.86,
+      "sincePct": 12.61,
       "status": "持有中"
     },
     {
@@ -115,9 +135,9 @@ window.DUANBAN_DATA = {
       "runUp": 33.1,
       "selectDate": "20260918",
       "baseClose": 22.34,
-      "price": 23.56,
-      "pct": -2.85,
-      "sincePct": 5.46,
+      "price": 23.55,
+      "pct": -2.89,
+      "sincePct": 5.42,
       "status": "候选"
     },
     {
@@ -154,10 +174,10 @@ window.DUANBAN_DATA = {
       "runUp": 46.5,
       "selectDate": "20260922",
       "baseClose": 3.18,
-      "price": 3.22,
-      "pct": 1.26,
-      "sincePct": 1.26,
-      "status": "候选"
+      "price": 3.25,
+      "pct": 2.2,
+      "sincePct": 2.2,
+      "status": "持有中"
     },
     {
       "code": "600448",
@@ -167,10 +187,10 @@ window.DUANBAN_DATA = {
       "runUp": 36.5,
       "selectDate": "20260922",
       "baseClose": 3.89,
-      "price": 3.63,
-      "pct": -6.68,
-      "sincePct": -6.68,
-      "status": "候选"
+      "price": 3.62,
+      "pct": -6.94,
+      "sincePct": -6.94,
+      "status": "观察中"
     },
     {
       "code": "600630",
@@ -180,10 +200,10 @@ window.DUANBAN_DATA = {
       "runUp": 35.1,
       "selectDate": "20260922",
       "baseClose": 9.12,
-      "price": 9.58,
-      "pct": 5.04,
-      "sincePct": 5.04,
-      "status": "候选"
+      "price": 9.55,
+      "pct": 4.71,
+      "sincePct": 4.71,
+      "status": "持有中"
     },
     {
       "code": "002453",
@@ -193,10 +213,10 @@ window.DUANBAN_DATA = {
       "runUp": 36.2,
       "selectDate": "20260922",
       "baseClose": 5.87,
-      "price": 5.37,
-      "pct": -8.52,
-      "sincePct": -8.52,
-      "status": "候选"
+      "price": 5.38,
+      "pct": -8.35,
+      "sincePct": -8.35,
+      "status": "观察中"
     },
     {
       "code": "601579",
@@ -206,10 +226,10 @@ window.DUANBAN_DATA = {
       "runUp": 57.0,
       "selectDate": "20260922",
       "baseClose": 36.12,
-      "price": 37.55,
-      "pct": 3.96,
-      "sincePct": 3.96,
-      "status": "候选"
+      "price": 37.65,
+      "pct": 4.24,
+      "sincePct": 4.24,
+      "status": "持有中"
     }
   ],
   "records": [
@@ -326,6 +346,75 @@ window.DUANBAN_DATA = {
       "sellTime": null,
       "sellPrice": null,
       "sellReason": "观察中，等反包",
+      "period": null
+    },
+    {
+      "code": "600630",
+      "name": "龙头股份",
+      "boards": 3,
+      "breakDate": "20260922",
+      "breakHigh": 10.03,
+      "breakPct": 4.71,
+      "emotion": "混沌期",
+      "status": "持有中",
+      "cost": 9.55,
+      "price": 9.55,
+      "daysAfterBreak": 0,
+      "pnl": null,
+      "buyDate": "20260922",
+      "buyPrice": 9.55,
+      "buyTime": "14:45:24",
+      "way": "断板买入",
+      "sellDate": null,
+      "sellTime": null,
+      "sellPrice": null,
+      "sellReason": "持有中",
+      "period": null
+    },
+    {
+      "code": "002453",
+      "name": "华软科技",
+      "boards": 3,
+      "breakDate": "20260922",
+      "breakHigh": 6.1,
+      "breakPct": -8.35,
+      "emotion": "混沌期",
+      "status": "观察中",
+      "cost": null,
+      "price": 5.38,
+      "daysAfterBreak": 0,
+      "pnl": null,
+      "buyDate": null,
+      "buyPrice": null,
+      "buyTime": null,
+      "way": null,
+      "sellDate": null,
+      "sellTime": null,
+      "sellPrice": null,
+      "sellReason": "观察中，等反包",
+      "period": null
+    },
+    {
+      "code": "601579",
+      "name": "会稽山",
+      "boards": 2,
+      "breakDate": "20260922",
+      "breakHigh": 39.33,
+      "breakPct": 4.24,
+      "emotion": "混沌期",
+      "status": "持有中",
+      "cost": 37.65,
+      "price": 37.65,
+      "daysAfterBreak": 0,
+      "pnl": null,
+      "buyDate": "20260922",
+      "buyPrice": 37.65,
+      "buyTime": "14:45:25",
+      "way": "断板买入",
+      "sellDate": null,
+      "sellTime": null,
+      "sellPrice": null,
+      "sellReason": "持有中",
       "period": null
     }
   ]
