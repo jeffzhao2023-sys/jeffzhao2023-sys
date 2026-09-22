@@ -1,5 +1,5 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-09-22 11:30:25",
+  "generated": "2026-09-22 13:00:07",
   "today": "20260922",
   "emotion": "混沌期",
   "alerts": [
@@ -23,9 +23,9 @@ window.DUANBAN_DATA = {
       "runUp": 77.2,
       "selectDate": "20260917",
       "baseClose": 18.48,
-      "price": 20.74,
-      "pct": 1.52,
-      "sincePct": 12.23,
+      "price": 20.72,
+      "pct": 1.42,
+      "sincePct": 12.12,
       "status": "持有中"
     },
     {
@@ -88,9 +88,9 @@ window.DUANBAN_DATA = {
       "runUp": 30.6,
       "selectDate": "20260918",
       "baseClose": 20.32,
-      "price": 21.23,
-      "pct": 1.68,
-      "sincePct": 4.48,
+      "price": 21.18,
+      "pct": 1.44,
+      "sincePct": 4.23,
       "status": "持有中"
     },
     {
@@ -140,9 +140,9 @@ window.DUANBAN_DATA = {
       "runUp": 35.1,
       "selectDate": "20260922",
       "baseClose": 9.12,
-      "price": 9.68,
-      "pct": 6.14,
-      "sincePct": 6.14,
+      "price": 9.69,
+      "pct": 6.25,
+      "sincePct": 6.25,
       "status": "候选"
     },
     {
@@ -153,9 +153,9 @@ window.DUANBAN_DATA = {
       "runUp": 36.2,
       "selectDate": "20260922",
       "baseClose": 5.87,
-      "price": 5.48,
-      "pct": -6.64,
-      "sincePct": -6.64,
+      "price": 5.47,
+      "pct": -6.81,
+      "sincePct": -6.81,
       "status": "候选"
     },
     {
@@ -166,9 +166,9 @@ window.DUANBAN_DATA = {
       "runUp": 57.0,
       "selectDate": "20260922",
       "baseClose": 36.12,
-      "price": 38.77,
-      "pct": 7.34,
-      "sincePct": 7.34,
+      "price": 39.01,
+      "pct": 8.0,
+      "sincePct": 8.0,
       "status": "候选"
     }
   ],
@@ -183,9 +183,9 @@ window.DUANBAN_DATA = {
       "emotion": "混沌期",
       "status": "持有中",
       "cost": 17.88,
-      "price": 20.74,
+      "price": 20.72,
       "daysAfterBreak": 3,
-      "pnl": 16.0,
+      "pnl": 15.88,
       "buyDate": "20260917",
       "buyPrice": 17.88,
       "buyTime": "14:45:22",
@@ -229,9 +229,9 @@ window.DUANBAN_DATA = {
       "emotion": "混沌期",
       "status": "持有中",
       "cost": 19.61,
-      "price": 21.23,
+      "price": 21.18,
       "daysAfterBreak": 2,
-      "pnl": 8.26,
+      "pnl": 8.01,
       "buyDate": "20260918",
       "buyPrice": 19.61,
       "buyTime": "14:45:12",
