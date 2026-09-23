@@ -1,1 +1,1 @@
-window.YUSHOUCI_DATA = {"generated": "2026-09-23 09:40:09", "threshold": 10.0, "tiersText": "6板=最高板　5板=次高板　4板=再次高板", "rows": [{"code": "000504", "name": "南华生物", "yheight": 4, "tier": "再次高板", "price": "12.80", "hs": "17.56", "pct": 5.697770437654848, "status": "已开板"}]};
+window.YUSHOUCI_DATA = {"generated": "2026-09-23 09:53:43", "threshold": 10.0, "tiersText": "6板=最高板　5板=次高板　4板=再次高板", "rows": [{"code": "000504", "name": "南华生物", "yheight": 4, "tier": "再次高板", "price": "13.32", "hs": "20.97", "pct": 9.991742361684564, "status": "已涨停(晋级)"}]};
