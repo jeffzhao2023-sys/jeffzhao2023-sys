@@ -1,79 +1,8 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-09-22 15:40:03",
-  "today": "20260922",
+  "generated": "2026-09-22 15:50:03",
+  "today": "20260923",
   "emotion": "混沌期",
-  "alerts": [
-    {
-      "time": "09:38:40",
-      "type": "止损卖出",
-      "code": "003026",
-      "name": "中晶科技",
-      "breakDate": "20260918",
-      "price": 36.4,
-      "note": "跌破5日线(36.43) 浮盈-1.46%",
-      "emotion": "混沌期"
-    },
-    {
-      "time": "13:08:13",
-      "type": "止盈卖出",
-      "code": "003001",
-      "name": "中岩大地",
-      "breakDate": "20260918",
-      "price": 20.8,
-      "note": "最高浮盈11.27%回落至6.07%",
-      "emotion": "混沌期"
-    },
-    {
-      "time": "14:45:24",
-      "type": "断板买入",
-      "code": "002285",
-      "name": "世联行",
-      "breakDate": "20260922",
-      "price": 3.25,
-      "note": "断板日涨幅2.20%，尾盘低吸",
-      "emotion": "混沌期"
-    },
-    {
-      "time": "14:45:24",
-      "type": "断板观察",
-      "code": "600448",
-      "name": "华纺股份",
-      "breakDate": "20260922",
-      "price": 3.62,
-      "note": "断板日涨幅-6.94% 超出-5%~+5%，不买，等反包",
-      "emotion": "混沌期"
-    },
-    {
-      "time": "14:45:24",
-      "type": "断板买入",
-      "code": "600630",
-      "name": "龙头股份",
-      "breakDate": "20260922",
-      "price": 9.55,
-      "note": "断板日涨幅4.71%，尾盘低吸",
-      "emotion": "混沌期"
-    },
-    {
-      "time": "14:45:24",
-      "type": "断板观察",
-      "code": "002453",
-      "name": "华软科技",
-      "breakDate": "20260922",
-      "price": 5.38,
-      "note": "断板日涨幅-8.35% 超出-5%~+5%，不买，等反包",
-      "emotion": "混沌期"
-    },
-    {
-      "time": "14:45:25",
-      "type": "断板买入",
-      "code": "601579",
-      "name": "会稽山",
-      "breakDate": "20260922",
-      "price": 37.65,
-      "note": "断板日涨幅4.24%，尾盘低吸",
-      "emotion": "混沌期"
-    }
-  ],
+  "alerts": [],
   "candidates": [
     {
       "code": "000993",
@@ -230,6 +159,123 @@ window.DUANBAN_DATA = {
       "pct": 3.82,
       "sincePct": 3.82,
       "status": "持有中"
+    },
+    {
+      "code": "000504",
+      "name": "南华生物",
+      "boards": 4,
+      "prevClose": 12.11,
+      "runUp": 46.4,
+      "selectDate": "20260923",
+      "baseClose": 12.11,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
+    },
+    {
+      "code": "603068",
+      "name": "博通集成",
+      "boards": 3,
+      "prevClose": 48.17,
+      "runUp": 36.8,
+      "selectDate": "20260923",
+      "baseClose": 48.17,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
+    },
+    {
+      "code": "001317",
+      "name": "三羊马",
+      "boards": 3,
+      "prevClose": 65.96,
+      "runUp": 39.9,
+      "selectDate": "20260923",
+      "baseClose": 65.96,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
+    },
+    {
+      "code": "000910",
+      "name": "大亚圣象",
+      "boards": 3,
+      "prevClose": 6.89,
+      "runUp": 35.1,
+      "selectDate": "20260923",
+      "baseClose": 6.89,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
+    },
+    {
+      "code": "601811",
+      "name": "新华文轩",
+      "boards": 3,
+      "prevClose": 16.82,
+      "runUp": 44.6,
+      "selectDate": "20260923",
+      "baseClose": 16.82,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
+    },
+    {
+      "code": "600721",
+      "name": "百花医药",
+      "boards": 2,
+      "prevClose": 14.47,
+      "runUp": 35.7,
+      "selectDate": "20260923",
+      "baseClose": 14.47,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
+    },
+    {
+      "code": "000560",
+      "name": "我爱我家",
+      "boards": 2,
+      "prevClose": 3.51,
+      "runUp": 35.5,
+      "selectDate": "20260923",
+      "baseClose": 3.51,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
+    },
+    {
+      "code": "300110",
+      "name": "华仁药业",
+      "boards": 2,
+      "prevClose": 3.95,
+      "runUp": 47.4,
+      "selectDate": "20260923",
+      "baseClose": 3.95,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
+    },
+    {
+      "code": "603020",
+      "name": "爱普股份",
+      "boards": 2,
+      "prevClose": 13.83,
+      "runUp": 36.3,
+      "selectDate": "20260923",
+      "baseClose": 13.83,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
     }
   ],
   "records": [
