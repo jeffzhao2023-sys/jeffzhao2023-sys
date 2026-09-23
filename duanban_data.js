@@ -1,29 +1,8 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-09-23 14:16:35",
+  "generated": "2026-09-23 14:20:06",
   "today": "20260923",
-  "emotion": "混沌期",
-  "alerts": [
-    {
-      "time": "09:30:03",
-      "type": "止损卖出",
-      "code": "000993",
-      "name": "闽东电力",
-      "breakDate": "20260917",
-      "price": 18.82,
-      "note": "跌破5日线(19.55) 浮盈5.26%",
-      "emotion": "混沌期"
-    },
-    {
-      "time": "09:31:05",
-      "type": "止损卖出",
-      "code": "600630",
-      "name": "龙头股份",
-      "breakDate": "20260922",
-      "price": 8.53,
-      "note": "跌破5日线(8.59) 浮盈-10.68%",
-      "emotion": "混沌期"
-    }
-  ],
+  "emotion": "退潮期",
+  "alerts": [],
   "candidates": [
     {
       "code": "000993",
@@ -72,9 +51,9 @@ window.DUANBAN_DATA = {
       "runUp": 36.5,
       "selectDate": "20260918",
       "baseClose": 19.88,
-      "price": 28.5,
-      "pct": 7.67,
-      "sincePct": 43.36,
+      "price": 28.66,
+      "pct": 8.27,
+      "sincePct": 44.16,
       "status": "候选"
     },
     {
@@ -85,23 +64,10 @@ window.DUANBAN_DATA = {
       "runUp": 33.1,
       "selectDate": "20260918",
       "baseClose": 22.34,
-      "price": 21.5,
-      "pct": -9.97,
-      "sincePct": -3.76,
+      "price": 21.49,
+      "pct": -10.01,
+      "sincePct": -3.8,
       "status": "候选"
-    },
-    {
-      "code": "003001",
-      "name": "中岩大地",
-      "boards": 2,
-      "prevClose": 20.32,
-      "runUp": 30.6,
-      "selectDate": "20260918",
-      "baseClose": 20.32,
-      "price": 20.8,
-      "pct": -0.38,
-      "sincePct": 2.36,
-      "status": "止盈"
     },
     {
       "code": "603230",
@@ -111,9 +77,9 @@ window.DUANBAN_DATA = {
       "runUp": 38.3,
       "selectDate": "20260921",
       "baseClose": 13.48,
-      "price": 16.72,
-      "pct": 2.51,
-      "sincePct": 24.04,
+      "price": 16.5,
+      "pct": 1.16,
+      "sincePct": 22.4,
       "status": "候选"
     },
     {
@@ -124,9 +90,9 @@ window.DUANBAN_DATA = {
       "runUp": 46.5,
       "selectDate": "20260922",
       "baseClose": 3.18,
-      "price": 3.19,
-      "pct": -0.31,
-      "sincePct": 0.31,
+      "price": 3.17,
+      "pct": -0.94,
+      "sincePct": -0.31,
       "status": "持有中"
     },
     {
@@ -137,9 +103,9 @@ window.DUANBAN_DATA = {
       "runUp": 36.5,
       "selectDate": "20260922",
       "baseClose": 3.89,
-      "price": 3.41,
-      "pct": -4.75,
-      "sincePct": -12.34,
+      "price": 3.39,
+      "pct": -5.31,
+      "sincePct": -12.85,
       "status": "观察中"
     },
     {
@@ -176,9 +142,9 @@ window.DUANBAN_DATA = {
       "runUp": 57.0,
       "selectDate": "20260922",
       "baseClose": 36.12,
-      "price": 37.0,
-      "pct": -1.23,
-      "sincePct": 2.44,
+      "price": 37.08,
+      "pct": -1.01,
+      "sincePct": 2.66,
       "status": "持有中"
     },
     {
@@ -189,9 +155,9 @@ window.DUANBAN_DATA = {
       "runUp": 46.4,
       "selectDate": "20260923",
       "baseClose": 12.11,
-      "price": 12.64,
-      "pct": 4.38,
-      "sincePct": 4.38,
+      "price": 12.7,
+      "pct": 4.87,
+      "sincePct": 4.87,
       "status": "候选"
     },
     {
@@ -202,9 +168,9 @@ window.DUANBAN_DATA = {
       "runUp": 36.8,
       "selectDate": "20260923",
       "baseClose": 48.17,
-      "price": 45.96,
-      "pct": -4.59,
-      "sincePct": -4.59,
+      "price": 45.95,
+      "pct": -4.61,
+      "sincePct": -4.61,
       "status": "候选"
     },
     {
@@ -244,58 +210,6 @@ window.DUANBAN_DATA = {
       "price": 18.5,
       "pct": 9.99,
       "sincePct": 9.99,
-      "status": "候选"
-    },
-    {
-      "code": "600721",
-      "name": "百花医药",
-      "boards": 2,
-      "prevClose": 14.47,
-      "runUp": 35.7,
-      "selectDate": "20260923",
-      "baseClose": 14.47,
-      "price": 13.11,
-      "pct": -9.4,
-      "sincePct": -9.4,
-      "status": "候选"
-    },
-    {
-      "code": "000560",
-      "name": "我爱我家",
-      "boards": 2,
-      "prevClose": 3.51,
-      "runUp": 35.5,
-      "selectDate": "20260923",
-      "baseClose": 3.51,
-      "price": 3.86,
-      "pct": 9.97,
-      "sincePct": 9.97,
-      "status": "候选"
-    },
-    {
-      "code": "300110",
-      "name": "华仁药业",
-      "boards": 2,
-      "prevClose": 3.95,
-      "runUp": 47.4,
-      "selectDate": "20260923",
-      "baseClose": 3.95,
-      "price": 3.57,
-      "pct": -9.62,
-      "sincePct": -9.62,
-      "status": "候选"
-    },
-    {
-      "code": "603020",
-      "name": "爱普股份",
-      "boards": 2,
-      "prevClose": 13.83,
-      "runUp": 36.3,
-      "selectDate": "20260923",
-      "baseClose": 13.83,
-      "price": 13.31,
-      "pct": -3.76,
-      "sincePct": -3.76,
       "status": "候选"
     }
   ],
@@ -347,29 +261,6 @@ window.DUANBAN_DATA = {
       "period": 2
     },
     {
-      "code": "003001",
-      "name": "中岩大地",
-      "boards": 2,
-      "breakDate": "20260918",
-      "breakHigh": 21.93,
-      "breakPct": -3.49,
-      "emotion": "混沌期",
-      "status": "止盈",
-      "cost": 19.61,
-      "price": 20.8,
-      "daysAfterBreak": 2,
-      "pnl": 6.07,
-      "buyDate": "20260918",
-      "buyPrice": 19.61,
-      "buyTime": "14:45:12",
-      "way": "断板买入",
-      "sellDate": "20260922",
-      "sellTime": "13:08:13",
-      "sellPrice": 20.8,
-      "sellReason": "最高浮盈11.27%回落至6.07%",
-      "period": 2
-    },
-    {
       "code": "002285",
       "name": "世联行",
       "boards": 4,
@@ -379,9 +270,9 @@ window.DUANBAN_DATA = {
       "emotion": "混沌期",
       "status": "持有中",
       "cost": 3.25,
-      "price": 3.19,
+      "price": 3.17,
       "daysAfterBreak": 1,
-      "pnl": -1.85,
+      "pnl": -2.46,
       "buyDate": "20260922",
       "buyPrice": 3.25,
       "buyTime": "14:45:24",
@@ -402,7 +293,7 @@ window.DUANBAN_DATA = {
       "emotion": "混沌期",
       "status": "观察中",
       "cost": null,
-      "price": 3.41,
+      "price": 3.39,
       "daysAfterBreak": 1,
       "pnl": null,
       "buyDate": null,
@@ -471,9 +362,9 @@ window.DUANBAN_DATA = {
       "emotion": "混沌期",
       "status": "持有中",
       "cost": 37.65,
-      "price": 37.0,
+      "price": 37.08,
       "daysAfterBreak": 1,
-      "pnl": -1.73,
+      "pnl": -1.51,
       "buyDate": "20260922",
       "buyPrice": 37.65,
       "buyTime": "14:45:25",
