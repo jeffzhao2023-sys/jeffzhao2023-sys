@@ -1,8 +1,39 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-09-23 14:42:22",
+  "generated": "2026-09-23 14:44:54",
   "today": "20260923",
   "emotion": "退潮期",
-  "alerts": [],
+  "alerts": [
+    {
+      "time": "14:45:25",
+      "type": "断板买入",
+      "code": "000504",
+      "name": "南华生物",
+      "breakDate": "20260923",
+      "price": 12.6,
+      "note": "断板日涨幅4.05%，尾盘低吸",
+      "emotion": "退潮期"
+    },
+    {
+      "time": "14:45:25",
+      "type": "断板买入",
+      "code": "603068",
+      "name": "博通集成",
+      "breakDate": "20260923",
+      "price": 45.8,
+      "note": "断板日涨幅-4.92%，尾盘低吸",
+      "emotion": "退潮期"
+    },
+    {
+      "time": "14:45:25",
+      "type": "断板观察",
+      "code": "001317",
+      "name": "三羊马",
+      "breakDate": "20260923",
+      "price": 59.36,
+      "note": "断板日涨幅-10.01% 超出-5%~+5%，不买，等反包",
+      "emotion": "退潮期"
+    }
+  ],
   "candidates": [
     {
       "code": "000993",
@@ -51,9 +82,9 @@ window.DUANBAN_DATA = {
       "runUp": 36.5,
       "selectDate": "20260918",
       "baseClose": 19.88,
-      "price": 28.6,
-      "pct": 8.05,
-      "sincePct": 43.86,
+      "price": 28.68,
+      "pct": 8.35,
+      "sincePct": 44.27,
       "status": "候选"
     },
     {
@@ -90,9 +121,9 @@ window.DUANBAN_DATA = {
       "runUp": 46.5,
       "selectDate": "20260922",
       "baseClose": 3.18,
-      "price": 3.26,
-      "pct": 1.88,
-      "sincePct": 2.52,
+      "price": 3.21,
+      "pct": 0.31,
+      "sincePct": 0.94,
       "status": "持有中"
     },
     {
@@ -103,9 +134,9 @@ window.DUANBAN_DATA = {
       "runUp": 36.5,
       "selectDate": "20260922",
       "baseClose": 3.89,
-      "price": 3.32,
-      "pct": -7.26,
-      "sincePct": -14.65,
+      "price": 3.29,
+      "pct": -8.1,
+      "sincePct": -15.42,
       "status": "观察中"
     },
     {
@@ -129,9 +160,9 @@ window.DUANBAN_DATA = {
       "runUp": 36.2,
       "selectDate": "20260922",
       "baseClose": 5.87,
-      "price": 5.07,
-      "pct": -4.52,
-      "sincePct": -13.63,
+      "price": 5.06,
+      "pct": -4.71,
+      "sincePct": -13.8,
       "status": "观察中"
     },
     {
@@ -142,9 +173,9 @@ window.DUANBAN_DATA = {
       "runUp": 57.0,
       "selectDate": "20260922",
       "baseClose": 36.12,
-      "price": 37.16,
-      "pct": -0.8,
-      "sincePct": 2.88,
+      "price": 37.09,
+      "pct": -0.99,
+      "sincePct": 2.69,
       "status": "持有中"
     },
     {
@@ -155,9 +186,9 @@ window.DUANBAN_DATA = {
       "runUp": 46.4,
       "selectDate": "20260923",
       "baseClose": 12.11,
-      "price": 12.53,
-      "pct": 3.47,
-      "sincePct": 3.47,
+      "price": 12.65,
+      "pct": 4.46,
+      "sincePct": 4.46,
       "status": "候选"
     },
     {
@@ -168,9 +199,9 @@ window.DUANBAN_DATA = {
       "runUp": 36.8,
       "selectDate": "20260923",
       "baseClose": 48.17,
-      "price": 45.86,
-      "pct": -4.8,
-      "sincePct": -4.8,
+      "price": 45.79,
+      "pct": -4.94,
+      "sincePct": -4.94,
       "status": "候选"
     },
     {
@@ -270,9 +301,9 @@ window.DUANBAN_DATA = {
       "emotion": "混沌期",
       "status": "持有中",
       "cost": 3.25,
-      "price": 3.26,
+      "price": 3.23,
       "daysAfterBreak": 1,
-      "pnl": 0.31,
+      "pnl": -0.62,
       "buyDate": "20260922",
       "buyPrice": 3.25,
       "buyTime": "14:45:24",
@@ -293,7 +324,7 @@ window.DUANBAN_DATA = {
       "emotion": "混沌期",
       "status": "观察中",
       "cost": null,
-      "price": 3.32,
+      "price": 3.28,
       "daysAfterBreak": 1,
       "pnl": null,
       "buyDate": null,
@@ -339,7 +370,7 @@ window.DUANBAN_DATA = {
       "emotion": "混沌期",
       "status": "观察中",
       "cost": null,
-      "price": 5.07,
+      "price": 5.06,
       "daysAfterBreak": 1,
       "pnl": null,
       "buyDate": null,
@@ -362,9 +393,9 @@ window.DUANBAN_DATA = {
       "emotion": "混沌期",
       "status": "持有中",
       "cost": 37.65,
-      "price": 37.16,
+      "price": 37.07,
       "daysAfterBreak": 1,
-      "pnl": -1.3,
+      "pnl": -1.54,
       "buyDate": "20260922",
       "buyPrice": 37.65,
       "buyTime": "14:45:25",
@@ -374,6 +405,52 @@ window.DUANBAN_DATA = {
       "sellPrice": null,
       "sellReason": "持有中",
       "period": 1
+    },
+    {
+      "code": "000504",
+      "name": "南华生物",
+      "boards": 4,
+      "breakDate": "20260923",
+      "breakHigh": 13.32,
+      "breakPct": 4.05,
+      "emotion": "退潮期",
+      "status": "持有中",
+      "cost": 12.6,
+      "price": 12.6,
+      "daysAfterBreak": 0,
+      "pnl": null,
+      "buyDate": "20260923",
+      "buyPrice": 12.6,
+      "buyTime": "14:45:25",
+      "way": "断板买入",
+      "sellDate": null,
+      "sellTime": null,
+      "sellPrice": null,
+      "sellReason": "持有中",
+      "period": null
+    },
+    {
+      "code": "603068",
+      "name": "博通集成",
+      "boards": 3,
+      "breakDate": "20260923",
+      "breakHigh": 48.1,
+      "breakPct": -4.92,
+      "emotion": "退潮期",
+      "status": "持有中",
+      "cost": 45.8,
+      "price": 45.8,
+      "daysAfterBreak": 0,
+      "pnl": null,
+      "buyDate": "20260923",
+      "buyPrice": 45.8,
+      "buyTime": "14:45:25",
+      "way": "断板买入",
+      "sellDate": null,
+      "sellTime": null,
+      "sellPrice": null,
+      "sellReason": "持有中",
+      "period": null
     }
   ]
 };
