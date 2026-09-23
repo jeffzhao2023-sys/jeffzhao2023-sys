@@ -84,9 +84,6 @@
       <div class="card">
         <div id="duanbanRecBody"></div>
       </div>
-      <div class="card">
-        <div id="duanbanCandBody"></div>
-      </div>
     </div>
 
   </div>
@@ -189,34 +186,12 @@
       document.getElementById('subHighest').textContent='最近成功检查：'+(H.lastCheck||H.generated)+'　·　数据更新时间：'+H.generated;
       document.getElementById('highestAllBody').innerHTML = renderCombinedTable();
     }
-    var duanbanShowAll=false;
     var duanbanRecShowAll=false;
     function initDuanban(){
       var sub=document.getElementById('subDuanban');
       if(!DB){ sub.textContent='未找到数据：请运行本策略 monitor.py 生成 duanban_data.js'; return; }
       sub.textContent='数据生成时间：'+(DB.generated||'—')+'　情绪：'+(DB.emotion||'—');
       function fmtDate(v){ if(!v||v.length!==8) return '—'; return v.slice(0,4)+'-'+v.slice(4,6)+'-'+v.slice(6,8); }
-      var cands=(DB.candidates||[]).slice();
-      var active=cands.filter(function(r){ return ['止盈','止损','作废'].indexOf(r.status)<0; });
-      var show=duanbanShowAll?cands:active;
-      show.sort(function(a,b){ return (a.selectDate||'')<(b.selectDate||'')?1:-1; });
-      {
-        var hc='<div style="font-weight:600;margin-bottom:8px">候选池 <span class="count">'+show.length+' 只</span>'
-          +' <span style="font-weight:normal;color:#6b7280;font-size:12px">—— 出现过的票永久保留；至今涨跌幅 = 现价 ÷ 入选前一日收盘价 − 1</span>'
-          +' <label style="font-weight:normal;font-size:12px;margin-left:8px;cursor:pointer"><input type="checkbox" id="duanbanAll"'+(duanbanShowAll?' checked':'')+' onchange="duanbanShowAll=this.checked;initDuanban();"> 显示已了结</label></div>';
-        hc+='<table><tr><th>代码</th><th>名称</th><th>板数</th><th>前期涨幅</th><th>入选日期</th><th>现价</th><th>至今涨跌幅</th><th>状态</th></tr>';
-        if(show.length===0){ hc+='<tr><td colspan="8" class="empty-tip">暂无候选记录</td></tr>'; }
-        show.forEach(function(r){
-          var sc=(r.sincePct==null)?'':(r.sincePct>0?'emotion-up':(r.sincePct<0?'emotion-down':''));
-          hc+='<tr><td class="mono">'+esc(r.code)+'</td><td>'+esc(r.name)+'</td>'
-            +'<td>'+esc(r.boards)+'板</td><td class="mono">'+(r.runUp!=null?r.runUp+'%':'—')+'</td>'
-            +'<td class="mono">'+fmtDate(r.selectDate)+'</td>'
-            +'<td class="mono" title="入选基准价">'+esc(r.price==null?'—':r.price)+'</td>'
-            +'<td class="mono '+sc+'">'+(r.sincePct!=null?(r.sincePct>0?'+':'')+r.sincePct.toFixed(2)+'%':'—')+'</td>'
-            +'<td>'+esc(r.status||'候选')+'</td></tr>';
-        });
-        document.getElementById('duanbanCandBody').innerHTML=hc+'</table>';
-      }
       var recs=(DB.records||[]).slice();
       var recActive=recs.filter(function(r){ return ['止盈','止损','作废'].indexOf(r.status)<0; });
       var showRec=duanbanRecShowAll?recs:recActive;
