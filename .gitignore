@@ -8,6 +8,8 @@
 !dildj_data.js
 !lianban_data.js
 !duanban_data.js
+!backtest.html
+!backtest_data.js
 
 # 令牌文件绝不发布
 github_token.txt
