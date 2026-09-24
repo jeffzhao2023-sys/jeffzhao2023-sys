@@ -1,1 +1,1 @@
-window.WEISUI_DATA = {"generated": "2026-09-24 14:49:37", "today": "20260924", "days": {"20260924": [{"code": "sh601811", "name": "新华文轩", "height": 5, "markTime": "14:44:23", "status": "待判定"}]}, "wave_seen": {"601811": "20260924"}, "lastCheck": "2026-09-24 14:49:37"};
+window.WEISUI_DATA = {"generated": "2026-09-24 14:49:37", "today": "20260924", "days": {"20260924": [{"code": "sh601811", "name": "新华文轩", "height": 5, "markTime": "14:44:23", "status": "不买:14:50仍封涨停"}]}, "wave_seen": {"601811": "20260924"}, "lastCheck": "2026-09-24 14:49:37"};
