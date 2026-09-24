@@ -1,8 +1,19 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-09-24 14:49:53",
+  "generated": "2026-09-24 14:50:24",
   "today": "20260924",
   "emotion": "退潮期",
-  "alerts": [],
+  "alerts": [
+    {
+      "time": "14:50:24",
+      "type": "断板买入",
+      "code": "000910",
+      "name": "大亚圣象",
+      "breakDate": "20260924",
+      "price": 7.64,
+      "note": "断板日涨幅0.79%，尾盘低吸",
+      "emotion": "退潮期"
+    }
+  ],
   "candidates": [
     {
       "code": "605058",
@@ -12,9 +23,9 @@ window.DUANBAN_DATA = {
       "runUp": 61.4,
       "selectDate": "20260917",
       "baseClose": 44.33,
-      "price": 59.81,
-      "pct": 2.06,
-      "sincePct": 34.92,
+      "price": 59.74,
+      "pct": 1.95,
+      "sincePct": 34.76,
       "status": "候选"
     },
     {
@@ -25,9 +36,9 @@ window.DUANBAN_DATA = {
       "runUp": 36.5,
       "selectDate": "20260918",
       "baseClose": 19.88,
-      "price": 28.4,
-      "pct": 0.32,
-      "sincePct": 42.86,
+      "price": 28.34,
+      "pct": 0.11,
+      "sincePct": 42.56,
       "status": "候选"
     },
     {
@@ -64,9 +75,9 @@ window.DUANBAN_DATA = {
       "runUp": 46.5,
       "selectDate": "20260922",
       "baseClose": 3.18,
-      "price": 3.29,
-      "pct": 3.79,
-      "sincePct": 3.46,
+      "price": 3.28,
+      "pct": 3.47,
+      "sincePct": 3.14,
       "status": "待返场"
     },
     {
@@ -103,10 +114,10 @@ window.DUANBAN_DATA = {
       "runUp": 48.6,
       "selectDate": "20260924",
       "baseClose": 6.89,
-      "price": 7.62,
-      "pct": 0.53,
-      "sincePct": 10.6,
-      "status": "候选",
+      "price": 7.64,
+      "pct": 0.79,
+      "sincePct": 10.89,
+      "status": "持有中",
       "firstSelectDate": "20260923"
     },
     {
@@ -131,9 +142,9 @@ window.DUANBAN_DATA = {
       "runUp": 49.0,
       "selectDate": "20260924",
       "baseClose": 3.86,
-      "price": 3.65,
-      "pct": -5.44,
-      "sincePct": -5.44,
+      "price": 3.67,
+      "pct": -4.92,
+      "sincePct": -4.92,
       "status": "候选",
       "firstSelectDate": "20260924"
     },
@@ -173,9 +184,9 @@ window.DUANBAN_DATA = {
       "runUp": 38.9,
       "selectDate": "20260924",
       "baseClose": 2.82,
-      "price": 2.55,
-      "pct": -9.57,
-      "sincePct": -9.57,
+      "price": 2.56,
+      "pct": -9.22,
+      "sincePct": -9.22,
       "status": "候选",
       "firstSelectDate": "20260924"
     },
@@ -205,7 +216,7 @@ window.DUANBAN_DATA = {
       "emotion": "混沌期",
       "status": "待返场",
       "cost": 3.25,
-      "price": 3.29,
+      "price": 3.28,
       "daysAfterBreak": 2,
       "pnl": -4.31,
       "buyDate": "20260922",
@@ -266,6 +277,30 @@ window.DUANBAN_DATA = {
       "sellReason": "持有中",
       "period": 1,
       "breakOpen": 12.11
+    },
+    {
+      "code": "000910",
+      "name": "大亚圣象",
+      "boards": 4,
+      "breakDate": "20260924",
+      "breakHigh": 8.34,
+      "breakPct": 0.79,
+      "breakOpen": 8.34,
+      "emotion": "退潮期",
+      "status": "持有中",
+      "cost": 7.64,
+      "price": 7.64,
+      "daysAfterBreak": 0,
+      "pnl": null,
+      "buyDate": "20260924",
+      "buyPrice": 7.64,
+      "buyTime": "14:50:24",
+      "way": "断板买入",
+      "sellDate": null,
+      "sellTime": null,
+      "sellPrice": null,
+      "sellReason": "持有中",
+      "period": null
     }
   ]
 };
