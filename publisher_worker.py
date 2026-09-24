@@ -9,7 +9,7 @@ ROOT = Path(__file__).parent
 QUEUE = ROOT / ".publish_queue"
 LOCK = ROOT / ".publish_worker.lock"
 LOG = ROOT / "publisher.log"
-DATA_FILES = ("dashboard.html", ".gitignore", "publisher_worker.py", "highest_data.js", "yushouci_data.js", "duanban_data.js")
+DATA_FILES = ("dashboard.html", ".gitignore", "publisher_worker.py", "highest_data.js", "yushouci_data.js", "duanban_data.js", "backtest.html", "backtest_data.js")
 MAX_PUSH_TRIES = 5
 
 # 本进程由 publish.py 以 DETACHED_PROCESS 拉起、没有控制台，
