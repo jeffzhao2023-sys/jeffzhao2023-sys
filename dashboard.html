@@ -49,10 +49,10 @@
 <body>
   <h1>📈 情绪龙头低吸</h1>
   <div class="sub">操作说明：1，有效期：市场增量不足，大票主升浪无法启动时使用；2，核心是最高辨识度情绪龙的低吸</div>
-  <div class="sub">最左：预首次唯一最高板（盘中）　·　左：首次唯一最高板（盘中）　·　右：换手龙断板低吸（盘中）</div>
+  <div class="sub">最左：预首次唯一最高板（盘中）　·　左：首次唯一最高板（盘中）　·　未遂低吸（盘中）　·　最右：换手龙断板低吸（盘中）</div>
   <div class="sub"><a href="backtest.html" style="color:#2563eb">📊 换手龙断板低吸 · 近 20 交易日回测报告</a>（历史回测，不是收益保证）</div>
 
-  <div class="grid2" style="grid-template-columns: 1fr 1fr 1fr;">
+  <div class="grid2" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
     <!-- ============ 最左栏：预首次唯一最高板 ============ -->
     <div class="col">
       <h1>🚀 预首次唯一最高板</h1>
@@ -72,6 +72,15 @@
     </div>
 
 
+    <!-- ============ 首次唯一最高板未遂低吸 ============ -->
+    <div class="col">
+      <h1>🚀 首次唯一最高板未遂低吸</h1>
+      <div class="sub" id="subWeisui">加载中…</div>
+      <div class="card">
+        <div id="weisuiBody"></div>
+      </div>
+    </div>
+
     <!-- ============ 中间栏：换手龙断板低吸 ============ -->
     <div class="col">
       <h1>🐉 换手龙断板低吸</h1>
@@ -90,11 +99,13 @@
   </div>
 
   <script src="highest_data.js" charset="utf-8"></script>
+  <script src="weisui_data.js" charset="utf-8"></script>
   <script src="duanban_data.js" charset="utf-8"></script>
   <script src="yushouci_data.js" charset="utf-8"></script>
   <script>
     var H = window.HIGHEST_DATA || null;
     var DB = window.DUANBAN_DATA || null;
+    var WI = window.WEISUI_DATA || null;
     var YC = window.YUSHOUCI_DATA || null;
     function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
     function emotionClass(e){ if(!e || e==='暂无数据')return ''; if(e.indexOf('退潮')>=0)return 'emotion-recession'; if(e.indexOf('混沌')>=0)return 'emotion-chaos'; return 'emotion-normal'; }
@@ -250,9 +261,39 @@
       body.innerHTML=h+'</table>';
     }
 
+    // ===== 首次唯一最高板未遂低吸 =====
+    function renderWeisuiTable(){
+      var rows=[];
+      Object.keys(WI.days||{}).sort().forEach(function(d){
+        (WI.days[d]||[]).forEach(function(r){ if(r) rows.push({date:d, rec:r}); });
+      });
+      if(rows.length===0) return '<div class="empty-tip">暂无记录</div>';
+      rows.sort(function(a,b){ return a.date>b.date?-1:(a.date<b.date?1:0); });
+      var h='<table><tr><th>买入日</th><th>情绪</th><th>标记时间</th><th>代码</th><th>名称</th><th>高度</th><th>状态</th><th>买入价</th><th>卖出日</th><th>卖出时间</th><th>卖出价</th><th>原因</th><th>收益率</th><th>周期</th></tr>';
+      rows.forEach(function(x){
+        var r=x.rec, pnl=r.pnl, pc=(pnl==null||pnl===0)?'':(pnl>0?'emotion-up':'emotion-down');
+        var em=(WI.emotions||{})[x.date]||'—';
+        h+='<tr><td class="mono">'+esc(x.date)+'</td><td class="'+emotionClass(em)+'">'+esc(em)+'</td>'
+          +'<td class="mono">'+esc(r.markTime||'—')+'</td><td class="mono">'+esc(r.code)+'</td><td>'+esc(r.name)+'</td>'
+          +'<td>'+esc(r.height)+'</td><td>'+esc(r.status||'—')+'</td><td class="mono">'+(r.buyPrice!=null?r.buyPrice:'—')+'</td>'
+          +'<td class="mono">'+(r.sellDate||'—')+'</td><td class="mono">'+(r.sellTime||'—')+'</td>'
+          +'<td class="mono">'+(r.sellPrice!=null?r.sellPrice:'—')+'</td><td>'+(r.reason||'—')+'</td>'
+          +'<td class="mono '+pc+'">'+(pnl!=null?pnl+'%':'—')+'</td><td class="mono">'+(r.period!=null?r.period+'天':'—')+'</td></tr>';
+      });
+      return h+'</table>';
+    }
+    function initWeisui(){
+      var sub=document.getElementById('subWeisui');
+      if(!WI || !WI.days){ sub.textContent='未找到数据：请运行本项目 monitor.py 生成 weisui_data.js'; return; }
+      sub.innerHTML='最近成功检查：'+esc(WI.lastCheck||WI.generated)+'　·　数据更新时间：'+esc(WI.generated)+'<br>'
+        +'规则：当天曾做过首次唯一最高板，14:50 没封住且涨幅在 -5%~+5% → 买入提示（仓位 1/5）';
+      document.getElementById('weisuiBody').innerHTML=renderWeisuiTable();
+    }
+
     function safeInit(fn){ try{ fn(); }catch(e){ if(window.console) console.error(fn.name + " 渲染失败", e); } }
     safeInit(initYushouci);
     safeInit(initHighest);
+    safeInit(initWeisui);
     safeInit(initDuanban);
   </script>
 </body>
