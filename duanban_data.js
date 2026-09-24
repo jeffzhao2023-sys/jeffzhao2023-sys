@@ -1,5 +1,5 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-09-24 14:54:27",
+  "generated": "2026-09-24 14:55:28",
   "today": "20260924",
   "emotion": "退潮期",
   "alerts": [
@@ -12,6 +12,16 @@ window.DUANBAN_DATA = {
       "price": 7.64,
       "note": "断板日涨幅0.79%，尾盘低吸",
       "emotion": "退潮期"
+    },
+    {
+      "time": "14:55:29",
+      "type": "返场买入",
+      "code": "002285",
+      "name": "世联行",
+      "breakDate": "20260922",
+      "price": 3.26,
+      "note": "止损后重新站上5日线(3.14)，返场买入",
+      "emotion": "混沌期"
     }
   ],
   "candidates": [
@@ -23,9 +33,9 @@ window.DUANBAN_DATA = {
       "runUp": 61.4,
       "selectDate": "20260917",
       "baseClose": 44.33,
-      "price": 60.02,
-      "pct": 2.42,
-      "sincePct": 35.39,
+      "price": 60.05,
+      "pct": 2.47,
+      "sincePct": 35.46,
       "status": "候选"
     },
     {
@@ -36,9 +46,9 @@ window.DUANBAN_DATA = {
       "runUp": 36.5,
       "selectDate": "20260918",
       "baseClose": 19.88,
-      "price": 28.32,
-      "pct": 0.04,
-      "sincePct": 42.45,
+      "price": 28.31,
+      "pct": 0.0,
+      "sincePct": 42.4,
       "status": "候选"
     },
     {
@@ -49,9 +59,9 @@ window.DUANBAN_DATA = {
       "runUp": 33.1,
       "selectDate": "20260918",
       "baseClose": 22.34,
-      "price": 22.56,
-      "pct": 4.98,
-      "sincePct": 0.98,
+      "price": 22.54,
+      "pct": 4.89,
+      "sincePct": 0.9,
       "status": "候选"
     },
     {
@@ -75,10 +85,10 @@ window.DUANBAN_DATA = {
       "runUp": 46.5,
       "selectDate": "20260922",
       "baseClose": 3.18,
-      "price": 3.28,
-      "pct": 3.47,
-      "sincePct": 3.14,
-      "status": "待返场"
+      "price": 3.26,
+      "pct": 2.84,
+      "sincePct": 2.52,
+      "status": "持有中"
     },
     {
       "code": "600630",
@@ -101,9 +111,9 @@ window.DUANBAN_DATA = {
       "runUp": 46.4,
       "selectDate": "20260923",
       "baseClose": 12.11,
-      "price": 13.79,
-      "pct": 8.07,
-      "sincePct": 13.87,
+      "price": 13.74,
+      "pct": 7.68,
+      "sincePct": 13.46,
       "status": "持有中"
     },
     {
@@ -142,9 +152,9 @@ window.DUANBAN_DATA = {
       "runUp": 49.0,
       "selectDate": "20260924",
       "baseClose": 3.86,
-      "price": 3.65,
-      "pct": -5.44,
-      "sincePct": -5.44,
+      "price": 3.67,
+      "pct": -4.92,
+      "sincePct": -4.92,
       "status": "候选",
       "firstSelectDate": "20260924"
     },
@@ -184,9 +194,9 @@ window.DUANBAN_DATA = {
       "runUp": 38.9,
       "selectDate": "20260924",
       "baseClose": 2.82,
-      "price": 2.54,
-      "pct": -9.93,
-      "sincePct": -9.93,
+      "price": 2.56,
+      "pct": -9.22,
+      "sincePct": -9.22,
       "status": "候选",
       "firstSelectDate": "20260924"
     },
@@ -214,21 +224,35 @@ window.DUANBAN_DATA = {
       "breakHigh": 3.44,
       "breakPct": 2.2,
       "emotion": "混沌期",
-      "status": "待返场",
-      "cost": 3.25,
-      "price": 3.28,
+      "status": "持有中",
+      "cost": 3.26,
+      "price": 3.26,
       "daysAfterBreak": 2,
-      "pnl": -4.31,
-      "buyDate": "20260922",
-      "buyPrice": 3.25,
-      "buyTime": "14:45:24",
-      "way": "断板买入",
-      "sellDate": "20260924",
-      "sellTime": "09:30:04",
-      "sellPrice": 3.11,
-      "sellReason": "跌破5日线(3.11)",
-      "period": 2,
-      "breakOpen": 3.15
+      "pnl": 0.0,
+      "buyDate": "20260924",
+      "buyPrice": 3.26,
+      "buyTime": "14:55:29",
+      "way": "返场买入",
+      "sellDate": null,
+      "sellTime": null,
+      "sellPrice": null,
+      "sellReason": "持有中",
+      "period": 1,
+      "breakOpen": 3.15,
+      "history": [
+        {
+          "buyDate": "20260922",
+          "buyPrice": 3.25,
+          "buyTime": "14:45:24",
+          "way": "断板买入",
+          "sellDate": "20260924",
+          "sellTime": "09:30:04",
+          "sellPrice": 3.11,
+          "sellReason": "跌破5日线(3.11)",
+          "pnl": -4.31,
+          "period": 2
+        }
+      ]
     },
     {
       "code": "600630",
@@ -264,9 +288,9 @@ window.DUANBAN_DATA = {
       "emotion": "退潮期",
       "status": "持有中",
       "cost": 12.6,
-      "price": 13.79,
+      "price": 13.74,
       "daysAfterBreak": 1,
-      "pnl": 9.44,
+      "pnl": 9.05,
       "buyDate": "20260923",
       "buyPrice": 12.6,
       "buyTime": "14:45:25",
