@@ -11,6 +11,8 @@
 !weisui_data.js
 !backtest.html
 !backtest_data.js
+!highest_backtest.html
+!highest_backtest_data.js
 
 # 令牌文件绝不发布
 github_token.txt

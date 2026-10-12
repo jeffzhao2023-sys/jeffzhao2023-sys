@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>回测报告 · 首次唯一最高板</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Microsoft YaHei", -apple-system, sans-serif; background: #f4f6f9; color: #1f2937; padding: 20px; }
+  h1 { font-size: 22px; margin-bottom: 4px; }
+  .sub { color: #6b7280; font-size: 13px; margin-bottom: 16px; }
+  .card { background: #fff; border-radius: 10px; padding: 18px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+  .card h2 { font-size: 16px; margin-bottom: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #eee; }
+  th { background: #f8fafc; color: #374151; font-weight: 600; }
+  tr:last-child td { border-bottom: none; }
+  .mono { font-variant-numeric: tabular-nums; }
+  .up { color: #ef4444; font-weight: 600; }
+  .down { color: #16a34a; font-weight: 600; }
+  .count { color: #6b7280; font-weight: normal; margin-left: 8px; }
+  .empty-tip { color: #6b7280; font-style: italic; }
+  .warn { background: #fef3c7; border-left: 4px solid #d97706; padding: 12px 14px;
+          border-radius: 8px; font-size: 13px; line-height: 1.7; margin-bottom: 16px; }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+  @media (max-width: 900px) { .stats { grid-template-columns: 1fr 1fr; } }
+  .stat { background: #f8fafc; border-radius: 8px; padding: 12px; }
+  .stat .k { color: #6b7280; font-size: 12px; margin-bottom: 4px; }
+  .stat .v { font-size: 20px; font-weight: 600; }
+</style>
+</head>
+<body>
+  <h1>📊 回测报告 · 首次唯一最高板</h1>
+  <div class="sub" id="head">加载中…</div>
+  <div class="sub" style="margin-top:-8px"><a href="dashboard.html" style="color:#2563eb">← 返回主看板</a></div>
+
+  <div class="warn">
+    <b>请先读这段：</b><br>
+    · 这是<b>历史回测，不是未来收益保证</b>，也不是真实成交记录。<br>
+    · 日线近似：以新浪连板池收盘口径选票，<b>下一交易日开盘</b>模拟买入，已按 <b>T+1</b>（买入当天不卖）。<br>
+    · 未考虑涨停无法买入、跌停无法卖出、停牌、手续费、印花税与滑点，结果<b>偏乐观</b>。<br>
+    · 只含当前仍可查询的股票，存在<b>幸存者偏差</b>；历史退市/ST 无法完整还原。<br>
+    · 单笔收益率简单相加不等于账户累计收益，<b>无资金曲线与复利</b>。
+  </div>
+
+  <div class="card">
+    <h2>汇总 <span class="count" id="sumTip"></span></h2>
+    <div class="stats" id="stats"></div>
+  </div>
+
+  <div class="card">
+    <h2>交易明细 <span class="count" id="trCount"></span></h2>
+    <div id="trBody"></div>
+  </div>
+
+<script src="highest_backtest_data.js" charset="utf-8"></script>
+<script>
+  var B = window.HIGHEST_BACKTEST || null;
+  function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+  function fmtDate(v){ if(!v||v.length!==8) return '—'; return v.slice(0,4)+'-'+v.slice(4,6)+'-'+v.slice(6,8); }
+  function pct(v){ if(v==null) return '—'; return (v>0?'+':'')+Number(v).toFixed(2)+'%'; }
+  function pctCls(v){ if(v==null||v===0) return ''; return v>0?'up':'down'; }
+  function init(){
+    if(!B){ document.getElementById('head').textContent='未找到数据：请先运行 py -3 make_backtest_js.py 生成 highest_backtest_data.js'; return; }
+    var p = B.period||{}, s = B.stats||{};
+    document.getElementById('head').textContent =
+      '数据生成：'+B.generated+'　·　回测区间：'+p.start+' ~ '+p.end;
+    document.getElementById('sumTip').textContent = '单笔收益率口径';
+    function stat(k,v,cls){ return '<div class="stat"><div class="k">'+k+'</div><div class="v '+(cls||'')+'">'+v+'</div></div>'; }
+    document.getElementById('stats').innerHTML =
+      stat('信号数', (s.signals||0)+' 个')
+      + stat('成交笔数', (s.trades||0)+' 笔')
+      + stat('盈利笔数', (s.successes||0)+' 笔')
+      + stat('成功率', (s.successRatePct==null?'—':s.successRatePct+'%'))
+      + stat('平均单笔', pct(s.averageReturnPct), pctCls(s.averageReturnPct))
+      + stat('单笔之和', pct(s.cumulativeReturnPct), pctCls(s.cumulativeReturnPct))
+      + stat('单笔最大盈利', pct(s.maxReturnPct), 'up')
+      + stat('单笔最大亏损', pct(s.minReturnPct), 'down');
+    var tr = B.trades||[];
+    document.getElementById('trCount').textContent = '('+tr.length+')';
+    var h='<table><tr><th>信号日</th><th>代码</th><th>名称</th><th>高度</th><th>买入日</th><th>买入价</th><th>卖出日</th><th>卖出价</th><th>原因</th><th>收益率</th></tr>';
+    if(tr.length===0){ h+='<tr><td colspan="10" class="empty-tip">无交易</td></tr>'; }
+    tr.slice().sort(function(a,b){ return (a.buyDate||'')<(b.buyDate||'')?1:-1; }).forEach(function(r){
+      h+='<tr><td class="mono">'+fmtDate(r.signalDate)+'</td><td class="mono">'+esc(r.code)+'</td><td>'+esc(r.name)+'</td>'
+        +'<td>'+esc(r.height)+'板</td><td class="mono">'+fmtDate(r.buyDate)+'</td><td class="mono">'+esc(r.buyPrice)+'</td>'
+        +'<td class="mono">'+fmtDate(r.sellDate)+'</td><td class="mono">'+esc(r.sellPrice)+'</td>'
+        +'<td>'+esc(r.reason)+'</td><td class="mono '+pctCls(r.returnPct)+'">'+pct(r.returnPct)+'</td></tr>';
+    });
+    document.getElementById('trBody').innerHTML = h+'</table>';
+  }
+  try { init(); } catch(e){ document.getElementById('head').textContent='渲染失败：'+e; if(window.console) console.error(e); }
+</script>
+</body>
+</html>
