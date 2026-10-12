@@ -1,5 +1,5 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-10-12 14:53:27",
+  "generated": "2026-10-12 14:57:33",
   "today": "20261012",
   "emotion": "混沌期",
   "alerts": [],
@@ -42,9 +42,9 @@ window.DUANBAN_DATA = {
       "selectDate": "20260924",
       "status": "候选",
       "firstSelectDate": "20260928",
-      "price": 22.84,
-      "pct": -3.87,
-      "sincePct": -35.48
+      "price": 22.8,
+      "pct": -4.04,
+      "sincePct": -35.59
     },
     {
       "code": "002238",
@@ -68,9 +68,9 @@ window.DUANBAN_DATA = {
       "prevClose": 39.2,
       "selectDate": "20260929",
       "status": "候选",
-      "price": 28.78,
-      "pct": -5.17,
-      "sincePct": -26.58
+      "price": 28.82,
+      "pct": -5.04,
+      "sincePct": -26.48
     },
     {
       "code": "603949",
@@ -82,9 +82,9 @@ window.DUANBAN_DATA = {
       "selectDate": "20260930",
       "status": "候选",
       "firstSelectDate": "20260929",
-      "price": 14.56,
-      "pct": -6.73,
-      "sincePct": -21.68
+      "price": 14.58,
+      "pct": -6.6,
+      "sincePct": -21.57
     },
     {
       "code": "000678",
@@ -109,9 +109,9 @@ window.DUANBAN_DATA = {
       "prevClose": 12.24,
       "selectDate": "20261008",
       "status": "候选",
-      "price": 12.15,
-      "pct": -3.49,
-      "sincePct": -0.74
+      "price": 12.11,
+      "pct": -3.81,
+      "sincePct": -1.06
     },
     {
       "code": "600241",
@@ -151,9 +151,9 @@ window.DUANBAN_DATA = {
       "selectDate": "20261012",
       "status": "候选",
       "firstSelectDate": "20261012",
-      "price": 25.18,
-      "pct": 3.03,
-      "sincePct": 3.03
+      "price": 25.25,
+      "pct": 3.31,
+      "sincePct": 3.31
     },
     {
       "code": "605058",
@@ -163,9 +163,9 @@ window.DUANBAN_DATA = {
       "runUp": 61.4,
       "selectDate": "20260917",
       "baseClose": 44.33,
-      "price": 55.96,
-      "pct": 4.89,
-      "sincePct": 26.24,
+      "price": 55.26,
+      "pct": 3.58,
+      "sincePct": 24.66,
       "status": "候选"
     },
     {
@@ -176,9 +176,9 @@ window.DUANBAN_DATA = {
       "runUp": 36.5,
       "selectDate": "20260918",
       "baseClose": 19.88,
-      "price": 23.64,
-      "pct": 3.91,
-      "sincePct": 18.91,
+      "price": 23.88,
+      "pct": 4.97,
+      "sincePct": 20.12,
       "status": "候选"
     },
     {
@@ -189,9 +189,9 @@ window.DUANBAN_DATA = {
       "runUp": 33.1,
       "selectDate": "20260918",
       "baseClose": 22.34,
-      "price": 21.03,
-      "pct": 1.89,
-      "sincePct": -5.86,
+      "price": 21.13,
+      "pct": 2.37,
+      "sincePct": -5.42,
       "status": "候选"
     },
     {
@@ -254,10 +254,10 @@ window.DUANBAN_DATA = {
       "runUp": 48.6,
       "selectDate": "20260924",
       "baseClose": 6.89,
-      "price": 5.92,
-      "pct": -2.63,
-      "sincePct": -14.08,
-      "status": "待返场",
+      "price": 5.91,
+      "pct": -2.8,
+      "sincePct": -14.22,
+      "status": "作废",
       "firstSelectDate": "20260923"
     },
     {
@@ -268,9 +268,9 @@ window.DUANBAN_DATA = {
       "runUp": 49.0,
       "selectDate": "20260924",
       "baseClose": 3.86,
-      "price": 3.42,
-      "pct": -7.07,
-      "sincePct": -11.4,
+      "price": 3.41,
+      "pct": -7.34,
+      "sincePct": -11.66,
       "status": "候选",
       "firstSelectDate": "20260924"
     },
@@ -296,9 +296,9 @@ window.DUANBAN_DATA = {
       "runUp": 38.9,
       "selectDate": "20260924",
       "baseClose": 2.82,
-      "price": 2.27,
-      "pct": -3.81,
-      "sincePct": -19.5,
+      "price": 2.29,
+      "pct": -2.97,
+      "sincePct": -18.79,
       "status": "候选",
       "firstSelectDate": "20260924"
     }
@@ -411,7 +411,7 @@ window.DUANBAN_DATA = {
       "breakPct": 0.79,
       "breakOpen": 8.34,
       "emotion": "退潮期",
-      "status": "待返场",
+      "status": "作废",
       "cost": 7.64,
       "price": 5.92,
       "daysAfterBreak": 6,
@@ -423,7 +423,7 @@ window.DUANBAN_DATA = {
       "sellDate": "20260928",
       "sellTime": "09:31:00",
       "sellPrice": 7.06,
-      "sellReason": "跌破5日线(7.08)（补录）",
+      "sellReason": "跌破5日线(7.08)（补录）；断板后超5个交易日，返场窗口结束",
       "period": 1
     }
   ]
