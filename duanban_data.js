@@ -2,7 +2,18 @@ window.DUANBAN_DATA = {
   "generated": "2026-09-24 15:20:03",
   "today": "20261012",
   "emotion": "混沌期",
-  "alerts": [],
+  "alerts": [
+    {
+      "time": "09:30:04",
+      "type": "止盈卖出",
+      "code": "000504",
+      "name": "南华生物",
+      "breakDate": "20260923",
+      "price": 12.1,
+      "note": "最高浮盈11.43%回落至-3.97%",
+      "emotion": "混沌期"
+    }
+  ],
   "candidates": [
     {
       "code": "605058",
@@ -244,9 +255,9 @@ window.DUANBAN_DATA = {
       "emotion": "混沌期",
       "status": "持有中",
       "cost": 3.26,
-      "price": 3.28,
-      "daysAfterBreak": 2,
-      "pnl": 0.61,
+      "price": 3.19,
+      "daysAfterBreak": 8,
+      "pnl": -2.15,
       "buyDate": "20260924",
       "buyPrice": 3.26,
       "buyTime": "14:55:29",
@@ -255,7 +266,7 @@ window.DUANBAN_DATA = {
       "sellTime": null,
       "sellPrice": null,
       "sellReason": "持有中",
-      "period": 1,
+      "period": 6,
       "breakOpen": 3.15,
       "history": [
         {
@@ -306,9 +317,9 @@ window.DUANBAN_DATA = {
       "emotion": "退潮期",
       "status": "持有中",
       "cost": 12.6,
-      "price": 13.69,
-      "daysAfterBreak": 1,
-      "pnl": 8.65,
+      "price": 12.1,
+      "daysAfterBreak": 7,
+      "pnl": -3.97,
       "buyDate": "20260923",
       "buyPrice": 12.6,
       "buyTime": "14:45:25",
@@ -317,7 +328,7 @@ window.DUANBAN_DATA = {
       "sellTime": null,
       "sellPrice": null,
       "sellReason": "持有中",
-      "period": 1,
+      "period": 7,
       "breakOpen": 12.11
     },
     {
@@ -331,9 +342,9 @@ window.DUANBAN_DATA = {
       "emotion": "退潮期",
       "status": "持有中",
       "cost": 7.64,
-      "price": 7.6,
-      "daysAfterBreak": 0,
-      "pnl": -0.52,
+      "price": 6.08,
+      "daysAfterBreak": 6,
+      "pnl": -20.42,
       "buyDate": "20260924",
       "buyPrice": 7.64,
       "buyTime": "14:50:24",
@@ -342,7 +353,7 @@ window.DUANBAN_DATA = {
       "sellTime": null,
       "sellPrice": null,
       "sellReason": "持有中",
-      "period": 1
+      "period": 6
     }
   ]
 };
