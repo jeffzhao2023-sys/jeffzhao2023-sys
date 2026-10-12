@@ -1,29 +1,8 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-09-24 15:15:04",
-  "today": "20260924",
-  "emotion": "退潮期",
-  "alerts": [
-    {
-      "time": "14:50:24",
-      "type": "断板买入",
-      "code": "000910",
-      "name": "大亚圣象",
-      "breakDate": "20260924",
-      "price": 7.64,
-      "note": "断板日涨幅0.79%，尾盘低吸",
-      "emotion": "退潮期"
-    },
-    {
-      "time": "14:55:29",
-      "type": "返场买入",
-      "code": "002285",
-      "name": "世联行",
-      "breakDate": "20260922",
-      "price": 3.26,
-      "note": "止损后重新站上5日线(3.14)，返场买入",
-      "emotion": "混沌期"
-    }
-  ],
+  "generated": "2026-09-24 15:20:03",
+  "today": "20261012",
+  "emotion": "混沌期",
+  "alerts": [],
   "candidates": [
     {
       "code": "605058",
@@ -213,6 +192,45 @@ window.DUANBAN_DATA = {
       "sincePct": 10.01,
       "status": "候选",
       "firstSelectDate": "20260924"
+    },
+    {
+      "code": "002242",
+      "name": "九阳股份",
+      "boards": 5,
+      "prevClose": 15.13,
+      "runUp": 61.1,
+      "selectDate": "20261012",
+      "baseClose": 15.13,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
+    },
+    {
+      "code": "600241",
+      "name": "时代万恒",
+      "boards": 5,
+      "prevClose": 11.76,
+      "runUp": 64.5,
+      "selectDate": "20261012",
+      "baseClose": 11.76,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
+    },
+    {
+      "code": "002058",
+      "name": "紫竹高科",
+      "boards": 4,
+      "prevClose": 24.44,
+      "runUp": 46.4,
+      "selectDate": "20261012",
+      "baseClose": 24.44,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
     }
   ],
   "records": [
