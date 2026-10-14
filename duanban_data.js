@@ -1,19 +1,8 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-10-13 15:05:03",
-  "today": "20261013",
+  "generated": "2026-10-13 15:50:03",
+  "today": "20261014",
   "emotion": "混沌期",
-  "alerts": [
-    {
-      "time": "14:50:01",
-      "type": "断板买入",
-      "code": "002242",
-      "name": "九阳股份",
-      "breakDate": "20261013",
-      "price": 17.62,
-      "note": "断板日涨幅5.89%，尾盘低吸",
-      "emotion": "混沌期"
-    }
-  ],
+  "alerts": [],
   "candidates": [
     {
       "code": "601811",
@@ -324,6 +313,32 @@ window.DUANBAN_DATA = {
       "price": 5.97,
       "pct": -9.95,
       "sincePct": -9.95,
+      "status": "候选"
+    },
+    {
+      "code": "605136",
+      "name": "丽人丽妆",
+      "boards": 3,
+      "prevClose": 11.42,
+      "runUp": 35.5,
+      "selectDate": "20261014",
+      "baseClose": 11.42,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
+    },
+    {
+      "code": "002696",
+      "name": "百洋股份",
+      "boards": 3,
+      "prevClose": 8.86,
+      "runUp": 36.5,
+      "selectDate": "20261014",
+      "baseClose": 8.86,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
       "status": "候选"
     }
   ],
