@@ -1,5 +1,5 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-10-19 14:54:05",
+  "generated": "2026-10-19 14:55:06",
   "today": "20261019",
   "emotion": "退潮期",
   "alerts": [
@@ -22,6 +22,16 @@ window.DUANBAN_DATA = {
       "price": 18.9,
       "note": "跌破5日线(21.44) 浮盈-20.45%",
       "emotion": "退潮期"
+    },
+    {
+      "time": "14:55:06",
+      "type": "返场买入",
+      "code": "002242",
+      "name": "九阳股份",
+      "breakDate": "20261013",
+      "price": 18.57,
+      "note": "止损后重新站上5日线(17.81)，返场买入",
+      "emotion": "混沌期"
     }
   ],
   "candidates": [
@@ -49,9 +59,9 @@ window.DUANBAN_DATA = {
       "selectDate": "20260924",
       "status": "候选",
       "firstSelectDate": "20260928",
-      "price": 8.27,
-      "pct": -5.7,
-      "sincePct": -0.72
+      "price": 8.25,
+      "pct": -5.93,
+      "sincePct": -0.96
     },
     {
       "code": "001234",
@@ -63,9 +73,9 @@ window.DUANBAN_DATA = {
       "selectDate": "20260924",
       "status": "候选",
       "firstSelectDate": "20260928",
-      "price": 21.25,
-      "pct": 0.33,
-      "sincePct": -39.97
+      "price": 21.24,
+      "pct": 0.28,
+      "sincePct": -40.0
     },
     {
       "code": "002238",
@@ -89,9 +99,9 @@ window.DUANBAN_DATA = {
       "prevClose": 39.2,
       "selectDate": "20260929",
       "status": "候选",
-      "price": 27.03,
-      "pct": -0.88,
-      "sincePct": -31.05
+      "price": 27.01,
+      "pct": -0.95,
+      "sincePct": -31.1
     },
     {
       "code": "603949",
@@ -117,9 +127,9 @@ window.DUANBAN_DATA = {
       "selectDate": "20261008",
       "status": "候选",
       "firstSelectDate": "20260930",
-      "price": 11.07,
-      "pct": 1.28,
-      "sincePct": -5.55
+      "price": 11.06,
+      "pct": 1.19,
+      "sincePct": -5.63
     },
     {
       "code": "000011",
@@ -156,11 +166,11 @@ window.DUANBAN_DATA = {
       "baseClose": 13.75,
       "prevClose": 16.64,
       "selectDate": "20261013",
-      "status": "待返场",
+      "status": "持有中",
       "firstSelectDate": "20261009",
-      "price": 18.53,
-      "pct": 4.16,
-      "sincePct": 34.76
+      "price": 18.57,
+      "pct": 4.38,
+      "sincePct": 35.05
     },
     {
       "code": "002058",
@@ -184,9 +194,9 @@ window.DUANBAN_DATA = {
       "runUp": 61.4,
       "selectDate": "20260917",
       "baseClose": 44.33,
-      "price": 72.16,
-      "pct": 9.62,
-      "sincePct": 62.78,
+      "price": 72.34,
+      "pct": 9.89,
+      "sincePct": 63.19,
       "status": "候选"
     },
     {
@@ -210,9 +220,9 @@ window.DUANBAN_DATA = {
       "runUp": 33.1,
       "selectDate": "20260918",
       "baseClose": 22.34,
-      "price": 18.73,
-      "pct": 3.08,
-      "sincePct": -16.16,
+      "price": 18.68,
+      "pct": 2.81,
+      "sincePct": -16.38,
       "status": "候选"
     },
     {
@@ -223,9 +233,9 @@ window.DUANBAN_DATA = {
       "runUp": 38.3,
       "selectDate": "20260921",
       "baseClose": 13.48,
-      "price": 12.76,
-      "pct": -7.0,
-      "sincePct": -5.34,
+      "price": 12.75,
+      "pct": -7.07,
+      "sincePct": -5.42,
       "status": "候选"
     },
     {
@@ -275,9 +285,9 @@ window.DUANBAN_DATA = {
       "runUp": 48.6,
       "selectDate": "20260924",
       "baseClose": 6.89,
-      "price": 5.53,
-      "pct": -1.78,
-      "sincePct": -19.74,
+      "price": 5.54,
+      "pct": -1.6,
+      "sincePct": -19.59,
       "status": "作废",
       "firstSelectDate": "20260923"
     },
@@ -317,9 +327,9 @@ window.DUANBAN_DATA = {
       "runUp": 38.9,
       "selectDate": "20260924",
       "baseClose": 2.82,
-      "price": 2.11,
-      "pct": -2.31,
-      "sincePct": -25.18,
+      "price": 2.1,
+      "pct": -2.78,
+      "sincePct": -25.53,
       "status": "候选",
       "firstSelectDate": "20260924"
     },
@@ -331,9 +341,9 @@ window.DUANBAN_DATA = {
       "runUp": 37.0,
       "selectDate": "20261013",
       "baseClose": 6.63,
-      "price": 5.89,
-      "pct": -5.91,
-      "sincePct": -11.16,
+      "price": 5.88,
+      "pct": -6.07,
+      "sincePct": -11.31,
       "status": "候选"
     },
     {
@@ -344,9 +354,9 @@ window.DUANBAN_DATA = {
       "runUp": 35.5,
       "selectDate": "20261014",
       "baseClose": 11.42,
-      "price": 9.01,
-      "pct": 0.56,
-      "sincePct": -21.1,
+      "price": 9.02,
+      "pct": 0.67,
+      "sincePct": -21.02,
       "status": "候选"
     },
     {
@@ -397,9 +407,9 @@ window.DUANBAN_DATA = {
       "runUp": 49.5,
       "selectDate": "20261015",
       "baseClose": 15.8,
-      "price": 12.68,
-      "pct": -5.02,
-      "sincePct": -19.75,
+      "price": 12.66,
+      "pct": -5.17,
+      "sincePct": -19.87,
       "status": "候选"
     },
     {
@@ -410,9 +420,9 @@ window.DUANBAN_DATA = {
       "runUp": 48.0,
       "selectDate": "20261019",
       "baseClose": 7.62,
-      "price": 7.92,
-      "pct": 3.94,
-      "sincePct": 3.94,
+      "price": 7.86,
+      "pct": 3.15,
+      "sincePct": 3.15,
       "status": "候选"
     }
   ],
@@ -548,20 +558,34 @@ window.DUANBAN_DATA = {
       "breakPct": 5.89,
       "breakOpen": 15.82,
       "emotion": "混沌期",
-      "status": "待返场",
-      "cost": 17.62,
-      "price": 18.53,
+      "status": "持有中",
+      "cost": 18.57,
+      "price": 18.57,
       "daysAfterBreak": 4,
-      "pnl": -0.79,
-      "buyDate": "20261013",
-      "buyPrice": 17.62,
-      "buyTime": "14:50:01",
-      "way": "断板买入",
-      "sellDate": "20261019",
-      "sellTime": "09:35:17",
-      "sellPrice": 17.48,
-      "sellReason": "跌破5日线(17.59)",
-      "period": 4
+      "pnl": 0.0,
+      "buyDate": "20261019",
+      "buyPrice": 18.57,
+      "buyTime": "14:55:06",
+      "way": "返场买入",
+      "sellDate": null,
+      "sellTime": null,
+      "sellPrice": null,
+      "sellReason": "持有中",
+      "period": 1,
+      "history": [
+        {
+          "buyDate": "20261013",
+          "buyPrice": 17.62,
+          "buyTime": "14:50:01",
+          "way": "断板买入",
+          "sellDate": "20261019",
+          "sellTime": "09:35:17",
+          "sellPrice": 17.48,
+          "sellReason": "跌破5日线(17.59)",
+          "pnl": -0.79,
+          "period": 4
+        }
+      ]
     },
     {
       "code": "603096",
