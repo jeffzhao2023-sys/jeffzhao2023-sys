@@ -1,17 +1,17 @@
 window.DUANBAN_DATA = {
   "generated": "2026-10-15 15:45:06",
-  "today": "20261015",
+  "today": "20261019",
   "emotion": "退潮期",
   "alerts": [
     {
-      "time": "14:50:25",
-      "type": "断板买入",
-      "code": "603096",
-      "name": "新经典",
-      "breakDate": "20261015",
-      "price": 23.76,
-      "note": "断板日涨幅2.99%，尾盘低吸",
-      "emotion": "混沌期"
+      "time": "09:35:16",
+      "type": "止损卖出",
+      "code": "002242",
+      "name": "九阳股份",
+      "breakDate": "20261013",
+      "price": 17.48,
+      "note": "跌破5日线(17.59) 浮盈-0.79%",
+      "emotion": "退潮期"
     }
   ],
   "candidates": [
@@ -391,6 +391,19 @@ window.DUANBAN_DATA = {
       "pct": -10.0,
       "sincePct": -10.0,
       "status": "候选"
+    },
+    {
+      "code": "000530",
+      "name": "冰山冷热",
+      "boards": 4,
+      "prevClose": 7.62,
+      "runUp": 48.0,
+      "selectDate": "20261019",
+      "baseClose": 7.62,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
     }
   ],
   "records": [
@@ -527,9 +540,9 @@ window.DUANBAN_DATA = {
       "emotion": "混沌期",
       "status": "持有中",
       "cost": 17.62,
-      "price": 17.44,
-      "daysAfterBreak": 2,
-      "pnl": -1.02,
+      "price": 17.48,
+      "daysAfterBreak": 4,
+      "pnl": -0.79,
       "buyDate": "20261013",
       "buyPrice": 17.62,
       "buyTime": "14:50:01",
@@ -538,7 +551,7 @@ window.DUANBAN_DATA = {
       "sellTime": null,
       "sellPrice": null,
       "sellReason": "持有中",
-      "period": 2
+      "period": 4
     },
     {
       "code": "603096",
@@ -551,9 +564,9 @@ window.DUANBAN_DATA = {
       "emotion": "混沌期",
       "status": "持有中",
       "cost": 23.76,
-      "price": 23.15,
-      "daysAfterBreak": 0,
-      "pnl": -2.57,
+      "price": 18.9,
+      "daysAfterBreak": 2,
+      "pnl": -20.45,
       "buyDate": "20261015",
       "buyPrice": 23.76,
       "buyTime": "14:50:25",
@@ -562,7 +575,7 @@ window.DUANBAN_DATA = {
       "sellTime": null,
       "sellPrice": null,
       "sellReason": "持有中",
-      "period": 1
+      "period": 2
     }
   ]
 };
