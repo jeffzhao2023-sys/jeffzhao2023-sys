@@ -1,39 +1,8 @@
 window.DUANBAN_DATA = {
   "generated": "2026-10-19 15:40:04",
-  "today": "20261019",
+  "today": "20261020",
   "emotion": "退潮期",
-  "alerts": [
-    {
-      "time": "09:35:16",
-      "type": "止损卖出",
-      "code": "002242",
-      "name": "九阳股份",
-      "breakDate": "20261013",
-      "price": 17.48,
-      "note": "跌破5日线(17.59) 浮盈-0.79%",
-      "emotion": "退潮期"
-    },
-    {
-      "time": "09:35:17",
-      "type": "止损卖出",
-      "code": "603096",
-      "name": "新经典",
-      "breakDate": "20261015",
-      "price": 18.9,
-      "note": "跌破5日线(21.44) 浮盈-20.45%",
-      "emotion": "退潮期"
-    },
-    {
-      "time": "14:55:06",
-      "type": "返场买入",
-      "code": "002242",
-      "name": "九阳股份",
-      "breakDate": "20261013",
-      "price": 18.57,
-      "note": "止损后重新站上5日线(17.81)，返场买入",
-      "emotion": "混沌期"
-    }
-  ],
+  "alerts": [],
   "candidates": [
     {
       "code": "601811",
@@ -423,6 +392,19 @@ window.DUANBAN_DATA = {
       "price": 7.81,
       "pct": 2.49,
       "sincePct": 2.49,
+      "status": "候选"
+    },
+    {
+      "code": "003029",
+      "name": "吉大正元",
+      "boards": 3,
+      "prevClose": 24.19,
+      "runUp": 42.3,
+      "selectDate": "20261020",
+      "baseClose": 24.19,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
       "status": "候选"
     }
   ],
