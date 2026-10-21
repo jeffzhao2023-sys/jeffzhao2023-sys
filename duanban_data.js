@@ -1,7 +1,7 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-10-20 15:00:01",
-  "today": "20261020",
-  "emotion": "退潮期",
+  "generated": "2026-10-20 15:35:03",
+  "today": "20261021",
+  "emotion": "混沌期",
   "alerts": [],
   "candidates": [
     {
@@ -397,14 +397,28 @@ window.DUANBAN_DATA = {
     {
       "code": "003029",
       "name": "吉大正元",
-      "boards": 3,
-      "prevClose": 24.19,
-      "runUp": 42.3,
-      "selectDate": "20261020",
+      "boards": 4,
+      "prevClose": 26.61,
+      "runUp": 56.5,
+      "selectDate": "20261021",
       "baseClose": 24.19,
       "price": 26.61,
       "pct": 10.0,
       "sincePct": 10.0,
+      "status": "候选",
+      "firstSelectDate": "20261020"
+    },
+    {
+      "code": "002724",
+      "name": "海洋王",
+      "boards": 3,
+      "prevClose": 9.26,
+      "runUp": 39.5,
+      "selectDate": "20261021",
+      "baseClose": 9.26,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
       "status": "候选"
     }
   ],
