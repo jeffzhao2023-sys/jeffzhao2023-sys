@@ -184,7 +184,7 @@
       document.getElementById('subHighest').textContent='最近成功检查：'+(H.lastCheck||H.generated)+'　·　数据更新时间：'+H.generated;
       document.getElementById('highestAllBody').innerHTML = renderCombinedTable();
     }
-    var duanbanRecShowAll=false;
+    var duanbanRecShowAll=true;
     function initDuanban(){
       var sub=document.getElementById('subDuanban');
       if(!DB){ sub.textContent='未找到数据：请运行本策略 monitor.py 生成 duanban_data.js'; return; }
