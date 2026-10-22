@@ -1,19 +1,8 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-10-21 14:57:12",
-  "today": "20261021",
+  "generated": "2026-10-21 15:00:19",
+  "today": "20261022",
   "emotion": "混沌期",
-  "alerts": [
-    {
-      "time": "09:30:40",
-      "type": "止盈卖出",
-      "code": "002242",
-      "name": "九阳股份",
-      "breakDate": "20261019",
-      "price": 20.08,
-      "note": "最高浮盈13.84%回落至8.13%",
-      "emotion": "混沌期"
-    }
-  ],
+  "alerts": [],
   "candidates": [
     {
       "code": "601811",
@@ -422,14 +411,41 @@ window.DUANBAN_DATA = {
     {
       "code": "002724",
       "name": "海洋王",
-      "boards": 3,
-      "prevClose": 9.26,
-      "runUp": 39.5,
-      "selectDate": "20261021",
+      "boards": 4,
+      "prevClose": 10.19,
+      "runUp": 53.5,
+      "selectDate": "20261022",
       "baseClose": 9.26,
       "price": 10.19,
       "pct": 10.04,
       "sincePct": 10.04,
+      "status": "候选",
+      "firstSelectDate": "20261021"
+    },
+    {
+      "code": "600178",
+      "name": "东安动力",
+      "boards": 4,
+      "prevClose": 13.65,
+      "runUp": 46.5,
+      "selectDate": "20261022",
+      "baseClose": 13.65,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
+    },
+    {
+      "code": "603278",
+      "name": "大业股份",
+      "boards": 4,
+      "prevClose": 13.19,
+      "runUp": 46.4,
+      "selectDate": "20261022",
+      "baseClose": 13.19,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
       "status": "候选"
     }
   ],
