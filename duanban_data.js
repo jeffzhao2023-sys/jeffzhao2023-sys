@@ -1,7 +1,7 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-10-22 15:00:17",
-  "today": "20261022",
-  "emotion": "混沌期",
+  "generated": "2026-10-22 15:15:03",
+  "today": "20261023",
+  "emotion": "退潮期",
   "alerts": [],
   "candidates": [
     {
@@ -411,10 +411,10 @@ window.DUANBAN_DATA = {
     {
       "code": "002724",
       "name": "海洋王",
-      "boards": 4,
-      "prevClose": 10.19,
-      "runUp": 53.5,
-      "selectDate": "20261022",
+      "boards": 5,
+      "prevClose": 11.21,
+      "runUp": 68.8,
+      "selectDate": "20261023",
       "baseClose": 9.26,
       "price": 11.21,
       "pct": 10.01,
@@ -441,15 +441,16 @@ window.DUANBAN_DATA = {
     {
       "code": "603278",
       "name": "大业股份",
-      "boards": 4,
-      "prevClose": 13.19,
-      "runUp": 46.4,
-      "selectDate": "20261022",
+      "boards": 5,
+      "prevClose": 14.51,
+      "runUp": 61.0,
+      "selectDate": "20261023",
       "baseClose": 13.19,
       "price": 14.51,
       "pct": 10.01,
       "sincePct": 10.01,
-      "status": "候选"
+      "status": "候选",
+      "firstSelectDate": "20261022"
     }
   ],
   "records": [
