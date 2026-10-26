@@ -1,7 +1,7 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-10-23 14:57:19",
+  "generated": "2026-10-23 16:05:06",
   "today": "20261023",
-  "emotion": "退潮期",
+  "emotion": "混沌期",
   "alerts": [],
   "candidates": [
     {
