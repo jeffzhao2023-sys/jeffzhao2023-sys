@@ -1,17 +1,17 @@
 window.LIANGRI_DATA = {
- "generated": "2026-10-27 14:15:43",
+ "generated": "2026-10-27 14:44:35",
  "window": {
   "start": "20260728",
   "end": "20261027",
   "days": 60
  },
  "summary": {
-  "trades": 16,
-  "winRate": 12.5,
-  "avgPnl": -2.57,
-  "totalPnl": -41.09,
+  "trades": 13,
+  "winRate": 15.4,
+  "avgPnl": -0.97,
+  "totalPnl": -12.6,
   "open": 0,
-  "missed": 1
+  "missed": 4
  },
  "records": [
   {
@@ -128,17 +128,15 @@ window.LIANGRI_DATA = {
    "boards": 4,
    "selectDate": "20260825",
    "breakDate": "20260826",
-   "buyDate": "20260828",
-   "buyTime": "2026-08-28 14:50:00",
-   "buyPrice": 13.5,
-   "buyWay": "买入B",
-   "sellTime": "2026-08-31 09:30:00",
-   "sellDate": "20260831",
-   "sellPrice": 11.84,
-   "reason": "止损",
-   "pnl": -12.3,
-   "period": 1,
-   "status": "已了结"
+   "buyDate": "",
+   "buyPrice": null,
+   "buyWay": "",
+   "sellDate": "",
+   "sellPrice": null,
+   "reason": "断板未买入",
+   "pnl": null,
+   "period": null,
+   "status": "未买入"
   },
   {
    "code": "000017",
@@ -234,17 +232,15 @@ window.LIANGRI_DATA = {
    "boards": 5,
    "selectDate": "20260916",
    "breakDate": "20260917",
-   "buyDate": "20260922",
-   "buyTime": "2026-09-22 14:50:00",
-   "buyPrice": 20.83,
-   "buyWay": "买入B",
-   "sellTime": "2026-09-23 09:30:00",
-   "sellDate": "20260923",
-   "sellPrice": 18.82,
-   "reason": "止损",
-   "pnl": -9.65,
-   "period": 1,
-   "status": "已了结"
+   "buyDate": "",
+   "buyPrice": null,
+   "buyWay": "",
+   "sellDate": "",
+   "sellPrice": null,
+   "reason": "断板未买入",
+   "pnl": null,
+   "period": null,
+   "status": "未买入"
   },
   {
    "code": "001216",
@@ -252,17 +248,15 @@ window.LIANGRI_DATA = {
    "boards": 6,
    "selectDate": "20260923",
    "breakDate": "20260923",
-   "buyDate": "20260928",
-   "buyTime": "2026-09-28 14:50:00",
-   "buyPrice": 27.82,
-   "buyWay": "买入B",
-   "sellTime": "2026-09-29 09:30:00",
-   "sellDate": "20260929",
-   "sellPrice": 26.0,
-   "reason": "止损",
-   "pnl": -6.54,
-   "period": 1,
-   "status": "已了结"
+   "buyDate": "",
+   "buyPrice": null,
+   "buyWay": "",
+   "sellDate": "",
+   "sellPrice": null,
+   "reason": "断板未买入",
+   "pnl": null,
+   "period": null,
+   "status": "未买入"
   },
   {
    "code": "600825",
