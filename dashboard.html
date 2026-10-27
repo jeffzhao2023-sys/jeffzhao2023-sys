@@ -79,7 +79,6 @@
         4，卖出：跌破 5 日线止损；浮盈曾超 10% 后回落 5 个点止盈（终结不返场）；跌破断板日开盘价破位；买入次日起跌破买入价；<br>
         5，返场：14:55，断板日起 ≤5 个交易日，现价 &gt; 5 日线且未跌破断板日开盘价。
       </div>
-      <div class="sub" id="subLiangri">加载中…</div>
       <div class="card">
         <div id="liangriBody"></div>
       </div>
@@ -187,15 +186,9 @@
     }
     // ===== 两日最高板可低吸 =====
     function initLiangri(){
-      var sub=document.getElementById('subLiangri');
       var body=document.getElementById('liangriBody');
-      if(!LR || !LR.records){ sub.textContent='未找到数据：请运行 scan_history.py 生成 liangri_data.js'; return; }
-      var w=LR.window||{}, s=LR.summary||{};
+      if(!LR || !LR.records){ body.innerHTML='<div class="empty-tip">未找到数据：请运行 scan_history.py 生成 liangri_data.js</div>'; return; }
       function sign(v){ return (v==null)?'—':((v>0?'+':'')+v+'%'); }
-      sub.innerHTML='回放窗口 '+ymd(w.start)+' ~ '+ymd(w.end)+'（'+w.days+' 个交易日）　·　生成 '+esc(LR.generated)
-        +'<br>已了结 '+esc(s.trades)+' 笔　胜率 '+esc(s.winRate)+'%　平均 '+sign(s.avgPnl)+'　合计 '+sign(s.totalPnl)
-        +'　<span style="color:#6b7280">（毛收益，未扣佣金/印花税/滑点）</span>'
-        +'<br><span style="color:#6b7280">历史回放用 1 分钟分时近似 30 秒扫描；14:50/14:55 取对应分钟价。</span>';
       var rows=(LR.records||[]).slice();
       rows.sort(function(a,b){ return (a.buyDate||a.selectDate||'')<(b.buyDate||b.selectDate||'')?1:-1; });
       if(rows.length===0){ body.innerHTML='<div class="empty-tip">窗口内无符合条件的个股</div>'; return; }
