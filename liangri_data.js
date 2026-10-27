@@ -1,17 +1,17 @@
 window.LIANGRI_DATA = {
- "generated": "2026-10-27 13:56:23",
+ "generated": "2026-10-27 14:15:43",
  "window": {
   "start": "20260728",
   "end": "20261027",
   "days": 60
  },
  "summary": {
-  "trades": 17,
-  "winRate": 11.8,
-  "avgPnl": -2.75,
-  "totalPnl": -46.76,
+  "trades": 16,
+  "winRate": 12.5,
+  "avgPnl": -2.57,
+  "totalPnl": -41.09,
   "open": 0,
-  "missed": 0
+  "missed": 1
  },
  "records": [
   {
@@ -218,17 +218,15 @@ window.LIANGRI_DATA = {
    "boards": 6,
    "selectDate": "20260908",
    "breakDate": "20260908",
-   "buyDate": "20260914",
-   "buyTime": "2026-09-14 14:50:00",
-   "buyPrice": 16.8,
-   "buyWay": "买入B",
-   "sellTime": "2026-09-15 09:30:00",
-   "sellDate": "20260915",
-   "sellPrice": 15.55,
-   "reason": "止损",
-   "pnl": -7.44,
-   "period": 1,
-   "status": "已了结"
+   "buyDate": "",
+   "buyPrice": null,
+   "buyWay": "",
+   "sellDate": "",
+   "sellPrice": null,
+   "reason": "断板未买入",
+   "pnl": null,
+   "period": null,
+   "status": "未买入"
   },
   {
    "code": "000993",
@@ -236,16 +234,16 @@ window.LIANGRI_DATA = {
    "boards": 5,
    "selectDate": "20260916",
    "breakDate": "20260917",
-   "buyDate": "20260921",
-   "buyTime": "2026-09-21 14:50:00",
-   "buyPrice": 20.43,
+   "buyDate": "20260922",
+   "buyTime": "2026-09-22 14:50:00",
+   "buyPrice": 20.83,
    "buyWay": "买入B",
    "sellTime": "2026-09-23 09:30:00",
    "sellDate": "20260923",
    "sellPrice": 18.82,
    "reason": "止损",
-   "pnl": -7.88,
-   "period": 2,
+   "pnl": -9.65,
+   "period": 1,
    "status": "已了结"
   },
   {
