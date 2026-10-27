@@ -69,29 +69,30 @@
       </div>
     </div>
 
-    <!-- ============ 中间栏：换手龙断板低吸 ============ -->
+    <!-- ============ 中间栏：两日最高板可低吸 ============ -->
     <div class="col">
-      <h1>🐉 换手龙断板低吸</h1>
+      <h1>🎯 两日最高板可低吸</h1>
       <div class="sub" style="line-height:1.7">操作说明：<br>
-        1，适用新周期龙头突破高度、盘面普涨、相关消息刺激等情绪氛围好的时候，做踏空资金对龙头的再次认可和涨停持续预期；<br>
-        2，必须是换手龙不是连续一字板龙，否则筹码有断层成本不一样；<br>
-        3，断板首日尾盘买入或者次日确认反包买入；<br>
-        4，换手龙前期涨幅大，资金沉淀较多，如果走出上升趋势结构，说明有资金看好后市。
+        1，选股：沪深主板 + 创业板（60/00/30），同一只票连续两天各自唯一最高板，剔除 ST；<br>
+        2，买入A：断板日 14:50 低吸；仍涨停不算断板，14:50 前触跌停不买；<br>
+        3，买入B：断板后第 2~5 个交易日 14:50，现价 ≥ 5 日线且未涨停；<br>
+        4，卖出：跌破 5 日线止损；浮盈曾超 10% 后回落 5 个点止盈（终结不返场）；跌破断板日开盘价破位；买入次日起跌破买入价；<br>
+        5，返场：14:55，断板日起 ≤5 个交易日，现价 &gt; 5 日线且未跌破断板日开盘价。
       </div>
-      <div class="sub" id="subDuanban">加载中…</div>
+      <div class="sub" id="subLiangri">加载中…</div>
       <div class="card">
-        <div id="duanbanRecBody"></div>
+        <div id="liangriBody"></div>
       </div>
     </div>
 
   </div>
 
   <script src="highest_data.js" charset="utf-8"></script>
-  <script src="duanban_data.js" charset="utf-8"></script>
+  <script src="liangri_data.js" charset="utf-8"></script>
   <script src="yushouci_data.js" charset="utf-8"></script>
   <script>
     var H = window.HIGHEST_DATA || null;
-    var DB = window.DUANBAN_DATA || null;
+    var LR = window.LIANGRI_DATA || null;
     var YC = window.YUSHOUCI_DATA || null;
     function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
     function emotionClass(e){ if(!e || e==='暂无数据')return ''; if(e.indexOf('退潮')>=0)return 'emotion-recession'; if(e.indexOf('混沌')>=0)return 'emotion-chaos'; return 'emotion-normal'; }
@@ -184,43 +185,39 @@
       document.getElementById('subHighest').textContent='最近成功检查：'+(H.lastCheck||H.generated)+'　·　数据更新时间：'+H.generated;
       document.getElementById('highestAllBody').innerHTML = renderCombinedTable();
     }
-    var duanbanRecShowAll=true;
-    function initDuanban(){
-      var sub=document.getElementById('subDuanban');
-      if(!DB){ sub.textContent='未找到数据：请运行本策略 monitor.py 生成 duanban_data.js'; return; }
-      sub.textContent='数据生成时间：'+(DB.generated||'—')+'　情绪：'+(DB.emotion||'—');
-      function fmtDate(v){ if(!v||v.length!==8) return '—'; return v.slice(0,4)+'-'+v.slice(4,6)+'-'+v.slice(6,8); }
-      var recs=(DB.records||[]).slice();
-      var recActive=recs.filter(function(r){ return ['止盈','止损','作废'].indexOf(r.status)<0; });
-      var showRec=duanbanRecShowAll?recs:recActive;
-      showRec.sort(function(a,b){ return (a.breakDate||'')<(b.breakDate||'')?1:-1; });
-      {
-        var h2='<div style="font-weight:600;margin-bottom:8px">记录 <span class="count">'+showRec.length+' 条</span>'
-          +' <span style="font-weight:normal;color:#6b7280;font-size:12px">—— 买卖过的票永久保留；已了结的收益率按卖出价定格</span>'
-          +' <label style="font-weight:normal;font-size:12px;margin-left:8px;cursor:pointer"><input type="checkbox" id="duanbanRecAll"'+(duanbanRecShowAll?' checked':'')+' onchange="duanbanRecShowAll=this.checked;initDuanban();"> 显示已了结</label></div>';
-        h2+='<table><tr><th>买入日</th><th>当日情绪</th><th>代码</th><th>名称</th><th>高度</th><th>买入价</th>'
-          +'<th>卖出日</th><th>卖出时间</th><th>卖出价</th><th>原因</th><th>收益率</th><th>周期</th></tr>';
-        if(showRec.length===0){ h2+='<tr><td colspan="12" class="empty-tip">暂无记录</td></tr>'; }
-        showRec.forEach(function(r){
-          var pnl=r.pnl, pc=(pnl==null||pnl===0)?'':(pnl>0?'emotion-up':'emotion-down');
-          var em=r.emotion||'—';
-          h2+='<tr>'
-            +'<td class="mono">'+fmtDate(r.buyDate)+'</td>'
-            +'<td class="'+emotionClass(em)+'">'+esc(em)+'</td>'
-            +'<td class="mono">'+esc(r.code)+'</td>'
-            +'<td>'+esc(r.name)+'</td>'
-            +'<td>'+esc(r.boards)+'连板</td>'
-            +'<td class="mono">'+(r.buyPrice!=null?r.buyPrice:'—')+'</td>'
-            +'<td class="mono">'+fmtDate(r.sellDate)+'</td>'
-            +'<td class="mono">'+(r.sellTime||'—')+'</td>'
-            +'<td class="mono">'+(r.sellPrice!=null?r.sellPrice:'—')+'</td>'
-            +'<td>'+esc(r.sellReason||'—')+'</td>'
-            +'<td class="mono '+pc+'">'+(pnl!=null?pnl+'%':'—')+'</td>'
-            +'<td class="mono">'+(r.period!=null?r.period+'天':'—')+'</td>'
-            +'</tr>';
-        });
-        document.getElementById('duanbanRecBody').innerHTML=h2+'</table>';
-      }
+    // ===== 两日最高板可低吸 =====
+    function initLiangri(){
+      var sub=document.getElementById('subLiangri');
+      var body=document.getElementById('liangriBody');
+      if(!LR || !LR.records){ sub.textContent='未找到数据：请运行 scan_history.py 生成 liangri_data.js'; return; }
+      var w=LR.window||{}, s=LR.summary||{};
+      function sign(v){ return (v==null)?'—':((v>0?'+':'')+v+'%'); }
+      sub.innerHTML='回放窗口 '+ymd(w.start)+' ~ '+ymd(w.end)+'（'+w.days+' 个交易日）　·　生成 '+esc(LR.generated)
+        +'<br>已了结 '+esc(s.trades)+' 笔　胜率 '+esc(s.winRate)+'%　平均 '+sign(s.avgPnl)+'　合计 '+sign(s.totalPnl)
+        +'　<span style="color:#6b7280">（毛收益，未扣佣金/印花税/滑点）</span>'
+        +'<br><span style="color:#6b7280">历史回放用 1 分钟分时近似 30 秒扫描；14:50/14:55 取对应分钟价。</span>';
+      var rows=(LR.records||[]).slice();
+      rows.sort(function(a,b){ return (a.buyDate||a.selectDate||'')<(b.buyDate||b.selectDate||'')?1:-1; });
+      if(rows.length===0){ body.innerHTML='<div class="empty-tip">窗口内无符合条件的个股</div>'; return; }
+      var h='<table><tr><th>买入日</th><th>代码</th><th>名称</th><th>连板</th><th>买入价</th><th>方式</th>'
+        +'<th>卖出日</th><th>卖出价</th><th>原因</th><th>收益率</th><th>周期</th></tr>';
+      rows.forEach(function(r){
+        var pc=(r.pnl==null||r.pnl===0)?'':(r.pnl>0?'emotion-up':'emotion-down');
+        h+='<tr>'
+          +'<td class="mono">'+ymd(r.buyDate)+'</td>'
+          +'<td class="mono">'+esc(r.code)+'</td>'
+          +'<td>'+esc(r.name)+'</td>'
+          +'<td>'+esc(r.boards)+'板</td>'
+          +'<td class="mono">'+(r.buyPrice!=null?r.buyPrice:'—')+'</td>'
+          +'<td>'+esc(r.buyWay||'—')+'</td>'
+          +'<td class="mono">'+ymd(r.sellDate)+'</td>'
+          +'<td class="mono">'+(r.sellPrice!=null?r.sellPrice:'—')+'</td>'
+          +'<td>'+esc(r.reason||r.status||'—')+'</td>'
+          +'<td class="mono '+pc+'">'+(r.pnl!=null?sign(r.pnl):'—')+'</td>'
+          +'<td class="mono">'+(r.period!=null?r.period+'天':'—')+'</td>'
+          +'</tr>';
+      });
+      body.innerHTML=h+'</table>';
     }
 
     // 三栏各自独立渲染：某一栏数据异常，不至于让整页卡在「加载中」
@@ -263,7 +260,7 @@
     function safeInit(fn){ try{ fn(); }catch(e){ if(window.console) console.error(fn.name + " 渲染失败", e); } }
     safeInit(initYushouci);
     safeInit(initHighest);
-    safeInit(initDuanban);
+    safeInit(initLiangri);
   </script>
 </body>
 </html>
