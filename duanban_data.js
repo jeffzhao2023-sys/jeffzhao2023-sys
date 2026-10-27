@@ -1,7 +1,7 @@
 window.DUANBAN_DATA = {
   "generated": "2026-10-23 16:05:06",
-  "today": "20261023",
-  "emotion": "混沌期",
+  "today": "20261027",
+  "emotion": "退潮期",
   "alerts": [],
   "candidates": [
     {
@@ -451,6 +451,19 @@ window.DUANBAN_DATA = {
       "sincePct": 21.0,
       "status": "候选",
       "firstSelectDate": "20261022"
+    },
+    {
+      "code": "600838",
+      "name": "上海九百",
+      "boards": 4,
+      "prevClose": 12.1,
+      "runUp": 49.8,
+      "selectDate": "20261027",
+      "baseClose": 12.1,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
     }
   ],
   "records": [
