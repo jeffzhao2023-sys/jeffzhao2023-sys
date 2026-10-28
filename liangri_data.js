@@ -1,5 +1,5 @@
 window.LIANGRI_DATA = {
- "generated": "2026-10-28 12:28:16",
+ "generated": "2026-10-28 14:05:56",
  "window": {
   "start": "20260729",
   "end": "20261028",
@@ -133,7 +133,7 @@ window.LIANGRI_DATA = {
    "buyWay": "",
    "sellDate": "",
    "sellPrice": null,
-   "reason": "断板未买入",
+   "reason": "20260826 炸板，不再买入",
    "pnl": null,
    "period": null,
    "status": "未买入"
@@ -221,7 +221,7 @@ window.LIANGRI_DATA = {
    "buyWay": "",
    "sellDate": "",
    "sellPrice": null,
-   "reason": "断板未买入",
+   "reason": "20260908 炸板，不再买入",
    "pnl": null,
    "period": null,
    "status": "未买入"
@@ -237,7 +237,7 @@ window.LIANGRI_DATA = {
    "buyWay": "",
    "sellDate": "",
    "sellPrice": null,
-   "reason": "断板未买入",
+   "reason": "20260918 炸板，不再买入",
    "pnl": null,
    "period": null,
    "status": "未买入"
@@ -253,7 +253,7 @@ window.LIANGRI_DATA = {
    "buyWay": "",
    "sellDate": "",
    "sellPrice": null,
-   "reason": "断板未买入",
+   "reason": "20260923 炸板，不再买入",
    "pnl": null,
    "period": null,
    "status": "未买入"
