@@ -1,17 +1,17 @@
 window.LIANGRI_DATA = {
- "generated": "2026-10-27 14:44:35",
+ "generated": "2026-10-28 09:19:55",
  "window": {
-  "start": "20260728",
-  "end": "20261027",
+  "start": "20260729",
+  "end": "20261028",
   "days": 60
  },
  "summary": {
-  "trades": 13,
-  "winRate": 15.4,
+  "trades": 12,
+  "winRate": 16.7,
   "avgPnl": -0.97,
-  "totalPnl": -12.6,
+  "totalPnl": -11.63,
   "open": 0,
-  "missed": 4
+  "missed": 5
  },
  "records": [
   {
@@ -295,22 +295,20 @@ window.LIANGRI_DATA = {
    "status": "已了结"
   },
   {
-   "code": "600825",
-   "name": "新华传媒",
-   "boards": 6,
-   "selectDate": "20260930",
-   "breakDate": "20261019",
-   "buyDate": "20261026",
-   "buyTime": "2026-10-26 14:55:00",
-   "buyPrice": 15.4,
-   "buyWay": "返场",
-   "sellTime": "2026-10-27 09:30:00",
-   "sellDate": "20261027",
-   "sellPrice": 15.25,
-   "reason": "止损",
-   "pnl": -0.97,
-   "period": 1,
-   "status": "已了结"
+   "code": "600838",
+   "name": "上海九百",
+   "boards": 5,
+   "selectDate": "20261028",
+   "breakDate": null,
+   "buyDate": "",
+   "buyPrice": null,
+   "buyWay": "",
+   "sellDate": "",
+   "sellPrice": null,
+   "reason": "未断板",
+   "pnl": null,
+   "period": null,
+   "status": "未买入"
   }
  ]
 };
