@@ -1,5 +1,5 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-10-28 10:11:00",
+  "generated": "2026-10-28 10:11:30",
   "today": "20261028",
   "emotion": "退潮期",
   "alerts": [],
@@ -14,9 +14,9 @@ window.DUANBAN_DATA = {
       "selectDate": "20260924",
       "status": "候选",
       "firstSelectDate": "20260928",
-      "price": 17.7,
-      "pct": -0.45,
-      "sincePct": -13.02
+      "price": 17.67,
+      "pct": -0.62,
+      "sincePct": -13.17
     },
     {
       "code": "002614",
@@ -42,9 +42,9 @@ window.DUANBAN_DATA = {
       "selectDate": "20260924",
       "status": "候选",
       "firstSelectDate": "20260928",
-      "price": 20.55,
-      "pct": 0.98,
-      "sincePct": -41.95
+      "price": 20.57,
+      "pct": 1.08,
+      "sincePct": -41.89
     },
     {
       "code": "002238",
@@ -55,9 +55,9 @@ window.DUANBAN_DATA = {
       "prevClose": 8.43,
       "selectDate": "20260928",
       "status": "候选",
-      "price": 6.6,
-      "pct": 0.92,
-      "sincePct": -21.71
+      "price": 6.61,
+      "pct": 1.07,
+      "sincePct": -21.59
     },
     {
       "code": "603396",
@@ -68,9 +68,9 @@ window.DUANBAN_DATA = {
       "prevClose": 39.2,
       "selectDate": "20260929",
       "status": "候选",
-      "price": 25.44,
-      "pct": 1.76,
-      "sincePct": -35.1
+      "price": 25.42,
+      "pct": 1.68,
+      "sincePct": -35.15
     },
     {
       "code": "603949",
@@ -82,9 +82,9 @@ window.DUANBAN_DATA = {
       "selectDate": "20260930",
       "status": "候选",
       "firstSelectDate": "20260929",
-      "price": 13.75,
-      "pct": -1.86,
-      "sincePct": -26.04
+      "price": 13.76,
+      "pct": -1.78,
+      "sincePct": -25.98
     },
     {
       "code": "000678",
@@ -109,9 +109,9 @@ window.DUANBAN_DATA = {
       "prevClose": 12.24,
       "selectDate": "20261008",
       "status": "候选",
-      "price": 10.13,
-      "pct": 0.8,
-      "sincePct": -17.24
+      "price": 10.12,
+      "pct": 0.7,
+      "sincePct": -17.32
     },
     {
       "code": "600241",
@@ -123,9 +123,9 @@ window.DUANBAN_DATA = {
       "selectDate": "20261013",
       "status": "候选",
       "firstSelectDate": "20261008",
-      "price": 9.07,
-      "pct": -6.4,
-      "sincePct": -6.69
+      "price": 9.01,
+      "pct": -7.02,
+      "sincePct": -7.3
     },
     {
       "code": "002242",
@@ -151,9 +151,9 @@ window.DUANBAN_DATA = {
       "selectDate": "20261012",
       "status": "候选",
       "firstSelectDate": "20261012",
-      "price": 17.43,
-      "pct": -4.44,
-      "sincePct": -28.68
+      "price": 17.46,
+      "pct": -4.28,
+      "sincePct": -28.56
     },
     {
       "code": "605058",
@@ -163,9 +163,9 @@ window.DUANBAN_DATA = {
       "runUp": 61.4,
       "selectDate": "20260917",
       "baseClose": 44.33,
-      "price": 51.55,
-      "pct": 4.61,
-      "sincePct": 16.29,
+      "price": 51.75,
+      "pct": 5.01,
+      "sincePct": 16.74,
       "status": "候选"
     },
     {
@@ -176,9 +176,9 @@ window.DUANBAN_DATA = {
       "runUp": 36.5,
       "selectDate": "20260918",
       "baseClose": 19.88,
-      "price": 20.64,
-      "pct": -9.39,
-      "sincePct": 3.82,
+      "price": 20.62,
+      "pct": -9.48,
+      "sincePct": 3.72,
       "status": "候选"
     },
     {
@@ -189,9 +189,9 @@ window.DUANBAN_DATA = {
       "runUp": 33.1,
       "selectDate": "20260918",
       "baseClose": 22.34,
-      "price": 17.13,
-      "pct": 0.06,
-      "sincePct": -23.32,
+      "price": 17.12,
+      "pct": 0.0,
+      "sincePct": -23.37,
       "status": "候选"
     },
     {
@@ -202,9 +202,9 @@ window.DUANBAN_DATA = {
       "runUp": 38.3,
       "selectDate": "20260921",
       "baseClose": 13.48,
-      "price": 10.35,
-      "pct": -0.29,
-      "sincePct": -23.22,
+      "price": 10.34,
+      "pct": -0.39,
+      "sincePct": -23.29,
       "status": "候选"
     },
     {
@@ -268,9 +268,9 @@ window.DUANBAN_DATA = {
       "runUp": 49.0,
       "selectDate": "20260924",
       "baseClose": 3.86,
-      "price": 2.9,
-      "pct": -2.03,
-      "sincePct": -24.87,
+      "price": 2.91,
+      "pct": -1.69,
+      "sincePct": -24.61,
       "status": "候选",
       "firstSelectDate": "20260924"
     },
@@ -323,9 +323,9 @@ window.DUANBAN_DATA = {
       "runUp": 35.5,
       "selectDate": "20261014",
       "baseClose": 11.42,
-      "price": 8.68,
-      "pct": 2.12,
-      "sincePct": -23.99,
+      "price": 8.67,
+      "pct": 2.0,
+      "sincePct": -24.08,
       "status": "候选"
     },
     {
@@ -336,9 +336,9 @@ window.DUANBAN_DATA = {
       "runUp": 50.2,
       "selectDate": "20261015",
       "baseClose": 8.86,
-      "price": 10.44,
-      "pct": -2.43,
-      "sincePct": 17.83,
+      "price": 10.45,
+      "pct": -2.34,
+      "sincePct": 17.95,
       "status": "候选",
       "firstSelectDate": "20261014"
     },
@@ -350,9 +350,9 @@ window.DUANBAN_DATA = {
       "runUp": 46.5,
       "selectDate": "20261015",
       "baseClose": 23.07,
-      "price": 15.48,
-      "pct": 0.32,
-      "sincePct": -32.9,
+      "price": 15.46,
+      "pct": 0.19,
+      "sincePct": -32.99,
       "status": "作废"
     },
     {
@@ -363,9 +363,9 @@ window.DUANBAN_DATA = {
       "runUp": 46.5,
       "selectDate": "20261015",
       "baseClose": 8.1,
-      "price": 8.23,
-      "pct": -6.69,
-      "sincePct": 1.6,
+      "price": 8.14,
+      "pct": -7.71,
+      "sincePct": 0.49,
       "status": "候选"
     },
     {
@@ -389,9 +389,9 @@ window.DUANBAN_DATA = {
       "runUp": 48.0,
       "selectDate": "20261019",
       "baseClose": 7.62,
-      "price": 7.48,
-      "pct": -8.78,
-      "sincePct": -1.84,
+      "price": 7.5,
+      "pct": -8.54,
+      "sincePct": -1.57,
       "status": "候选"
     },
     {
@@ -402,9 +402,9 @@ window.DUANBAN_DATA = {
       "runUp": 56.5,
       "selectDate": "20261021",
       "baseClose": 24.19,
-      "price": 17.99,
-      "pct": -4.36,
-      "sincePct": -25.63,
+      "price": 17.96,
+      "pct": -4.52,
+      "sincePct": -25.75,
       "status": "候选",
       "firstSelectDate": "20261020"
     },
@@ -430,9 +430,9 @@ window.DUANBAN_DATA = {
       "runUp": 46.5,
       "selectDate": "20261022",
       "baseClose": 13.65,
-      "price": 10.14,
-      "pct": -3.52,
-      "sincePct": -25.71,
+      "price": 10.08,
+      "pct": -4.09,
+      "sincePct": -26.15,
       "status": "候选",
       "breakDate": "20261022",
       "breakOpen": 12.9,
@@ -446,9 +446,9 @@ window.DUANBAN_DATA = {
       "runUp": 61.0,
       "selectDate": "20261023",
       "baseClose": 13.19,
-      "price": 17.55,
-      "pct": 0.86,
-      "sincePct": 33.06,
+      "price": 17.5,
+      "pct": 0.57,
+      "sincePct": 32.68,
       "status": "候选",
       "firstSelectDate": "20261022"
     },
@@ -460,9 +460,9 @@ window.DUANBAN_DATA = {
       "runUp": 64.7,
       "selectDate": "20261028",
       "baseClose": 12.1,
-      "price": 14.23,
-      "pct": 6.91,
-      "sincePct": 17.6,
+      "price": 14.24,
+      "pct": 6.99,
+      "sincePct": 17.69,
       "status": "候选",
       "firstSelectDate": "20261027"
     }
