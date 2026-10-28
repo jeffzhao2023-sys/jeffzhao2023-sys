@@ -1,5 +1,5 @@
 window.LIANGRI_DATA = {
- "generated": "2026-10-28 12:02:37",
+ "generated": "2026-10-28 12:09:11",
  "window": {
   "start": "20260729",
   "end": "20261028",
