@@ -1,7 +1,7 @@
 window.DUANBAN_DATA = {
   "generated": "2026-10-28 15:00:14",
-  "today": "20261028",
-  "emotion": "正常期",
+  "today": "20261029",
+  "emotion": "混沌期",
   "alerts": [],
   "candidates": [
     {
@@ -89,11 +89,11 @@ window.DUANBAN_DATA = {
     {
       "code": "000678",
       "name": "襄阳轴承",
-      "boards": 4,
-      "runUp": 49.4,
+      "boards": 5,
+      "runUp": 77.2,
       "baseClose": 11.72,
-      "prevClose": 12.89,
-      "selectDate": "20261008",
+      "prevClose": 17.61,
+      "selectDate": "20261029",
       "status": "候选",
       "firstSelectDate": "20260930",
       "price": 17.61,
