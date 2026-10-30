@@ -1,7 +1,7 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-10-29 14:57:14",
-  "today": "20261029",
-  "emotion": "混沌期",
+  "generated": "2026-10-29 15:10:04",
+  "today": "20261030",
+  "emotion": "退潮期",
   "alerts": [],
   "candidates": [
     {
@@ -471,6 +471,32 @@ window.DUANBAN_DATA = {
       "breakDate": "20261028",
       "breakOpen": 13.88,
       "breakNoBuy": "断板日冲高"
+    },
+    {
+      "code": "002708",
+      "name": "光洋股份",
+      "boards": 4,
+      "prevClose": 20.83,
+      "runUp": 51.7,
+      "selectDate": "20261030",
+      "baseClose": 20.83,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
+    },
+    {
+      "code": "001219",
+      "name": "青岛食品",
+      "boards": 4,
+      "prevClose": 18.13,
+      "runUp": 48.6,
+      "selectDate": "20261030",
+      "baseClose": 18.13,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
     }
   ],
   "records": [
