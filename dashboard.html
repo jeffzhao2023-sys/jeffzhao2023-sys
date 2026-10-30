@@ -195,7 +195,7 @@
       var rows=(LR.records||[]).slice();
       rows.sort(function(a,b){ return (a.buyDate||a.selectDate||'')<(b.buyDate||b.selectDate||'')?1:-1; });
       if(rows.length===0){ body.innerHTML='<div class="empty-tip">窗口内无符合条件的个股</div>'; return; }
-      var h='<table><tr><th>买入日</th><th>代码</th><th>名称</th><th>连板</th><th>状态</th><th>买入价</th><th>方式</th>'
+      var h='<table><tr><th>买入日</th><th>代码</th><th>名称</th><th>连板</th><th>最后板换手率</th><th>状态</th><th>买入价</th><th>方式</th>'
         +'<th>卖出日</th><th>卖出价</th><th>原因</th><th>收益率</th><th>周期</th></tr>';
       rows.forEach(function(r){
         var pc=(r.pnl==null||r.pnl===0)?'':(r.pnl>0?'emotion-up':'emotion-down');
@@ -204,6 +204,8 @@
           +'<td class="mono">'+esc(r.code)+'</td>'
           +'<td>'+esc(r.name)+'</td>'
           +'<td>'+esc(r.boards)+'板</td>'
+          +'<td class="mono" title="'+esc(r.lastBoardDate||'')+'">'
+          +((r.lastBoardTurn!=null)?(r.lastBoardTurn+'%'):'—')+'</td>'
           +'<td'+(r.status==='未买入'?' class="empty-tip"':'')+'>'+esc(r.status||'—')+'</td>'
           +'<td class="mono">'+(r.buyPrice!=null?r.buyPrice:'—')+'</td>'
           +'<td>'+esc(r.buyWay||'—')+'</td>'
