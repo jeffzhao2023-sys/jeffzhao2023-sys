@@ -1,8 +1,8 @@
 window.LIANGRI_DATA = {
- "generated": "2026-10-30 15:12:47",
+ "generated": "2026-11-02 15:12:36",
  "window": {
-  "start": "20260731",
-  "end": "20261030",
+  "start": "20260803",
+  "end": "20261102",
   "days": 60
  },
  "summary": {
@@ -37,8 +37,8 @@ window.LIANGRI_DATA = {
   {
    "code": "603221",
    "name": "爱丽家居",
-   "boards": 8,
-   "selectDate": "20260731",
+   "boards": 9,
+   "selectDate": "20260803",
    "breakDate": "20260807",
    "lastBoardDate": "20260806",
    "lastBoardTurn": 6.61,
