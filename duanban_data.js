@@ -1,6 +1,6 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-11-02 15:10:04",
-  "today": "20261102",
+  "generated": "2026-11-02 15:25:04",
+  "today": "20261103",
   "emotion": "退潮期",
   "alerts": [],
   "candidates": [
@@ -491,10 +491,10 @@ window.DUANBAN_DATA = {
     {
       "code": "001219",
       "name": "青岛食品",
-      "boards": 5,
-      "prevClose": 19.94,
-      "runUp": 63.4,
-      "selectDate": "20261102",
+      "boards": 6,
+      "prevClose": 21.93,
+      "runUp": 79.8,
+      "selectDate": "20261103",
       "baseClose": 18.13,
       "price": 21.93,
       "pct": 9.98,
