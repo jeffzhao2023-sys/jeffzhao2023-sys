@@ -1,16 +1,16 @@
 window.LIANGRI_DATA = {
- "generated": "2026-11-02 15:12:36",
+ "generated": "2026-11-03 15:13:20",
  "window": {
-  "start": "20260803",
-  "end": "20261102",
+  "start": "20260804",
+  "end": "20261103",
   "days": 60
  },
  "summary": {
-  "trades": 13,
-  "winRate": 15.4,
-  "avgPnl": -1.3,
-  "totalPnl": -16.95,
-  "open": 0,
+  "trades": 12,
+  "winRate": 8.3,
+  "avgPnl": -3.36,
+  "totalPnl": -40.32,
+  "open": 1,
   "missed": 4
  },
  "records": [
@@ -32,26 +32,6 @@ window.LIANGRI_DATA = {
    "reason": "跌破断板日开盘价",
    "pnl": 6.23,
    "period": 1,
-   "status": "已了结"
-  },
-  {
-   "code": "603221",
-   "name": "爱丽家居",
-   "boards": 9,
-   "selectDate": "20260803",
-   "breakDate": "20260807",
-   "lastBoardDate": "20260806",
-   "lastBoardTurn": 6.61,
-   "buyDate": "20260807",
-   "buyTime": "2026-08-07 14:50:00",
-   "buyPrice": 24.3,
-   "buyWay": "买入A",
-   "sellTime": "2026-08-18 13:00:00",
-   "sellDate": "20260818",
-   "sellPrice": 29.98,
-   "reason": "炸板卖出",
-   "pnl": 23.37,
-   "period": 7,
    "status": "已了结"
   },
   {
@@ -345,6 +325,25 @@ window.LIANGRI_DATA = {
    "pnl": -5.32,
    "period": 1,
    "status": "已了结"
+  },
+  {
+   "code": "001219",
+   "name": "青岛食品",
+   "boards": 6,
+   "selectDate": "20261103",
+   "breakDate": "20261103",
+   "lastBoardDate": "20261102",
+   "lastBoardTurn": 19.74,
+   "buyDate": "20261103",
+   "buyTime": "2026-11-03 14:50:00",
+   "buyPrice": 21.68,
+   "buyWay": "买入",
+   "sellDate": "",
+   "sellPrice": null,
+   "reason": "",
+   "pnl": null,
+   "period": null,
+   "status": "持仓中"
   }
  ]
 };
