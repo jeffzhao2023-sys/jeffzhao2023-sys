@@ -1,19 +1,8 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-11-03 15:10:03",
-  "today": "20261103",
+  "generated": "2026-11-03 15:25:03",
+  "today": "20261104",
   "emotion": "退潮期",
-  "alerts": [
-    {
-      "time": "14:50:20",
-      "type": "断板后买入",
-      "code": "000678",
-      "name": "襄阳轴承",
-      "breakDate": "20261029",
-      "price": 20.25,
-      "note": "断板后第3日尾盘站上5日线(18.92)",
-      "emotion": "退潮期"
-    }
-  ],
+  "alerts": [],
   "candidates": [
     {
       "code": "601811",
@@ -516,6 +505,32 @@ window.DUANBAN_DATA = {
       "breakDate": "20261103",
       "breakOpen": 22.3,
       "breakNoBuy": "断板日收跌"
+    },
+    {
+      "code": "600261",
+      "name": "阳光照明",
+      "boards": 4,
+      "prevClose": 4.95,
+      "runUp": 51.4,
+      "selectDate": "20261104",
+      "baseClose": 4.95,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
+    },
+    {
+      "code": "002086",
+      "name": "东方海洋",
+      "boards": 4,
+      "prevClose": 3.42,
+      "runUp": 63.6,
+      "selectDate": "20261104",
+      "baseClose": 3.42,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
     }
   ],
   "records": [
