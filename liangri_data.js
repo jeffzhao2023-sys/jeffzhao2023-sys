@@ -1,8 +1,8 @@
 window.LIANGRI_DATA = {
- "generated": "2026-11-04 15:13:37",
+ "generated": "2026-11-05 15:14:07",
  "window": {
-  "start": "20260805",
-  "end": "20261104",
+  "start": "20260806",
+  "end": "20261105",
   "days": 60
  },
  "summary": {
@@ -17,8 +17,8 @@ window.LIANGRI_DATA = {
   {
    "code": "003032",
    "name": "传智教育",
-   "boards": 7,
-   "selectDate": "20260805",
+   "boards": 8,
+   "selectDate": "20260806",
    "breakDate": "20260806",
    "lastBoardDate": "20260805",
    "lastBoardTurn": 18.79,
@@ -37,8 +37,8 @@ window.LIANGRI_DATA = {
   {
    "code": "003032",
    "name": "传智教育",
-   "boards": 7,
-   "selectDate": "20260805",
+   "boards": 8,
+   "selectDate": "20260806",
    "breakDate": "20260806",
    "lastBoardDate": "20260805",
    "lastBoardTurn": 18.79,
@@ -57,8 +57,8 @@ window.LIANGRI_DATA = {
   {
    "code": "003032",
    "name": "传智教育",
-   "boards": 7,
-   "selectDate": "20260805",
+   "boards": 8,
+   "selectDate": "20260806",
    "breakDate": "20260806",
    "lastBoardDate": "20260805",
    "lastBoardTurn": 18.79,
