@@ -1,19 +1,8 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-11-04 15:10:02",
-  "today": "20261104",
+  "generated": "2026-11-04 15:15:03",
+  "today": "20261105",
   "emotion": "正常期",
-  "alerts": [
-    {
-      "time": "09:30:44",
-      "type": "止损卖出",
-      "code": "000678",
-      "name": "襄阳轴承",
-      "breakDate": "20261103",
-      "price": 18.72,
-      "note": "跌破5日线(19.14) 浮盈-7.56%",
-      "emotion": "退潮期"
-    }
-  ],
+  "alerts": [],
   "candidates": [
     {
       "code": "601811",
@@ -548,6 +537,19 @@ window.DUANBAN_DATA = {
       "breakDate": "20261104",
       "breakOpen": 3.58,
       "breakNoBuy": "断板日收跌"
+    },
+    {
+      "code": "002827",
+      "name": "高争民爆",
+      "boards": 3,
+      "prevClose": 68.95,
+      "runUp": 41.6,
+      "selectDate": "20261105",
+      "baseClose": 68.95,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
     }
   ],
   "records": [
