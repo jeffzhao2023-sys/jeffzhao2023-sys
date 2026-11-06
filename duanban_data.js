@@ -1,59 +1,8 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-11-05 15:10:07",
-  "today": "20261105",
+  "generated": "2026-11-05 15:25:02",
+  "today": "20261106",
   "emotion": "正常期",
-  "alerts": [
-    {
-      "time": "14:50:03",
-      "type": "断板后买入",
-      "code": "002708",
-      "name": "光洋股份",
-      "breakDate": "20261030",
-      "price": 20.6,
-      "note": "断板后第4日尾盘站上5日线(19.72)",
-      "emotion": "正常期"
-    },
-    {
-      "time": "14:50:08",
-      "type": "断板后买入",
-      "code": "001219",
-      "name": "青岛食品",
-      "breakDate": "20261103",
-      "price": 23.5,
-      "note": "断板后第2日尾盘站上5日线(21.85)",
-      "emotion": "正常期"
-    },
-    {
-      "time": "14:50:08",
-      "type": "破位离场",
-      "code": "002708",
-      "name": "光洋股份",
-      "breakDate": "20261030",
-      "price": 20.6,
-      "note": "收盘价20.6跌破断板日开盘价20.65",
-      "emotion": "正常期"
-    },
-    {
-      "time": "14:55:28",
-      "type": "返场买入",
-      "code": "000678",
-      "name": "襄阳轴承",
-      "breakDate": "20261029",
-      "price": 19.74,
-      "note": "止损后重新站上5日线(19.49)，返场买入",
-      "emotion": "退潮期"
-    },
-    {
-      "time": "14:55:29",
-      "type": "返场买入",
-      "code": "002708",
-      "name": "光洋股份",
-      "breakDate": "20261030",
-      "price": 20.72,
-      "note": "止损后重新站上5日线(19.74)，返场买入",
-      "emotion": "正常期"
-    }
-  ],
+  "alerts": [],
   "candidates": [
     {
       "code": "601811",
@@ -606,6 +555,32 @@ window.DUANBAN_DATA = {
       "breakDate": "20261105",
       "breakOpen": 75.84,
       "breakNoBuy": "断板日收跌"
+    },
+    {
+      "code": "601599",
+      "name": "浙文影业",
+      "boards": 4,
+      "prevClose": 4.62,
+      "runUp": 46.7,
+      "selectDate": "20261106",
+      "baseClose": 4.62,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
+    },
+    {
+      "code": "002578",
+      "name": "闽发铝业",
+      "boards": 4,
+      "prevClose": 4.55,
+      "runUp": 46.3,
+      "selectDate": "20261106",
+      "baseClose": 4.55,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
     }
   ],
   "records": [
