@@ -1,5 +1,5 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-11-09 14:49:31",
+  "generated": "2026-11-09 14:50:01",
   "today": "20261109",
   "emotion": "退潮期",
   "alerts": [
@@ -11,6 +11,26 @@ window.DUANBAN_DATA = {
       "breakDate": "20261109",
       "price": 5.15,
       "note": "断板日涨幅1.38%，尾盘低吸",
+      "emotion": "退潮期"
+    },
+    {
+      "time": "14:50:02",
+      "type": "断板后买入",
+      "code": "600261",
+      "name": "阳光照明",
+      "breakDate": "20261104",
+      "price": 5.45,
+      "note": "断板后第3日尾盘站上5日线(5.03)",
+      "emotion": "退潮期"
+    },
+    {
+      "time": "14:50:03",
+      "type": "断板后买入",
+      "code": "002086",
+      "name": "东方海洋",
+      "breakDate": "20261104",
+      "price": 4.26,
+      "note": "断板后第3日尾盘站上5日线(3.71)",
       "emotion": "退潮期"
     }
   ],
@@ -66,9 +86,9 @@ window.DUANBAN_DATA = {
       "prevClose": 8.43,
       "selectDate": "20260928",
       "status": "候选",
-      "price": 6.73,
-      "pct": 0.0,
-      "sincePct": -20.17
+      "price": 6.72,
+      "pct": -0.15,
+      "sincePct": -20.28
     },
     {
       "code": "603396",
@@ -79,9 +99,9 @@ window.DUANBAN_DATA = {
       "prevClose": 39.2,
       "selectDate": "20260929",
       "status": "候选",
-      "price": 26.22,
-      "pct": -1.91,
-      "sincePct": -33.11
+      "price": 26.2,
+      "pct": -1.98,
+      "sincePct": -33.16
     },
     {
       "code": "603949",
@@ -93,9 +113,9 @@ window.DUANBAN_DATA = {
       "selectDate": "20260930",
       "status": "候选",
       "firstSelectDate": "20260929",
-      "price": 13.28,
-      "pct": 0.76,
-      "sincePct": -28.56
+      "price": 13.27,
+      "pct": 0.68,
+      "sincePct": -28.62
     },
     {
       "code": "000678",
@@ -107,9 +127,9 @@ window.DUANBAN_DATA = {
       "selectDate": "20261029",
       "status": "待返场",
       "firstSelectDate": "20260930",
-      "price": 17.76,
-      "pct": -0.06,
-      "sincePct": 51.54,
+      "price": 17.74,
+      "pct": -0.17,
+      "sincePct": 51.37,
       "breakDate": "20261029",
       "breakOpen": 19.37,
       "breakNoBuy": "断板日冲高",
@@ -124,9 +144,9 @@ window.DUANBAN_DATA = {
       "prevClose": 12.24,
       "selectDate": "20261008",
       "status": "候选",
-      "price": 9.06,
-      "pct": 1.34,
-      "sincePct": -25.98
+      "price": 9.07,
+      "pct": 1.45,
+      "sincePct": -25.9
     },
     {
       "code": "600241",
@@ -138,9 +158,9 @@ window.DUANBAN_DATA = {
       "selectDate": "20261013",
       "status": "候选",
       "firstSelectDate": "20261008",
-      "price": 8.89,
-      "pct": 3.25,
-      "sincePct": -8.54
+      "price": 8.87,
+      "pct": 3.02,
+      "sincePct": -8.74
     },
     {
       "code": "002242",
@@ -166,9 +186,9 @@ window.DUANBAN_DATA = {
       "selectDate": "20261012",
       "status": "候选",
       "firstSelectDate": "20261012",
-      "price": 20.5,
-      "pct": 0.94,
-      "sincePct": -16.12
+      "price": 20.51,
+      "pct": 0.98,
+      "sincePct": -16.08
     },
     {
       "code": "605058",
@@ -178,9 +198,9 @@ window.DUANBAN_DATA = {
       "runUp": 61.4,
       "selectDate": "20260917",
       "baseClose": 44.33,
-      "price": 48.67,
-      "pct": -3.09,
-      "sincePct": 9.79,
+      "price": 48.6,
+      "pct": -3.23,
+      "sincePct": 9.63,
       "status": "候选"
     },
     {
@@ -204,9 +224,9 @@ window.DUANBAN_DATA = {
       "runUp": 33.1,
       "selectDate": "20260918",
       "baseClose": 22.34,
-      "price": 17.6,
-      "pct": -0.23,
-      "sincePct": -21.22,
+      "price": 17.58,
+      "pct": -0.34,
+      "sincePct": -21.31,
       "status": "候选"
     },
     {
@@ -217,9 +237,9 @@ window.DUANBAN_DATA = {
       "runUp": 38.3,
       "selectDate": "20260921",
       "baseClose": 13.48,
-      "price": 10.63,
-      "pct": 1.72,
-      "sincePct": -21.14,
+      "price": 10.62,
+      "pct": 1.63,
+      "sincePct": -21.22,
       "status": "候选"
     },
     {
@@ -230,9 +250,9 @@ window.DUANBAN_DATA = {
       "runUp": 46.5,
       "selectDate": "20260922",
       "baseClose": 3.18,
-      "price": 2.35,
-      "pct": 0.0,
-      "sincePct": -26.1,
+      "price": 2.36,
+      "pct": 0.43,
+      "sincePct": -25.79,
       "status": "作废"
     },
     {
@@ -297,9 +317,9 @@ window.DUANBAN_DATA = {
       "runUp": 40.7,
       "selectDate": "20260924",
       "baseClose": 2.94,
-      "price": 2.08,
-      "pct": -0.95,
-      "sincePct": -29.25,
+      "price": 2.09,
+      "pct": -0.48,
+      "sincePct": -28.91,
       "status": "候选",
       "firstSelectDate": "20260924"
     },
@@ -338,9 +358,9 @@ window.DUANBAN_DATA = {
       "runUp": 35.5,
       "selectDate": "20261014",
       "baseClose": 11.42,
-      "price": 8.6,
-      "pct": -0.58,
-      "sincePct": -24.69,
+      "price": 8.59,
+      "pct": -0.69,
+      "sincePct": -24.78,
       "status": "候选"
     },
     {
@@ -351,9 +371,9 @@ window.DUANBAN_DATA = {
       "runUp": 50.2,
       "selectDate": "20261015",
       "baseClose": 8.86,
-      "price": 11.3,
-      "pct": 2.17,
-      "sincePct": 27.54,
+      "price": 11.22,
+      "pct": 1.45,
+      "sincePct": 26.64,
       "status": "候选",
       "firstSelectDate": "20261014"
     },
@@ -365,9 +385,9 @@ window.DUANBAN_DATA = {
       "runUp": 46.5,
       "selectDate": "20261015",
       "baseClose": 23.07,
-      "price": 16.64,
-      "pct": -1.25,
-      "sincePct": -27.87,
+      "price": 16.63,
+      "pct": -1.31,
+      "sincePct": -27.92,
       "status": "作废"
     },
     {
@@ -378,9 +398,9 @@ window.DUANBAN_DATA = {
       "runUp": 46.5,
       "selectDate": "20261015",
       "baseClose": 8.1,
-      "price": 8.56,
-      "pct": -0.23,
-      "sincePct": 5.68,
+      "price": 8.55,
+      "pct": -0.35,
+      "sincePct": 5.56,
       "status": "候选"
     },
     {
@@ -417,9 +437,9 @@ window.DUANBAN_DATA = {
       "runUp": 56.5,
       "selectDate": "20261021",
       "baseClose": 24.19,
-      "price": 16.9,
-      "pct": 0.0,
-      "sincePct": -30.14,
+      "price": 16.88,
+      "pct": -0.12,
+      "sincePct": -30.22,
       "status": "候选",
       "firstSelectDate": "20261020"
     },
@@ -431,9 +451,9 @@ window.DUANBAN_DATA = {
       "runUp": 68.8,
       "selectDate": "20261023",
       "baseClose": 9.26,
-      "price": 12.79,
-      "pct": 6.85,
-      "sincePct": 38.12,
+      "price": 12.78,
+      "pct": 6.77,
+      "sincePct": 38.01,
       "status": "候选",
       "firstSelectDate": "20261021"
     },
@@ -445,9 +465,9 @@ window.DUANBAN_DATA = {
       "runUp": 46.5,
       "selectDate": "20261022",
       "baseClose": 13.65,
-      "price": 8.72,
-      "pct": 1.16,
-      "sincePct": -36.12,
+      "price": 8.7,
+      "pct": 0.93,
+      "sincePct": -36.26,
       "status": "候选",
       "breakDate": "20261022",
       "breakOpen": 12.9,
@@ -461,9 +481,9 @@ window.DUANBAN_DATA = {
       "runUp": 61.0,
       "selectDate": "20261023",
       "baseClose": 13.19,
-      "price": 13.81,
-      "pct": 1.77,
-      "sincePct": 4.7,
+      "price": 13.8,
+      "pct": 1.69,
+      "sincePct": 4.62,
       "status": "候选",
       "firstSelectDate": "20261022"
     },
@@ -527,13 +547,14 @@ window.DUANBAN_DATA = {
       "runUp": 51.4,
       "selectDate": "20261104",
       "baseClose": 4.95,
-      "price": 5.36,
-      "pct": -0.74,
-      "sincePct": 8.28,
-      "status": "候选",
+      "price": 5.45,
+      "pct": 0.93,
+      "sincePct": 10.1,
+      "status": "持有中",
       "breakDate": "20261104",
       "breakOpen": 4.95,
-      "breakNoBuy": "断板日收跌"
+      "breakNoBuy": "断板日收跌",
+      "buy50Date": "20261109"
     },
     {
       "code": "002086",
@@ -543,13 +564,14 @@ window.DUANBAN_DATA = {
       "runUp": 63.6,
       "selectDate": "20261104",
       "baseClose": 3.42,
-      "price": 4.28,
-      "pct": 7.81,
-      "sincePct": 25.15,
-      "status": "候选",
+      "price": 4.26,
+      "pct": 7.3,
+      "sincePct": 24.56,
+      "status": "持有中",
       "breakDate": "20261104",
       "breakOpen": 3.58,
-      "breakNoBuy": "断板日收跌"
+      "breakNoBuy": "断板日收跌",
+      "buy50Date": "20261109"
     },
     {
       "code": "002827",
@@ -559,9 +581,9 @@ window.DUANBAN_DATA = {
       "runUp": 41.6,
       "selectDate": "20261105",
       "baseClose": 68.95,
-      "price": 63.58,
-      "pct": 4.25,
-      "sincePct": -7.79,
+      "price": 63.51,
+      "pct": 4.13,
+      "sincePct": -7.89,
       "status": "候选",
       "breakDate": "20261105",
       "breakOpen": 75.84,
@@ -575,10 +597,10 @@ window.DUANBAN_DATA = {
       "runUp": 61.3,
       "selectDate": "20261109",
       "baseClose": 4.62,
-      "price": 5.14,
-      "pct": 1.18,
-      "sincePct": 11.26,
-      "status": "候选",
+      "price": 5.15,
+      "pct": 1.38,
+      "sincePct": 11.47,
+      "status": "持有中",
       "firstSelectDate": "20261106"
     },
     {
@@ -879,6 +901,78 @@ window.DUANBAN_DATA = {
       "sellTime": "09:33:41",
       "sellPrice": 22.13,
       "sellReason": "跌破5日线(22.23)",
+      "period": 1
+    },
+    {
+      "code": "601599",
+      "name": "浙文影业",
+      "boards": 5,
+      "breakDate": "20261109",
+      "breakHigh": 5.36,
+      "breakPct": 1.38,
+      "breakOpen": 4.89,
+      "emotion": "退潮期",
+      "status": "持有中",
+      "cost": 5.15,
+      "price": 5.15,
+      "daysAfterBreak": 0,
+      "pnl": null,
+      "buyDate": "20261109",
+      "buyPrice": 5.15,
+      "buyTime": "14:50:02",
+      "way": "断板买入",
+      "sellDate": null,
+      "sellTime": null,
+      "sellPrice": null,
+      "sellReason": "持有中",
+      "period": null
+    },
+    {
+      "code": "600261",
+      "name": "阳光照明",
+      "boards": 4,
+      "breakDate": "20261104",
+      "breakHigh": null,
+      "breakPct": null,
+      "breakOpen": 4.95,
+      "emotion": "退潮期",
+      "status": "持有中",
+      "cost": 5.45,
+      "price": 5.45,
+      "daysAfterBreak": 3,
+      "pnl": 0.0,
+      "buyDate": "20261109",
+      "buyPrice": 5.45,
+      "buyTime": "14:50:02",
+      "way": "断板后2-5日",
+      "sellDate": null,
+      "sellTime": null,
+      "sellPrice": null,
+      "sellReason": "持有中",
+      "period": 1
+    },
+    {
+      "code": "002086",
+      "name": "东方海洋",
+      "boards": 4,
+      "breakDate": "20261104",
+      "breakHigh": null,
+      "breakPct": null,
+      "breakOpen": 3.58,
+      "emotion": "退潮期",
+      "status": "持有中",
+      "cost": 4.26,
+      "price": 4.26,
+      "daysAfterBreak": 3,
+      "pnl": 0.0,
+      "buyDate": "20261109",
+      "buyPrice": 4.26,
+      "buyTime": "14:50:03",
+      "way": "断板后2-5日",
+      "sellDate": null,
+      "sellTime": null,
+      "sellPrice": null,
+      "sellReason": "持有中",
       "period": 1
     }
   ]
