@@ -1,39 +1,8 @@
 window.DUANBAN_DATA = {
   "generated": "2026-11-06 14:52:24",
-  "today": "20261106",
-  "emotion": "正常期",
-  "alerts": [
-    {
-      "time": "09:30:03",
-      "type": "止损卖出",
-      "code": "000678",
-      "name": "襄阳轴承",
-      "breakDate": "20261105",
-      "price": 17.97,
-      "note": "跌破5日线(19.47) 浮盈-8.97%",
-      "emotion": "正常期"
-    },
-    {
-      "time": "09:30:34",
-      "type": "止损卖出",
-      "code": "002708",
-      "name": "光洋股份",
-      "breakDate": "20261105",
-      "price": 19.61,
-      "note": "跌破5日线(19.85) 浮盈-5.36%",
-      "emotion": "正常期"
-    },
-    {
-      "time": "09:33:41",
-      "type": "止损卖出",
-      "code": "001219",
-      "name": "青岛食品",
-      "breakDate": "20261105",
-      "price": 22.13,
-      "note": "跌破5日线(22.23) 浮盈-5.83%",
-      "emotion": "正常期"
-    }
-  ],
+  "today": "20261109",
+  "emotion": "退潮期",
+  "alerts": [],
   "candidates": [
     {
       "code": "601811",
@@ -590,28 +559,30 @@ window.DUANBAN_DATA = {
     {
       "code": "601599",
       "name": "浙文影业",
-      "boards": 4,
-      "prevClose": 4.62,
-      "runUp": 46.7,
-      "selectDate": "20261106",
+      "boards": 5,
+      "prevClose": 5.08,
+      "runUp": 61.3,
+      "selectDate": "20261109",
       "baseClose": 4.62,
       "price": 5.08,
       "pct": 9.96,
       "sincePct": 9.96,
-      "status": "候选"
+      "status": "候选",
+      "firstSelectDate": "20261106"
     },
     {
       "code": "002578",
       "name": "闽发铝业",
-      "boards": 4,
-      "prevClose": 4.55,
-      "runUp": 46.3,
-      "selectDate": "20261106",
+      "boards": 5,
+      "prevClose": 5.01,
+      "runUp": 61.1,
+      "selectDate": "20261109",
       "baseClose": 4.55,
       "price": 5.01,
       "pct": 10.11,
       "sincePct": 10.11,
-      "status": "候选"
+      "status": "候选",
+      "firstSelectDate": "20261106"
     }
   ],
   "records": [
