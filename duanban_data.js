@@ -1,49 +1,8 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-11-09 14:57:11",
-  "today": "20261109",
-  "emotion": "退潮期",
-  "alerts": [
-    {
-      "time": "14:50:02",
-      "type": "断板买入",
-      "code": "601599",
-      "name": "浙文影业",
-      "breakDate": "20261109",
-      "price": 5.15,
-      "note": "断板日涨幅1.38%，尾盘低吸",
-      "emotion": "退潮期"
-    },
-    {
-      "time": "14:50:02",
-      "type": "断板后买入",
-      "code": "600261",
-      "name": "阳光照明",
-      "breakDate": "20261104",
-      "price": 5.45,
-      "note": "断板后第3日尾盘站上5日线(5.03)",
-      "emotion": "退潮期"
-    },
-    {
-      "time": "14:50:03",
-      "type": "断板后买入",
-      "code": "002086",
-      "name": "东方海洋",
-      "breakDate": "20261104",
-      "price": 4.26,
-      "note": "断板后第3日尾盘站上5日线(3.71)",
-      "emotion": "退潮期"
-    },
-    {
-      "time": "14:55:10",
-      "type": "返场买入",
-      "code": "001219",
-      "name": "青岛食品",
-      "breakDate": "20261103",
-      "price": 23.94,
-      "note": "止损后重新站上5日线(22.70)，返场买入",
-      "emotion": "正常期"
-    }
-  ],
+  "generated": "2026-11-09 15:00:14",
+  "today": "20261110",
+  "emotion": "混沌期",
+  "alerts": [],
   "candidates": [
     {
       "code": "601811",
@@ -616,10 +575,10 @@ window.DUANBAN_DATA = {
     {
       "code": "002578",
       "name": "闽发铝业",
-      "boards": 5,
-      "prevClose": 5.01,
-      "runUp": 61.1,
-      "selectDate": "20261109",
+      "boards": 6,
+      "prevClose": 5.51,
+      "runUp": 77.2,
+      "selectDate": "20261110",
       "baseClose": 4.55,
       "price": 5.38,
       "pct": 7.39,
