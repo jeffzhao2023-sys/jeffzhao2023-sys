@@ -1,8 +1,8 @@
 window.LIANGRI_DATA = {
- "generated": "2026-11-11 15:20:15",
+ "generated": "2026-11-12 05:45:05",
  "window": {
-  "start": "20260113",
-  "end": "20261111",
+  "start": "20260114",
+  "end": "20261112",
   "days": 200
  },
  "summary": {
@@ -35,8 +35,8 @@ window.LIANGRI_DATA = {
   {
    "code": "002931",
    "name": "锋龙股份",
-   "boards": 11,
-   "selectDate": "20260113",
+   "boards": 12,
+   "selectDate": "20260114",
    "breakDate": "20260202",
    "lastBoardDate": "20260123",
    "lastBoardTurn": 19.2,
