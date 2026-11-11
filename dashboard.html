@@ -238,6 +238,18 @@
         +'<td class="'+scls+'">'+esc(r.status)+'</td>'
         +'<td class="mono">'+esc(r.first_seen||'—')+'</td><td class="mono">'+esc(r.break_time||'—')+'</td></tr>';
     }
+    function ysCand(c){
+      if(!c) return '';
+      var color = c.state==='候选' ? '#b91c1c' : (c.state==='观察' ? '#b45309' : '#6b7280');
+      var bg    = c.state==='候选' ? '#fef2f2' : (c.state==='观察' ? '#fffbeb' : '#f9fafb');
+      var bd    = c.state==='候选' ? '#fecaca' : (c.state==='观察' ? '#fde68a' : '#e5e7eb');
+      var names = (c.names||[]).join('、');
+      var tag = c.state==='候选' ? '（'+(c.tier||'')+'，'+(c.first?'首次':'非首次：近 60 个交易日当过唯一最高板')+'）' : '';
+      var txt = c.state==='无' ? '次日：暂无「首次唯一最高板」候选' : ('次日'+c.state+'：'+names+tag);
+      return '<div style="background:'+bg+';color:'+color+';border:1px solid '+bd
+        +';padding:8px 12px;border-radius:8px;margin:6px 0 8px;font-weight:600">'
+        +esc(txt)+'<span style="font-weight:400;color:#6b7280"> —— '+esc(c.reason||'')+'</span></div>';
+    }
     function initYushouci(){
       var sub=document.getElementById('subYushouci');
       var body=document.getElementById('yushouciBody');
@@ -252,7 +264,8 @@
         h+='<div style="font-weight:600;margin:14px 0 6px">'+esc(ymd(d))
           +' <span class="count">监控 '+rows.length+' 只</span>'
           +(day.updated?'<span class="count">更新 '+esc(day.updated)+'</span>':'')
-          +'<span class="count">前一日梯队：'+esc(day.tiersText||'—')+'</span></div>';
+          +'<span class="count">前一日梯队：'+esc(day.tiersText||'—')+'</span></div>'
+          +ysCand(day.candidate);
         if(rows.length===0){ h+='<div class="empty-tip">当日无监控标的</div>'; return; }
         h+='<table><tr><th>代码</th><th>名称</th><th>昨日高度</th><th>档位</th><th>收盘</th><th>换手率</th>'
          +'<th>涨跌幅</th><th>开盘涨幅</th><th>开盘涨停</th><th>开盘换手</th>'
