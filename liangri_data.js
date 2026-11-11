@@ -1,8 +1,8 @@
 window.LIANGRI_DATA = {
- "generated": "2026-11-10 15:49:32",
+ "generated": "2026-11-11 15:20:15",
  "window": {
-  "start": "20260112",
-  "end": "20261110",
+  "start": "20260113",
+  "end": "20261111",
   "days": 200
  },
  "summary": {
@@ -10,7 +10,7 @@ window.LIANGRI_DATA = {
   "winRate": 33.3,
   "avgPnl": 2.72,
   "totalPnl": 32.64,
-  "open": 1,
+  "open": 2,
   "missed": 22
  },
  "records": [
@@ -35,8 +35,8 @@ window.LIANGRI_DATA = {
   {
    "code": "002931",
    "name": "锋龙股份",
-   "boards": 10,
-   "selectDate": "20260112",
+   "boards": 11,
+   "selectDate": "20260113",
    "breakDate": "20260202",
    "lastBoardDate": "20260123",
    "lastBoardTurn": 19.2,
@@ -661,6 +661,25 @@ window.LIANGRI_DATA = {
    "buyDate": "20261103",
    "buyTime": "2026-11-03 14:50:00",
    "buyPrice": 21.68,
+   "buyWay": "买入",
+   "sellDate": "",
+   "sellPrice": null,
+   "reason": "",
+   "pnl": null,
+   "period": null,
+   "status": "持仓中"
+  },
+  {
+   "code": "002578",
+   "name": "闽发铝业",
+   "boards": 7,
+   "selectDate": "20261111",
+   "breakDate": "20261111",
+   "lastBoardDate": "20261110",
+   "lastBoardTurn": 38.9,
+   "buyDate": "20261111",
+   "buyTime": "2026-11-11 14:50:00",
+   "buyPrice": 6.13,
    "buyWay": "买入",
    "sellDate": "",
    "sellPrice": null,
