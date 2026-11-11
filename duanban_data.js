@@ -1,8 +1,19 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-11-10 15:45:04",
-  "today": "20261110",
+  "generated": "2026-11-10 16:00:04",
+  "today": "20261111",
   "emotion": "混沌期",
-  "alerts": [],
+  "alerts": [
+    {
+      "time": "09:55:20",
+      "type": "止盈卖出",
+      "code": "601599",
+      "name": "浙文影业",
+      "breakDate": "20261109",
+      "price": 5.25,
+      "note": "最高浮盈11.46%回落至1.94%",
+      "emotion": "混沌期"
+    }
+  ],
   "candidates": [
     {
       "code": "601811",
@@ -575,10 +586,10 @@ window.DUANBAN_DATA = {
     {
       "code": "002578",
       "name": "闽发铝业",
-      "boards": 6,
-      "prevClose": 5.51,
-      "runUp": 77.2,
-      "selectDate": "20261110",
+      "boards": 7,
+      "prevClose": 6.06,
+      "runUp": 94.9,
+      "selectDate": "20261111",
       "baseClose": 4.55,
       "price": 6.06,
       "pct": 9.98,
@@ -859,9 +870,9 @@ window.DUANBAN_DATA = {
       "emotion": "正常期",
       "status": "持有中",
       "cost": 23.94,
-      "price": 25.07,
-      "daysAfterBreak": 5,
-      "pnl": 4.72,
+      "price": 23.63,
+      "daysAfterBreak": 6,
+      "pnl": -1.29,
       "buyDate": "20261109",
       "buyPrice": 23.94,
       "buyTime": "14:55:10",
@@ -870,7 +881,7 @@ window.DUANBAN_DATA = {
       "sellTime": null,
       "sellPrice": null,
       "sellReason": "持有中",
-      "period": 1,
+      "period": 2,
       "history": [
         {
           "buyDate": "20261105",
@@ -897,9 +908,9 @@ window.DUANBAN_DATA = {
       "emotion": "退潮期",
       "status": "持有中",
       "cost": 5.15,
-      "price": 5.64,
-      "daysAfterBreak": 1,
-      "pnl": 9.51,
+      "price": 5.25,
+      "daysAfterBreak": 2,
+      "pnl": 1.94,
       "buyDate": "20261109",
       "buyPrice": 5.15,
       "buyTime": "14:50:02",
@@ -908,7 +919,7 @@ window.DUANBAN_DATA = {
       "sellTime": null,
       "sellPrice": null,
       "sellReason": "持有中",
-      "period": 1
+      "period": 2
     },
     {
       "code": "600261",
@@ -921,9 +932,9 @@ window.DUANBAN_DATA = {
       "emotion": "退潮期",
       "status": "持有中",
       "cost": 5.45,
-      "price": 5.85,
-      "daysAfterBreak": 4,
-      "pnl": 7.34,
+      "price": 6.1,
+      "daysAfterBreak": 5,
+      "pnl": 11.93,
       "buyDate": "20261109",
       "buyPrice": 5.45,
       "buyTime": "14:50:02",
@@ -932,7 +943,7 @@ window.DUANBAN_DATA = {
       "sellTime": null,
       "sellPrice": null,
       "sellReason": "持有中",
-      "period": 1
+      "period": 2
     },
     {
       "code": "002086",
@@ -945,9 +956,9 @@ window.DUANBAN_DATA = {
       "emotion": "退潮期",
       "status": "持有中",
       "cost": 4.26,
-      "price": 4.61,
-      "daysAfterBreak": 4,
-      "pnl": 8.22,
+      "price": 4.59,
+      "daysAfterBreak": 5,
+      "pnl": 7.75,
       "buyDate": "20261109",
       "buyPrice": 4.26,
       "buyTime": "14:50:03",
@@ -956,7 +967,7 @@ window.DUANBAN_DATA = {
       "sellTime": null,
       "sellPrice": null,
       "sellReason": "持有中",
-      "period": 1
+      "period": 2
     }
   ]
 };
