@@ -1,49 +1,8 @@
 window.DUANBAN_DATA = {
   "generated": "2026-11-11 15:00:00",
-  "today": "20261111",
+  "today": "20261112",
   "emotion": "混沌期",
-  "alerts": [
-    {
-      "time": "09:55:20",
-      "type": "止盈卖出",
-      "code": "601599",
-      "name": "浙文影业",
-      "breakDate": "20261109",
-      "price": 5.25,
-      "note": "最高浮盈11.46%回落至1.94%",
-      "emotion": "混沌期"
-    },
-    {
-      "time": "09:55:22",
-      "type": "止损卖出",
-      "code": "001219",
-      "name": "青岛食品",
-      "breakDate": "20261109",
-      "price": 23.63,
-      "note": "跌破5日线(23.71) 浮盈-1.29%",
-      "emotion": "混沌期"
-    },
-    {
-      "time": "14:17:05",
-      "type": "止盈卖出",
-      "code": "600261",
-      "name": "阳光照明",
-      "breakDate": "20261109",
-      "price": 5.86,
-      "note": "最高浮盈12.84%回落至7.52%",
-      "emotion": "混沌期"
-    },
-    {
-      "time": "14:50:16",
-      "type": "断板买入",
-      "code": "002578",
-      "name": "闽发铝业",
-      "breakDate": "20261111",
-      "price": 6.13,
-      "note": "断板日涨幅1.16%，尾盘低吸",
-      "emotion": "混沌期"
-    }
-  ],
+  "alerts": [],
   "candidates": [
     {
       "code": "601811",
@@ -626,6 +585,32 @@ window.DUANBAN_DATA = {
       "sincePct": 33.63,
       "status": "持有中",
       "firstSelectDate": "20261106"
+    },
+    {
+      "code": "600327",
+      "name": "大东方",
+      "boards": 4,
+      "prevClose": 6.53,
+      "runUp": 70.1,
+      "selectDate": "20261112",
+      "baseClose": 6.53,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
+    },
+    {
+      "code": "603366",
+      "name": "日出东方",
+      "boards": 4,
+      "prevClose": 11.97,
+      "runUp": 55.7,
+      "selectDate": "20261112",
+      "baseClose": 11.97,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
     }
   ],
   "records": [
