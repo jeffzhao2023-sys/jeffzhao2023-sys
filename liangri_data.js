@@ -1,16 +1,16 @@
 window.LIANGRI_DATA = {
- "generated": "2026-11-12 15:21:05",
+ "generated": "2026-11-13 14:50:08",
  "window": {
-  "start": "20260114",
-  "end": "20261112",
+  "start": "20260115",
+  "end": "20261113",
   "days": 200
  },
  "summary": {
-  "trades": 13,
-  "winRate": 30.8,
-  "avgPnl": 1.16,
-  "totalPnl": 15.02,
-  "open": 1,
+  "trades": 14,
+  "winRate": 28.6,
+  "avgPnl": 1.46,
+  "totalPnl": 20.49,
+  "open": 0,
   "missed": 22
  },
  "records": [
@@ -35,8 +35,8 @@ window.LIANGRI_DATA = {
   {
    "code": "002931",
    "name": "锋龙股份",
-   "boards": 12,
-   "selectDate": "20260114",
+   "boards": 5,
+   "selectDate": "20260126",
    "breakDate": "20260202",
    "lastBoardDate": "20260123",
    "lastBoardTurn": 19.2,
@@ -44,12 +44,12 @@ window.LIANGRI_DATA = {
    "buyTime": "2026-02-02 14:50:00",
    "buyPrice": 95.12,
    "buyWay": "买入A",
-   "sellTime": "2026-02-03 09:48:00",
-   "sellDate": "20260203",
-   "sellPrice": 96.86,
-   "reason": "冲高回落",
-   "pnl": 1.83,
-   "period": 1,
+   "sellTime": "2026-02-05 09:30:00",
+   "sellDate": "20260205",
+   "sellPrice": 107.96,
+   "reason": "7%未板次日开盘卖",
+   "pnl": 13.5,
+   "period": 3,
    "status": "已了结"
   },
   {
@@ -681,13 +681,14 @@ window.LIANGRI_DATA = {
    "buyDate": "20261111",
    "buyTime": "2026-11-11 14:50:00",
    "buyPrice": 6.13,
-   "buyWay": "买入",
-   "sellDate": "",
-   "sellPrice": null,
-   "reason": "",
-   "pnl": null,
-   "period": null,
-   "status": "持仓中"
+   "buyWay": "买入A",
+   "sellTime": "2026-11-13 09:30:00",
+   "sellDate": "20261113",
+   "sellPrice": 5.75,
+   "reason": "止损",
+   "pnl": -6.2,
+   "period": 2,
+   "status": "已了结"
   }
  ]
 };
