@@ -1,19 +1,8 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-11-12 15:20:03",
-  "today": "20261112",
+  "generated": "2026-11-12 15:56:08",
+  "today": "20261113",
   "emotion": "退潮期",
-  "alerts": [
-    {
-      "time": "14:50:16",
-      "type": "破位离场",
-      "code": "002578",
-      "name": "闽发铝业",
-      "breakDate": "20261111",
-      "price": 5.99,
-      "note": "收盘价5.99跌破断板日开盘价6.27",
-      "emotion": "混沌期"
-    }
-  ],
+  "alerts": [],
   "candidates": [
     {
       "code": "601811",
@@ -600,10 +589,10 @@ window.DUANBAN_DATA = {
     {
       "code": "600327",
       "name": "大东方",
-      "boards": 4,
-      "prevClose": 6.53,
-      "runUp": 70.1,
-      "selectDate": "20261112",
+      "boards": 5,
+      "prevClose": 7.18,
+      "runUp": 86.5,
+      "selectDate": "20261113",
       "baseClose": 6.53,
       "price": 7.18,
       "pct": 9.95,
@@ -611,20 +600,22 @@ window.DUANBAN_DATA = {
       "status": "候选",
       "breakDate": "20261112",
       "breakOpen": 6.53,
-      "breakNoBuy": "断板日冲高"
+      "breakNoBuy": "断板日冲高",
+      "firstSelectDate": "20261112"
     },
     {
       "code": "603366",
       "name": "日出东方",
-      "boards": 4,
-      "prevClose": 11.97,
-      "runUp": 55.7,
-      "selectDate": "20261112",
+      "boards": 5,
+      "prevClose": 13.17,
+      "runUp": 67.3,
+      "selectDate": "20261113",
       "baseClose": 11.97,
       "price": 13.17,
       "pct": 10.03,
       "sincePct": 10.03,
-      "status": "候选"
+      "status": "候选",
+      "firstSelectDate": "20261112"
     }
   ],
   "records": [
