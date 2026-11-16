@@ -1,19 +1,8 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-11-13 15:05:03",
-  "today": "20261113",
+  "generated": "2026-11-13 15:10:03",
+  "today": "20261116",
   "emotion": "退潮期",
-  "alerts": [
-    {
-      "time": "09:30:15",
-      "type": "止盈卖出",
-      "code": "002086",
-      "name": "东方海洋",
-      "breakDate": "20261109",
-      "price": 4.91,
-      "note": "最高浮盈21.13%回落至15.26%",
-      "emotion": "退潮期"
-    }
-  ],
+  "alerts": [],
   "candidates": [
     {
       "code": "601811",
@@ -74,14 +63,15 @@ window.DUANBAN_DATA = {
       "code": "603396",
       "name": "金辰股份",
       "boards": 3,
-      "runUp": 49.7,
+      "runUp": 43.3,
       "baseClose": 39.2,
-      "prevClose": 39.2,
-      "selectDate": "20260929",
+      "prevClose": 35.32,
+      "selectDate": "20261116",
       "status": "候选",
       "price": 35.32,
       "pct": 10.0,
-      "sincePct": -9.9
+      "sincePct": -9.9,
+      "firstSelectDate": "20260929"
     },
     {
       "code": "603949",
@@ -630,6 +620,19 @@ window.DUANBAN_DATA = {
       "breakDate": "20261113",
       "breakOpen": 12.77,
       "breakNoBuy": "断板日冲高"
+    },
+    {
+      "code": "002148",
+      "name": "北纬科技",
+      "boards": 3,
+      "prevClose": 7.95,
+      "runUp": 37.5,
+      "selectDate": "20261116",
+      "baseClose": 7.95,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
     }
   ],
   "records": [
