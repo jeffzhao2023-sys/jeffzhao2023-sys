@@ -1,6 +1,6 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-11-16 15:20:03",
-  "today": "20261116",
+  "generated": "2026-11-16 15:35:03",
+  "today": "20261117",
   "emotion": "退潮期",
   "alerts": [],
   "candidates": [
@@ -627,15 +627,16 @@ window.DUANBAN_DATA = {
     {
       "code": "002148",
       "name": "北纬科技",
-      "boards": 3,
-      "prevClose": 7.95,
-      "runUp": 37.5,
-      "selectDate": "20261116",
+      "boards": 4,
+      "prevClose": 8.75,
+      "runUp": 51.4,
+      "selectDate": "20261117",
       "baseClose": 7.95,
       "price": 8.75,
       "pct": 10.06,
       "sincePct": 10.06,
-      "status": "候选"
+      "status": "候选",
+      "firstSelectDate": "20261116"
     }
   ],
   "records": [
