@@ -1,5 +1,5 @@
 window.LIANGRI_DATA = {
- "generated": "2026-11-17 09:22:04",
+ "generated": "2026-11-17 09:30:55",
  "window": {
   "start": "20260119",
   "end": "20261117",
@@ -363,7 +363,7 @@ window.LIANGRI_DATA = {
    "buyWay": "",
    "sellDate": "",
    "sellPrice": null,
-   "reason": "断板未买入",
+   "reason": "20260623 退潮期，不再买入",
    "pnl": null,
    "period": null,
    "status": "未买入"
@@ -493,7 +493,7 @@ window.LIANGRI_DATA = {
    "buyWay": "",
    "sellDate": "",
    "sellPrice": null,
-   "reason": "断板未买入",
+   "reason": "20260813 退潮期，不再买入",
    "pnl": null,
    "period": null,
    "status": "未买入"
@@ -549,7 +549,7 @@ window.LIANGRI_DATA = {
    "buyWay": "",
    "sellDate": "",
    "sellPrice": null,
-   "reason": "断板未买入",
+   "reason": "20260902 退潮期，不再买入",
    "pnl": null,
    "period": null,
    "status": "未买入"
@@ -621,7 +621,7 @@ window.LIANGRI_DATA = {
    "buyWay": "",
    "sellDate": "",
    "sellPrice": null,
-   "reason": "断板未买入",
+   "reason": "20261019 退潮期，不再买入",
    "pnl": null,
    "period": null,
    "status": "未买入"
@@ -639,7 +639,7 @@ window.LIANGRI_DATA = {
    "buyWay": "",
    "sellDate": "",
    "sellPrice": null,
-   "reason": "断板未买入",
+   "reason": "20261029 退潮期，不再买入",
    "pnl": null,
    "period": null,
    "status": "未买入"
@@ -657,7 +657,7 @@ window.LIANGRI_DATA = {
    "buyWay": "",
    "sellDate": "",
    "sellPrice": null,
-   "reason": "断板未买入",
+   "reason": "20261103 退潮期，不再买入",
    "pnl": null,
    "period": null,
    "status": "未买入"
