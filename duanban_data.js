@@ -1,6 +1,6 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-11-17 15:00:18",
-  "today": "20261117",
+  "generated": "2026-11-17 15:15:03",
+  "today": "20261118",
   "emotion": "退潮期",
   "alerts": [],
   "candidates": [
@@ -640,6 +640,19 @@ window.DUANBAN_DATA = {
       "breakDate": "20261117",
       "breakOpen": 8.58,
       "breakNoBuy": "断板日收跌"
+    },
+    {
+      "code": "002685",
+      "name": "华东重机",
+      "boards": 3,
+      "prevClose": 6.7,
+      "runUp": 45.0,
+      "selectDate": "20261118",
+      "baseClose": 6.7,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
     }
   ],
   "records": [
