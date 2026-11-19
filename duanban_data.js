@@ -1,6 +1,6 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-11-18 15:05:08",
-  "today": "20261118",
+  "generated": "2026-11-18 15:15:05",
+  "today": "20261119",
   "emotion": "退潮期",
   "alerts": [],
   "candidates": [
@@ -644,15 +644,16 @@ window.DUANBAN_DATA = {
     {
       "code": "002685",
       "name": "华东重机",
-      "boards": 3,
-      "prevClose": 6.7,
-      "runUp": 45.0,
-      "selectDate": "20261118",
+      "boards": 4,
+      "prevClose": 7.37,
+      "runUp": 59.5,
+      "selectDate": "20261119",
       "baseClose": 6.7,
       "price": 7.37,
       "pct": 10.0,
       "sincePct": 10.0,
-      "status": "候选"
+      "status": "候选",
+      "firstSelectDate": "20261118"
     }
   ],
   "records": [
