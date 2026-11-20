@@ -1,19 +1,8 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-11-19 15:05:04",
-  "today": "20261119",
+  "generated": "2026-11-19 15:10:04",
+  "today": "20261120",
   "emotion": "退潮期",
-  "alerts": [
-    {
-      "time": "14:50:17",
-      "type": "断板后买入",
-      "code": "002148",
-      "name": "北纬科技",
-      "breakDate": "20261117",
-      "price": 9.35,
-      "note": "断板后第2日尾盘站上5日线(8.62)",
-      "emotion": "退潮期"
-    }
-  ],
+  "alerts": [],
   "candidates": [
     {
       "code": "601811",
@@ -669,6 +658,19 @@ window.DUANBAN_DATA = {
       "breakDate": "20261119",
       "breakOpen": 8.11,
       "breakNoBuy": "断板日冲高"
+    },
+    {
+      "code": "002771",
+      "name": "真视通",
+      "boards": 3,
+      "prevClose": 14.38,
+      "runUp": 37.3,
+      "selectDate": "20261120",
+      "baseClose": 14.38,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
     }
   ],
   "records": [
