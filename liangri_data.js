@@ -1,15 +1,15 @@
 window.LIANGRI_DATA = {
- "generated": "2026-11-17 09:30:55",
+ "generated": "2026-11-23 11:21:24",
  "window": {
-  "start": "20260119",
-  "end": "20261117",
+  "start": "20260123",
+  "end": "20261123",
   "days": 200
  },
  "summary": {
-  "trades": 10,
-  "winRate": 40.0,
-  "avgPnl": 3.42,
-  "totalPnl": 34.2,
+  "trades": 11,
+  "winRate": 36.4,
+  "avgPnl": 2.95,
+  "totalPnl": 32.44,
   "open": 0,
   "missed": 26
  },
@@ -358,15 +358,17 @@ window.LIANGRI_DATA = {
    "breakDate": "20260623",
    "lastBoardDate": "20260622",
    "lastBoardTurn": 0.84,
-   "buyDate": "",
-   "buyPrice": null,
-   "buyWay": "",
-   "sellDate": "",
-   "sellPrice": null,
-   "reason": "20260623 退潮期，不再买入",
-   "pnl": null,
-   "period": null,
-   "status": "未买入"
+   "buyDate": "20260623",
+   "buyTime": "2026-06-23 14:50:00",
+   "buyPrice": 48.97,
+   "buyWay": "买入A",
+   "sellTime": "2026-06-25 14:30:00",
+   "sellDate": "20260625",
+   "sellPrice": 48.11,
+   "reason": "跌破买入价",
+   "pnl": -1.76,
+   "period": 2,
+   "status": "已了结"
   },
   {
    "code": "002674",
@@ -681,6 +683,24 @@ window.LIANGRI_DATA = {
    "pnl": -6.2,
    "period": 2,
    "status": "已了结"
+  },
+  {
+   "code": "002685",
+   "name": "华东重机",
+   "boards": 4,
+   "selectDate": "20261119",
+   "breakDate": "20261119",
+   "lastBoardDate": "20261119",
+   "lastBoardTurn": 51.33,
+   "buyDate": "",
+   "buyPrice": null,
+   "buyWay": "",
+   "sellDate": "",
+   "sellPrice": null,
+   "reason": "20261119 炸板，不再买入",
+   "pnl": null,
+   "period": null,
+   "status": "未买入"
   }
  ]
 };
