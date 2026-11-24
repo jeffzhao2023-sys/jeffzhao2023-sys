@@ -1,6 +1,6 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-11-23 15:20:03",
-  "today": "20261123",
+  "generated": "2026-11-23 15:25:04",
+  "today": "20261124",
   "emotion": "混沌期",
   "alerts": [],
   "candidates": [
@@ -662,10 +662,10 @@ window.DUANBAN_DATA = {
     {
       "code": "002771",
       "name": "真视通",
-      "boards": 4,
-      "prevClose": 15.82,
-      "runUp": 51.1,
-      "selectDate": "20261123",
+      "boards": 5,
+      "prevClose": 17.4,
+      "runUp": 61.7,
+      "selectDate": "20261124",
       "baseClose": 14.38,
       "price": 17.4,
       "pct": 9.99,
@@ -679,15 +679,16 @@ window.DUANBAN_DATA = {
     {
       "code": "603324",
       "name": "盛剑科技",
-      "boards": 4,
-      "prevClose": 27.71,
-      "runUp": 46.4,
-      "selectDate": "20261123",
+      "boards": 5,
+      "prevClose": 30.48,
+      "runUp": 61.0,
+      "selectDate": "20261124",
       "baseClose": 27.71,
       "price": 30.48,
       "pct": 10.0,
       "sincePct": 10.0,
-      "status": "候选"
+      "status": "候选",
+      "firstSelectDate": "20261123"
     }
   ],
   "records": [
