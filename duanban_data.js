@@ -1,19 +1,8 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-11-24 15:20:04",
-  "today": "20261124",
+  "generated": "2026-11-24 15:35:06",
+  "today": "20261125",
   "emotion": "混沌期",
-  "alerts": [
-    {
-      "time": "14:50:12",
-      "type": "断板买入",
-      "code": "002771",
-      "name": "真视通",
-      "breakDate": "20261124",
-      "price": 17.76,
-      "note": "断板日涨幅2.07%，尾盘低吸",
-      "emotion": "正常期"
-    }
-  ],
+  "alerts": [],
   "candidates": [
     {
       "code": "601811",
@@ -703,6 +692,19 @@ window.DUANBAN_DATA = {
       "breakDate": "20261124",
       "breakOpen": 30.18,
       "breakNoBuy": "断板日收跌"
+    },
+    {
+      "code": "002579",
+      "name": "中京电子",
+      "boards": 4,
+      "prevClose": 16.2,
+      "runUp": 48.6,
+      "selectDate": "20261125",
+      "baseClose": 16.2,
+      "price": null,
+      "pct": null,
+      "sincePct": null,
+      "status": "候选"
     }
   ],
   "records": [
