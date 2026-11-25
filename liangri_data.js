@@ -1,17 +1,17 @@
 window.LIANGRI_DATA = {
- "generated": "2026-11-24 15:20:21",
+ "generated": "2026-11-26 05:27:06",
  "window": {
-  "start": "20260126",
-  "end": "20261124",
+  "start": "20260128",
+  "end": "20261126",
   "days": 200
  },
  "summary": {
-  "trades": 11,
-  "winRate": 36.4,
-  "avgPnl": 2.95,
-  "totalPnl": 32.44,
+  "trades": 10,
+  "winRate": 30.0,
+  "avgPnl": 1.89,
+  "totalPnl": 18.94,
   "open": 0,
-  "missed": 26
+  "missed": 27
  },
  "records": [
   {
@@ -31,26 +31,6 @@ window.LIANGRI_DATA = {
    "pnl": null,
    "period": null,
    "status": "未买入"
-  },
-  {
-   "code": "002931",
-   "name": "锋龙股份",
-   "boards": 5,
-   "selectDate": "20260126",
-   "breakDate": "20260202",
-   "lastBoardDate": "20260123",
-   "lastBoardTurn": 19.2,
-   "buyDate": "20260202",
-   "buyTime": "2026-02-02 14:50:00",
-   "buyPrice": 95.12,
-   "buyWay": "买入A",
-   "sellTime": "2026-02-05 09:30:00",
-   "sellDate": "20260205",
-   "sellPrice": 107.96,
-   "reason": "7%未板次日开盘卖",
-   "pnl": 13.5,
-   "period": 3,
-   "status": "已了结"
   },
   {
    "code": "002455",
@@ -698,6 +678,24 @@ window.LIANGRI_DATA = {
    "sellDate": "",
    "sellPrice": null,
    "reason": "20261119 炸板，不再买入",
+   "pnl": null,
+   "period": null,
+   "status": "未买入"
+  },
+  {
+   "code": "002579",
+   "name": "中京电子",
+   "boards": 5,
+   "selectDate": "20261126",
+   "breakDate": null,
+   "lastBoardDate": "20261125",
+   "lastBoardTurn": 42.49,
+   "buyDate": "",
+   "buyPrice": null,
+   "buyWay": "",
+   "sellDate": "",
+   "sellPrice": null,
+   "reason": "未断板",
    "pnl": null,
    "period": null,
    "status": "未买入"

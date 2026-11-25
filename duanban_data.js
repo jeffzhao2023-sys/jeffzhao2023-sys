@@ -1,29 +1,8 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-11-25 14:57:10",
-  "today": "20261125",
-  "emotion": "混沌期",
-  "alerts": [
-    {
-      "time": "09:30:02",
-      "type": "止损卖出",
-      "code": "002148",
-      "name": "北纬科技",
-      "breakDate": "20261119",
-      "price": 10.27,
-      "note": "跌破5日线(10.42) 浮盈9.84%",
-      "emotion": "混沌期"
-    },
-    {
-      "time": "14:50:03",
-      "type": "断板后买入",
-      "code": "002685",
-      "name": "华东重机",
-      "breakDate": "20261119",
-      "price": 8.99,
-      "note": "断板后第4日尾盘站上5日线(8.23)",
-      "emotion": "混沌期"
-    }
-  ],
+  "generated": "2026-11-25 15:00:13",
+  "today": "20261126",
+  "emotion": "退潮期",
+  "alerts": [],
   "candidates": [
     {
       "code": "601811",
@@ -718,10 +697,10 @@ window.DUANBAN_DATA = {
     {
       "code": "002579",
       "name": "中京电子",
-      "boards": 4,
-      "prevClose": 16.2,
-      "runUp": 48.6,
-      "selectDate": "20261125",
+      "boards": 5,
+      "prevClose": 17.82,
+      "runUp": 63.5,
+      "selectDate": "20261126",
       "baseClose": 16.2,
       "price": 17.82,
       "pct": 10.0,
@@ -729,7 +708,8 @@ window.DUANBAN_DATA = {
       "status": "候选",
       "breakDate": "20261125",
       "breakOpen": 16.75,
-      "breakNoBuy": "断板日冲高"
+      "breakNoBuy": "断板日冲高",
+      "firstSelectDate": "20261125"
     }
   ],
   "records": [
