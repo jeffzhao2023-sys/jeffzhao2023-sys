@@ -1,5 +1,5 @@
 window.DUANBAN_DATA = {
-  "generated": "2026-11-26 14:57:07",
+  "generated": "2026-11-26 15:00:10",
   "today": "20261126",
   "emotion": "退潮期",
   "alerts": [
